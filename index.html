@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Examen Civique Français</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Écran d'accueil -->
+    <div id="home-screen" class="screen active">
+        <div class="container">
+            <div class="logo">
+                <div class="tricolor">
+                    <div class="blue"></div>
+                    <div class="white"></div>
+                    <div class="red"></div>
+                </div>
+            </div>
+            <h1>Quiz Examen Civique</h1>
+            <p class="subtitle">Préparez-vous à l'examen civique français</p>
+
+            <div class="rules-box">
+                <h2>Règles de l'examen</h2>
+                <ul>
+                    <li><strong>40 questions</strong> à choix multiples</li>
+                    <li><strong>45 minutes</strong> maximum</li>
+                    <li><strong>32/40</strong> (80%) pour réussir</li>
+                    <li>4 options par question, 1 seule bonne réponse</li>
+                </ul>
+            </div>
+
+            <div class="level-selection">
+                <h2>Choisissez votre niveau</h2>
+                <div class="level-buttons">
+                    <button class="level-btn" data-level="csp">
+                        <span class="level-name">CSP</span>
+                        <span class="level-desc">Carte de Séjour Pluriannuelle</span>
+                        <span class="level-count">192 questions</span>
+                    </button>
+                    <button class="level-btn" data-level="cr">
+                        <span class="level-name">CR</span>
+                        <span class="level-desc">Carte de Résident</span>
+                        <span class="level-count">209 questions</span>
+                    </button>
+                </div>
+            </div>
+
+            <button id="start-btn" class="primary-btn" disabled>
+                Commencer le Quiz
+            </button>
+        </div>
+    </div>
+
+    <!-- Écran du quiz -->
+    <div id="quiz-screen" class="screen">
+        <div class="quiz-header">
+            <div class="progress-info">
+                <span id="question-counter">Question 1/40</span>
+                <span id="timer" class="timer">45:00</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress" class="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="quiz-content">
+            <div class="theme-badge" id="theme-badge">Thème</div>
+            <h2 id="question-text" class="question-text">Question ici</h2>
+
+            <div id="options-container" class="options-container">
+                <!-- Options générées dynamiquement -->
+            </div>
+        </div>
+
+        <div class="quiz-footer">
+            <button id="next-btn" class="primary-btn" disabled>
+                Question suivante
+            </button>
+        </div>
+    </div>
+
+    <!-- Écran de résultats -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div id="result-header" class="result-header">
+                <div id="result-icon" class="result-icon"></div>
+                <h1 id="result-title">Résultat</h1>
+            </div>
+
+            <div class="score-display">
+                <div class="score-circle" id="score-circle">
+                    <span id="score-number">0</span>
+                    <span class="score-total">/40</span>
+                </div>
+                <p id="score-percentage" class="score-percentage">0%</p>
+                <p id="result-message" class="result-message"></p>
+            </div>
+
+            <div class="results-details">
+                <h2>Détail des réponses</h2>
+                <div id="answers-list" class="answers-list">
+                    <!-- Réponses générées dynamiquement -->
+                </div>
+            </div>
+
+            <button id="restart-btn" class="primary-btn">
+                Recommencer
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
