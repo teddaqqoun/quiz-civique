@@ -1,0 +1,1174 @@
+{
+  "questions": [
+    {
+      "id": 91,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle est la langue officielle de la France ?",
+        "Quelle langue est officielle en France ?",
+        "Quelle est la langue de la République française ?"
+      ],
+      "correctAnswer": "Le français",
+      "wrongAnswers": [
+        "L'anglais",
+        "Le latin",
+        "Il n'y a pas de langue officielle",
+        "Le français et l'anglais",
+        "Les langues régionales",
+        "L'occitan"
+      ]
+    },
+    {
+      "id": 92,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle est la capitale de la France ?",
+        "Quelle ville est la capitale française ?",
+        "Où se trouve le siège du gouvernement français ?"
+      ],
+      "correctAnswer": "Paris",
+      "wrongAnswers": [
+        "Lyon",
+        "Marseille",
+        "Bordeaux",
+        "Toulouse",
+        "Nice",
+        "Strasbourg"
+      ]
+    },
+    {
+      "id": 93,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Combien d'habitants compte approximativement la France ?",
+        "Quelle est la population de la France ?",
+        "Combien de personnes vivent en France ?"
+      ],
+      "correctAnswer": "68 millions",
+      "wrongAnswers": [
+        "45 millions",
+        "55 millions",
+        "80 millions",
+        "50 millions",
+        "75 millions",
+        "60 millions"
+      ]
+    },
+    {
+      "id": 94,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel fleuve traverse Paris ?",
+        "Quelle rivière coule à Paris ?",
+        "Quel cours d'eau passe par la capitale ?"
+      ],
+      "correctAnswer": "La Seine",
+      "wrongAnswers": [
+        "La Loire",
+        "Le Rhône",
+        "La Garonne",
+        "La Marne",
+        "L'Oise",
+        "Le Rhin"
+      ]
+    },
+    {
+      "id": 95,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel est le plus long fleuve de France ?",
+        "Quel fleuve français est le plus long ?",
+        "Quelle est la plus longue rivière de France ?"
+      ],
+      "correctAnswer": "La Loire",
+      "wrongAnswers": [
+        "La Seine",
+        "Le Rhône",
+        "La Garonne",
+        "Le Rhin",
+        "La Meuse",
+        "La Dordogne"
+      ]
+    },
+    {
+      "id": 96,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle est la plus haute montagne de France ?",
+        "Quel est le sommet le plus élevé de France ?",
+        "Quel mont est le plus haut en France ?"
+      ],
+      "correctAnswer": "Le mont Blanc",
+      "wrongAnswers": [
+        "Le mont Ventoux",
+        "Le pic du Midi",
+        "Le puy de Sancy",
+        "L'aiguille du Midi",
+        "Le mont Canigou",
+        "Le Vignemale"
+      ]
+    },
+    {
+      "id": 97,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quels pays frontaliers la France partage-t-elle ?",
+        "Avec quels pays la France a-t-elle une frontière ?",
+        "Quels sont les voisins de la France ?"
+      ],
+      "correctAnswer": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
+      "wrongAnswers": [
+        "Uniquement l'Allemagne et l'Espagne",
+        "L'Angleterre et l'Allemagne",
+        "L'Italie et la Grèce",
+        "L'Espagne et le Portugal",
+        "La Belgique uniquement",
+        "L'Allemagne et les Pays-Bas"
+      ]
+    },
+    {
+      "id": 98,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce qu'un DOM-TOM ?",
+        "Que signifie DOM-TOM ?",
+        "À quoi correspond un DOM-TOM ?"
+      ],
+      "correctAnswer": "Les territoires français d'outre-mer",
+      "wrongAnswers": [
+        "Un type de logement",
+        "Un parti politique",
+        "Une institution européenne",
+        "Une région métropolitaine",
+        "Un département de Paris",
+        "Une zone économique"
+      ]
+    },
+    {
+      "id": 99,
+      "theme": "Vie en France et société",
+      "questions": [
+        "La Corse est :",
+        "Quel est le statut de la Corse ?",
+        "Comment la Corse est-elle rattachée à la France ?"
+      ],
+      "correctAnswer": "Une collectivité territoriale française",
+      "wrongAnswers": [
+        "Un pays indépendant",
+        "Une région italienne",
+        "Un protectorat",
+        "Un département d'outre-mer",
+        "Un État associé",
+        "Une région autonome"
+      ]
+    },
+    {
+      "id": 100,
+      "theme": "Vie en France et société",
+      "questions": [
+        "La Guadeloupe est :",
+        "Quel est le statut de la Guadeloupe ?",
+        "Comment définir la Guadeloupe ?"
+      ],
+      "correctAnswer": "Un département d'outre-mer",
+      "wrongAnswers": [
+        "Une région d'Afrique",
+        "Un pays indépendant",
+        "Une ville de France métropolitaine",
+        "Un territoire britannique",
+        "Une île italienne",
+        "Un État associé"
+      ]
+    },
+    {
+      "id": 101,
+      "theme": "Vie en France et société",
+      "questions": [
+        "La Martinique est située :",
+        "Où se trouve la Martinique ?",
+        "Dans quelle zone géographique est la Martinique ?"
+      ],
+      "correctAnswer": "Dans les Caraïbes",
+      "wrongAnswers": [
+        "Dans l'océan Indien",
+        "Dans le Pacifique",
+        "En Méditerranée",
+        "En Afrique",
+        "En Amérique du Sud",
+        "En Asie"
+      ]
+    },
+    {
+      "id": 102,
+      "theme": "Vie en France et société",
+      "questions": [
+        "La Réunion est un département situé :",
+        "Où se trouve La Réunion ?",
+        "Dans quel océan est située La Réunion ?"
+      ],
+      "correctAnswer": "Dans l'océan Indien",
+      "wrongAnswers": [
+        "Dans les Caraïbes",
+        "En Amérique du Sud",
+        "Dans le Pacifique",
+        "En Méditerranée",
+        "Dans l'Atlantique Nord",
+        "En Afrique continentale"
+      ]
+    },
+    {
+      "id": 103,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle est la monnaie utilisée en France ?",
+        "Avec quelle devise paie-t-on en France ?",
+        "Quelle monnaie a cours légal en France ?"
+      ],
+      "correctAnswer": "L'euro",
+      "wrongAnswers": [
+        "Le franc",
+        "Le dollar",
+        "La livre",
+        "Le mark",
+        "Le franc suisse",
+        "La peseta"
+      ]
+    },
+    {
+      "id": 104,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Depuis quelle année l'euro est-il en circulation ?",
+        "Quand l'euro a-t-il remplacé le franc ?",
+        "De quelle année date la mise en circulation de l'euro ?"
+      ],
+      "correctAnswer": "2002",
+      "wrongAnswers": [
+        "1999",
+        "2000",
+        "2005",
+        "1998",
+        "2001",
+        "2004"
+      ]
+    },
+    {
+      "id": 105,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel est le numéro d'appel d'urgence européen ?",
+        "Quel numéro appeler pour les urgences en Europe ?",
+        "Quel est le numéro d'urgence commun européen ?"
+      ],
+      "correctAnswer": "112",
+      "wrongAnswers": [
+        "15",
+        "17",
+        "18",
+        "911",
+        "999",
+        "114"
+      ]
+    },
+    {
+      "id": 106,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel numéro appeler pour le SAMU ?",
+        "Quel est le numéro des urgences médicales ?",
+        "Comment joindre le SAMU ?"
+      ],
+      "correctAnswer": "15",
+      "wrongAnswers": [
+        "17",
+        "18",
+        "112",
+        "19",
+        "114",
+        "116"
+      ]
+    },
+    {
+      "id": 107,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel numéro appeler pour la police ?",
+        "Comment joindre la police en urgence ?",
+        "Quel est le numéro d'urgence de la police ?"
+      ],
+      "correctAnswer": "17",
+      "wrongAnswers": [
+        "15",
+        "18",
+        "112",
+        "19",
+        "911",
+        "114"
+      ]
+    },
+    {
+      "id": 108,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel numéro appeler pour les pompiers ?",
+        "Comment joindre les pompiers en urgence ?",
+        "Quel est le numéro des sapeurs-pompiers ?"
+      ],
+      "correctAnswer": "18",
+      "wrongAnswers": [
+        "15",
+        "17",
+        "112",
+        "19",
+        "911",
+        "119"
+      ]
+    },
+    {
+      "id": 109,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Que célèbre-t-on le 1er mai ?",
+        "Quel événement fête-t-on le 1er mai ?",
+        "Pourquoi le 1er mai est-il férié ?"
+      ],
+      "correctAnswer": "La fête du travail",
+      "wrongAnswers": [
+        "La fête nationale",
+        "L'Armistice",
+        "La victoire de 1945",
+        "La Toussaint",
+        "L'Ascension",
+        "La fête de la musique"
+      ]
+    },
+    {
+      "id": 110,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Que commémore le 1er novembre ?",
+        "Quelle fête tombe le 1er novembre ?",
+        "Qu'est-ce que le 1er novembre ?"
+      ],
+      "correctAnswer": "La Toussaint",
+      "wrongAnswers": [
+        "La fête du travail",
+        "L'Armistice",
+        "Noël",
+        "La fête nationale",
+        "Pâques",
+        "L'Ascension"
+      ]
+    },
+    {
+      "id": 111,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quand célèbre-t-on Noël en France ?",
+        "Quelle est la date de Noël ?",
+        "Quel jour fête-t-on Noël ?"
+      ],
+      "correctAnswer": "Le 25 décembre",
+      "wrongAnswers": [
+        "Le 24 décembre",
+        "Le 31 décembre",
+        "Le 1er janvier",
+        "Le 6 janvier",
+        "Le 26 décembre",
+        "Le 15 décembre"
+      ]
+    },
+    {
+      "id": 112,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel monument est le symbole de Paris ?",
+        "Quel édifice représente Paris dans le monde ?",
+        "Quel monument emblématique symbolise Paris ?"
+      ],
+      "correctAnswer": "La tour Eiffel",
+      "wrongAnswers": [
+        "L'Arc de Triomphe",
+        "Notre-Dame de Paris",
+        "Le Louvre",
+        "Le Sacré-Cœur",
+        "La Bastille",
+        "Le Panthéon"
+      ]
+    },
+    {
+      "id": 113,
+      "theme": "Vie en France et société",
+      "questions": [
+        "En quelle année la tour Eiffel a-t-elle été construite ?",
+        "Quand la tour Eiffel a-t-elle été inaugurée ?",
+        "De quelle année date la tour Eiffel ?"
+      ],
+      "correctAnswer": "1889",
+      "wrongAnswers": [
+        "1789",
+        "1900",
+        "1950",
+        "1870",
+        "1914",
+        "1867"
+      ]
+    },
+    {
+      "id": 114,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a peint la Joconde ?",
+        "Quel artiste est l'auteur de la Joconde ?",
+        "À qui doit-on le tableau de la Joconde ?"
+      ],
+      "correctAnswer": "Léonard de Vinci",
+      "wrongAnswers": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Michel-Ange",
+        "Raphaël",
+        "Eugène Delacroix"
+      ]
+    },
+    {
+      "id": 115,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a écrit Les Misérables ?",
+        "Quel auteur a écrit Les Misérables ?",
+        "À qui doit-on le roman Les Misérables ?"
+      ],
+      "correctAnswer": "Victor Hugo",
+      "wrongAnswers": [
+        "Émile Zola",
+        "Albert Camus",
+        "Gustave Flaubert",
+        "Alexandre Dumas",
+        "Honoré de Balzac",
+        "Stendhal"
+      ]
+    },
+    {
+      "id": 116,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a écrit Le Petit Prince ?",
+        "Quel auteur a créé Le Petit Prince ?",
+        "À qui doit-on Le Petit Prince ?"
+      ],
+      "correctAnswer": "Antoine de Saint-Exupéry",
+      "wrongAnswers": [
+        "Jules Verne",
+        "Molière",
+        "Marcel Proust",
+        "Jean de La Fontaine",
+        "Charles Perrault",
+        "Voltaire"
+      ]
+    },
+    {
+      "id": 117,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui est Molière ?",
+        "Que représente Molière dans la culture française ?",
+        "Pour quoi Molière est-il célèbre ?"
+      ],
+      "correctAnswer": "Un dramaturge du XVIIe siècle",
+      "wrongAnswers": [
+        "Un peintre",
+        "Un musicien",
+        "Un roi de France",
+        "Un scientifique",
+        "Un philosophe",
+        "Un architecte"
+      ]
+    },
+    {
+      "id": 118,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel prix littéraire français est le plus prestigieux ?",
+        "Quel est le prix littéraire majeur en France ?",
+        "Comment s'appelle le grand prix littéraire français ?"
+      ],
+      "correctAnswer": "Le prix Goncourt",
+      "wrongAnswers": [
+        "Le prix Renaudot",
+        "Le prix Femina",
+        "Le prix Interallié",
+        "Le prix Médicis",
+        "Le prix de Flore",
+        "Le Grand Prix du roman"
+      ]
+    },
+    {
+      "id": 119,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a découvert la radioactivité ?",
+        "À qui doit-on la découverte de la radioactivité ?",
+        "Quel scientifique a étudié la radioactivité ?"
+      ],
+      "correctAnswer": "Marie Curie",
+      "wrongAnswers": [
+        "Louis Pasteur",
+        "Antoine Lavoisier",
+        "Blaise Pascal",
+        "René Descartes",
+        "Pierre de Fermat",
+        "André-Marie Ampère"
+      ]
+    },
+    {
+      "id": 120,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a inventé le vaccin contre la rage ?",
+        "Quel scientifique a créé le vaccin antirabique ?",
+        "À qui doit-on le vaccin contre la rage ?"
+      ],
+      "correctAnswer": "Louis Pasteur",
+      "wrongAnswers": [
+        "Marie Curie",
+        "Claude Bernard",
+        "René Laennec",
+        "Pierre Curie",
+        "Jacques Monod",
+        "François Jacob"
+      ]
+    },
+    {
+      "id": 121,
+      "theme": "Vie en France et société",
+      "questions": [
+        "La France est membre fondateur de quelle organisation ?",
+        "De quelle organisation la France est-elle un membre fondateur ?",
+        "Quelle institution la France a-t-elle contribué à créer ?"
+      ],
+      "correctAnswer": "L'Union européenne",
+      "wrongAnswers": [
+        "L'ONU uniquement",
+        "L'OTAN uniquement",
+        "L'OCDE uniquement",
+        "L'OMS uniquement",
+        "Le FMI uniquement",
+        "L'UNESCO uniquement"
+      ]
+    },
+    {
+      "id": 122,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Combien de pays composent l'Union européenne ?",
+        "Quel est le nombre de membres de l'UE ?",
+        "L'Union européenne compte combien d'États membres ?"
+      ],
+      "correctAnswer": "27",
+      "wrongAnswers": [
+        "15",
+        "28",
+        "50",
+        "25",
+        "30",
+        "22"
+      ]
+    },
+    {
+      "id": 123,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Où se trouve le siège du Parlement européen ?",
+        "Dans quelle ville siège le Parlement européen ?",
+        "Où les députés européens se réunissent-ils ?"
+      ],
+      "correctAnswer": "Strasbourg",
+      "wrongAnswers": [
+        "Paris",
+        "Bruxelles",
+        "Luxembourg",
+        "Berlin",
+        "Amsterdam",
+        "Genève"
+      ]
+    },
+    {
+      "id": 124,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que l'espace Schengen ?",
+        "À quoi correspond l'espace Schengen ?",
+        "Que permet l'espace Schengen ?"
+      ],
+      "correctAnswer": "Un espace de libre circulation des personnes",
+      "wrongAnswers": [
+        "Une zone monétaire",
+        "Une alliance militaire",
+        "Un accord commercial",
+        "Une zone fiscale commune",
+        "Un espace de défense",
+        "Une union douanière uniquement"
+      ]
+    },
+    {
+      "id": 125,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel est le sport le plus populaire en France ?",
+        "Quel sport est le plus pratiqué en France ?",
+        "Quel est le sport national français ?"
+      ],
+      "correctAnswer": "Le football",
+      "wrongAnswers": [
+        "Le rugby",
+        "Le tennis",
+        "Le cyclisme",
+        "Le basketball",
+        "Le handball",
+        "La natation"
+      ]
+    },
+    {
+      "id": 126,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le Tour de France ?",
+        "Le Tour de France est quelle compétition ?",
+        "Quel type d'épreuve est le Tour de France ?"
+      ],
+      "correctAnswer": "Une course cycliste",
+      "wrongAnswers": [
+        "Une course automobile",
+        "Un marathon",
+        "Une régate",
+        "Une course à pied",
+        "Un rallye moto",
+        "Une randonnée pédestre"
+      ]
+    },
+    {
+      "id": 127,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que Roland-Garros ?",
+        "Que désigne Roland-Garros dans le sport ?",
+        "Roland-Garros est célèbre pour quel événement ?"
+      ],
+      "correctAnswer": "Un tournoi de tennis",
+      "wrongAnswers": [
+        "Un stade de football",
+        "Un circuit automobile",
+        "Un aéroport",
+        "Un stade de rugby",
+        "Une piscine olympique",
+        "Un hippodrome"
+      ]
+    },
+    {
+      "id": 128,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le Festival de Cannes ?",
+        "Que célèbre le Festival de Cannes ?",
+        "Pour quel art le Festival de Cannes est-il connu ?"
+      ],
+      "correctAnswer": "Un festival de cinéma",
+      "wrongAnswers": [
+        "Un festival de musique",
+        "Un festival de danse",
+        "Un festival gastronomique",
+        "Un festival de théâtre",
+        "Un festival de littérature",
+        "Un festival de mode"
+      ]
+    },
+    {
+      "id": 161,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que la CAF ?",
+        "Que signifie CAF ?",
+        "À quoi sert la CAF ?"
+      ],
+      "correctAnswer": "La Caisse d'Allocations Familiales",
+      "wrongAnswers": [
+        "Un tribunal",
+        "Un syndicat",
+        "Une banque",
+        "Un hôpital",
+        "Une école",
+        "Une mairie"
+      ]
+    },
+    {
+      "id": 162,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que Pôle emploi ?",
+        "À quoi sert Pôle emploi ?",
+        "Que fait Pôle emploi ?"
+      ],
+      "correctAnswer": "Le service public de l'emploi",
+      "wrongAnswers": [
+        "Une entreprise privée",
+        "Un syndicat",
+        "Une école",
+        "Une agence immobilière",
+        "Une banque",
+        "Un cabinet de recrutement privé"
+      ]
+    },
+    {
+      "id": 163,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le RSA ?",
+        "Que signifie RSA ?",
+        "À qui s'adresse le RSA ?"
+      ],
+      "correctAnswer": "Le Revenu de Solidarité Active",
+      "wrongAnswers": [
+        "Un impôt",
+        "Une retraite",
+        "Un salaire",
+        "Une prime",
+        "Un crédit",
+        "Une assurance"
+      ]
+    },
+    {
+      "id": 164,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que la CMU (CSS) ?",
+        "À quoi sert la CSS (ancienne CMU) ?",
+        "Que couvre la CSS ?"
+      ],
+      "correctAnswer": "Une couverture maladie pour les personnes à faibles revenus",
+      "wrongAnswers": [
+        "Une assurance voiture",
+        "Un diplôme",
+        "Un contrat de travail",
+        "Une carte de transport",
+        "Un permis de conduire",
+        "Une carte bancaire"
+      ]
+    },
+    {
+      "id": 165,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le baccalauréat ?",
+        "À quoi correspond le baccalauréat ?",
+        "Que sanctionne le baccalauréat ?"
+      ],
+      "correctAnswer": "Le diplôme de fin d'études secondaires",
+      "wrongAnswers": [
+        "Un diplôme de fin d'études primaires",
+        "Un diplôme universitaire",
+        "Un certificat professionnel",
+        "Un diplôme de collège",
+        "Un master",
+        "Un doctorat"
+      ]
+    },
+    {
+      "id": 166,
+      "theme": "Vie en France et société",
+      "questions": [
+        "À quel âge l'instruction est-elle obligatoire ?",
+        "Quelle est la période d'instruction obligatoire ?",
+        "De quel âge à quel âge l'école est-elle obligatoire ?"
+      ],
+      "correctAnswer": "De 3 à 16 ans",
+      "wrongAnswers": [
+        "De 6 à 16 ans",
+        "De 3 à 18 ans",
+        "De 6 à 18 ans",
+        "De 5 à 15 ans",
+        "De 4 à 14 ans",
+        "De 6 à 14 ans"
+      ]
+    },
+    {
+      "id": 167,
+      "theme": "Vie en France et société",
+      "questions": [
+        "L'école publique en France est :",
+        "Quel est le caractère de l'école publique ?",
+        "Comment qualifier l'école publique française ?"
+      ],
+      "correctAnswer": "Laïque",
+      "wrongAnswers": [
+        "Religieuse",
+        "Privée",
+        "Payante",
+        "Confessionnelle",
+        "Catholique",
+        "Protestante"
+      ]
+    },
+    {
+      "id": 168,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le collège en France ?",
+        "À qui s'adresse le collège ?",
+        "Quelle tranche d'âge concerne le collège ?"
+      ],
+      "correctAnswer": "L'établissement pour les élèves de 11 à 15 ans",
+      "wrongAnswers": [
+        "L'école primaire",
+        "L'université",
+        "L'école maternelle",
+        "Le lycée",
+        "L'école professionnelle",
+        "La grande école"
+      ]
+    },
+    {
+      "id": 169,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le lycée ?",
+        "À quoi prépare le lycée ?",
+        "Quel diplôme obtient-on après le lycée ?"
+      ],
+      "correctAnswer": "L'établissement qui prépare au baccalauréat",
+      "wrongAnswers": [
+        "L'école primaire",
+        "L'école maternelle",
+        "Le collège",
+        "L'université",
+        "L'école professionnelle",
+        "Le centre d'apprentissage"
+      ]
+    },
+    {
+      "id": 187,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le PACS ?",
+        "Que signifie PACS ?",
+        "À quoi sert le PACS ?"
+      ],
+      "correctAnswer": "Un contrat d'union civile entre deux personnes",
+      "wrongAnswers": [
+        "Un contrat de travail",
+        "Un type de logement",
+        "Une assurance",
+        "Un prêt bancaire",
+        "Un diplôme",
+        "Un permis"
+      ]
+    },
+    {
+      "id": 188,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Depuis quelle année le PACS existe-t-il ?",
+        "Quand le PACS a-t-il été créé ?",
+        "De quelle année date le PACS ?"
+      ],
+      "correctAnswer": "1999",
+      "wrongAnswers": [
+        "1995",
+        "2004",
+        "2010",
+        "2001",
+        "1997",
+        "2006"
+      ]
+    },
+    {
+      "id": 189,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle fête célèbre-t-on le 21 juin ?",
+        "Qu'est-ce que le 21 juin en France ?",
+        "Que fête-t-on le 21 juin ?"
+      ],
+      "correctAnswer": "La Fête de la musique",
+      "wrongAnswers": [
+        "La fête nationale",
+        "Noël",
+        "La fête du travail",
+        "La Saint-Jean",
+        "Pâques",
+        "La Toussaint"
+      ]
+    },
+    {
+      "id": 190,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que les Journées du Patrimoine ?",
+        "Que permettent les Journées du Patrimoine ?",
+        "À quoi servent les Journées du Patrimoine ?"
+      ],
+      "correctAnswer": "Des journées où les monuments ouvrent gratuitement",
+      "wrongAnswers": [
+        "Des jours fériés",
+        "Des jours de soldes",
+        "Des journées sportives",
+        "Des jours de congés",
+        "Des fêtes religieuses",
+        "Des vacances scolaires"
+      ]
+    },
+    {
+      "id": 191,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle est la deuxième ville de France ?",
+        "Quelle ville est la deuxième plus peuplée de France ?",
+        "Après Paris, quelle est la plus grande ville ?"
+      ],
+      "correctAnswer": "Marseille",
+      "wrongAnswers": [
+        "Lyon",
+        "Toulouse",
+        "Nice",
+        "Bordeaux",
+        "Lille",
+        "Nantes"
+      ]
+    },
+    {
+      "id": 196,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel est le principal aéroport de Paris ?",
+        "Comment s'appelle le grand aéroport parisien ?",
+        "Quel aéroport dessert principalement Paris ?"
+      ],
+      "correctAnswer": "Charles de Gaulle",
+      "wrongAnswers": [
+        "Orly",
+        "Le Bourget",
+        "Beauvais",
+        "Lyon Saint-Exupéry",
+        "Nice Côte d'Azur",
+        "Marseille Provence"
+      ]
+    },
+    {
+      "id": 197,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le TGV ?",
+        "Que signifie TGV ?",
+        "À quoi sert le TGV ?"
+      ],
+      "correctAnswer": "Le Train à Grande Vitesse",
+      "wrongAnswers": [
+        "Une autoroute",
+        "Un avion",
+        "Un bus",
+        "Un métro",
+        "Un tramway",
+        "Un bateau"
+      ]
+    },
+    {
+      "id": 198,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que la SNCF ?",
+        "Que signifie SNCF ?",
+        "À quoi sert la SNCF ?"
+      ],
+      "correctAnswer": "La Société Nationale des Chemins de fer Français",
+      "wrongAnswers": [
+        "Une compagnie aérienne",
+        "Une banque",
+        "Une entreprise de télécommunications",
+        "Une compagnie d'assurance",
+        "Une chaîne de télévision",
+        "Un opérateur téléphonique"
+      ]
+    },
+    {
+      "id": 199,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que l'AOC ?",
+        "Que signifie AOC ?",
+        "À quoi sert l'AOC ?"
+      ],
+      "correctAnswer": "L'Appellation d'Origine Contrôlée pour les produits",
+      "wrongAnswers": [
+        "Un parti politique",
+        "Une taxe",
+        "Un diplôme",
+        "Un syndicat",
+        "Une entreprise",
+        "Un ministère"
+      ]
+    },
+    {
+      "id": 200,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Le camembert est :",
+        "Qu'est-ce que le camembert ?",
+        "Comment qualifier le camembert ?"
+      ],
+      "correctAnswer": "Un fromage",
+      "wrongAnswers": [
+        "Un vin",
+        "Un dessert",
+        "Un pain",
+        "Une viande",
+        "Un poisson",
+        "Un légume"
+      ]
+    },
+    {
+      "id": 201,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quelle région est célèbre pour son vin ?",
+        "Quelle région française produit du vin renommé ?",
+        "Où trouve-t-on les grands vignobles français ?"
+      ],
+      "correctAnswer": "La Bourgogne",
+      "wrongAnswers": [
+        "La Bretagne",
+        "La Normandie",
+        "La Picardie",
+        "Le Nord-Pas-de-Calais",
+        "La Lorraine",
+        "Les Hauts-de-France"
+      ]
+    },
+    {
+      "id": 202,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Le champagne est produit dans quelle région ?",
+        "D'où vient le champagne ?",
+        "Quelle région produit le champagne ?"
+      ],
+      "correctAnswer": "La Champagne",
+      "wrongAnswers": [
+        "La Provence",
+        "L'Alsace",
+        "La Bourgogne",
+        "Le Bordelais",
+        "La Loire",
+        "Le Languedoc"
+      ]
+    },
+    {
+      "id": 203,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que le service civique ?",
+        "À quoi sert le service civique ?",
+        "Que permet le service civique ?"
+      ],
+      "correctAnswer": "Un engagement volontaire au service de l'intérêt général",
+      "wrongAnswers": [
+        "Le service militaire obligatoire",
+        "Un impôt",
+        "Une formation professionnelle",
+        "Un stage en entreprise",
+        "Un travail forcé",
+        "Un emploi public"
+      ]
+    },
+    {
+      "id": 204,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel philosophe a écrit Le Contrat social ?",
+        "À qui doit-on Le Contrat social ?",
+        "Qui est l'auteur du Contrat social ?"
+      ],
+      "correctAnswer": "Jean-Jacques Rousseau",
+      "wrongAnswers": [
+        "Voltaire",
+        "Montesquieu",
+        "Denis Diderot",
+        "Descartes",
+        "Pascal",
+        "Spinoza"
+      ]
+    },
+    {
+      "id": 205,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a théorisé la séparation des pouvoirs ?",
+        "À qui doit-on la théorie de la séparation des pouvoirs ?",
+        "Quel philosophe a écrit L'Esprit des lois ?"
+      ],
+      "correctAnswer": "Montesquieu",
+      "wrongAnswers": [
+        "Voltaire",
+        "Rousseau",
+        "Diderot",
+        "Descartes",
+        "Locke",
+        "Hobbes"
+      ]
+    },
+    {
+      "id": 206,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que l'Encyclopédie ?",
+        "Que représente l'Encyclopédie ?",
+        "À quoi sert l'Encyclopédie du XVIIIe siècle ?"
+      ],
+      "correctAnswer": "Un ouvrage des Lumières résumant les connaissances",
+      "wrongAnswers": [
+        "Un roman",
+        "Un journal",
+        "Une loi",
+        "Un traité de paix",
+        "Une constitution",
+        "Un code juridique"
+      ]
+    },
+    {
+      "id": 207,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui était le principal auteur de l'Encyclopédie ?",
+        "Qui a dirigé la rédaction de l'Encyclopédie ?",
+        "À qui doit-on principalement l'Encyclopédie ?"
+      ],
+      "correctAnswer": "Denis Diderot",
+      "wrongAnswers": [
+        "Voltaire",
+        "Rousseau",
+        "Montesquieu",
+        "D'Alembert seul",
+        "Buffon",
+        "Condorcet"
+      ]
+    },
+    {
+      "id": 208,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qu'est-ce que les Lumières ?",
+        "Que représente le mouvement des Lumières ?",
+        "Comment définir les Lumières ?"
+      ],
+      "correctAnswer": "Un mouvement intellectuel du XVIIIe siècle promouvant la raison",
+      "wrongAnswers": [
+        "Un mouvement artistique",
+        "Une fête religieuse",
+        "Un parti politique",
+        "Une révolution",
+        "Un style architectural",
+        "Un courant musical"
+      ]
+    }
+  ]
+}

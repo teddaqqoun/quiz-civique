@@ -1,0 +1,688 @@
+{
+  "questions": [
+    {
+      "id": 66,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année a eu lieu la Révolution française ?",
+        "Quand a commencé la Révolution française ?",
+        "De quelle année date la Révolution française ?"
+      ],
+      "correctAnswer": "1789",
+      "wrongAnswers": [
+        "1799",
+        "1815",
+        "1848",
+        "1776",
+        "1804",
+        "1830"
+      ]
+    },
+    {
+      "id": 67,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quel document a été adopté le 26 août 1789 ?",
+        "Qu'a-t-on proclamé le 26 août 1789 ?",
+        "Quel texte fondamental date du 26 août 1789 ?"
+      ],
+      "correctAnswer": "La Déclaration des Droits de l'Homme et du Citoyen",
+      "wrongAnswers": [
+        "La Constitution",
+        "Le Code civil",
+        "Le Code pénal",
+        "La loi sur la laïcité",
+        "L'abolition de la monarchie",
+        "Le traité de Versailles"
+      ]
+    },
+    {
+      "id": 68,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a rédigé le Code civil français ?",
+        "Sous qui le Code civil a-t-il été créé ?",
+        "À qui doit-on le Code civil ?"
+      ],
+      "correctAnswer": "Napoléon Bonaparte",
+      "wrongAnswers": [
+        "Louis XIV",
+        "Charles de Gaulle",
+        "Jean Jaurès",
+        "Louis XVI",
+        "Robespierre",
+        "Victor Hugo"
+      ]
+    },
+    {
+      "id": 69,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année le Code civil a-t-il été promulgué ?",
+        "Quand le Code civil est-il entré en vigueur ?",
+        "De quelle année date le Code civil français ?"
+      ],
+      "correctAnswer": "1804",
+      "wrongAnswers": [
+        "1789",
+        "1848",
+        "1870",
+        "1815",
+        "1799",
+        "1830"
+      ]
+    },
+    {
+      "id": 70,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la IIIe République ?",
+        "À quelle période correspond la IIIe République ?",
+        "Quand a existé la IIIe République ?"
+      ],
+      "correctAnswer": "Le régime de 1870 à 1940",
+      "wrongAnswers": [
+        "Le régime de 1789 à 1799",
+        "Le régime actuel",
+        "Le régime de Napoléon",
+        "Le régime de 1848 à 1870",
+        "Le régime de 1940 à 1944",
+        "Le régime de 1946 à 1958"
+      ]
+    },
+    {
+      "id": 71,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Première Guerre mondiale a-t-elle eu lieu ?",
+        "Quelles sont les dates de la Première Guerre mondiale ?",
+        "À quelle période s'est déroulée la Grande Guerre ?"
+      ],
+      "correctAnswer": "1914-1918",
+      "wrongAnswers": [
+        "1870-1871",
+        "1939-1945",
+        "1954-1962",
+        "1905-1910",
+        "1920-1925",
+        "1900-1905"
+      ]
+    },
+    {
+      "id": 72,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que commémore le 11 novembre ?",
+        "Quel événement célèbre-t-on le 11 novembre ?",
+        "Pourquoi le 11 novembre est-il férié ?"
+      ],
+      "correctAnswer": "L'armistice de 1918",
+      "wrongAnswers": [
+        "La prise de la Bastille",
+        "La fin de la Seconde Guerre mondiale",
+        "La proclamation de la République",
+        "La victoire de 1945",
+        "La Révolution française",
+        "L'abolition de l'esclavage"
+      ]
+    },
+    {
+      "id": 73,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Seconde Guerre mondiale a-t-elle eu lieu ?",
+        "Quelles sont les dates de la Seconde Guerre mondiale ?",
+        "À quelle période s'est déroulée la Seconde Guerre mondiale ?"
+      ],
+      "correctAnswer": "1939-1945",
+      "wrongAnswers": [
+        "1914-1918",
+        "1870-1871",
+        "1954-1962",
+        "1935-1942",
+        "1940-1948",
+        "1936-1944"
+      ]
+    },
+    {
+      "id": 74,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que commémore le 8 mai ?",
+        "Quel événement célèbre-t-on le 8 mai ?",
+        "Pourquoi le 8 mai est-il férié ?"
+      ],
+      "correctAnswer": "La victoire de 1945",
+      "wrongAnswers": [
+        "L'armistice de 1918",
+        "La Révolution française",
+        "La fête du travail",
+        "La prise de la Bastille",
+        "L'abolition de l'esclavage",
+        "La fin de la guerre d'Algérie"
+      ]
+    },
+    {
+      "id": 75,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était le chef de la France libre pendant la Seconde Guerre mondiale ?",
+        "Qui dirigeait la Résistance française depuis Londres ?",
+        "Qui a lancé l'appel du 18 juin 1940 ?"
+      ],
+      "correctAnswer": "Charles de Gaulle",
+      "wrongAnswers": [
+        "Philippe Pétain",
+        "Jean Moulin",
+        "Léon Blum",
+        "Pierre Laval",
+        "Georges Clemenceau",
+        "François Mitterrand"
+      ]
+    },
+    {
+      "id": 76,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'était le régime de Vichy ?",
+        "Comment définir le régime de Vichy ?",
+        "Que représentait Vichy pendant la guerre ?"
+      ],
+      "correctAnswer": "Le gouvernement collaborateur de 1940-1944",
+      "wrongAnswers": [
+        "La résistance française",
+        "La IVe République",
+        "Le gouvernement provisoire",
+        "Un gouvernement d'exil",
+        "La France libre",
+        "Un régime républicain"
+      ]
+    },
+    {
+      "id": 77,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Jean Moulin ?",
+        "Quel rôle a joué Jean Moulin ?",
+        "Pourquoi Jean Moulin est-il célèbre ?"
+      ],
+      "correctAnswer": "Un héros de la Résistance",
+      "wrongAnswers": [
+        "Un général allemand",
+        "Un président de la République",
+        "Un roi de France",
+        "Un collaborateur",
+        "Un ministre de Vichy",
+        "Un écrivain"
+      ]
+    },
+    {
+      "id": 78,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand les femmes ont-elles obtenu le droit de vote en France ?",
+        "En quelle année le suffrage féminin a-t-il été accordé ?",
+        "Depuis quand les femmes peuvent-elles voter ?"
+      ],
+      "correctAnswer": "1944",
+      "wrongAnswers": [
+        "1918",
+        "1936",
+        "1958",
+        "1945",
+        "1920",
+        "1968"
+      ]
+    },
+    {
+      "id": 79,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a fondé la Ve République ?",
+        "Qui est le père de la Ve République ?",
+        "À qui doit-on la Constitution de 1958 ?"
+      ],
+      "correctAnswer": "Charles de Gaulle",
+      "wrongAnswers": [
+        "François Mitterrand",
+        "Georges Pompidou",
+        "Valéry Giscard d'Estaing",
+        "Jacques Chirac",
+        "René Coty",
+        "Vincent Auriol"
+      ]
+    },
+    {
+      "id": 80,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année l'abolition de la peine de mort a-t-elle eu lieu en France ?",
+        "Quand la peine de mort a-t-elle été abolie ?",
+        "De quelle année date l'abolition de la peine capitale ?"
+      ],
+      "correctAnswer": "1981",
+      "wrongAnswers": [
+        "1974",
+        "1995",
+        "2000",
+        "1968",
+        "1988",
+        "1977"
+      ]
+    },
+    {
+      "id": 81,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était le président lors de l'abolition de la peine de mort ?",
+        "Sous quel président la peine de mort a-t-elle été abolie ?",
+        "Qui présidait la France en 1981 lors de l'abolition ?"
+      ],
+      "correctAnswer": "François Mitterrand",
+      "wrongAnswers": [
+        "Valéry Giscard d'Estaing",
+        "Jacques Chirac",
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Nicolas Sarkozy",
+        "François Hollande"
+      ]
+    },
+    {
+      "id": 82,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était le garde des Sceaux qui a défendu l'abolition de la peine de mort ?",
+        "Quel ministre a porté l'abolition de la peine de mort ?",
+        "Qui a fait voter l'abolition de la peine capitale ?"
+      ],
+      "correctAnswer": "Robert Badinter",
+      "wrongAnswers": [
+        "Simone Veil",
+        "Pierre Mendès France",
+        "Michel Rocard",
+        "Jack Lang",
+        "Roland Dumas",
+        "Pierre Mauroy"
+      ]
+    },
+    {
+      "id": 83,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que Mai 68 ?",
+        "Que s'est-il passé en mai 1968 ?",
+        "Comment définir les événements de Mai 68 ?"
+      ],
+      "correctAnswer": "Un mouvement de contestation sociale",
+      "wrongAnswers": [
+        "Une guerre",
+        "Une élection présidentielle",
+        "La création de l'Europe",
+        "Un coup d'État",
+        "Une révolution militaire",
+        "Une crise économique"
+      ]
+    },
+    {
+      "id": 84,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année la France a-t-elle rejoint la CEE ?",
+        "Quand la France est-elle devenue membre fondateur de la CEE ?",
+        "De quelle année date l'entrée de la France dans la Communauté européenne ?"
+      ],
+      "correctAnswer": "1957",
+      "wrongAnswers": [
+        "1951",
+        "1992",
+        "2002",
+        "1945",
+        "1963",
+        "1972"
+      ]
+    },
+    {
+      "id": 85,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quel traité a créé l'Union européenne ?",
+        "Comment s'appelle le traité fondateur de l'UE ?",
+        "Par quel traité l'Union européenne a-t-elle été instituée ?"
+      ],
+      "correctAnswer": "Le traité de Maastricht",
+      "wrongAnswers": [
+        "Le traité de Rome",
+        "Le traité de Lisbonne",
+        "Le traité de Versailles",
+        "Le traité de Paris",
+        "Le traité de Nice",
+        "Le traité d'Amsterdam"
+      ]
+    },
+    {
+      "id": 86,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
+        "Quand l'abolition définitive de l'esclavage a-t-elle eu lieu ?",
+        "De quelle année date l'abolition de l'esclavage ?"
+      ],
+      "correctAnswer": "1848",
+      "wrongAnswers": [
+        "1794",
+        "1870",
+        "1905",
+        "1830",
+        "1815",
+        "1789"
+      ]
+    },
+    {
+      "id": 87,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que commémore le 10 mai ?",
+        "Quel événement célèbre-t-on le 10 mai ?",
+        "À quoi correspond la journée du 10 mai ?"
+      ],
+      "correctAnswer": "La journée des mémoires de l'esclavage",
+      "wrongAnswers": [
+        "La victoire de 1945",
+        "La fête du travail",
+        "La fête nationale",
+        "L'armistice de 1918",
+        "La Révolution française",
+        "L'abolition de la peine de mort"
+      ]
+    },
+    {
+      "id": 88,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a aboli définitivement l'esclavage en 1848 ?",
+        "Quel personnage a fait abolir l'esclavage ?",
+        "À qui doit-on l'abolition de l'esclavage en 1848 ?"
+      ],
+      "correctAnswer": "Victor Schœlcher",
+      "wrongAnswers": [
+        "Napoléon Bonaparte",
+        "Louis XIV",
+        "Charles de Gaulle",
+        "Toussaint Louverture",
+        "Louis-Philippe",
+        "Lamartine"
+      ]
+    },
+    {
+      "id": 89,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la décolonisation ?",
+        "Comment définir la décolonisation ?",
+        "Que signifie la décolonisation ?"
+      ],
+      "correctAnswer": "Le processus d'indépendance des colonies",
+      "wrongAnswers": [
+        "La conquête de nouveaux territoires",
+        "L'expansion de l'empire français",
+        "La colonisation de la Gaule",
+        "L'annexion de territoires",
+        "La création de protectorats",
+        "L'établissement de comptoirs"
+      ]
+    },
+    {
+      "id": 90,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année l'Algérie est-elle devenue indépendante ?",
+        "Quand l'Algérie a-t-elle obtenu son indépendance ?",
+        "De quelle année date l'indépendance algérienne ?"
+      ],
+      "correctAnswer": "1962",
+      "wrongAnswers": [
+        "1954",
+        "1958",
+        "1975",
+        "1960",
+        "1956",
+        "1968"
+      ]
+    },
+    {
+      "id": 151,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'était la Bastille ?",
+        "Que représentait la Bastille ?",
+        "À quoi servait la Bastille ?"
+      ],
+      "correctAnswer": "Une prison d'État",
+      "wrongAnswers": [
+        "Un château royal",
+        "Un parlement",
+        "Une église",
+        "Un hôpital",
+        "Une caserne",
+        "Un tribunal"
+      ]
+    },
+    {
+      "id": 152,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a dit 'L'État, c'est moi' ?",
+        "À quel roi attribue-t-on 'L'État, c'est moi' ?",
+        "Quel souverain a prononcé 'L'État, c'est moi' ?"
+      ],
+      "correctAnswer": "Louis XIV",
+      "wrongAnswers": [
+        "Napoléon Bonaparte",
+        "Charles de Gaulle",
+        "François Ier",
+        "Louis XVI",
+        "Henri IV",
+        "Louis XV"
+      ]
+    },
+    {
+      "id": 153,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que l'Ancien Régime ?",
+        "À quelle période correspond l'Ancien Régime ?",
+        "Que désigne l'Ancien Régime ?"
+      ],
+      "correctAnswer": "La période monarchique avant la Révolution",
+      "wrongAnswers": [
+        "La période après 1789",
+        "La Ve République",
+        "Le régime de Vichy",
+        "L'Empire napoléonien",
+        "La IIIe République",
+        "La Restauration"
+      ]
+    },
+    {
+      "id": 154,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Napoléon Bonaparte ?",
+        "Quel titre portait Napoléon Bonaparte ?",
+        "Comment définir Napoléon Bonaparte ?"
+      ],
+      "correctAnswer": "Un empereur français",
+      "wrongAnswers": [
+        "Un roi de France",
+        "Un président de la République",
+        "Un révolutionnaire uniquement",
+        "Un général étranger",
+        "Un philosophe",
+        "Un pape"
+      ]
+    },
+    {
+      "id": 155,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Commune de Paris (1871) ?",
+        "Que fut la Commune de Paris ?",
+        "Comment définir la Commune de Paris ?"
+      ],
+      "correctAnswer": "Un gouvernement révolutionnaire parisien",
+      "wrongAnswers": [
+        "Une fête parisienne",
+        "Une élection municipale",
+        "Un traité de paix",
+        "Une exposition universelle",
+        "Un gouvernement royal",
+        "Une alliance militaire"
+      ]
+    },
+    {
+      "id": 156,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que l'Affaire Dreyfus ?",
+        "Que fut l'Affaire Dreyfus ?",
+        "Comment définir l'Affaire Dreyfus ?"
+      ],
+      "correctAnswer": "Une affaire judiciaire antisémite",
+      "wrongAnswers": [
+        "Un scandale financier",
+        "Une guerre coloniale",
+        "Un assassinat politique",
+        "Un coup d'État",
+        "Une révolution",
+        "Un traité international"
+      ]
+    },
+    {
+      "id": 157,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a écrit 'J'accuse' ?",
+        "Quel écrivain a publié 'J'accuse' ?",
+        "À qui doit-on le texte 'J'accuse' ?"
+      ],
+      "correctAnswer": "Émile Zola",
+      "wrongAnswers": [
+        "Victor Hugo",
+        "Albert Camus",
+        "Jean-Paul Sartre",
+        "Voltaire",
+        "Guy de Maupassant",
+        "Anatole France"
+      ]
+    },
+    {
+      "id": 158,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le Front populaire (1936) ?",
+        "Que fut le Front populaire ?",
+        "Comment définir le Front populaire ?"
+      ],
+      "correctAnswer": "Une coalition de gauche au pouvoir",
+      "wrongAnswers": [
+        "Une guerre",
+        "Un mouvement fasciste",
+        "Une révolution",
+        "Un parti unique",
+        "Un gouvernement de droite",
+        "Une dictature"
+      ]
+    },
+    {
+      "id": 159,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Simone Veil ?",
+        "Pour quoi Simone Veil est-elle connue ?",
+        "Quel fut le rôle de Simone Veil ?"
+      ],
+      "correctAnswer": "Une ministre qui a fait voter la loi sur l'IVG",
+      "wrongAnswers": [
+        "Une reine de France",
+        "Une actrice",
+        "Une scientifique",
+        "Une écrivaine",
+        "Une chanteuse",
+        "Une sportive"
+      ]
+    },
+    {
+      "id": 160,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année la loi Veil sur l'IVG a-t-elle été votée ?",
+        "Quand la loi sur l'avortement a-t-elle été adoptée ?",
+        "De quelle année date la loi Veil ?"
+      ],
+      "correctAnswer": "1975",
+      "wrongAnswers": [
+        "1968",
+        "1981",
+        "1990",
+        "1970",
+        "1965",
+        "1982"
+      ]
+    },
+    {
+      "id": 184,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la France a-t-elle adopté le système métrique ?",
+        "De quelle année date le système métrique en France ?",
+        "En quelle année le système métrique a-t-il été instauré ?"
+      ],
+      "correctAnswer": "1795",
+      "wrongAnswers": [
+        "1789",
+        "1848",
+        "1900",
+        "1804",
+        "1870",
+        "1750"
+      ]
+    },
+    {
+      "id": 185,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a été le premier président de la Ve République ?",
+        "Qui fut le premier président de la Ve République ?",
+        "Quel président a inauguré la Ve République ?"
+      ],
+      "correctAnswer": "Charles de Gaulle",
+      "wrongAnswers": [
+        "Georges Pompidou",
+        "François Mitterrand",
+        "Vincent Auriol",
+        "René Coty",
+        "Valéry Giscard d'Estaing",
+        "Jacques Chirac"
+      ]
+    },
+    {
+      "id": 186,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand le quinquennat a-t-il remplacé le septennat ?",
+        "En quelle année le mandat présidentiel est-il passé à 5 ans ?",
+        "De quand date le quinquennat ?"
+      ],
+      "correctAnswer": "2000",
+      "wrongAnswers": [
+        "1995",
+        "2002",
+        "2007",
+        "1998",
+        "2005",
+        "1992"
+      ]
+    }
+  ]
+}

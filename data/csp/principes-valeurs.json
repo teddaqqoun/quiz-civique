@@ -1,0 +1,451 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle est la devise de la République française ?",
+        "Quels sont les trois mots de la devise de la France ?",
+        "Comment s'appelle la devise nationale française ?"
+      ],
+      "correctAnswer": "Liberté, Égalité, Fraternité",
+      "wrongAnswers": [
+        "Unité, Force, Progrès",
+        "Patrie, Honneur, Devoir",
+        "Justice, Paix, Solidarité",
+        "Travail, Famille, Patrie",
+        "Foi, Espérance, Charité",
+        "Ordre, Progrès, Nation"
+      ]
+    },
+    {
+      "id": 2,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "À quoi correspond la date du 14 juillet ?",
+        "Que célèbre-t-on le 14 juillet en France ?",
+        "Quel événement historique est commémoré le 14 juillet ?"
+      ],
+      "correctAnswer": "La prise de la Bastille",
+      "wrongAnswers": [
+        "La signature de la Constitution",
+        "La fin de la Première Guerre mondiale",
+        "La proclamation de la République",
+        "La Révolution de 1848",
+        "L'abolition de la monarchie",
+        "La fin de la Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": 3,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est l'hymne national français ?",
+        "Comment s'appelle l'hymne de la France ?",
+        "Quel chant est l'hymne officiel de la République française ?"
+      ],
+      "correctAnswer": "La Marseillaise",
+      "wrongAnswers": [
+        "Le Chant du Départ",
+        "L'Internationale",
+        "La Parisienne",
+        "Le Chant des Partisans",
+        "La Carmagnole",
+        "Ça Ira"
+      ]
+    },
+    {
+      "id": 4,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelles sont les trois couleurs du drapeau français ?",
+        "De quelles couleurs est composé le drapeau tricolore ?",
+        "Quelles couleurs forment le drapeau de la France ?"
+      ],
+      "correctAnswer": "Bleu, blanc, rouge",
+      "wrongAnswers": [
+        "Rouge, blanc, noir",
+        "Bleu, jaune, rouge",
+        "Vert, blanc, rouge",
+        "Bleu, blanc, jaune",
+        "Rouge, orange, vert",
+        "Noir, rouge, or"
+      ]
+    },
+    {
+      "id": 5,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel personnage symbolise la République française ?",
+        "Qui est le symbole féminin de la République ?",
+        "Quel est le visage de la République française ?"
+      ],
+      "correctAnswer": "Marianne",
+      "wrongAnswers": [
+        "Jeanne d'Arc",
+        "La Liberté",
+        "Marie-Antoinette",
+        "Cléopâtre",
+        "La Justice",
+        "Catherine de Médicis"
+      ]
+    },
+    {
+      "id": 6,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le principe de laïcité ?",
+        "Qu'est-ce que la laïcité en France ?",
+        "Comment définir la laïcité ?"
+      ],
+      "correctAnswer": "La séparation des Églises et de l'État",
+      "wrongAnswers": [
+        "L'interdiction de toutes les religions",
+        "L'obligation d'être athée",
+        "La promotion d'une religion officielle",
+        "L'interdiction de prier",
+        "La suppression des fêtes religieuses",
+        "Le contrôle des religions par l'État"
+      ]
+    },
+    {
+      "id": 7,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Depuis quelle année la loi de séparation des Églises et de l'État est-elle en vigueur ?",
+        "En quelle année a été votée la loi sur la laïcité ?",
+        "Quand la séparation des Églises et de l'État a-t-elle été instaurée ?"
+      ],
+      "correctAnswer": "1905",
+      "wrongAnswers": [
+        "1789",
+        "1848",
+        "1958",
+        "1870",
+        "1946",
+        "1881"
+      ]
+    },
+    {
+      "id": 8,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "La République française est :",
+        "Comment est définie la République française dans la Constitution ?",
+        "Quels sont les caractères de la République française ?"
+      ],
+      "correctAnswer": "Une république indivisible, laïque, démocratique et sociale",
+      "wrongAnswers": [
+        "Une monarchie constitutionnelle",
+        "Une république fédérale",
+        "Une théocratie",
+        "Une confédération d'États",
+        "Une république parlementaire uniquement",
+        "Un État unitaire non démocratique"
+      ]
+    },
+    {
+      "id": 9,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le principe d'égalité en France ?",
+        "Que garantit le principe d'égalité ?",
+        "Comment s'exprime l'égalité républicaine ?"
+      ],
+      "correctAnswer": "Tous les citoyens sont égaux devant la loi",
+      "wrongAnswers": [
+        "Tous les citoyens ont le même salaire",
+        "Seuls les hommes sont égaux",
+        "L'égalité ne concerne que les Français de naissance",
+        "L'égalité s'applique uniquement aux impôts",
+        "Les riches ont plus de droits",
+        "L'égalité dépend de la religion"
+      ]
+    },
+    {
+      "id": 10,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que garantit la liberté de conscience ?",
+        "Qu'est-ce que la liberté de conscience ?",
+        "En quoi consiste la liberté de conscience ?"
+      ],
+      "correctAnswer": "Le droit de croire ou de ne pas croire en une religion",
+      "wrongAnswers": [
+        "Le droit de critiquer le gouvernement",
+        "Le droit de vote",
+        "Le droit au travail",
+        "Le droit de manifester",
+        "Le droit à l'éducation",
+        "Le droit de grève"
+      ]
+    },
+    {
+      "id": 11,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la fraternité ?",
+        "Que signifie la fraternité dans la devise française ?",
+        "Comment définir la fraternité républicaine ?"
+      ],
+      "correctAnswer": "Un sentiment de solidarité entre les citoyens",
+      "wrongAnswers": [
+        "Un lien de parenté",
+        "Une organisation religieuse",
+        "Un parti politique",
+        "Une association caritative",
+        "Un syndicat",
+        "Une obligation légale"
+      ]
+    },
+    {
+      "id": 12,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le symbole présent sur les documents officiels de la République ?",
+        "Qui figure sur les timbres et documents officiels français ?",
+        "Quel symbole représente la République sur les documents administratifs ?"
+      ],
+      "correctAnswer": "Marianne",
+      "wrongAnswers": [
+        "L'aigle",
+        "Le lion",
+        "Le coq",
+        "La fleur de lys",
+        "Napoléon",
+        "Le soleil"
+      ]
+    },
+    {
+      "id": 13,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Le coq gaulois est :",
+        "Que représente le coq gaulois ?",
+        "Quel est le statut du coq gaulois ?"
+      ],
+      "correctAnswer": "Un emblème traditionnel de la France",
+      "wrongAnswers": [
+        "Le symbole officiel de la France",
+        "L'animal national protégé",
+        "Le logo de l'équipe de football uniquement",
+        "Un symbole religieux",
+        "L'emblème de la royauté",
+        "Un symbole régional breton"
+      ]
+    },
+    {
+      "id": 14,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle valeur n'appartient PAS à la devise républicaine ?",
+        "Lequel de ces mots ne fait pas partie de la devise française ?",
+        "Quel terme n'est pas dans la devise de la République ?"
+      ],
+      "correctAnswer": "Solidarité",
+      "wrongAnswers": [
+        "Liberté",
+        "Égalité",
+        "Fraternité"
+      ]
+    },
+    {
+      "id": 15,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le suffrage universel ?",
+        "Que signifie le suffrage universel ?",
+        "Comment définir le suffrage universel ?"
+      ],
+      "correctAnswer": "Le droit de vote pour tous les citoyens majeurs",
+      "wrongAnswers": [
+        "Le vote réservé aux hommes",
+        "Le vote réservé aux propriétaires",
+        "Le vote obligatoire",
+        "Le vote réservé aux diplômés",
+        "Le vote des étrangers",
+        "Le vote à partir de 16 ans"
+      ]
+    },
+    {
+      "id": 129,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la République ?",
+        "Comment définir une république ?",
+        "Que signifie vivre en République ?"
+      ],
+      "correctAnswer": "Un système où le pouvoir appartient au peuple",
+      "wrongAnswers": [
+        "Un système où le pouvoir est héréditaire",
+        "Un système dirigé par un roi",
+        "Un système religieux",
+        "Un système militaire",
+        "Un système aristocratique",
+        "Un système tribal"
+      ]
+    },
+    {
+      "id": 130,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie 'indivisible' pour la République ?",
+        "Pourquoi la République est-elle indivisible ?",
+        "Qu'implique le caractère indivisible de la République ?"
+      ],
+      "correctAnswer": "La loi est la même pour tous sur tout le territoire",
+      "wrongAnswers": [
+        "La France peut se diviser en plusieurs pays",
+        "Chaque région a ses propres lois",
+        "La France n'a pas de frontières",
+        "Les territoires sont autonomes",
+        "Les régions sont indépendantes",
+        "Chaque département vote ses lois"
+      ]
+    },
+    {
+      "id": 131,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le caractère 'social' de la République ?",
+        "Pourquoi la République est-elle sociale ?",
+        "En quoi la République française est-elle sociale ?"
+      ],
+      "correctAnswer": "L'État assure la solidarité et la protection sociale",
+      "wrongAnswers": [
+        "Tout le monde a le même salaire",
+        "Les citoyens doivent être sociables",
+        "La France est un pays socialiste",
+        "L'État contrôle l'économie",
+        "Tout appartient à l'État",
+        "Il n'y a pas de propriété privée"
+      ]
+    },
+    {
+      "id": 132,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Pourquoi la République est-elle 'démocratique' ?",
+        "Qu'est-ce qui rend la République démocratique ?",
+        "En quoi consiste le caractère démocratique de la République ?"
+      ],
+      "correctAnswer": "Le pouvoir appartient au peuple qui l'exerce par le vote",
+      "wrongAnswers": [
+        "Parce que le président décide seul",
+        "Parce que seuls les riches peuvent voter",
+        "Parce que les militaires dirigent le pays",
+        "Parce que le roi est élu",
+        "Parce que les nobles gouvernent",
+        "Parce que l'Église dirige"
+      ]
+    },
+    {
+      "id": 170,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Le drapeau tricolore représente :",
+        "Que symbolise le drapeau tricolore ?",
+        "Quelle est l'origine du drapeau bleu-blanc-rouge ?"
+      ],
+      "correctAnswer": "L'union de la royauté (blanc) et de Paris (bleu et rouge)",
+      "wrongAnswers": [
+        "Les trois pouvoirs",
+        "Les trois religions",
+        "Les trois régions de France",
+        "La terre, le ciel et le sang",
+        "Les trois états généraux",
+        "Les trois ordres"
+      ]
+    },
+    {
+      "id": 171,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qui a composé La Marseillaise ?",
+        "Quel est l'auteur de La Marseillaise ?",
+        "À qui doit-on La Marseillaise ?"
+      ],
+      "correctAnswer": "Rouget de Lisle",
+      "wrongAnswers": [
+        "Victor Hugo",
+        "Jean-Jacques Rousseau",
+        "Voltaire",
+        "Napoléon Bonaparte",
+        "Molière",
+        "Berlioz"
+      ]
+    },
+    {
+      "id": 172,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "La Marseillaise est devenue hymne national en :",
+        "Quand La Marseillaise est-elle devenue l'hymne ?",
+        "De quelle année date l'adoption de La Marseillaise ?"
+      ],
+      "correctAnswer": "1795",
+      "wrongAnswers": [
+        "1789",
+        "1870",
+        "1958",
+        "1792",
+        "1848",
+        "1830"
+      ]
+    },
+    {
+      "id": 173,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "La laïcité garantit :",
+        "Qu'assure la laïcité ?",
+        "Quel droit protège la laïcité ?"
+      ],
+      "correctAnswer": "La liberté de croire ou de ne pas croire",
+      "wrongAnswers": [
+        "L'interdiction de pratiquer une religion",
+        "Une religion d'État",
+        "L'obligation d'être athée",
+        "Le contrôle des religions",
+        "La suppression des cultes",
+        "L'interdiction de prier"
+      ]
+    },
+    {
+      "id": 174,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Les signes religieux ostensibles sont interdits :",
+        "Où les signes religieux sont-ils interdits ?",
+        "Dans quel lieu les signes religieux sont-ils proscrits ?"
+      ],
+      "correctAnswer": "Dans les écoles publiques pour les élèves",
+      "wrongAnswers": [
+        "Partout en France",
+        "Uniquement dans les églises",
+        "Dans tous les lieux de travail",
+        "Dans la rue",
+        "Chez soi",
+        "Dans les transports"
+      ]
+    },
+    {
+      "id": 192,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est l'article premier de la Constitution ?",
+        "Que dit l'article 1 de la Constitution ?",
+        "Comment commence la Constitution française ?"
+      ],
+      "correctAnswer": "La France est une République indivisible, laïque, démocratique et sociale",
+      "wrongAnswers": [
+        "La France est une monarchie",
+        "La France est membre de l'Union européenne",
+        "Le français est la langue officielle",
+        "Le Président est le chef de l'État",
+        "Tous les citoyens sont égaux",
+        "La souveraineté appartient au peuple"
+      ]
+    }
+  ]
+}

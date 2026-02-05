@@ -1,0 +1,724 @@
+{
+  "questions": [
+    {
+      "id": 16,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui est le chef de l'État en France ?",
+        "Qui dirige l'État français ?",
+        "Quelle est la plus haute fonction de l'État ?"
+      ],
+      "correctAnswer": "Le Président de la République",
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le Président de l'Assemblée nationale",
+        "Le Président du Sénat",
+        "Le ministre de l'Intérieur",
+        "Le Garde des Sceaux",
+        "Le Président du Conseil constitutionnel"
+      ]
+    },
+    {
+      "id": 17,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Pour combien d'années le Président de la République est-il élu ?",
+        "Quelle est la durée du mandat présidentiel ?",
+        "Combien de temps dure le mandat du Président ?"
+      ],
+      "correctAnswer": "5 ans",
+      "wrongAnswers": [
+        "4 ans",
+        "6 ans",
+        "7 ans",
+        "3 ans",
+        "10 ans",
+        "À vie"
+      ]
+    },
+    {
+      "id": 18,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui nomme le Premier ministre ?",
+        "Par qui le Premier ministre est-il désigné ?",
+        "Qui choisit le Premier ministre ?"
+      ],
+      "correctAnswer": "Le Président de la République",
+      "wrongAnswers": [
+        "L'Assemblée nationale",
+        "Le Sénat",
+        "Le Conseil constitutionnel",
+        "Le peuple par référendum",
+        "Les députés et sénateurs réunis",
+        "Le Conseil d'État"
+      ]
+    },
+    {
+      "id": 19,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Quel est le rôle principal du Premier ministre ?",
+        "Quelle est la fonction principale du Premier ministre ?",
+        "Que fait principalement le Premier ministre ?"
+      ],
+      "correctAnswer": "Diriger l'action du gouvernement",
+      "wrongAnswers": [
+        "Représenter la France à l'étranger",
+        "Présider le Conseil constitutionnel",
+        "Commander les armées",
+        "Voter les lois",
+        "Nommer les juges",
+        "Dissoudre l'Assemblée"
+      ]
+    },
+    {
+      "id": 20,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Le Parlement français est composé de :",
+        "Quelles assemblées forment le Parlement ?",
+        "Comment est constitué le Parlement français ?"
+      ],
+      "correctAnswer": "L'Assemblée nationale et le Sénat",
+      "wrongAnswers": [
+        "L'Assemblée nationale uniquement",
+        "Le Sénat uniquement",
+        "Le gouvernement et le Président",
+        "Le Conseil d'État et la Cour des comptes",
+        "Les conseils régionaux",
+        "Le Conseil constitutionnel et l'Assemblée"
+      ]
+    },
+    {
+      "id": 21,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui vote les lois en France ?",
+        "Quelle institution adopte les lois ?",
+        "Par qui les lois sont-elles votées ?"
+      ],
+      "correctAnswer": "Le Parlement",
+      "wrongAnswers": [
+        "Le Président de la République",
+        "Le Premier ministre",
+        "Le Conseil d'État",
+        "Le Conseil constitutionnel",
+        "Les préfets",
+        "Le peuple directement"
+      ]
+    },
+    {
+      "id": 22,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Pour combien d'années les députés sont-ils élus ?",
+        "Quelle est la durée du mandat d'un député ?",
+        "Combien de temps dure le mandat législatif ?"
+      ],
+      "correctAnswer": "5 ans",
+      "wrongAnswers": [
+        "4 ans",
+        "6 ans",
+        "7 ans",
+        "3 ans",
+        "9 ans",
+        "2 ans"
+      ]
+    },
+    {
+      "id": 23,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Pour combien d'années les sénateurs sont-ils élus ?",
+        "Quelle est la durée du mandat d'un sénateur ?",
+        "Combien de temps dure le mandat sénatorial ?"
+      ],
+      "correctAnswer": "6 ans",
+      "wrongAnswers": [
+        "4 ans",
+        "5 ans",
+        "9 ans",
+        "7 ans",
+        "3 ans",
+        "À vie"
+      ]
+    },
+    {
+      "id": 24,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Où siège l'Assemblée nationale ?",
+        "Dans quel bâtiment se réunit l'Assemblée nationale ?",
+        "Quel est le lieu de travail des députés ?"
+      ],
+      "correctAnswer": "Au Palais Bourbon",
+      "wrongAnswers": [
+        "Au Palais de l'Élysée",
+        "Au Palais du Luxembourg",
+        "À l'Hôtel Matignon",
+        "Au Palais de Justice",
+        "Au château de Versailles",
+        "À l'Hôtel de Ville de Paris"
+      ]
+    },
+    {
+      "id": 25,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Où siège le Sénat ?",
+        "Dans quel palais se réunit le Sénat ?",
+        "Quel est le lieu de travail des sénateurs ?"
+      ],
+      "correctAnswer": "Au Palais du Luxembourg",
+      "wrongAnswers": [
+        "Au Palais Bourbon",
+        "Au Palais de l'Élysée",
+        "Au Palais de Justice",
+        "À l'Hôtel Matignon",
+        "Au Palais-Royal",
+        "Au Panthéon"
+      ]
+    },
+    {
+      "id": 26,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Où réside le Président de la République ?",
+        "Quel est le palais présidentiel ?",
+        "Où habite officiellement le Président ?"
+      ],
+      "correctAnswer": "Au Palais de l'Élysée",
+      "wrongAnswers": [
+        "À l'Hôtel Matignon",
+        "Au Palais Bourbon",
+        "Au château de Versailles",
+        "Au Palais du Luxembourg",
+        "Au Louvre",
+        "À l'Hôtel de Ville"
+      ]
+    },
+    {
+      "id": 27,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Où travaille le Premier ministre ?",
+        "Quel est le lieu de travail du Premier ministre ?",
+        "Où se trouve le bureau du Premier ministre ?"
+      ],
+      "correctAnswer": "À l'Hôtel Matignon",
+      "wrongAnswers": [
+        "Au Palais de l'Élysée",
+        "Au Palais Bourbon",
+        "Au Palais du Luxembourg",
+        "Au Quai d'Orsay",
+        "Place Beauvau",
+        "Bercy"
+      ]
+    },
+    {
+      "id": 28,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Quel est le rôle du Conseil constitutionnel ?",
+        "Que fait le Conseil constitutionnel ?",
+        "À quoi sert le Conseil constitutionnel ?"
+      ],
+      "correctAnswer": "Vérifier la conformité des lois à la Constitution",
+      "wrongAnswers": [
+        "Voter les lois",
+        "Nommer le Premier ministre",
+        "Diriger l'armée",
+        "Juger les criminels",
+        "Gérer le budget de l'État",
+        "Représenter la France à l'étranger"
+      ]
+    },
+    {
+      "id": 29,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce qu'une commune ?",
+        "Comment définir une commune ?",
+        "Que représente une commune en France ?"
+      ],
+      "correctAnswer": "La plus petite division administrative française",
+      "wrongAnswers": [
+        "Une région",
+        "Un département",
+        "Une province",
+        "Un canton",
+        "Un arrondissement",
+        "Une préfecture"
+      ]
+    },
+    {
+      "id": 30,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui dirige une commune ?",
+        "Qui est à la tête d'une commune ?",
+        "Qui administre une commune ?"
+      ],
+      "correctAnswer": "Le maire",
+      "wrongAnswers": [
+        "Le préfet",
+        "Le député",
+        "Le sénateur",
+        "Le conseiller général",
+        "Le sous-préfet",
+        "Le président du conseil régional"
+      ]
+    },
+    {
+      "id": 31,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Pour combien d'années le maire est-il élu ?",
+        "Quelle est la durée du mandat d'un maire ?",
+        "Combien de temps dure le mandat municipal ?"
+      ],
+      "correctAnswer": "6 ans",
+      "wrongAnswers": [
+        "4 ans",
+        "5 ans",
+        "7 ans",
+        "3 ans",
+        "9 ans",
+        "2 ans"
+      ]
+    },
+    {
+      "id": 32,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Combien y a-t-il de régions en France métropolitaine ?",
+        "Quel est le nombre de régions métropolitaines ?",
+        "La France métropolitaine compte combien de régions ?"
+      ],
+      "correctAnswer": "13",
+      "wrongAnswers": [
+        "12",
+        "18",
+        "22",
+        "15",
+        "10",
+        "8"
+      ]
+    },
+    {
+      "id": 33,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Combien y a-t-il de départements en France ?",
+        "Quel est le nombre total de départements français ?",
+        "La France compte combien de départements ?"
+      ],
+      "correctAnswer": "101",
+      "wrongAnswers": [
+        "96",
+        "100",
+        "105",
+        "95",
+        "110",
+        "90"
+      ]
+    },
+    {
+      "id": 34,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui représente l'État dans le département ?",
+        "Quel est le représentant de l'État au niveau départemental ?",
+        "Qui incarne l'autorité de l'État dans un département ?"
+      ],
+      "correctAnswer": "Le préfet",
+      "wrongAnswers": [
+        "Le maire",
+        "Le député",
+        "Le sénateur",
+        "Le président du conseil départemental",
+        "Le procureur",
+        "Le recteur"
+      ]
+    },
+    {
+      "id": 35,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Quelle est la plus haute juridiction de l'ordre judiciaire ?",
+        "Quel tribunal est au sommet de l'ordre judiciaire ?",
+        "Quelle cour est la plus élevée dans la justice judiciaire ?"
+      ],
+      "correctAnswer": "La Cour de cassation",
+      "wrongAnswers": [
+        "Le Conseil d'État",
+        "Le Conseil constitutionnel",
+        "Le tribunal administratif",
+        "La Cour des comptes",
+        "La Cour d'appel",
+        "Le tribunal de grande instance"
+      ]
+    },
+    {
+      "id": 36,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Quelle est la plus haute juridiction de l'ordre administratif ?",
+        "Quel tribunal est au sommet de la justice administrative ?",
+        "Quelle institution juge en dernier ressort les litiges administratifs ?"
+      ],
+      "correctAnswer": "Le Conseil d'État",
+      "wrongAnswers": [
+        "La Cour de cassation",
+        "La Cour des comptes",
+        "Le tribunal de commerce",
+        "Le Conseil constitutionnel",
+        "La Cour administrative d'appel",
+        "Le tribunal administratif"
+      ]
+    },
+    {
+      "id": 37,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce que la Constitution ?",
+        "Comment définir la Constitution ?",
+        "Quel est le rôle de la Constitution ?"
+      ],
+      "correctAnswer": "Le texte fondamental qui organise les pouvoirs de l'État",
+      "wrongAnswers": [
+        "Un recueil de lois ordinaires",
+        "Le programme du gouvernement",
+        "Le règlement de l'Assemblée nationale",
+        "Un traité international",
+        "Le Code civil",
+        "Un décret présidentiel"
+      ]
+    },
+    {
+      "id": 38,
+      "theme": "Institutions de la République",
+      "questions": [
+        "En quelle année la Constitution de la Ve République a-t-elle été adoptée ?",
+        "Quand a été créée la Ve République ?",
+        "La Constitution actuelle date de quelle année ?"
+      ],
+      "correctAnswer": "1958",
+      "wrongAnswers": [
+        "1946",
+        "1962",
+        "1969",
+        "1944",
+        "1970",
+        "1981"
+      ]
+    },
+    {
+      "id": 39,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui peut dissoudre l'Assemblée nationale ?",
+        "Quelle autorité a le pouvoir de dissoudre l'Assemblée ?",
+        "À qui appartient le droit de dissolution de l'Assemblée ?"
+      ],
+      "correctAnswer": "Le Président de la République",
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le Président du Sénat",
+        "Le Conseil constitutionnel",
+        "Le peuple par référendum",
+        "Le Conseil d'État",
+        "Le gouvernement"
+      ]
+    },
+    {
+      "id": 40,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce qu'un référendum ?",
+        "Comment définir un référendum ?",
+        "En quoi consiste un référendum ?"
+      ],
+      "correctAnswer": "Une consultation directe du peuple sur une question",
+      "wrongAnswers": [
+        "Une élection présidentielle",
+        "Un vote au Parlement",
+        "Une décision du Conseil constitutionnel",
+        "Une pétition citoyenne",
+        "Un sondage d'opinion",
+        "Une élection législative"
+      ]
+    },
+    {
+      "id": 133,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui peut proposer une loi en France ?",
+        "D'où viennent les projets de loi ?",
+        "Qui a l'initiative des lois ?"
+      ],
+      "correctAnswer": "Le gouvernement et les parlementaires",
+      "wrongAnswers": [
+        "Uniquement le Président",
+        "Uniquement les citoyens",
+        "Uniquement le Conseil constitutionnel",
+        "Uniquement les maires",
+        "Uniquement les préfets",
+        "Uniquement les juges"
+      ]
+    },
+    {
+      "id": 134,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Comment appelle-t-on une loi proposée par le gouvernement ?",
+        "Quel nom donne-t-on à une loi d'origine gouvernementale ?",
+        "Comment nomme-t-on un texte de loi du gouvernement ?"
+      ],
+      "correctAnswer": "Un projet de loi",
+      "wrongAnswers": [
+        "Une proposition de loi",
+        "Un décret",
+        "Un arrêté",
+        "Une ordonnance",
+        "Un règlement",
+        "Une circulaire"
+      ]
+    },
+    {
+      "id": 135,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Comment appelle-t-on une loi proposée par un parlementaire ?",
+        "Quel nom pour une loi d'initiative parlementaire ?",
+        "Comment nomme-t-on un texte de loi d'un député ou sénateur ?"
+      ],
+      "correctAnswer": "Une proposition de loi",
+      "wrongAnswers": [
+        "Un projet de loi",
+        "Un décret",
+        "Une ordonnance",
+        "Un arrêté",
+        "Un règlement",
+        "Une directive"
+      ]
+    },
+    {
+      "id": 136,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui promulgue les lois en France ?",
+        "Qui signe les lois pour qu'elles entrent en vigueur ?",
+        "Par qui les lois sont-elles promulguées ?"
+      ],
+      "correctAnswer": "Le Président de la République",
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le Président de l'Assemblée nationale",
+        "Le Conseil constitutionnel",
+        "Le Président du Sénat",
+        "Le ministre de la Justice",
+        "Le Conseil d'État"
+      ]
+    },
+    {
+      "id": 137,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce que la navette parlementaire ?",
+        "Que désigne la navette parlementaire ?",
+        "En quoi consiste la navette parlementaire ?"
+      ],
+      "correctAnswer": "Le va-et-vient d'un texte entre l'Assemblée et le Sénat",
+      "wrongAnswers": [
+        "Un transport pour les députés",
+        "Une réunion secrète",
+        "Un vote électronique",
+        "Une commission d'enquête",
+        "Un groupe de travail",
+        "Une pause entre les séances"
+      ]
+    },
+    {
+      "id": 138,
+      "theme": "Institutions de la République",
+      "questions": [
+        "En cas de désaccord entre l'Assemblée et le Sénat, qui a le dernier mot ?",
+        "Quelle chambre l'emporte en cas de conflit parlementaire ?",
+        "Qui tranche entre l'Assemblée et le Sénat ?"
+      ],
+      "correctAnswer": "L'Assemblée nationale",
+      "wrongAnswers": [
+        "Le Sénat",
+        "Le Président",
+        "Le Conseil constitutionnel",
+        "Le Premier ministre",
+        "Le Conseil d'État",
+        "Le peuple par référendum"
+      ]
+    },
+    {
+      "id": 139,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce que le Conseil des ministres ?",
+        "Que désigne le Conseil des ministres ?",
+        "Comment se tient le Conseil des ministres ?"
+      ],
+      "correctAnswer": "Une réunion du gouvernement présidée par le Président",
+      "wrongAnswers": [
+        "Une réunion des députés",
+        "Une réunion des maires",
+        "Une réunion du Sénat",
+        "Une assemblée de juges",
+        "Une conférence de préfets",
+        "Un sommet européen"
+      ]
+    },
+    {
+      "id": 140,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Comment les sénateurs sont-ils élus ?",
+        "Par qui les sénateurs sont-ils élus ?",
+        "Quel mode de scrutin pour les sénateurs ?"
+      ],
+      "correctAnswer": "Au suffrage universel indirect par les grands électeurs",
+      "wrongAnswers": [
+        "Au suffrage universel direct",
+        "Par le Président de la République",
+        "Par l'Assemblée nationale",
+        "Par les conseils régionaux",
+        "Par les maires uniquement",
+        "Par référendum"
+      ]
+    },
+    {
+      "id": 141,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Comment les députés sont-ils élus ?",
+        "Par qui les députés sont-ils élus ?",
+        "Quel mode de scrutin pour les députés ?"
+      ],
+      "correctAnswer": "Au suffrage universel direct",
+      "wrongAnswers": [
+        "Au suffrage universel indirect",
+        "Par le Président",
+        "Par le Sénat",
+        "Par les conseillers municipaux",
+        "Par les grands électeurs",
+        "Par les maires"
+      ]
+    },
+    {
+      "id": 142,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui assure l'intérim du Président en cas d'empêchement ?",
+        "Qui remplace le Président s'il ne peut exercer ?",
+        "Qui devient Président par intérim ?"
+      ],
+      "correctAnswer": "Le Président du Sénat",
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le Président de l'Assemblée nationale",
+        "Le ministre de l'Intérieur",
+        "Le ministre de la Défense",
+        "Le Garde des Sceaux",
+        "Le vice-président"
+      ]
+    },
+    {
+      "id": 175,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Combien de membres compose le Conseil constitutionnel ?",
+        "Quel est le nombre de membres du Conseil constitutionnel ?",
+        "Le Conseil constitutionnel compte combien de membres ?"
+      ],
+      "correctAnswer": "9",
+      "wrongAnswers": [
+        "7",
+        "12",
+        "15",
+        "5",
+        "11",
+        "13"
+      ]
+    },
+    {
+      "id": 176,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Pour combien d'années les membres du Conseil constitutionnel sont-ils nommés ?",
+        "Quelle est la durée du mandat au Conseil constitutionnel ?",
+        "Combien de temps siège-t-on au Conseil constitutionnel ?"
+      ],
+      "correctAnswer": "9 ans",
+      "wrongAnswers": [
+        "5 ans",
+        "7 ans",
+        "À vie",
+        "6 ans",
+        "12 ans",
+        "4 ans"
+      ]
+    },
+    {
+      "id": 177,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui peut saisir le Conseil constitutionnel ?",
+        "Qui a le droit de saisir le Conseil constitutionnel ?",
+        "Quelle autorité peut saisir le Conseil constitutionnel ?"
+      ],
+      "correctAnswer": "Le Président, le PM, les présidents des assemblées, 60 députés ou sénateurs",
+      "wrongAnswers": [
+        "Tout citoyen directement",
+        "Uniquement le Président",
+        "Uniquement les juges",
+        "Les maires",
+        "Les préfets",
+        "N'importe quel fonctionnaire"
+      ]
+    },
+    {
+      "id": 178,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qu'est-ce que la QPC ?",
+        "Que signifie QPC ?",
+        "À quoi sert la QPC ?"
+      ],
+      "correctAnswer": "La Question Prioritaire de Constitutionnalité",
+      "wrongAnswers": [
+        "Un parti politique",
+        "Un impôt",
+        "Un ministère",
+        "Une loi",
+        "Un décret",
+        "Une commission"
+      ]
+    },
+    {
+      "id": 179,
+      "theme": "Institutions de la République",
+      "questions": [
+        "Qui est le garant de l'indépendance de la justice ?",
+        "Qui garantit l'indépendance judiciaire ?",
+        "Quelle autorité protège l'indépendance de la justice ?"
+      ],
+      "correctAnswer": "Le Président de la République",
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le ministre de la Justice",
+        "Le Conseil d'État",
+        "Le procureur général",
+        "Le bâtonnier",
+        "Le Parlement"
+      ]
+    }
+  ]
+}

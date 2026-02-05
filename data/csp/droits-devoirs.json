@@ -1,0 +1,670 @@
+{
+  "questions": [
+    {
+      "id": 41,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "À partir de quel âge peut-on voter en France ?",
+        "Quel est l'âge minimum pour voter ?",
+        "À quel âge obtient-on le droit de vote ?"
+      ],
+      "correctAnswer": "18 ans",
+      "wrongAnswers": [
+        "16 ans",
+        "21 ans",
+        "25 ans",
+        "17 ans",
+        "20 ans",
+        "15 ans"
+      ]
+    },
+    {
+      "id": 42,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le vote en France est-il obligatoire ?",
+        "Est-on obligé de voter en France ?",
+        "Le vote est-il une obligation légale en France ?"
+      ],
+      "correctAnswer": "Non, c'est un droit mais pas une obligation légale",
+      "wrongAnswers": [
+        "Oui, pour tous les citoyens",
+        "Oui, seulement pour les élections présidentielles",
+        "Oui, sous peine d'amende",
+        "Oui, pour les plus de 25 ans",
+        "Oui, mais seulement aux municipales",
+        "Oui, avec des exceptions"
+      ]
+    },
+    {
+      "id": 43,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Quel document prouve l'identité française ?",
+        "Quel document officiel atteste de la nationalité française ?",
+        "Comment prouver son identité française ?"
+      ],
+      "correctAnswer": "La carte d'identité nationale",
+      "wrongAnswers": [
+        "Le permis de conduire",
+        "La carte Vitale",
+        "Le passeport uniquement",
+        "La carte électorale",
+        "Le livret de famille",
+        "L'attestation de domicile"
+      ]
+    },
+    {
+      "id": 44,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La scolarité est obligatoire jusqu'à quel âge ?",
+        "Jusqu'à quel âge l'instruction est-elle obligatoire ?",
+        "À quel âge peut-on quitter l'école ?"
+      ],
+      "correctAnswer": "16 ans",
+      "wrongAnswers": [
+        "14 ans",
+        "18 ans",
+        "12 ans",
+        "15 ans",
+        "17 ans",
+        "10 ans"
+      ]
+    },
+    {
+      "id": 45,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "L'école publique en France est :",
+        "Comment caractériser l'école publique française ?",
+        "Quelles sont les caractéristiques de l'école publique ?"
+      ],
+      "correctAnswer": "Gratuite et laïque",
+      "wrongAnswers": [
+        "Payante",
+        "Religieuse",
+        "Réservée aux citoyens français",
+        "Facultative",
+        "Privée",
+        "Mixte et payante"
+      ]
+    },
+    {
+      "id": 46,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Quel est le devoir fiscal des citoyens ?",
+        "Quelle obligation fiscale ont les citoyens ?",
+        "Quel devoir financier ont les citoyens envers l'État ?"
+      ],
+      "correctAnswer": "Payer les impôts",
+      "wrongAnswers": [
+        "Faire du bénévolat",
+        "Voter",
+        "Servir dans l'armée",
+        "Donner à des associations",
+        "Travailler pour l'État",
+        "Acheter des produits français"
+      ]
+    },
+    {
+      "id": 47,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La liberté d'expression permet de :",
+        "Que garantit la liberté d'expression ?",
+        "En quoi consiste la liberté d'expression ?"
+      ],
+      "correctAnswer": "Exprimer ses opinions dans le respect de la loi",
+      "wrongAnswers": [
+        "Dire tout ce qu'on veut sans limite",
+        "Insulter qui l'on veut",
+        "Diffuser de fausses informations",
+        "Inciter à la haine",
+        "Menacer autrui",
+        "Diffamer sans conséquence"
+      ]
+    },
+    {
+      "id": 48,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que la présomption d'innocence ?",
+        "Que signifie la présomption d'innocence ?",
+        "Comment définir la présomption d'innocence ?"
+      ],
+      "correctAnswer": "Tout accusé est considéré innocent jusqu'à preuve du contraire",
+      "wrongAnswers": [
+        "Tout accusé est considéré coupable",
+        "Seul le juge décide de la culpabilité",
+        "L'accusé doit prouver son innocence",
+        "La police décide de la culpabilité",
+        "L'accusé est coupable s'il est arrêté",
+        "Le procureur décide seul"
+      ]
+    },
+    {
+      "id": 49,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le droit de grève en France est :",
+        "Quel est le statut du droit de grève ?",
+        "Comment est reconnu le droit de grève en France ?"
+      ],
+      "correctAnswer": "Un droit constitutionnel",
+      "wrongAnswers": [
+        "Interdit",
+        "Réservé au secteur privé",
+        "Soumis à autorisation",
+        "Limité à 3 jours par an",
+        "Réservé aux syndicats",
+        "Interdit dans le public"
+      ]
+    },
+    {
+      "id": 50,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La liberté de réunion permet :",
+        "Que garantit la liberté de réunion ?",
+        "En quoi consiste la liberté de réunion ?"
+      ],
+      "correctAnswer": "De se réunir pacifiquement",
+      "wrongAnswers": [
+        "De bloquer les routes sans autorisation",
+        "D'occuper des bâtiments publics",
+        "De manifester avec des armes",
+        "De se réunir en secret contre l'État",
+        "D'envahir des propriétés privées",
+        "De bloquer les aéroports"
+      ]
+    },
+    {
+      "id": 51,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Les discriminations sont :",
+        "Quel est le statut des discriminations en France ?",
+        "Comment la loi traite-t-elle les discriminations ?"
+      ],
+      "correctAnswer": "Interdites et punies par la loi",
+      "wrongAnswers": [
+        "Autorisées dans certains cas",
+        "Tolérées dans le secteur privé",
+        "Légales pour l'emploi",
+        "Permises pour le logement",
+        "Acceptées selon les régions",
+        "Non réglementées"
+      ]
+    },
+    {
+      "id": 52,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "L'égalité entre les femmes et les hommes est :",
+        "Quel est le statut de l'égalité femmes-hommes ?",
+        "Comment est reconnue l'égalité des sexes en France ?"
+      ],
+      "correctAnswer": "Un principe constitutionnel",
+      "wrongAnswers": [
+        "Un objectif à atteindre",
+        "Une recommandation",
+        "Une option selon les cultures",
+        "Un souhait du gouvernement",
+        "Une tradition récente",
+        "Un idéal non contraignant"
+      ]
+    },
+    {
+      "id": 53,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le mariage civil en France est :",
+        "Quelle est la règle pour le mariage civil ?",
+        "Que dit la loi sur le mariage civil ?"
+      ],
+      "correctAnswer": "Obligatoire avant tout mariage religieux",
+      "wrongAnswers": [
+        "Facultatif avant le mariage religieux",
+        "Réservé aux Français",
+        "Célébré à l'église",
+        "Optionnel",
+        "Réservé aux croyants",
+        "Interdit aux étrangers"
+      ]
+    },
+    {
+      "id": 54,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Depuis quelle année le mariage pour tous est-il légal en France ?",
+        "Quand le mariage homosexuel a-t-il été autorisé ?",
+        "En quelle année la loi sur le mariage pour tous a-t-elle été votée ?"
+      ],
+      "correctAnswer": "2013",
+      "wrongAnswers": [
+        "2008",
+        "2015",
+        "2020",
+        "2010",
+        "2005",
+        "2018"
+      ]
+    },
+    {
+      "id": 55,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La polygamie en France est :",
+        "Quel est le statut de la polygamie en France ?",
+        "La loi française autorise-t-elle la polygamie ?"
+      ],
+      "correctAnswer": "Interdite",
+      "wrongAnswers": [
+        "Autorisée",
+        "Tolérée pour certaines religions",
+        "Légale sous conditions",
+        "Permise avec autorisation",
+        "Acceptée pour les étrangers",
+        "Réglementée mais possible"
+      ]
+    },
+    {
+      "id": 56,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Quel est l'âge minimum légal pour se marier en France ?",
+        "À partir de quel âge peut-on se marier ?",
+        "Quel âge faut-il avoir pour se marier légalement ?"
+      ],
+      "correctAnswer": "18 ans",
+      "wrongAnswers": [
+        "16 ans",
+        "21 ans",
+        "15 ans avec autorisation",
+        "17 ans",
+        "20 ans",
+        "14 ans avec autorisation parentale"
+      ]
+    },
+    {
+      "id": 57,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le droit à l'avortement (IVG) en France est :",
+        "Quel est le statut de l'IVG en France ?",
+        "Comment la loi reconnaît-elle le droit à l'avortement ?"
+      ],
+      "correctAnswer": "Légal et inscrit dans la Constitution",
+      "wrongAnswers": [
+        "Interdit",
+        "Autorisé seulement pour raisons médicales",
+        "Toléré mais pas légal",
+        "Soumis à autorisation du conjoint",
+        "Limité aux femmes mariées",
+        "Interdit après 8 semaines"
+      ]
+    },
+    {
+      "id": 58,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La Journée défense et citoyenneté (JDC) concerne :",
+        "Qui doit participer à la JDC ?",
+        "À qui s'adresse la Journée défense et citoyenneté ?"
+      ],
+      "correctAnswer": "Tous les jeunes Français de 16 à 25 ans",
+      "wrongAnswers": [
+        "Uniquement les hommes",
+        "Uniquement les volontaires",
+        "Les personnes de plus de 30 ans",
+        "Les militaires uniquement",
+        "Les étudiants seulement",
+        "Les majeurs de plus de 21 ans"
+      ]
+    },
+    {
+      "id": 59,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le service militaire obligatoire en France a été :",
+        "Quel est le statut actuel du service militaire ?",
+        "Quand le service militaire a-t-il pris fin ?"
+      ],
+      "correctAnswer": "Suspendu en 1997",
+      "wrongAnswers": [
+        "Maintenu jusqu'à aujourd'hui",
+        "Aboli en 1945",
+        "Rétabli en 2020",
+        "Supprimé en 2010",
+        "Transformé en 1980",
+        "Abandonné en 1968"
+      ]
+    },
+    {
+      "id": 60,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Que garantit le droit au logement ?",
+        "En quoi consiste le droit au logement ?",
+        "Que prévoit le droit au logement en France ?"
+      ],
+      "correctAnswer": "Une aide pour accéder à un logement décent",
+      "wrongAnswers": [
+        "Un logement gratuit pour tous",
+        "Un appartement offert par l'État",
+        "La propriété d'un bien immobilier",
+        "Un hébergement hôtelier gratuit",
+        "Une maison individuelle garantie",
+        "Un logement de fonction"
+      ]
+    },
+    {
+      "id": 61,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le respect de la vie privée est :",
+        "Quel est le statut du droit à la vie privée ?",
+        "Comment est protégée la vie privée en France ?"
+      ],
+      "correctAnswer": "Un droit fondamental",
+      "wrongAnswers": [
+        "Une option selon les circonstances",
+        "Réservé aux personnalités",
+        "Applicable uniquement chez soi",
+        "Un privilège des riches",
+        "Limité aux adultes",
+        "Soumis à autorisation"
+      ]
+    },
+    {
+      "id": 62,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que le SMIC ?",
+        "Que signifie SMIC ?",
+        "À quoi correspond le SMIC ?"
+      ],
+      "correctAnswer": "Le salaire minimum légal",
+      "wrongAnswers": [
+        "Un impôt",
+        "Une allocation chômage",
+        "Une prime de fin d'année",
+        "Un bonus annuel",
+        "Une cotisation sociale",
+        "Un complément de retraite"
+      ]
+    },
+    {
+      "id": 63,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La durée légale du travail en France est de :",
+        "Combien d'heures travaille-t-on légalement par semaine ?",
+        "Quelle est la durée hebdomadaire légale du travail ?"
+      ],
+      "correctAnswer": "35 heures par semaine",
+      "wrongAnswers": [
+        "32 heures par semaine",
+        "39 heures par semaine",
+        "40 heures par semaine",
+        "38 heures par semaine",
+        "42 heures par semaine",
+        "30 heures par semaine"
+      ]
+    },
+    {
+      "id": 64,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que la Sécurité sociale ?",
+        "À quoi sert la Sécurité sociale ?",
+        "Comment définir la Sécurité sociale ?"
+      ],
+      "correctAnswer": "Le système de protection sociale français",
+      "wrongAnswers": [
+        "Une assurance privée",
+        "Une mutuelle optionnelle",
+        "Un service de police",
+        "Une banque publique",
+        "Un syndicat",
+        "Une entreprise d'État"
+      ]
+    },
+    {
+      "id": 65,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "En quelle année la Sécurité sociale a-t-elle été créée ?",
+        "Quand a été fondée la Sécurité sociale ?",
+        "De quand date la création de la Sécurité sociale ?"
+      ],
+      "correctAnswer": "1945",
+      "wrongAnswers": [
+        "1936",
+        "1958",
+        "1968",
+        "1920",
+        "1950",
+        "1981"
+      ]
+    },
+    {
+      "id": 143,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que le droit d'asile ?",
+        "Que garantit le droit d'asile ?",
+        "En quoi consiste le droit d'asile ?"
+      ],
+      "correctAnswer": "Le droit de demander protection en cas de persécution",
+      "wrongAnswers": [
+        "Le droit de quitter son pays",
+        "Le droit de voyager librement",
+        "Le droit d'obtenir la nationalité",
+        "Le droit au tourisme",
+        "Le droit de travailler à l'étranger",
+        "Le droit d'émigrer"
+      ]
+    },
+    {
+      "id": 144,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que la liberté syndicale ?",
+        "Que permet la liberté syndicale ?",
+        "En quoi consiste la liberté syndicale ?"
+      ],
+      "correctAnswer": "Le droit de créer ou d'adhérer librement à un syndicat",
+      "wrongAnswers": [
+        "L'obligation d'adhérer à un syndicat",
+        "L'interdiction des syndicats",
+        "Le droit des patrons uniquement",
+        "L'obligation de créer un syndicat",
+        "Le syndicat unique obligatoire",
+        "Le contrôle des syndicats par l'État"
+      ]
+    },
+    {
+      "id": 145,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La liberté de la presse signifie :",
+        "Qu'est-ce que la liberté de la presse ?",
+        "Que garantit la liberté de la presse ?"
+      ],
+      "correctAnswer": "Les médias peuvent informer librement dans le respect de la loi",
+      "wrongAnswers": [
+        "Les journalistes peuvent publier ce qu'ils veulent sans limite",
+        "Seul l'État peut publier des journaux",
+        "La presse est contrôlée par le gouvernement",
+        "Les médias sont censurés",
+        "Seuls les journaux officiels existent",
+        "La presse appartient à l'État"
+      ]
+    },
+    {
+      "id": 146,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que le secret du vote ?",
+        "Que garantit le secret du vote ?",
+        "En quoi consiste le secret du vote ?"
+      ],
+      "correctAnswer": "Personne ne peut savoir pour qui vous avez voté",
+      "wrongAnswers": [
+        "Le vote est public",
+        "Le vote doit être déclaré à la mairie",
+        "Le vote est surveillé par la police",
+        "On doit dire pour qui on vote",
+        "Le vote est enregistré nominativement",
+        "Les bulletins portent le nom du votant"
+      ]
+    },
+    {
+      "id": 147,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Pour voter en France, il faut :",
+        "Quelles conditions pour voter en France ?",
+        "Qui peut voter en France ?"
+      ],
+      "correctAnswer": "Être majeur et de nationalité française",
+      "wrongAnswers": [
+        "Avoir plus de 21 ans",
+        "Être propriétaire",
+        "Avoir un emploi",
+        "Payer des impôts",
+        "Avoir un diplôme",
+        "Être né en France"
+      ]
+    },
+    {
+      "id": 148,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Les citoyens européens peuvent-ils voter en France ?",
+        "À quelles élections les Européens peuvent-ils voter ?",
+        "Un Européen peut-il voter en France ?"
+      ],
+      "correctAnswer": "Oui, aux élections municipales et européennes",
+      "wrongAnswers": [
+        "Non, jamais",
+        "Oui, à toutes les élections",
+        "Seulement aux présidentielles",
+        "Seulement aux législatives",
+        "Seulement aux régionales",
+        "Non, sauf s'ils sont naturalisés"
+      ]
+    },
+    {
+      "id": 149,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Qu'est-ce que la carte électorale ?",
+        "À quoi sert la carte électorale ?",
+        "Que prouve la carte électorale ?"
+      ],
+      "correctAnswer": "Un document attestant l'inscription sur les listes électorales",
+      "wrongAnswers": [
+        "Un document obligatoire pour voter",
+        "Un document d'identité",
+        "Un permis de conduire",
+        "Une carte de séjour",
+        "Un justificatif de domicile",
+        "Une carte d'adhérent à un parti"
+      ]
+    },
+    {
+      "id": 150,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Où doit-on s'inscrire pour voter ?",
+        "Où s'inscrire sur les listes électorales ?",
+        "Comment s'inscrire pour voter ?"
+      ],
+      "correctAnswer": "À la mairie de son domicile",
+      "wrongAnswers": [
+        "À la préfecture",
+        "Au tribunal",
+        "À l'Assemblée nationale",
+        "À la sous-préfecture",
+        "Au commissariat",
+        "À la gendarmerie"
+      ]
+    },
+    {
+      "id": 180,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le respect des lois est :",
+        "Quel est le statut du respect des lois ?",
+        "Respecter les lois est-il obligatoire ?"
+      ],
+      "correctAnswer": "Une obligation pour tous",
+      "wrongAnswers": [
+        "Facultatif",
+        "Réservé aux citoyens",
+        "Optionnel pour les étrangers",
+        "Conseillé mais pas obligatoire",
+        "Variable selon les régions",
+        "À la discrétion de chacun"
+      ]
+    },
+    {
+      "id": 181,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "La non-assistance à personne en danger est :",
+        "Que risque-t-on en cas de non-assistance ?",
+        "Comment la loi traite-t-elle la non-assistance ?"
+      ],
+      "correctAnswer": "Punie par la loi",
+      "wrongAnswers": [
+        "Autorisée",
+        "Tolérée",
+        "Une affaire privée",
+        "Sans conséquence",
+        "Moralement condamnée uniquement",
+        "Acceptée dans certains cas"
+      ]
+    },
+    {
+      "id": 182,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "L'incitation à la haine raciale est :",
+        "Quel est le statut de l'incitation à la haine ?",
+        "L'incitation à la haine est-elle légale ?"
+      ],
+      "correctAnswer": "Un délit puni par la loi",
+      "wrongAnswers": [
+        "Protégée par la liberté d'expression",
+        "Autorisée sur internet",
+        "Tolérée en privé",
+        "Légale dans certains cas",
+        "Sans conséquence juridique",
+        "Une opinion comme une autre"
+      ]
+    },
+    {
+      "id": 183,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Le harcèlement est :",
+        "Comment la loi traite-t-elle le harcèlement ?",
+        "Le harcèlement est-il puni ?"
+      ],
+      "correctAnswer": "Un délit puni par la loi",
+      "wrongAnswers": [
+        "Autorisé au travail",
+        "Une affaire privée",
+        "Légal sur internet",
+        "Toléré entre collègues",
+        "Non réglementé",
+        "Permis dans certains cas"
+      ]
+    }
+  ]
+}

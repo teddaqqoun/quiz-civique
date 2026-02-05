@@ -53,12 +53,25 @@ function setupEventListeners() {
 
 async function startQuiz() {
     try {
-        // Charger les questions
-        const response = await fetch(`data/questions-${state.selectedLevel}.json`);
-        const data = await response.json();
+        // Charger les questions depuis les fichiers par thème
+        const themes = [
+            'principes-valeurs',
+            'institutions',
+            'droits-devoirs',
+            'histoire',
+            'vie-societe'
+        ];
+
+        const responses = await Promise.all(
+            themes.map(theme => fetch(`data/${state.selectedLevel}/${theme}.json`))
+        );
+        const dataArrays = await Promise.all(responses.map(r => r.json()));
+
+        // Combiner toutes les questions
+        const allQuestions = dataArrays.flatMap(data => data.questions);
 
         // Sélectionner 40 questions au hasard (par ID unique)
-        state.questions = shuffleArray(data.questions).slice(0, 40);
+        state.questions = shuffleArray(allQuestions).slice(0, 40);
 
         // Préparer chaque question avec formulation et options aléatoires
         state.preparedQuestions = state.questions.map(q => prepareQuestion(q));
