@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <!-- Background circle -->
-  <circle cx="256" cy="256" r="240" fill="#ffffff" stroke="#e0e0e0" stroke-width="8"/>
+  <circle cx="256" cy="256" r="240" fill="#ffffff" stroke="#e0e0e0" stroke-width="4"/>
 
   <!-- French Tricolor Flag -->
-  <rect x="96" y="160" width="106" height="192" fill="#002395" rx="8"/>
-  <rect x="202" y="160" width="108" height="192" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
-  <rect x="310" y="160" width="106" height="192" fill="#ED2939" rx="8"/>
-
-  <!-- Checkmark overlay (quiz/test symbol) -->
-  <path d="M180 280 L230 330 L340 200" fill="none" stroke="#002395" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <rect x="86" y="156" width="113" height="200" fill="#002395"/>
+  <rect x="199" y="156" width="114" height="200" fill="#ffffff" stroke="#e8e8e8" stroke-width="1"/>
+  <rect x="313" y="156" width="113" height="200" fill="#ED2939"/>
 </svg>
