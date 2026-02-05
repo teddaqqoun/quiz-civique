@@ -185,6 +185,45 @@ h2 {
     font-weight: 500;
 }
 
+.level-progress {
+    font-size: 0.75rem;
+    color: var(--success);
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* Progress info box */
+.progress-info-box {
+    background: var(--light-blue);
+    border: 2px solid var(--blue);
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.progress-info-box p {
+    margin-bottom: 10px;
+    color: var(--dark-blue);
+}
+
+.secondary-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--blue);
+    background: var(--white);
+    border: 2px solid var(--blue);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background: var(--blue);
+    color: var(--white);
+}
+
 /* Boutons */
 .primary-btn {
     display: block;

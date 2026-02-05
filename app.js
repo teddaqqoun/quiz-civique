@@ -10,6 +10,57 @@ const state = {
     quizStarted: false
 };
 
+// Gestion des questions vues (localStorage)
+function getSeenQuestions(level) {
+    const key = `seenQuestions_${level}`;
+    const stored = localStorage.getItem(key);
+    return stored ? JSON.parse(stored) : [];
+}
+
+function saveSeenQuestions(level, questionIds) {
+    const key = `seenQuestions_${level}`;
+    const existing = getSeenQuestions(level);
+    const updated = [...new Set([...existing, ...questionIds])];
+    localStorage.setItem(key, JSON.stringify(updated));
+}
+
+function resetSeenQuestions(level) {
+    const key = `seenQuestions_${level}`;
+    localStorage.removeItem(key);
+}
+
+// Sélectionne 40 questions en priorisant les non-vues
+function selectQuestions(allQuestions, level) {
+    const seenIds = getSeenQuestions(level);
+
+    // Séparer les questions vues et non-vues
+    const unseenQuestions = allQuestions.filter(q => !seenIds.includes(q.id));
+    const seenQuestions = allQuestions.filter(q => seenIds.includes(q.id));
+
+    // Mélanger chaque groupe
+    const shuffledUnseen = shuffleArray(unseenQuestions);
+    const shuffledSeen = shuffleArray(seenQuestions);
+
+    // Prendre d'abord les non-vues, puis compléter avec les vues si nécessaire
+    let selected = [];
+
+    if (shuffledUnseen.length >= 40) {
+        // Assez de questions non-vues
+        selected = shuffledUnseen.slice(0, 40);
+    } else {
+        // Prendre toutes les non-vues + compléter avec des vues
+        selected = [...shuffledUnseen, ...shuffledSeen.slice(0, 40 - shuffledUnseen.length)];
+    }
+
+    // Si toutes les questions ont été vues, réinitialiser le tracking
+    if (unseenQuestions.length === 0) {
+        resetSeenQuestions(level);
+        console.log('Toutes les questions ont été vues. Réinitialisation du suivi.');
+    }
+
+    return selected;
+}
+
 // Éléments du DOM
 const homeScreen = document.getElementById('home-screen');
 const quizScreen = document.getElementById('quiz-screen');
@@ -25,9 +76,13 @@ const themeBadge = document.getElementById('theme-badge');
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
 
+// Totaux de questions par niveau
+const QUESTION_TOTALS = { csp: 192, cr: 209 };
+
 // Initialisation
 document.addEventListener('DOMContentLoaded', () => {
     setupEventListeners();
+    updateProgressDisplay();
 });
 
 function setupEventListeners() {
@@ -38,6 +93,7 @@ function setupEventListeners() {
             btn.classList.add('selected');
             state.selectedLevel = btn.dataset.level;
             startBtn.disabled = false;
+            showProgressInfo(btn.dataset.level);
         });
     });
 
@@ -49,6 +105,56 @@ function setupEventListeners() {
 
     // Recommencer
     restartBtn.addEventListener('click', resetQuiz);
+
+    // Réinitialiser la progression
+    const resetBtn = document.getElementById('reset-progress-btn');
+    if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+            if (state.selectedLevel) {
+                resetSeenQuestions(state.selectedLevel);
+                updateProgressDisplay();
+                showProgressInfo(state.selectedLevel);
+            }
+        });
+    }
+}
+
+// Affiche la progression pour chaque niveau sur les boutons
+function updateProgressDisplay() {
+    ['csp', 'cr'].forEach(level => {
+        const seenCount = getSeenQuestions(level).length;
+        const total = QUESTION_TOTALS[level];
+        const unseenCount = total - seenCount;
+        const progressEl = document.getElementById(`progress-${level}`);
+        if (progressEl) {
+            if (seenCount > 0) {
+                const percent = Math.round((seenCount / total) * 100);
+                progressEl.textContent = `${unseenCount} nouvelles · ${percent}% complété`;
+            } else {
+                progressEl.textContent = '';
+            }
+        }
+    });
+}
+
+// Affiche les infos de progression quand un niveau est sélectionné
+function showProgressInfo(level) {
+    const progressInfo = document.getElementById('progress-info');
+    const unseenCountEl = document.getElementById('unseen-count');
+
+    if (progressInfo && unseenCountEl) {
+        const seenCount = getSeenQuestions(level).length;
+        const total = QUESTION_TOTALS[level];
+        const unseenCount = total - seenCount;
+
+        if (seenCount > 0) {
+            unseenCountEl.innerHTML = `<strong>${unseenCount}</strong> questions non vues sur ${total} · <strong>${seenCount}</strong> déjà vues`;
+            progressInfo.style.display = 'block';
+        } else {
+            unseenCountEl.textContent = `Toutes les ${total} questions sont nouvelles`;
+            progressInfo.style.display = 'block';
+        }
+    }
 }
 
 async function startQuiz() {
@@ -70,8 +176,8 @@ async function startQuiz() {
         // Combiner toutes les questions
         const allQuestions = dataArrays.flatMap(data => data.questions);
 
-        // Sélectionner 40 questions au hasard (par ID unique)
-        state.questions = shuffleArray(allQuestions).slice(0, 40);
+        // Sélectionner 40 questions en priorisant les non-vues
+        state.questions = selectQuestions(allQuestions, state.selectedLevel);
 
         // Préparer chaque question avec formulation et options aléatoires
         state.preparedQuestions = state.questions.map(q => prepareQuestion(q));
@@ -231,6 +337,10 @@ function endQuiz() {
     clearInterval(state.timerInterval);
     state.quizStarted = false;
 
+    // Sauvegarder les questions vues
+    const questionIds = state.questions.map(q => q.id);
+    saveSeenQuestions(state.selectedLevel, questionIds);
+
     // Calculer le score
     let score = 0;
     state.preparedQuestions.forEach((question, index) => {
@@ -306,6 +416,11 @@ function resetQuiz() {
     levelBtns.forEach(b => b.classList.remove('selected'));
     startBtn.disabled = true;
     timerDisplay.classList.remove('warning');
+
+    // Masquer les infos de progression et mettre à jour l'affichage
+    const progressInfo = document.getElementById('progress-info');
+    if (progressInfo) progressInfo.style.display = 'none';
+    updateProgressDisplay();
 
     showScreen(homeScreen);
 }

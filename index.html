@@ -239,17 +239,24 @@
                     <div class="level-selection">
                         <h2>Choisissez votre niveau</h2>
                         <div class="level-buttons">
-                            <button class="level-btn" data-level="csp" aria-label="Sélectionner le niveau CSP - Carte de Séjour Pluriannuelle avec 192 questions">
+                            <button class="level-btn" data-level="csp" data-total="192" aria-label="Sélectionner le niveau CSP - Carte de Séjour Pluriannuelle avec 192 questions">
                                 <span class="level-name">CSP</span>
                                 <span class="level-desc">Carte de Séjour Pluriannuelle</span>
                                 <span class="level-count">192 questions</span>
+                                <span class="level-progress" id="progress-csp"></span>
                             </button>
-                            <button class="level-btn" data-level="cr" aria-label="Sélectionner le niveau CR - Carte de Résident avec 209 questions">
+                            <button class="level-btn" data-level="cr" data-total="209" aria-label="Sélectionner le niveau CR - Carte de Résident avec 209 questions">
                                 <span class="level-name">CR</span>
                                 <span class="level-desc">Carte de Résident</span>
                                 <span class="level-count">209 questions</span>
+                                <span class="level-progress" id="progress-cr"></span>
                             </button>
                         </div>
+                    </div>
+
+                    <div id="progress-info" class="progress-info-box" style="display:none;">
+                        <p id="unseen-count"></p>
+                        <button id="reset-progress-btn" class="secondary-btn" type="button">Réinitialiser la progression</button>
                     </div>
 
                     <button id="start-btn" class="primary-btn" disabled aria-label="Commencer le quiz d'examen civique">
