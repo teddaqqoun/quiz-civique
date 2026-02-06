@@ -40,18 +40,18 @@
       "id": 43,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Quel document prouve l'identité française ?",
-        "Quel document officiel atteste de la nationalité française ?",
-        "Comment prouver son identité française ?"
+        "Quels documents officiels prouvent la nationalité française ?",
+        "Quels documents attestent de la nationalité française ?",
+        "Comment prouver sa nationalité française ?"
       ],
-      "correctAnswer": "La carte d'identité nationale",
+      "correctAnswer": "La carte d'identité nationale ou le passeport français",
       "wrongAnswers": [
         "Le permis de conduire",
         "La carte Vitale",
-        "Le passeport uniquement",
         "La carte électorale",
         "Le livret de famille",
-        "L'attestation de domicile"
+        "L'attestation de domicile",
+        "La carte de séjour"
       ]
     },
     {
@@ -70,6 +70,24 @@
         "15 ans",
         "17 ans",
         "10 ans"
+      ]
+    },
+    {
+      "id": 184,
+      "theme": "Droits et devoirs des citoyens",
+      "questions": [
+        "Depuis 2020, les jeunes de 16 à 18 ans ont une obligation de :",
+        "Quelle obligation concerne les jeunes de 16 à 18 ans depuis 2020 ?",
+        "Que doivent faire les jeunes de 16 à 18 ans depuis 2020 ?"
+      ],
+      "correctAnswer": "Formation (être en études, formation ou emploi)",
+      "wrongAnswers": [
+        "Service militaire",
+        "Travail obligatoire",
+        "Bénévolat",
+        "Aucune obligation",
+        "Voter",
+        "Payer des impôts"
       ]
     },
     {

@@ -510,16 +510,34 @@
       "questions": [
         "Qui a découvert la radioactivité ?",
         "À qui doit-on la découverte de la radioactivité ?",
-        "Quel scientifique a étudié la radioactivité ?"
+        "Quel scientifique a découvert la radioactivité en 1896 ?"
+      ],
+      "correctAnswer": "Henri Becquerel",
+      "wrongAnswers": [
+        "Marie Curie",
+        "Louis Pasteur",
+        "Antoine Lavoisier",
+        "Pierre Curie",
+        "René Descartes",
+        "André-Marie Ampère"
+      ]
+    },
+    {
+      "id": 210,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Qui a découvert le polonium et le radium ?",
+        "À qui doit-on la découverte du radium ?",
+        "Quelle scientifique a découvert deux éléments radioactifs ?"
       ],
       "correctAnswer": "Marie Curie",
       "wrongAnswers": [
+        "Henri Becquerel",
         "Louis Pasteur",
         "Antoine Lavoisier",
-        "Blaise Pascal",
-        "René Descartes",
-        "Pierre de Fermat",
-        "André-Marie Ampère"
+        "Pierre Curie seul",
+        "Irène Joliot-Curie",
+        "Lise Meitner"
       ]
     },
     {
@@ -834,7 +852,7 @@
       "questions": [
         "Qu'est-ce que le lycée ?",
         "À quoi prépare le lycée ?",
-        "Quel diplôme obtient-on après le lycée ?"
+        "Comment définir le lycée ?"
       ],
       "correctAnswer": "L'établissement qui prépare au baccalauréat",
       "wrongAnswers": [
@@ -844,6 +862,24 @@
         "L'université",
         "L'école professionnelle",
         "Le centre d'apprentissage"
+      ]
+    },
+    {
+      "id": 211,
+      "theme": "Vie en France et société",
+      "questions": [
+        "Quel diplôme obtient-on après le lycée ?",
+        "Quel examen passe-t-on à la fin du lycée ?",
+        "Quel diplôme sanctionne la fin des études secondaires ?"
+      ],
+      "correctAnswer": "Le baccalauréat",
+      "wrongAnswers": [
+        "Le brevet des collèges",
+        "La licence",
+        "Le master",
+        "Le CAP",
+        "Le BTS",
+        "Le certificat d'études"
       ]
     },
     {
