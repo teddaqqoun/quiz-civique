@@ -1,723 +1,1005 @@
 {
   "questions": [
     {
-      "id": 16,
-      "theme": "Institutions de la République",
+      "id": 339,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qui est le chef de l'État en France ?",
-        "Qui dirige l'État français ?",
-        "Quelle est la plus haute fonction de l'État ?"
+        "Qu'est-ce que l'État de droit ?",
+        "Comment définit-on l'État de droit ?",
+        "En quoi consiste le principe de l'État de droit ?"
       ],
-      "correctAnswer": "Le Président de la République",
+      "correctAnswers": ["Un système où l'État et les citoyens sont soumis au respect de la loi"],
       "wrongAnswers": [
-        "Le Premier ministre",
-        "Le Président de l'Assemblée nationale",
-        "Le Président du Sénat",
-        "Le ministre de l'Intérieur",
-        "Le Garde des Sceaux",
-        "Le Président du Conseil constitutionnel"
+        "Un système où seuls les citoyens doivent respecter la loi",
+        "Un régime où l'État peut agir sans contrainte juridique",
+        "Un système où le gouvernement décide des lois sans contrôle",
+        "Un régime où les dirigeants sont au-dessus des lois",
+        "Un système basé uniquement sur les traditions et coutumes",
+        "Un régime où le pouvoir judiciaire n'existe pas",
+        "Un système où les lois ne s'appliquent qu'aux étrangers",
+        "Un régime où le chef de l'État fait la loi seul"
       ]
     },
     {
-      "id": 17,
-      "theme": "Institutions de la République",
+      "id": 340,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Pour combien d'années le Président de la République est-il élu ?",
-        "Quelle est la durée du mandat présidentiel ?",
-        "Combien de temps dure le mandat du Président ?"
+        "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+        "Que se passe-t-il si le président commet un crime ?",
+        "Comment le président peut-il être jugé pour un crime ?"
       ],
-      "correctAnswer": "5 ans",
+      "correctAnswers": ["Il peut être jugé par la Haute Cour"],
+      "wrongAnswers": [
+        "Il peut être jugé par le Conseil constitutionnel",
+        "Il peut être jugé par la Cour de cassation",
+        "Il peut être jugé par le Conseil d'État",
+        "Il peut être jugé par la Cour de justice de la République",
+        "Il peut être jugé par le Sénat seul",
+        "Il peut être jugé par l'Assemblée nationale",
+        "Il bénéficie d'une immunité totale et permanente",
+        "Il peut être jugé par un tribunal correctionnel ordinaire",
+        "Il peut être jugé par la Cour européenne des droits de l'homme"
+      ]
+    },
+    {
+      "id": 341,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "La loi est l'expression de :",
+        "Selon la tradition républicaine, la loi exprime :",
+        "Dans une démocratie, la loi représente :"
+      ],
+      "correctAnswers": ["La volonté générale"],
+      "wrongAnswers": [
+        "La volonté du président",
+        "La volonté du gouvernement",
+        "La volonté des juges",
+        "La volonté des ministres",
+        "La volonté de la majorité parlementaire",
+        "La volonté des élites",
+        "La volonté du Premier ministre",
+        "La volonté de l'administration"
+      ]
+    },
+    {
+      "id": 342,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quelle est la durée du mandat du conseil municipal et du maire ?",
+        "Pour combien de temps sont élus les conseillers municipaux ?",
+        "Combien d'années dure le mandat d'un maire ?"
+      ],
+      "correctAnswers": ["6 ans"],
       "wrongAnswers": [
         "4 ans",
-        "6 ans",
+        "5 ans",
         "7 ans",
         "3 ans",
+        "8 ans",
+        "9 ans",
         "10 ans",
-        "À vie"
+        "2 ans"
       ]
     },
     {
-      "id": 18,
-      "theme": "Institutions de la République",
+      "id": 343,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Que garantit l'État de droit ?",
+        "Quels droits l'État de droit protège-t-il ?",
+        "Qu'assure le principe de l'État de droit aux citoyens ?"
+      ],
+      "correctAnswers": ["Le respect des droits fondamentaux et l'égalité devant la loi"],
+      "wrongAnswers": [
+        "Uniquement la liberté d'expression",
+        "Uniquement le droit de propriété",
+        "Le pouvoir absolu du gouvernement",
+        "L'absence de contrôle sur les décisions publiques",
+        "La supériorité des dirigeants sur les citoyens",
+        "L'application des lois selon la volonté des juges",
+        "Le respect des traditions religieuses uniquement",
+        "L'égalité économique totale entre tous les citoyens"
+      ]
+    },
+    {
+      "id": 344,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Une personne peut-elle voter à la place d'une autre ?",
+        "Peut-on voter pour quelqu'un d'autre ?",
+        "Le vote par procuration est-il possible ?"
+      ],
+      "correctAnswers": ["Oui, uniquement avec une procuration"],
+      "wrongAnswers": [
+        "Non, c'est strictement interdit",
+        "Oui, sans aucune formalité",
+        "Oui, avec une simple autorisation orale",
+        "Oui, uniquement pour les membres de sa famille",
+        "Non, sauf pour les personnes handicapées",
+        "Oui, avec une lettre manuscrite",
+        "Oui, uniquement le jour du vote",
+        "Non, sauf autorisation du maire"
+      ]
+    },
+    {
+      "id": 345,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Est-ce que le vote est obligatoire ?",
+        "Doit-on obligatoirement voter en France ?",
+        "Le vote est-il une obligation légale en France ?"
+      ],
+      "correctAnswers": ["Non, c'est un droit mais pas une obligation"],
+      "wrongAnswers": [
+        "Oui, c'est obligatoire avec une amende en cas d'abstention",
+        "Oui, c'est une obligation civique sanctionnée par la loi",
+        "Oui, depuis la Constitution de 1958",
+        "Oui, pour les élections présidentielles uniquement",
+        "Oui, mais seulement pour les fonctionnaires",
+        "Oui, pour toutes les élections nationales",
+        "Oui, sous peine de perdre ses droits civiques",
+        "Oui, depuis la réforme constitutionnelle de 2008"
+      ]
+    },
+    {
+      "id": 346,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+        "Le président peut-il prolonger son mandat sans élection ?",
+        "Un président sortant peut-il rester au pouvoir sans nouvelle élection ?"
+      ],
+      "correctAnswers": ["Non, il doit se soumettre à une nouvelle élection"],
+      "wrongAnswers": [
+        "Oui, s'il déclare l'état d'urgence",
+        "Oui, avec l'accord du Parlement",
+        "Oui, en cas de crise nationale",
+        "Oui, avec l'accord du Conseil constitutionnel",
+        "Oui, s'il est soutenu par le gouvernement",
+        "Oui, pour une durée maximale de deux ans",
+        "Oui, en cas de guerre",
+        "Oui, avec l'accord du Premier ministre"
+      ]
+    },
+    {
+      "id": 347,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Qui dirige l'action du Gouvernement ?",
+        "Qui est à la tête du Gouvernement ?",
+        "Qui conduit la politique gouvernementale ?"
+      ],
+      "correctAnswers": ["Le Premier ministre"],
+      "wrongAnswers": [
+        "Le président de la République",
+        "Le président de l'Assemblée nationale",
+        "Le ministre de l'Intérieur",
+        "Le président du Sénat",
+        "Le Conseil des ministres collectivement",
+        "Le ministre des Finances",
+        "Le secrétaire général du Gouvernement",
+        "Le Garde des Sceaux"
+      ]
+    },
+    {
+      "id": 348,
+      "theme": "Système institutionnel et politique",
       "questions": [
         "Qui nomme le Premier ministre ?",
         "Par qui le Premier ministre est-il désigné ?",
         "Qui choisit le Premier ministre ?"
       ],
-      "correctAnswer": "Le Président de la République",
+      "correctAnswers": ["Le Président de la République"],
       "wrongAnswers": [
         "L'Assemblée nationale",
         "Le Sénat",
+        "Le Parlement réuni en Congrès",
         "Le Conseil constitutionnel",
-        "Le peuple par référendum",
-        "Les députés et sénateurs réunis",
-        "Le Conseil d'État"
-      ]
-    },
-    {
-      "id": 19,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Quel est le rôle principal du Premier ministre ?",
-        "Quelle est la fonction principale du Premier ministre ?",
-        "Que fait principalement le Premier ministre ?"
-      ],
-      "correctAnswer": "Diriger l'action du gouvernement",
-      "wrongAnswers": [
-        "Représenter la France à l'étranger",
-        "Présider le Conseil constitutionnel",
-        "Commander les armées",
-        "Voter les lois",
-        "Nommer les juges",
-        "Dissoudre l'Assemblée"
-      ]
-    },
-    {
-      "id": 20,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Le Parlement français est composé de :",
-        "Quelles assemblées forment le Parlement ?",
-        "Comment est constitué le Parlement français ?"
-      ],
-      "correctAnswer": "L'Assemblée nationale et le Sénat",
-      "wrongAnswers": [
-        "L'Assemblée nationale uniquement",
-        "Le Sénat uniquement",
-        "Le gouvernement et le Président",
-        "Le Conseil d'État et la Cour des comptes",
-        "Les conseils régionaux",
-        "Le Conseil constitutionnel et l'Assemblée"
-      ]
-    },
-    {
-      "id": 21,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui vote les lois en France ?",
-        "Quelle institution adopte les lois ?",
-        "Par qui les lois sont-elles votées ?"
-      ],
-      "correctAnswer": "Le Parlement",
-      "wrongAnswers": [
-        "Le Président de la République",
-        "Le Premier ministre",
+        "Les électeurs par suffrage universel",
+        "Le parti majoritaire à l'Assemblée",
         "Le Conseil d'État",
-        "Le Conseil constitutionnel",
-        "Les préfets",
-        "Le peuple directement"
+        "Les présidents des groupes parlementaires"
       ]
     },
     {
-      "id": 22,
-      "theme": "Institutions de la République",
+      "id": 349,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Pour combien d'années les députés sont-ils élus ?",
-        "Quelle est la durée du mandat d'un député ?",
-        "Combien de temps dure le mandat législatif ?"
+        "Quelle est l'organisation administrative de la France ?",
+        "Comment est divisé le territoire français administrativement ?",
+        "Quelles sont les collectivités territoriales en France ?"
       ],
-      "correctAnswer": "5 ans",
+      "correctAnswers": ["Communes, départements et régions"],
       "wrongAnswers": [
-        "4 ans",
-        "6 ans",
-        "7 ans",
-        "3 ans",
-        "9 ans",
-        "2 ans"
+        "Provinces, cantons et districts",
+        "Cantons, arrondissements et préfectures",
+        "Villes, provinces et territoires",
+        "Municipalités, préfectures et États",
+        "Districts, circonscriptions et zones",
+        "Communes, cantons et provinces",
+        "Villages, arrondissements et länder",
+        "Métropoles, cercles et régions"
       ]
     },
     {
-      "id": 23,
-      "theme": "Institutions de la République",
+      "id": 350,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Pour combien d'années les sénateurs sont-ils élus ?",
-        "Quelle est la durée du mandat d'un sénateur ?",
-        "Combien de temps dure le mandat sénatorial ?"
+        "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+        "Le pouvoir législatif est le pouvoir :",
+        "La fonction du pouvoir législatif est :"
       ],
-      "correctAnswer": "6 ans",
+      "correctAnswers": ["De faire et voter les lois"],
+      "wrongAnswers": [
+        "D'appliquer et exécuter les lois",
+        "De juger et sanctionner les infractions",
+        "De diriger le gouvernement",
+        "De nommer les hauts fonctionnaires",
+        "De contrôler la police et l'armée",
+        "De gérer les relations internationales",
+        "De décider des impôts uniquement",
+        "De représenter l'État à l'étranger"
+      ]
+    },
+    {
+      "id": 351,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+        "Quel est l'intérêt de la séparation des pouvoirs ?",
+        "À quoi sert la séparation des pouvoirs ?"
+      ],
+      "correctAnswers": ["Pour éviter les abus de pouvoir et garantir les libertés"],
+      "wrongAnswers": [
+        "Pour simplifier l'administration du pays",
+        "Pour accélérer la prise de décision",
+        "Pour réduire le nombre de fonctionnaires",
+        "Pour renforcer le pouvoir du président",
+        "Pour économiser les deniers publics",
+        "Pour faciliter les réformes économiques",
+        "Pour permettre au gouvernement d'agir plus vite",
+        "Pour limiter le nombre de lois votées"
+      ]
+    },
+    {
+      "id": 352,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Qui sanctionne l'auteur d'un vol ?",
+        "Quelle institution punit les délits comme le vol ?",
+        "Qui juge et condamne un voleur ?"
+      ],
+      "correctAnswers": ["La justice (les tribunaux)"],
+      "wrongAnswers": [
+        "La police",
+        "La gendarmerie",
+        "Le préfet",
+        "Le maire",
+        "Le procureur seul",
+        "Le ministre de l'Intérieur",
+        "L'administration pénitentiaire",
+        "La victime elle-même"
+      ]
+    },
+    {
+      "id": 353,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel est le rôle du gouvernement ?",
+        "Quelle est la mission du gouvernement ?",
+        "À quoi sert le gouvernement ?"
+      ],
+      "correctAnswers": ["Conduire la politique de la nation"],
+      "wrongAnswers": [
+        "Voter les lois",
+        "Juger les crimes et délits",
+        "Élire le président de la République",
+        "Contrôler la constitutionnalité des lois",
+        "Représenter les citoyens au Parlement",
+        "Nommer les députés",
+        "Gérer les affaires des communes",
+        "Rédiger la Constitution"
+      ]
+    },
+    {
+      "id": 354,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+        "Comment un ministre peut-il être jugé ?",
+        "Quelle juridiction juge les ministres pour des actes commis dans leurs fonctions ?"
+      ],
+      "correctAnswers": ["Il peut être jugé par la Cour de justice de la République"],
+      "wrongAnswers": [
+        "Il peut être jugé par la Haute Cour",
+        "Il peut être jugé par le Conseil constitutionnel",
+        "Il peut être jugé par le Conseil d'État",
+        "Il peut être jugé par la Cour de cassation",
+        "Il peut être jugé par un tribunal correctionnel ordinaire",
+        "Il bénéficie d'une immunité totale",
+        "Il peut être jugé par l'Assemblée nationale",
+        "Il peut être jugé par le Sénat",
+        "Il peut être jugé par le président de la République"
+      ]
+    },
+    {
+      "id": 355,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Combien de députés composent l'Assemblée nationale ?",
+        "Quel est le nombre de députés en France ?",
+        "L'Assemblée nationale compte combien de membres ?"
+      ],
+      "correctAnswers": ["577"],
+      "wrongAnswers": [
+        "348",
+        "450",
+        "500",
+        "550",
+        "600",
+        "625",
+        "480",
+        "535"
+      ]
+    },
+    {
+      "id": 356,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Qui peut voter aux élections en France ?",
+        "Quelles sont les conditions pour voter en France ?",
+        "Qui a le droit de vote en France ?"
+      ],
+      "correctAnswers": ["Les citoyens français majeurs inscrits sur les listes électorales"],
+      "wrongAnswers": [
+        "Tous les résidents majeurs en France",
+        "Tous les contribuables français",
+        "Les citoyens français dès 16 ans",
+        "Uniquement les citoyens français de plus de 21 ans",
+        "Tous les citoyens européens résidant en France pour toutes les élections",
+        "Les citoyens français sans condition d'inscription",
+        "Les résidents étrangers après 5 ans de séjour",
+        "Les citoyens français nés en France uniquement"
+      ]
+    },
+    {
+      "id": 357,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Pour combien de temps sont élus les sénateurs ?",
+        "Quelle est la durée du mandat d'un sénateur ?",
+        "Combien d'années dure le mandat sénatorial ?"
+      ],
+      "correctAnswers": ["6 ans"],
       "wrongAnswers": [
         "4 ans",
         "5 ans",
-        "9 ans",
         "7 ans",
+        "9 ans",
         "3 ans",
-        "À vie"
+        "8 ans",
+        "10 ans",
+        "12 ans"
       ]
     },
     {
-      "id": 24,
-      "theme": "Institutions de la République",
+      "id": 358,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Où siège l'Assemblée nationale ?",
-        "Dans quel bâtiment se réunit l'Assemblée nationale ?",
-        "Quel est le lieu de travail des députés ?"
+        "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+        "Quels sont les trois pouvoirs séparés en démocratie ?",
+        "Quels sont les trois pouvoirs dans une démocratie ?"
       ],
-      "correctAnswer": "Au Palais Bourbon",
+      "correctAnswers": ["Législatif, exécutif et judiciaire"],
       "wrongAnswers": [
-        "Au Palais de l'Élysée",
-        "Au Palais du Luxembourg",
-        "À l'Hôtel Matignon",
-        "Au Palais de Justice",
-        "Au château de Versailles",
-        "À l'Hôtel de Ville de Paris"
+        "Présidentiel, parlementaire et administratif",
+        "Civil, militaire et religieux",
+        "National, régional et local",
+        "Politique, économique et social",
+        "Gouvernemental, parlementaire et municipal",
+        "Constitutionnel, législatif et réglementaire",
+        "Fédéral, étatique et communal",
+        "Public, privé et associatif"
       ]
     },
     {
-      "id": 25,
-      "theme": "Institutions de la République",
+      "id": 359,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Où siège le Sénat ?",
-        "Dans quel palais se réunit le Sénat ?",
-        "Quel est le lieu de travail des sénateurs ?"
+        "Est-ce que le président de la République a tous les pouvoirs ?",
+        "Le président détient-il tous les pouvoirs ?",
+        "Les pouvoirs du président sont-ils illimités ?"
       ],
-      "correctAnswer": "Au Palais du Luxembourg",
+      "correctAnswers": ["Non, les pouvoirs sont séparés et partagés"],
       "wrongAnswers": [
-        "Au Palais Bourbon",
-        "Au Palais de l'Élysée",
-        "Au Palais de Justice",
-        "À l'Hôtel Matignon",
-        "Au Palais-Royal",
-        "Au Panthéon"
+        "Oui, il a tous les pouvoirs en cas de crise",
+        "Oui, dans le cadre de la Constitution",
+        "Oui, il peut gouverner par décret",
+        "Oui, il contrôle les trois pouvoirs",
+        "Oui, sauf le pouvoir judiciaire",
+        "Oui, il peut dissoudre toutes les institutions",
+        "Oui, depuis la réforme constitutionnelle de 2008",
+        "Oui, mais uniquement en période de cohabitation"
       ]
     },
     {
-      "id": 26,
-      "theme": "Institutions de la République",
+      "id": 360,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Où réside le Président de la République ?",
-        "Quel est le palais présidentiel ?",
-        "Où habite officiellement le Président ?"
+        "Qui est le préfet ?",
+        "Quel est le rôle du préfet ?",
+        "Que représente le préfet ?"
       ],
-      "correctAnswer": "Au Palais de l'Élysée",
+      "correctAnswers": ["Le représentant de l'État dans le département"],
       "wrongAnswers": [
-        "À l'Hôtel Matignon",
-        "Au Palais Bourbon",
-        "Au château de Versailles",
-        "Au Palais du Luxembourg",
-        "Au Louvre",
-        "À l'Hôtel de Ville"
+        "Le chef élu du département",
+        "Le président du conseil régional",
+        "Le représentant des citoyens auprès de l'État",
+        "Le chef de la police municipale",
+        "Le directeur des services fiscaux",
+        "Le représentant du Parlement en province",
+        "L'adjoint du maire pour les grandes villes",
+        "Le responsable de l'éducation nationale dans le département"
       ]
     },
     {
-      "id": 27,
-      "theme": "Institutions de la République",
+      "id": 361,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Où travaille le Premier ministre ?",
-        "Quel est le lieu de travail du Premier ministre ?",
-        "Où se trouve le bureau du Premier ministre ?"
+        "Quelle condition est nécessaire pour voter aux élections ?",
+        "Quels critères faut-il remplir pour voter ?",
+        "Qui peut participer aux élections en France ?"
       ],
-      "correctAnswer": "À l'Hôtel Matignon",
+      "correctAnswers": ["Être majeur, de nationalité française et inscrit sur les listes électorales"],
       "wrongAnswers": [
-        "Au Palais de l'Élysée",
-        "Au Palais Bourbon",
-        "Au Palais du Luxembourg",
-        "Au Quai d'Orsay",
-        "Place Beauvau",
-        "Bercy"
+        "Être majeur et résider en France depuis 5 ans",
+        "Avoir 16 ans et la nationalité française",
+        "Être majeur et payer des impôts en France",
+        "Être né en France et avoir 18 ans",
+        "Être majeur, sans condition de nationalité",
+        "Avoir 21 ans et être de nationalité française",
+        "Être majeur et avoir un emploi en France",
+        "Être citoyen européen et résider en France"
       ]
     },
     {
-      "id": 28,
-      "theme": "Institutions de la République",
+      "id": 362,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Quel est le rôle du Conseil constitutionnel ?",
-        "Que fait le Conseil constitutionnel ?",
-        "À quoi sert le Conseil constitutionnel ?"
-      ],
-      "correctAnswer": "Vérifier la conformité des lois à la Constitution",
-      "wrongAnswers": [
-        "Voter les lois",
-        "Nommer le Premier ministre",
-        "Diriger l'armée",
-        "Juger les criminels",
-        "Gérer le budget de l'État",
-        "Représenter la France à l'étranger"
-      ]
-    },
-    {
-      "id": 29,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qu'est-ce qu'une commune ?",
-        "Comment définir une commune ?",
-        "Que représente une commune en France ?"
-      ],
-      "correctAnswer": "La plus petite division administrative française",
-      "wrongAnswers": [
-        "Une région",
-        "Un département",
-        "Une province",
-        "Un canton",
-        "Un arrondissement",
-        "Une préfecture"
-      ]
-    },
-    {
-      "id": 30,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui dirige une commune ?",
+        "Qui dirige la commune ?",
         "Qui est à la tête d'une commune ?",
         "Qui administre une commune ?"
       ],
-      "correctAnswer": "Le maire",
+      "correctAnswers": ["Le maire"],
       "wrongAnswers": [
         "Le préfet",
-        "Le député",
-        "Le sénateur",
         "Le conseiller général",
         "Le sous-préfet",
-        "Le président du conseil régional"
-      ]
-    },
-    {
-      "id": 31,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Pour combien d'années le maire est-il élu ?",
-        "Quelle est la durée du mandat d'un maire ?",
-        "Combien de temps dure le mandat municipal ?"
-      ],
-      "correctAnswer": "6 ans",
-      "wrongAnswers": [
-        "4 ans",
-        "5 ans",
-        "7 ans",
-        "3 ans",
-        "9 ans",
-        "2 ans"
-      ]
-    },
-    {
-      "id": 32,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Combien y a-t-il de régions en France métropolitaine ?",
-        "Quel est le nombre de régions métropolitaines ?",
-        "La France métropolitaine compte combien de régions ?"
-      ],
-      "correctAnswer": "13",
-      "wrongAnswers": [
-        "12",
-        "18",
-        "22",
-        "15",
-        "10",
-        "8"
-      ]
-    },
-    {
-      "id": 33,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Combien y a-t-il de départements en France ?",
-        "Quel est le nombre total de départements français ?",
-        "La France compte combien de départements ?"
-      ],
-      "correctAnswer": "101",
-      "wrongAnswers": [
-        "96",
-        "100",
-        "105",
-        "95",
-        "110",
-        "90"
-      ]
-    },
-    {
-      "id": 34,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui représente l'État dans le département ?",
-        "Quel est le représentant de l'État au niveau départemental ?",
-        "Qui incarne l'autorité de l'État dans un département ?"
-      ],
-      "correctAnswer": "Le préfet",
-      "wrongAnswers": [
-        "Le maire",
-        "Le député",
-        "Le sénateur",
         "Le président du conseil départemental",
-        "Le procureur",
-        "Le recteur"
+        "Le député de la circonscription",
+        "Le commissaire de police",
+        "Le directeur général des services",
+        "Le premier adjoint"
       ]
     },
     {
-      "id": 35,
-      "theme": "Institutions de la République",
+      "id": 363,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Quelle est la plus haute juridiction de l'ordre judiciaire ?",
-        "Quel tribunal est au sommet de l'ordre judiciaire ?",
-        "Quelle cour est la plus élevée dans la justice judiciaire ?"
+        "Quel est le régime politique de la France aujourd'hui ?",
+        "Comment appelle-t-on le régime politique actuel de la France ?",
+        "Sous quel régime vit la France actuellement ?"
       ],
-      "correctAnswer": "La Cour de cassation",
+      "correctAnswers": ["Une République démocratique (la Ve République)"],
       "wrongAnswers": [
-        "Le Conseil d'État",
-        "Le Conseil constitutionnel",
-        "Le tribunal administratif",
-        "La Cour des comptes",
-        "La Cour d'appel",
-        "Le tribunal de grande instance"
+        "Une monarchie constitutionnelle",
+        "Une république fédérale",
+        "Un régime parlementaire pur",
+        "La IVe République",
+        "Une démocratie directe",
+        "Un régime présidentiel à l'américaine",
+        "Une confédération d'États",
+        "La VIe République"
       ]
     },
     {
-      "id": 36,
-      "theme": "Institutions de la République",
+      "id": 364,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Quelle est la plus haute juridiction de l'ordre administratif ?",
-        "Quel tribunal est au sommet de la justice administrative ?",
-        "Quelle institution juge en dernier ressort les litiges administratifs ?"
+        "Qu'est-ce que l'Hôtel de Matignon ?",
+        "À quoi sert l'Hôtel de Matignon ?",
+        "Qui réside à l'Hôtel de Matignon ?"
       ],
-      "correctAnswer": "Le Conseil d'État",
+      "correctAnswers": ["La résidence officielle du Premier ministre"],
       "wrongAnswers": [
-        "La Cour de cassation",
-        "La Cour des comptes",
-        "Le tribunal de commerce",
-        "Le Conseil constitutionnel",
-        "La Cour administrative d'appel",
-        "Le tribunal administratif"
+        "La résidence officielle du président de la République",
+        "Le siège de l'Assemblée nationale",
+        "Le siège du Sénat",
+        "Le siège du Conseil constitutionnel",
+        "La résidence du président du Sénat",
+        "Le siège du ministère des Affaires étrangères",
+        "Le siège du Conseil d'État",
+        "La résidence du ministre de l'Intérieur"
       ]
     },
     {
-      "id": 37,
-      "theme": "Institutions de la République",
+      "id": 365,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qu'est-ce que la Constitution ?",
-        "Comment définir la Constitution ?",
-        "Quel est le rôle de la Constitution ?"
+        "Le Parlement est composé :",
+        "Le Parlement français comprend :",
+        "Les deux chambres du Parlement sont :"
       ],
-      "correctAnswer": "Le texte fondamental qui organise les pouvoirs de l'État",
+      "correctAnswers": ["De l'Assemblée nationale et du Sénat"],
       "wrongAnswers": [
-        "Un recueil de lois ordinaires",
-        "Le programme du gouvernement",
-        "Le règlement de l'Assemblée nationale",
-        "Un traité international",
-        "Le Code civil",
-        "Un décret présidentiel"
+        "Du Gouvernement et de l'Assemblée nationale",
+        "Du Sénat et du Conseil constitutionnel",
+        "De la Chambre des députés et du Conseil de la République",
+        "Du Conseil d'État et de l'Assemblée nationale",
+        "De l'Assemblée nationale et du Conseil économique et social",
+        "Du Sénat et du Conseil d'État",
+        "De l'Assemblée nationale et de la Cour des comptes",
+        "Du Congrès et du Sénat"
       ]
     },
     {
-      "id": 38,
-      "theme": "Institutions de la République",
+      "id": 366,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "En quelle année la Constitution de la Ve République a-t-elle été adoptée ?",
-        "Quand a été créée la Ve République ?",
-        "La Constitution actuelle date de quelle année ?"
+        "Quel est le rôle du président de la République ?",
+        "Quelles sont les fonctions du président de la République ?",
+        "Que fait le président de la République ?"
       ],
-      "correctAnswer": "1958",
+      "correctAnswers": ["Chef de l'État, garant de la Constitution et de l'indépendance nationale"],
       "wrongAnswers": [
-        "1946",
-        "1962",
-        "1969",
-        "1944",
-        "1970",
-        "1981"
+        "Chef du gouvernement et responsable de la politique intérieure",
+        "Président du Parlement et garant du vote des lois",
+        "Chef de la majorité parlementaire et leader du parti au pouvoir",
+        "Responsable de la politique économique et budgétaire",
+        "Chef de l'administration et responsable des fonctionnaires",
+        "Président du Conseil constitutionnel et garant des libertés",
+        "Chef des armées uniquement et sans pouvoir politique",
+        "Responsable de la justice et garant des droits fondamentaux"
       ]
     },
     {
-      "id": 39,
-      "theme": "Institutions de la République",
+      "id": 367,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qui peut dissoudre l'Assemblée nationale ?",
-        "Quelle autorité a le pouvoir de dissoudre l'Assemblée ?",
-        "À qui appartient le droit de dissolution de l'Assemblée ?"
+        "Quel est le rôle du Premier ministre ?",
+        "Quelle est la fonction principale du Premier ministre ?",
+        "Que fait le Premier ministre ?"
       ],
-      "correctAnswer": "Le Président de la République",
+      "correctAnswers": ["Diriger l'action du Gouvernement"],
       "wrongAnswers": [
-        "Le Premier ministre",
-        "Le Président du Sénat",
-        "Le Conseil constitutionnel",
-        "Le peuple par référendum",
-        "Le Conseil d'État",
-        "Le gouvernement"
+        "Présider le Conseil constitutionnel",
+        "Voter les lois au Parlement",
+        "Représenter la France à l'étranger",
+        "Nommer les ministres seul",
+        "Présider l'Assemblée nationale",
+        "Commander les armées",
+        "Dissoudre le Parlement",
+        "Promulguer les lois"
       ]
     },
     {
-      "id": 40,
-      "theme": "Institutions de la République",
+      "id": 368,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qu'est-ce qu'un référendum ?",
-        "Comment définir un référendum ?",
-        "En quoi consiste un référendum ?"
+        "Qui est le chef du Gouvernement ?",
+        "Qui dirige le Gouvernement ?",
+        "Qui est à la tête de l'exécutif gouvernemental ?"
       ],
-      "correctAnswer": "Une consultation directe du peuple sur une question",
+      "correctAnswers": ["Le Premier ministre"],
       "wrongAnswers": [
-        "Une élection présidentielle",
-        "Un vote au Parlement",
-        "Une décision du Conseil constitutionnel",
-        "Une pétition citoyenne",
-        "Un sondage d'opinion",
-        "Une élection législative"
-      ]
-    },
-    {
-      "id": 133,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui peut proposer une loi en France ?",
-        "D'où viennent les projets de loi ?",
-        "Qui a l'initiative des lois ?"
-      ],
-      "correctAnswer": "Le gouvernement et les parlementaires",
-      "wrongAnswers": [
-        "Uniquement le Président",
-        "Uniquement les citoyens",
-        "Uniquement le Conseil constitutionnel",
-        "Uniquement les maires",
-        "Uniquement les préfets",
-        "Uniquement les juges"
-      ]
-    },
-    {
-      "id": 134,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Comment appelle-t-on une loi proposée par le gouvernement ?",
-        "Quel nom donne-t-on à une loi d'origine gouvernementale ?",
-        "Comment nomme-t-on un texte de loi du gouvernement ?"
-      ],
-      "correctAnswer": "Un projet de loi",
-      "wrongAnswers": [
-        "Une proposition de loi",
-        "Un décret",
-        "Un arrêté",
-        "Une ordonnance",
-        "Un règlement",
-        "Une circulaire"
-      ]
-    },
-    {
-      "id": 135,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Comment appelle-t-on une loi proposée par un parlementaire ?",
-        "Quel nom pour une loi d'initiative parlementaire ?",
-        "Comment nomme-t-on un texte de loi d'un député ou sénateur ?"
-      ],
-      "correctAnswer": "Une proposition de loi",
-      "wrongAnswers": [
-        "Un projet de loi",
-        "Un décret",
-        "Une ordonnance",
-        "Un arrêté",
-        "Un règlement",
-        "Une directive"
-      ]
-    },
-    {
-      "id": 136,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui promulgue les lois en France ?",
-        "Qui signe les lois pour qu'elles entrent en vigueur ?",
-        "Par qui les lois sont-elles promulguées ?"
-      ],
-      "correctAnswer": "Le Président de la République",
-      "wrongAnswers": [
-        "Le Premier ministre",
-        "Le Président de l'Assemblée nationale",
-        "Le Conseil constitutionnel",
-        "Le Président du Sénat",
-        "Le ministre de la Justice",
-        "Le Conseil d'État"
-      ]
-    },
-    {
-      "id": 137,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qu'est-ce que la navette parlementaire ?",
-        "Que désigne la navette parlementaire ?",
-        "En quoi consiste la navette parlementaire ?"
-      ],
-      "correctAnswer": "Le va-et-vient d'un texte entre l'Assemblée et le Sénat",
-      "wrongAnswers": [
-        "Un transport pour les députés",
-        "Une réunion secrète",
-        "Un vote électronique",
-        "Une commission d'enquête",
-        "Un groupe de travail",
-        "Une pause entre les séances"
-      ]
-    },
-    {
-      "id": 138,
-      "theme": "Institutions de la République",
-      "questions": [
-        "En cas de désaccord entre l'Assemblée et le Sénat, qui a le dernier mot ?",
-        "Quelle chambre l'emporte en cas de conflit parlementaire ?",
-        "Qui tranche entre l'Assemblée et le Sénat ?"
-      ],
-      "correctAnswer": "L'Assemblée nationale",
-      "wrongAnswers": [
-        "Le Sénat",
-        "Le Président",
-        "Le Conseil constitutionnel",
-        "Le Premier ministre",
-        "Le Conseil d'État",
-        "Le peuple par référendum"
-      ]
-    },
-    {
-      "id": 139,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qu'est-ce que le Conseil des ministres ?",
-        "Que désigne le Conseil des ministres ?",
-        "Comment se tient le Conseil des ministres ?"
-      ],
-      "correctAnswer": "Une réunion du gouvernement présidée par le Président",
-      "wrongAnswers": [
-        "Une réunion des députés",
-        "Une réunion des maires",
-        "Une réunion du Sénat",
-        "Une assemblée de juges",
-        "Une conférence de préfets",
-        "Un sommet européen"
-      ]
-    },
-    {
-      "id": 140,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Comment les sénateurs sont-ils élus ?",
-        "Par qui les sénateurs sont-ils élus ?",
-        "Quel mode de scrutin pour les sénateurs ?"
-      ],
-      "correctAnswer": "Au suffrage universel indirect par les grands électeurs",
-      "wrongAnswers": [
-        "Au suffrage universel direct",
-        "Par le Président de la République",
-        "Par l'Assemblée nationale",
-        "Par les conseils régionaux",
-        "Par les maires uniquement",
-        "Par référendum"
-      ]
-    },
-    {
-      "id": 141,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Comment les députés sont-ils élus ?",
-        "Par qui les députés sont-ils élus ?",
-        "Quel mode de scrutin pour les députés ?"
-      ],
-      "correctAnswer": "Au suffrage universel direct",
-      "wrongAnswers": [
-        "Au suffrage universel indirect",
-        "Par le Président",
-        "Par le Sénat",
-        "Par les conseillers municipaux",
-        "Par les grands électeurs",
-        "Par les maires"
-      ]
-    },
-    {
-      "id": 142,
-      "theme": "Institutions de la République",
-      "questions": [
-        "Qui assure l'intérim du Président en cas d'empêchement ?",
-        "Qui remplace le Président s'il ne peut exercer ?",
-        "Qui devient Président par intérim ?"
-      ],
-      "correctAnswer": "Le Président du Sénat",
-      "wrongAnswers": [
-        "Le Premier ministre",
-        "Le Président de l'Assemblée nationale",
+        "Le président de la République",
+        "Le président de l'Assemblée nationale",
         "Le ministre de l'Intérieur",
-        "Le ministre de la Défense",
+        "Le président du Sénat",
         "Le Garde des Sceaux",
-        "Le vice-président"
+        "Le ministre des Finances",
+        "Le secrétaire général de l'Élysée",
+        "Le président du Conseil constitutionnel"
       ]
     },
     {
-      "id": 175,
-      "theme": "Institutions de la République",
+      "id": 369,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Combien de membres compose le Conseil constitutionnel ?",
-        "Quel est le nombre de membres du Conseil constitutionnel ?",
-        "Le Conseil constitutionnel compte combien de membres ?"
+        "Combien y a-t-il de régions en France ?",
+        "Quel est le nombre de régions françaises ?",
+        "La France compte combien de régions ?"
       ],
-      "correctAnswer": "9",
+      "correctAnswers": ["18 (13 métropolitaines et 5 outre-mer)"],
       "wrongAnswers": [
-        "7",
-        "12",
-        "15",
-        "5",
-        "11",
-        "13"
+        "22 (toutes métropolitaines)",
+        "13 (uniquement métropolitaines)",
+        "26 (métropole et outre-mer)",
+        "15 (12 métropolitaines et 3 outre-mer)",
+        "20 (16 métropolitaines et 4 outre-mer)",
+        "27 (comme avant la réforme)",
+        "12 (depuis la dernière réforme)",
+        "21 (17 métropolitaines et 4 outre-mer)"
       ]
     },
     {
-      "id": 176,
-      "theme": "Institutions de la République",
+      "id": 370,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Pour combien d'années les membres du Conseil constitutionnel sont-ils nommés ?",
-        "Quelle est la durée du mandat au Conseil constitutionnel ?",
-        "Combien de temps siège-t-on au Conseil constitutionnel ?"
+        "Quel est le rôle du Défenseur des droits ?",
+        "À quoi sert le Défenseur des droits ?",
+        "Quelle est la mission du Défenseur des droits ?"
       ],
-      "correctAnswer": "9 ans",
+      "correctAnswers": ["Défendre les droits des citoyens face à l'administration"],
       "wrongAnswers": [
-        "5 ans",
-        "7 ans",
-        "À vie",
-        "6 ans",
-        "12 ans",
-        "4 ans"
+        "Juger les litiges entre particuliers",
+        "Rédiger les projets de loi",
+        "Représenter l'État devant les tribunaux",
+        "Contrôler la constitutionnalité des lois",
+        "Diriger la police nationale",
+        "Conseiller le gouvernement sur les réformes",
+        "Superviser les élections",
+        "Gérer les prisons et la réinsertion"
       ]
     },
     {
-      "id": 177,
-      "theme": "Institutions de la République",
+      "id": 371,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qui peut saisir le Conseil constitutionnel ?",
-        "Qui a le droit de saisir le Conseil constitutionnel ?",
-        "Quelle autorité peut saisir le Conseil constitutionnel ?"
+        "Depuis quand l'euro est-il la monnaie unique ?",
+        "En quelle année l'euro a-t-il été mis en circulation ?",
+        "Quand les pièces et billets en euros sont-ils apparus ?"
       ],
-      "correctAnswer": "Le Président, le PM, les présidents des assemblées, 60 députés ou sénateurs",
+      "correctAnswers": ["2002"],
       "wrongAnswers": [
-        "Tout citoyen directement",
-        "Uniquement le Président",
-        "Uniquement les juges",
-        "Les maires",
-        "Les préfets",
-        "N'importe quel fonctionnaire"
+        "1999",
+        "2000",
+        "1992",
+        "1995",
+        "2004",
+        "1998",
+        "2001",
+        "2005"
       ]
     },
     {
-      "id": 178,
-      "theme": "Institutions de la République",
+      "id": 372,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qu'est-ce que la QPC ?",
-        "Que signifie QPC ?",
-        "À quoi sert la QPC ?"
+        "Quel est le rôle principal du département ?",
+        "Quelle est la compétence majeure du département ?",
+        "De quoi s'occupe principalement le département ?"
       ],
-      "correctAnswer": "La Question Prioritaire de Constitutionnalité",
+      "correctAnswers": ["L'action sociale (aide aux personnes âgées, handicapées, RSA)"],
       "wrongAnswers": [
-        "Un parti politique",
-        "Un impôt",
-        "Un ministère",
-        "Une loi",
-        "Un décret",
-        "Une commission"
+        "La défense et la sécurité nationale",
+        "L'éducation supérieure et la recherche",
+        "La gestion des transports aériens",
+        "Le développement économique et l'emploi",
+        "La gestion des lycées",
+        "La politique du logement",
+        "L'aménagement du territoire national",
+        "La gestion des hôpitaux publics"
       ]
     },
     {
-      "id": 179,
-      "theme": "Institutions de la République",
+      "id": 373,
+      "theme": "Système institutionnel et politique",
       "questions": [
-        "Qui est le garant de l'indépendance de la justice ?",
-        "Qui garantit l'indépendance judiciaire ?",
-        "Quelle autorité protège l'indépendance de la justice ?"
+        "Quel est le rôle principal des communes ?",
+        "Quelles sont les compétences des communes ?",
+        "De quoi s'occupent les communes ?"
       ],
-      "correctAnswer": "Le Président de la République",
+      "correctAnswers": ["Les services de proximité (état civil, écoles, urbanisme)"],
       "wrongAnswers": [
-        "Le Premier ministre",
-        "Le ministre de la Justice",
-        "Le Conseil d'État",
-        "Le procureur général",
-        "Le bâtonnier",
-        "Le Parlement"
+        "La gestion des hôpitaux",
+        "La défense nationale",
+        "Les allocations chômage",
+        "La gestion des universités",
+        "Le contrôle des frontières",
+        "La politique monétaire",
+        "La justice pénale",
+        "Les transports ferroviaires nationaux"
+      ]
+    },
+    {
+      "id": 374,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Combien de communes environ existe-t-il en France ?",
+        "Quel est le nombre approximatif de communes en France ?",
+        "La France compte combien de communes ?"
+      ],
+      "correctAnswers": ["Environ 35 000"],
+      "wrongAnswers": [
+        "Environ 10 000",
+        "Environ 20 000",
+        "Environ 50 000",
+        "Environ 5 000",
+        "Environ 100 000",
+        "Environ 15 000",
+        "Environ 25 000",
+        "Environ 45 000"
+      ]
+    },
+    {
+      "id": 375,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel traité concerne la construction de l'Union européenne ?",
+        "Quel traité a fondé l'Union européenne ?",
+        "Comment s'appelle le traité fondateur de l'UE ?"
+      ],
+      "correctAnswers": ["Le traité de Maastricht"],
+      "wrongAnswers": [
+        "Le traité de Rome",
+        "Le traité de Lisbonne",
+        "Le traité de Paris",
+        "Le traité de Nice",
+        "Le traité d'Amsterdam",
+        "Le traité de Schengen",
+        "Le traité de Versailles",
+        "Le traité de Bruxelles"
+      ]
+    },
+    {
+      "id": 376,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel État a quitté l'Union européenne en 2020 ?",
+        "Quel pays a fait le Brexit ?",
+        "Qui est sorti de l'Union européenne récemment ?"
+      ],
+      "correctAnswers": ["Le Royaume-Uni"],
+      "wrongAnswers": [
+        "La Norvège",
+        "La Suisse",
+        "L'Islande",
+        "Le Danemark",
+        "La Suède",
+        "L'Irlande",
+        "La Pologne",
+        "La Hongrie"
+      ]
+    },
+    {
+      "id": 377,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quelle est la devise de l'Union européenne ?",
+        "Quel est le slogan de l'UE ?",
+        "Comment s'énonce la devise européenne ?"
+      ],
+      "correctAnswers": ["Unie dans la diversité"],
+      "wrongAnswers": [
+        "Liberté, égalité, fraternité",
+        "L'union fait la force",
+        "Paix et prospérité",
+        "Ensemble pour l'avenir",
+        "Un continent, un destin",
+        "Unis pour la paix",
+        "Force et honneur",
+        "Solidarité et progrès"
+      ]
+    },
+    {
+      "id": 378,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel est l'hymne de l'Union européenne ?",
+        "Comment s'appelle l'hymne européen ?",
+        "Quelle musique représente l'Union européenne ?"
+      ],
+      "correctAnswers": ["L'Ode à la joie (de Beethoven)"],
+      "wrongAnswers": [
+        "La Marseillaise",
+        "L'hymne à l'amour",
+        "La Symphonie du Nouveau Monde",
+        "Le Boléro de Ravel",
+        "La Flûte enchantée de Mozart",
+        "Le Printemps de Vivaldi",
+        "La Cinquième Symphonie de Beethoven",
+        "Le Requiem de Mozart"
+      ]
+    },
+    {
+      "id": 379,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "De quoi est composé le drapeau européen ?",
+        "À quoi ressemble le drapeau de l'UE ?",
+        "Comment est le drapeau européen ?"
+      ],
+      "correctAnswers": ["12 étoiles dorées en cercle sur fond bleu"],
+      "wrongAnswers": [
+        "27 étoiles représentant les États membres",
+        "Une étoile par pays fondateur sur fond blanc",
+        "Des bandes horizontales bleues et jaunes",
+        "Un cercle jaune sur fond bleu",
+        "15 étoiles blanches sur fond bleu",
+        "Un soleil doré sur fond bleu marine",
+        "Des étoiles en ligne sur fond bleu clair",
+        "6 étoiles pour les pays fondateurs sur fond or"
+      ]
+    },
+    {
+      "id": 380,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "De quelle couleur est le drapeau européen ?",
+        "Quelles sont les couleurs du drapeau de l'UE ?",
+        "Quelle est la couleur de fond du drapeau européen ?"
+      ],
+      "correctAnswers": ["Bleu avec des étoiles jaunes (dorées)"],
+      "wrongAnswers": [
+        "Blanc avec des étoiles bleues",
+        "Vert avec des étoiles dorées",
+        "Rouge avec des étoiles blanches",
+        "Bleu et blanc rayé",
+        "Jaune avec des étoiles bleues",
+        "Bleu avec des étoiles blanches",
+        "Or avec des étoiles bleues",
+        "Violet avec des étoiles jaunes"
+      ]
+    },
+    {
+      "id": 381,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+        "Quand a été signé le traité de Maastricht ?",
+        "Quelle année marque la signature du traité fondateur de l'UE ?"
+      ],
+      "correctAnswers": ["1992"],
+      "wrongAnswers": [
+        "1957",
+        "1985",
+        "1989",
+        "1995",
+        "1999",
+        "2000",
+        "1990",
+        "1987"
+      ]
+    },
+    {
+      "id": 382,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Où est le siège du Parlement européen ?",
+        "Dans quelle ville siège le Parlement européen ?",
+        "Où se trouve le Parlement de l'UE ?"
+      ],
+      "correctAnswers": ["Strasbourg"],
+      "wrongAnswers": [
+        "Bruxelles",
+        "Luxembourg",
+        "Francfort",
+        "Paris",
+        "Berlin",
+        "La Haye",
+        "Genève",
+        "Amsterdam"
+      ]
+    },
+    {
+      "id": 383,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Où est le siège de la Commission européenne ?",
+        "Dans quelle ville se trouve la Commission européenne ?",
+        "Où siège la Commission de l'UE ?"
+      ],
+      "correctAnswers": ["Bruxelles"],
+      "wrongAnswers": [
+        "Strasbourg",
+        "Luxembourg",
+        "Francfort",
+        "Paris",
+        "Berlin",
+        "La Haye",
+        "Genève",
+        "Amsterdam"
+      ]
+    },
+    {
+      "id": 384,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel État n'est pas membre de l'Union européenne ?",
+        "Quel pays européen n'est pas dans l'UE ?",
+        "Quel pays voisin de la France n'appartient pas à l'UE ?"
+      ],
+      "correctAnswers": ["La Suisse (ou le Royaume-Uni, la Norvège)"],
+      "wrongAnswers": [
+        "La Belgique",
+        "L'Allemagne",
+        "L'Italie",
+        "L'Espagne",
+        "Les Pays-Bas",
+        "Le Portugal",
+        "L'Autriche",
+        "La Pologne"
+      ]
+    },
+    {
+      "id": 385,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quand célèbre-t-on la journée de l'Europe ?",
+        "Quelle est la date de la journée de l'Europe ?",
+        "Quel jour fête-t-on l'Europe ?"
+      ],
+      "correctAnswers": ["Le 9 mai"],
+      "wrongAnswers": [
+        "Le 14 juillet",
+        "Le 1er mai",
+        "Le 8 mai",
+        "Le 25 mars",
+        "Le 1er janvier",
+        "Le 21 juin",
+        "Le 4 juillet",
+        "Le 11 novembre"
+      ]
+    },
+    {
+      "id": 386,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "À quelle fréquence les élections européennes sont-elles organisées ?",
+        "Tous les combien de temps vote-t-on pour le Parlement européen ?",
+        "Quelle est la périodicité des élections européennes ?"
+      ],
+      "correctAnswers": ["Tous les 5 ans"],
+      "wrongAnswers": [
+        "Tous les 4 ans",
+        "Tous les 6 ans",
+        "Tous les 7 ans",
+        "Tous les 3 ans",
+        "Tous les 2 ans",
+        "Tous les 10 ans",
+        "Chaque année",
+        "Tous les 8 ans"
+      ]
+    },
+    {
+      "id": 387,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quelle condition est nécessaire pour voter aux élections européennes ?",
+        "Qui peut voter aux élections européennes ?",
+        "Quels critères faut-il remplir pour voter aux européennes ?"
+      ],
+      "correctAnswers": ["Être citoyen de l'Union européenne, majeur et inscrit sur les listes électorales"],
+      "wrongAnswers": [
+        "Être uniquement de nationalité française",
+        "Avoir 21 ans et résider en France",
+        "Être citoyen européen sans inscription préalable",
+        "Résider en France depuis au moins 10 ans",
+        "Avoir la double nationalité européenne",
+        "Être contribuable dans un pays de l'UE",
+        "Avoir 16 ans et être citoyen européen",
+        "Être né dans un pays de l'Union européenne"
+      ]
+    },
+    {
+      "id": 388,
+      "theme": "Système institutionnel et politique",
+      "questions": [
+        "Quel pays est un pays fondateur de l'Union européenne ?",
+        "Quels pays ont fondé la construction européenne ?",
+        "Quel est l'un des six pays fondateurs de l'UE ?"
+      ],
+      "correctAnswers": ["La France (avec l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg)"],
+      "wrongAnswers": [
+        "Le Royaume-Uni",
+        "L'Espagne",
+        "Le Portugal",
+        "L'Autriche",
+        "La Suède",
+        "Le Danemark",
+        "L'Irlande",
+        "La Grèce"
       ]
     }
   ]

@@ -110,15 +110,21 @@ function prepareQuestion(questionData) {
     const questionVariants = questionData.questions;
     const selectedQuestion = questionVariants[Math.floor(Math.random() * questionVariants.length)];
 
+    // Gérer correctAnswers (array) ou correctAnswer (string) pour compatibilité
+    const correctAnswersArray = questionData.correctAnswers || [questionData.correctAnswer];
+
+    // Choisir une bonne réponse au hasard parmi les réponses correctes
+    const selectedCorrectAnswer = correctAnswersArray[Math.floor(Math.random() * correctAnswersArray.length)];
+
     // Sélectionner 3 mauvaises réponses au hasard parmi toutes les disponibles
     const shuffledWrongAnswers = shuffleArray(questionData.wrongAnswers).slice(0, 3);
 
     // Créer le tableau des 4 options (1 correcte + 3 fausses)
-    const allOptions = [questionData.correctAnswer, ...shuffledWrongAnswers];
+    const allOptions = [selectedCorrectAnswer, ...shuffledWrongAnswers];
 
     // Mélanger les options et trouver la position de la bonne réponse
     const shuffledOptions = shuffleArray(allOptions);
-    const correctAnswerIndex = shuffledOptions.indexOf(questionData.correctAnswer);
+    const correctAnswerIndex = shuffledOptions.indexOf(selectedCorrectAnswer);
 
     return {
         id: questionData.id,
@@ -126,7 +132,8 @@ function prepareQuestion(questionData) {
         question: selectedQuestion,
         options: shuffledOptions,
         correctAnswer: correctAnswerIndex,
-        correctAnswerText: questionData.correctAnswer
+        correctAnswerText: selectedCorrectAnswer,
+        allCorrectAnswers: correctAnswersArray
     };
 }
 
@@ -249,6 +256,12 @@ function displayResults(score) {
     const passed = score >= 32;
     const percentage = Math.round((score / 40) * 100);
 
+    // Calculate time taken
+    const totalTime = 45 * 60; // 45 minutes in seconds
+    const timeTaken = totalTime - state.timeRemaining;
+    const minutesTaken = Math.floor(timeTaken / 60);
+    const secondsTaken = timeTaken % 60;
+
     // Header
     const resultHeader = document.getElementById('result-header');
     const resultTitle = document.getElementById('result-title');
@@ -259,11 +272,13 @@ function displayResults(score) {
     const scoreCircle = document.getElementById('score-circle');
     const scoreNumber = document.getElementById('score-number');
     const scorePercentage = document.getElementById('score-percentage');
+    const timeTakenDisplay = document.getElementById('time-taken');
     const resultMessage = document.getElementById('result-message');
 
     scoreCircle.className = `score-circle ${passed ? 'success' : 'failure'}`;
     scoreNumber.textContent = score;
     scorePercentage.textContent = `${percentage}%`;
+    timeTakenDisplay.textContent = `⏱ Temps : ${minutesTaken}min ${secondsTaken.toString().padStart(2, '0')}s`;
 
     resultMessage.className = `result-message ${passed ? 'success' : 'failure'}`;
     resultMessage.textContent = passed

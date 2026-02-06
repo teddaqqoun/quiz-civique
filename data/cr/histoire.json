@@ -1,759 +1,980 @@
 {
   "questions": [
     {
-      "id": 66,
-      "theme": "Histoire de France",
+      "id": 250,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "En quelle année a eu lieu la Révolution française ?",
-        "Quand a commencé la Révolution française ?",
-        "De quelle année date la Révolution française ?"
+        "Quel était le surnom de Louis XIV ?",
+        "Comment surnommait-on Louis XIV ?",
+        "Par quel nom Louis XIV était-il connu ?"
       ],
-      "correctAnswer": "1789",
+      "correctAnswers": ["Le Roi-Soleil"],
       "wrongAnswers": [
-        "1799",
-        "1815",
-        "1848",
-        "1776",
-        "1804",
-        "1830"
+        "Le Roi-Lune",
+        "Le Roi de Fer",
+        "Le Roi Très Chrétien",
+        "Le Roi des Rois",
+        "Le Roi Guerrier",
+        "Le Père du Peuple",
+        "Le Roi Bien-Aimé"
       ]
     },
     {
-      "id": 67,
-      "theme": "Histoire de France",
+      "id": 251,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Quel document a été adopté le 26 août 1789 ?",
-        "Qu'a-t-on proclamé le 26 août 1789 ?",
-        "Quel texte fondamental date du 26 août 1789 ?"
+        "Quel roi de France a été exécuté pendant la Révolution française ?",
+        "Quel souverain français a été guillotiné lors de la Révolution ?",
+        "Qui était le roi exécuté en 1793 ?"
       ],
-      "correctAnswer": "La Déclaration des Droits de l'Homme et du Citoyen",
-      "wrongAnswers": [
-        "La Constitution",
-        "Le Code civil",
-        "Le Code pénal",
-        "La loi sur la laïcité",
-        "L'abolition de la monarchie",
-        "Le traité de Versailles"
-      ]
-    },
-    {
-      "id": 68,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui a rédigé le Code civil français ?",
-        "Sous qui le Code civil a-t-il été créé ?",
-        "À qui doit-on le Code civil ?"
-      ],
-      "correctAnswer": "Napoléon Bonaparte",
+      "correctAnswers": ["Louis XVI"],
       "wrongAnswers": [
         "Louis XIV",
-        "Charles de Gaulle",
-        "Jean Jaurès",
-        "Louis XVI",
-        "Robespierre",
-        "Victor Hugo"
+        "Louis XV",
+        "Louis XVII",
+        "Louis XVIII",
+        "Charles X",
+        "Louis-Philippe",
+        "Henri IV",
+        "François Ier"
       ]
     },
     {
-      "id": 69,
-      "theme": "Histoire de France",
+      "id": 252,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "En quelle année le Code civil a-t-il été promulgué ?",
-        "Quand le Code civil est-il entré en vigueur ?",
-        "De quelle année date le Code civil français ?"
+        "En quelle année Napoléon Ier est-il devenu empereur ?",
+        "Quand Napoléon Bonaparte a-t-il été sacré empereur ?",
+        "Quelle année marque le début de l'Empire napoléonien ?"
       ],
-      "correctAnswer": "1804",
+      "correctAnswers": ["1804"],
       "wrongAnswers": [
-        "1789",
-        "1848",
-        "1870",
-        "1815",
         "1799",
-        "1830"
+        "1800",
+        "1802",
+        "1805",
+        "1806",
+        "1810",
+        "1812",
+        "1815"
       ]
     },
     {
-      "id": 70,
-      "theme": "Histoire de France",
+      "id": 253,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qu'est-ce que la IIIe République ?",
-        "À quelle période correspond la IIIe République ?",
-        "Quand a existé la IIIe République ?"
+        "Lequel de ces personnages a un lien avec la République française ?",
+        "Qui parmi ces figures est associé à la République ?",
+        "Quel personnage historique représente la République française ?"
       ],
-      "correctAnswer": "Le régime de 1870 à 1940",
+      "correctAnswers": ["Charles de Gaulle", "Jean Moulin", "Marianne"],
       "wrongAnswers": [
-        "Le régime de 1789 à 1799",
-        "Le régime actuel",
-        "Le régime de Napoléon",
-        "Le régime de 1848 à 1870",
-        "Le régime de 1940 à 1944",
-        "Le régime de 1946 à 1958"
-      ]
-    },
-    {
-      "id": 71,
-      "theme": "Histoire de France",
-      "questions": [
-        "Quand la Première Guerre mondiale a-t-elle eu lieu ?",
-        "Quelles sont les dates de la Première Guerre mondiale ?",
-        "À quelle période s'est déroulée la Grande Guerre ?"
-      ],
-      "correctAnswer": "1914-1918",
-      "wrongAnswers": [
-        "1870-1871",
-        "1939-1945",
-        "1954-1962",
-        "1905-1910",
-        "1920-1925",
-        "1900-1905"
-      ]
-    },
-    {
-      "id": 72,
-      "theme": "Histoire de France",
-      "questions": [
-        "Que commémore le 11 novembre ?",
-        "Quel événement célèbre-t-on le 11 novembre ?",
-        "Pourquoi le 11 novembre est-il férié ?"
-      ],
-      "correctAnswer": "L'armistice de 1918",
-      "wrongAnswers": [
-        "La prise de la Bastille",
-        "La fin de la Seconde Guerre mondiale",
-        "La proclamation de la République",
-        "La victoire de 1945",
-        "La Révolution française",
-        "L'abolition de l'esclavage"
-      ]
-    },
-    {
-      "id": 73,
-      "theme": "Histoire de France",
-      "questions": [
-        "Quand la Seconde Guerre mondiale a-t-elle eu lieu ?",
-        "Quelles sont les dates de la Seconde Guerre mondiale ?",
-        "À quelle période s'est déroulée la Seconde Guerre mondiale ?"
-      ],
-      "correctAnswer": "1939-1945",
-      "wrongAnswers": [
-        "1914-1918",
-        "1870-1871",
-        "1954-1962",
-        "1935-1942",
-        "1940-1948",
-        "1936-1944"
-      ]
-    },
-    {
-      "id": 74,
-      "theme": "Histoire de France",
-      "questions": [
-        "Que commémore le 8 mai ?",
-        "Quel événement célèbre-t-on le 8 mai ?",
-        "Pourquoi le 8 mai est-il férié ?"
-      ],
-      "correctAnswer": "La victoire de 1945",
-      "wrongAnswers": [
-        "L'armistice de 1918",
-        "La Révolution française",
-        "La fête du travail",
-        "La prise de la Bastille",
-        "L'abolition de l'esclavage",
-        "La fin de la guerre d'Algérie"
-      ]
-    },
-    {
-      "id": 75,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui était le chef de la France libre pendant la Seconde Guerre mondiale ?",
-        "Qui dirigeait la Résistance française depuis Londres ?",
-        "Qui a lancé l'appel du 18 juin 1940 ?"
-      ],
-      "correctAnswer": "Charles de Gaulle",
-      "wrongAnswers": [
+        "Napoléon Bonaparte",
+        "Louis XIV",
+        "Marie-Antoinette",
         "Philippe Pétain",
-        "Jean Moulin",
-        "Léon Blum",
-        "Pierre Laval",
-        "Georges Clemenceau",
-        "François Mitterrand"
+        "Charlemagne",
+        "Louis XVI",
+        "Jeanne d'Arc",
+        "Cardinal Richelieu"
       ]
     },
     {
-      "id": 76,
-      "theme": "Histoire de France",
+      "id": 254,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qu'était le régime de Vichy ?",
-        "Comment définir le régime de Vichy ?",
-        "Que représentait Vichy pendant la guerre ?"
+        "De quand date l'appel à la résistance du général de Gaulle ?",
+        "Quelle est la date de l'appel du 18 juin ?",
+        "Quand le général de Gaulle a-t-il lancé son appel à la résistance ?"
       ],
-      "correctAnswer": "Le gouvernement collaborateur de 1940-1944",
+      "correctAnswers": ["18 juin 1940"],
       "wrongAnswers": [
-        "La résistance française",
-        "La IVe République",
-        "Le gouvernement provisoire",
-        "Un gouvernement d'exil",
-        "La France libre",
-        "Un régime républicain"
+        "14 juin 1940",
+        "22 juin 1940",
+        "1er juillet 1940",
+        "8 mai 1940",
+        "6 juin 1940",
+        "25 juin 1940",
+        "10 mai 1940",
+        "15 août 1940"
       ]
     },
     {
-      "id": 77,
-      "theme": "Histoire de France",
+      "id": 255,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qui était Jean Moulin ?",
-        "Quel rôle a joué Jean Moulin ?",
-        "Pourquoi Jean Moulin est-il célèbre ?"
+        "Pourquoi la Shoah est-elle étudiée à l'école ?",
+        "Quelle est l'importance de l'enseignement de la Shoah ?",
+        "Pour quelle raison enseigne-t-on la Shoah aux élèves ?"
       ],
-      "correctAnswer": "Un héros de la Résistance",
+      "correctAnswers": ["Pour le devoir de mémoire et éviter que cela ne se reproduise"],
       "wrongAnswers": [
-        "Un général allemand",
-        "Un président de la République",
-        "Un roi de France",
-        "Un collaborateur",
-        "Un ministre de Vichy",
-        "Un écrivain"
+        "Pour comprendre la culture allemande",
+        "Pour apprendre l'histoire militaire européenne",
+        "Pour étudier les techniques de guerre",
+        "Pour connaître les alliances internationales",
+        "Pour analyser l'économie de guerre",
+        "Pour étudier la géographie de l'Europe",
+        "Pour comprendre les relations diplomatiques",
+        "Pour apprendre les dates importantes"
       ]
     },
     {
-      "id": 78,
-      "theme": "Histoire de France",
+      "id": 256,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Quand les femmes ont-elles obtenu le droit de vote en France ?",
-        "En quelle année le suffrage féminin a-t-il été accordé ?",
-        "Depuis quand les femmes peuvent-elles voter ?"
+        "Quel pays a été colonisé par la France ?",
+        "Quel territoire faisait partie de l'empire colonial français ?",
+        "Quel pays fut une colonie française ?"
       ],
-      "correctAnswer": "1944",
+      "correctAnswers": ["L'Algérie", "Le Sénégal", "Le Vietnam", "Le Maroc"],
       "wrongAnswers": [
-        "1918",
-        "1936",
+        "L'Indonésie",
+        "L'Égypte",
+        "Le Brésil",
+        "L'Angola",
+        "Le Mozambique",
+        "Le Kenya",
+        "Le Nigeria",
+        "L'Afrique du Sud"
+      ]
+    },
+    {
+      "id": 257,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+        "En quelle année le suffrage universel direct a-t-il été instauré pour l'élection présidentielle ?",
+        "Quand les citoyens français ont-ils commencé à élire directement leur président ?"
+      ],
+      "correctAnswers": ["1962"],
+      "wrongAnswers": [
+        "1944",
+        "1946",
+        "1948",
         "1958",
-        "1945",
-        "1920",
-        "1968"
+        "1965",
+        "1969",
+        "1974",
+        "1981"
       ]
     },
     {
-      "id": 79,
-      "theme": "Histoire de France",
+      "id": 258,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qui a fondé la Ve République ?",
-        "Qui est le père de la Ve République ?",
-        "À qui doit-on la Constitution de 1958 ?"
+        "Quelle est la première étape de la construction européenne en 1951 ?",
+        "Quelle organisation a lancé la construction européenne ?",
+        "Comment s'appelle le premier traité européen de 1951 ?"
       ],
-      "correctAnswer": "Charles de Gaulle",
+      "correctAnswers": ["La CECA (Communauté Européenne du Charbon et de l'Acier)"],
       "wrongAnswers": [
-        "François Mitterrand",
+        "La CEE (Communauté Économique Européenne)",
+        "L'OTAN (Organisation du Traité de l'Atlantique Nord)",
+        "Le Conseil de l'Europe",
+        "L'Union européenne",
+        "La CED (Communauté Européenne de Défense)",
+        "Le Marché commun",
+        "L'Euratom",
+        "Le Traité de Rome"
+      ]
+    },
+    {
+      "id": 259,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+        "Sous quelle présidence la peine capitale a-t-elle été supprimée ?",
+        "Quel président a aboli la peine de mort ?"
+      ],
+      "correctAnswers": ["François Mitterrand"],
+      "wrongAnswers": [
+        "Charles de Gaulle",
         "Georges Pompidou",
         "Valéry Giscard d'Estaing",
         "Jacques Chirac",
+        "Nicolas Sarkozy",
+        "François Hollande",
         "René Coty",
         "Vincent Auriol"
       ]
     },
     {
-      "id": 80,
-      "theme": "Histoire de France",
+      "id": 260,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "En quelle année l'abolition de la peine de mort a-t-elle eu lieu en France ?",
-        "Quand la peine de mort a-t-elle été abolie ?",
-        "De quelle année date l'abolition de la peine capitale ?"
+        "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+        "Quelle forme de gouvernement a été instaurée en 1792 ?",
+        "Comment appelle-t-on le régime né de la Révolution en 1792 ?"
       ],
-      "correctAnswer": "1981",
+      "correctAnswers": ["La République (Ière République)"],
       "wrongAnswers": [
-        "1974",
-        "1995",
+        "L'Empire",
+        "La Monarchie constitutionnelle",
+        "Le Consulat",
+        "Le Directoire",
+        "La IIe République",
+        "La Commune",
+        "La Convention",
+        "Le Royaume de France"
+      ]
+    },
+    {
+      "id": 261,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+        "Quel personnage symbolise la Résistance française ?",
+        "Qui fut un héros de la Résistance française ?"
+      ],
+      "correctAnswers": ["Jean Moulin"],
+      "wrongAnswers": [
+        "Philippe Pétain",
+        "Pierre Laval",
+        "Maurice Thorez",
+        "Édouard Daladier",
+        "Paul Reynaud",
+        "Léon Blum",
+        "Robert Schuman",
+        "Georges Mandel"
+      ]
+    },
+    {
+      "id": 262,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "En 1944, qu'est-ce qui a changé pour les femmes ?",
+        "Quel droit les femmes ont-elles obtenu en 1944 ?",
+        "Qu'ont obtenu les femmes françaises en 1944 ?"
+      ],
+      "correctAnswers": ["Elles ont obtenu le droit de vote"],
+      "wrongAnswers": [
+        "Elles ont obtenu le droit de travailler",
+        "Elles ont obtenu le droit au divorce",
+        "Elles ont obtenu le droit d'ouvrir un compte bancaire",
+        "Elles ont obtenu le droit à l'éducation",
+        "Elles ont obtenu le droit de porter le pantalon",
+        "Elles ont obtenu le droit à l'avortement",
+        "Elles ont obtenu le droit à la contraception",
+        "Elles ont obtenu l'égalité salariale"
+      ]
+    },
+    {
+      "id": 263,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+        "Quelle institution mondiale est née en 1945 ?",
+        "Comment s'appelle l'organisation internationale fondée après la Seconde Guerre mondiale ?"
+      ],
+      "correctAnswers": ["L'ONU (Organisation des Nations Unies)"],
+      "wrongAnswers": [
+        "L'OTAN",
+        "L'UNESCO",
+        "Le FMI",
+        "La Banque mondiale",
+        "L'Union européenne",
+        "La Société des Nations",
+        "L'OMS",
+        "Le Conseil de l'Europe"
+      ]
+    },
+    {
+      "id": 264,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle peine a été supprimée en 1981 ?",
+        "Qu'est-ce qui a été aboli en France en 1981 ?",
+        "Quelle sanction pénale a disparu en 1981 ?"
+      ],
+      "correctAnswers": ["La peine de mort"],
+      "wrongAnswers": [
+        "Les travaux forcés",
+        "La réclusion à perpétuité",
+        "Le bagne",
+        "La déportation",
+        "Les travaux d'intérêt général",
+        "L'emprisonnement pour dettes",
+        "La peine de prison ferme",
+        "Les amendes criminelles"
+      ]
+    },
+    {
+      "id": 265,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "En quelle année l'euro est-il devenu la monnaie utilisée en France ?",
+        "Quand l'euro a-t-il remplacé le franc ?",
+        "Depuis quelle année utilise-t-on l'euro en France ?"
+      ],
+      "correctAnswers": ["2002"],
+      "wrongAnswers": [
+        "1999",
         "2000",
-        "1968",
-        "1988",
-        "1977"
-      ]
-    },
-    {
-      "id": 81,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui était le président lors de l'abolition de la peine de mort ?",
-        "Sous quel président la peine de mort a-t-elle été abolie ?",
-        "Qui présidait la France en 1981 lors de l'abolition ?"
-      ],
-      "correctAnswer": "François Mitterrand",
-      "wrongAnswers": [
-        "Valéry Giscard d'Estaing",
-        "Jacques Chirac",
-        "Charles de Gaulle",
-        "Georges Pompidou",
-        "Nicolas Sarkozy",
-        "François Hollande"
-      ]
-    },
-    {
-      "id": 82,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui était le garde des Sceaux qui a défendu l'abolition de la peine de mort ?",
-        "Quel ministre a porté l'abolition de la peine de mort ?",
-        "Qui a fait voter l'abolition de la peine capitale ?"
-      ],
-      "correctAnswer": "Robert Badinter",
-      "wrongAnswers": [
-        "Simone Veil",
-        "Pierre Mendès France",
-        "Michel Rocard",
-        "Jack Lang",
-        "Roland Dumas",
-        "Pierre Mauroy"
-      ]
-    },
-    {
-      "id": 83,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que Mai 68 ?",
-        "Que s'est-il passé en mai 1968 ?",
-        "Comment définir les événements de Mai 68 ?"
-      ],
-      "correctAnswer": "Un mouvement de contestation sociale",
-      "wrongAnswers": [
-        "Une guerre",
-        "Une élection présidentielle",
-        "La création de l'Europe",
-        "Un coup d'État",
-        "Une révolution militaire",
-        "Une crise économique"
-      ]
-    },
-    {
-      "id": 84,
-      "theme": "Histoire de France",
-      "questions": [
-        "En quelle année la France a-t-elle rejoint la CEE ?",
-        "Quand la France est-elle devenue membre fondateur de la CEE ?",
-        "De quelle année date l'entrée de la France dans la Communauté européenne ?"
-      ],
-      "correctAnswer": "1957",
-      "wrongAnswers": [
-        "1951",
-        "1992",
-        "2002",
-        "1945",
-        "1963",
-        "1972"
-      ]
-    },
-    {
-      "id": 85,
-      "theme": "Histoire de France",
-      "questions": [
-        "Quel traité a créé l'Union européenne ?",
-        "Comment s'appelle le traité fondateur de l'UE ?",
-        "Par quel traité l'Union européenne a-t-elle été instituée ?"
-      ],
-      "correctAnswer": "Le traité de Maastricht",
-      "wrongAnswers": [
-        "Le traité de Rome",
-        "Le traité de Lisbonne",
-        "Le traité de Versailles",
-        "Le traité de Paris",
-        "Le traité de Nice",
-        "Le traité d'Amsterdam"
-      ]
-    },
-    {
-      "id": 86,
-      "theme": "Histoire de France",
-      "questions": [
-        "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
-        "Quand l'abolition définitive de l'esclavage a-t-elle eu lieu ?",
-        "De quelle année date l'abolition de l'esclavage ?"
-      ],
-      "correctAnswer": "1848",
-      "wrongAnswers": [
-        "1794",
-        "1870",
-        "1905",
-        "1830",
-        "1815",
-        "1789"
-      ]
-    },
-    {
-      "id": 87,
-      "theme": "Histoire de France",
-      "questions": [
-        "Que commémore le 10 mai ?",
-        "Quel événement célèbre-t-on le 10 mai ?",
-        "À quoi correspond la journée du 10 mai ?"
-      ],
-      "correctAnswer": "La journée des mémoires de l'esclavage",
-      "wrongAnswers": [
-        "La victoire de 1945",
-        "La fête du travail",
-        "La fête nationale",
-        "L'armistice de 1918",
-        "La Révolution française",
-        "L'abolition de la peine de mort"
-      ]
-    },
-    {
-      "id": 88,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui a aboli définitivement l'esclavage en 1848 ?",
-        "Quel personnage a fait abolir l'esclavage ?",
-        "À qui doit-on l'abolition de l'esclavage en 1848 ?"
-      ],
-      "correctAnswer": "Victor Schœlcher",
-      "wrongAnswers": [
-        "Napoléon Bonaparte",
-        "Louis XIV",
-        "Charles de Gaulle",
-        "Toussaint Louverture",
-        "Louis-Philippe",
-        "Lamartine"
-      ]
-    },
-    {
-      "id": 89,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que la décolonisation ?",
-        "Comment définir la décolonisation ?",
-        "Que signifie la décolonisation ?"
-      ],
-      "correctAnswer": "Le processus d'indépendance des colonies",
-      "wrongAnswers": [
-        "La conquête de nouveaux territoires",
-        "L'expansion de l'empire français",
-        "La colonisation de la Gaule",
-        "L'annexion de territoires",
-        "La création de protectorats",
-        "L'établissement de comptoirs"
-      ]
-    },
-    {
-      "id": 90,
-      "theme": "Histoire de France",
-      "questions": [
-        "En quelle année l'Algérie est-elle devenue indépendante ?",
-        "Quand l'Algérie a-t-elle obtenu son indépendance ?",
-        "De quelle année date l'indépendance algérienne ?"
-      ],
-      "correctAnswer": "1962",
-      "wrongAnswers": [
-        "1954",
-        "1958",
-        "1975",
-        "1960",
-        "1956",
-        "1968"
-      ]
-    },
-    {
-      "id": 151,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'était la Bastille ?",
-        "Que représentait la Bastille ?",
-        "À quoi servait la Bastille ?"
-      ],
-      "correctAnswer": "Une prison d'État",
-      "wrongAnswers": [
-        "Un château royal",
-        "Un parlement",
-        "Une église",
-        "Un hôpital",
-        "Une caserne",
-        "Un tribunal"
-      ]
-    },
-    {
-      "id": 152,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui a dit 'L'État, c'est moi' ?",
-        "À quel roi attribue-t-on 'L'État, c'est moi' ?",
-        "Quel souverain a prononcé 'L'État, c'est moi' ?"
-      ],
-      "correctAnswer": "Louis XIV",
-      "wrongAnswers": [
-        "Napoléon Bonaparte",
-        "Charles de Gaulle",
-        "François Ier",
-        "Louis XVI",
-        "Henri IV",
-        "Louis XV"
-      ]
-    },
-    {
-      "id": 153,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que l'Ancien Régime ?",
-        "À quelle période correspond l'Ancien Régime ?",
-        "Que désigne l'Ancien Régime ?"
-      ],
-      "correctAnswer": "La période monarchique avant la Révolution",
-      "wrongAnswers": [
-        "La période après 1789",
-        "La Ve République",
-        "Le régime de Vichy",
-        "L'Empire napoléonien",
-        "La IIIe République",
-        "La Restauration"
-      ]
-    },
-    {
-      "id": 154,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui était Napoléon Bonaparte ?",
-        "Quel titre portait Napoléon Bonaparte ?",
-        "Comment définir Napoléon Bonaparte ?"
-      ],
-      "correctAnswer": "Un empereur français",
-      "wrongAnswers": [
-        "Un roi de France",
-        "Un président de la République",
-        "Un révolutionnaire uniquement",
-        "Un général étranger",
-        "Un philosophe",
-        "Un pape"
-      ]
-    },
-    {
-      "id": 155,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que la Commune de Paris (1871) ?",
-        "Que fut la Commune de Paris ?",
-        "Comment définir la Commune de Paris ?"
-      ],
-      "correctAnswer": "Un gouvernement révolutionnaire parisien",
-      "wrongAnswers": [
-        "Une fête parisienne",
-        "Une élection municipale",
-        "Un traité de paix",
-        "Une exposition universelle",
-        "Un gouvernement royal",
-        "Une alliance militaire"
-      ]
-    },
-    {
-      "id": 156,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que l'Affaire Dreyfus ?",
-        "Que fut l'Affaire Dreyfus ?",
-        "Comment définir l'Affaire Dreyfus ?"
-      ],
-      "correctAnswer": "Une affaire judiciaire antisémite",
-      "wrongAnswers": [
-        "Un scandale financier",
-        "Une guerre coloniale",
-        "Un assassinat politique",
-        "Un coup d'État",
-        "Une révolution",
-        "Un traité international"
-      ]
-    },
-    {
-      "id": 157,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui a écrit 'J'accuse' ?",
-        "Quel écrivain a publié 'J'accuse' ?",
-        "À qui doit-on le texte 'J'accuse' ?"
-      ],
-      "correctAnswer": "Émile Zola",
-      "wrongAnswers": [
-        "Victor Hugo",
-        "Albert Camus",
-        "Jean-Paul Sartre",
-        "Voltaire",
-        "Guy de Maupassant",
-        "Anatole France"
-      ]
-    },
-    {
-      "id": 158,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qu'est-ce que le Front populaire (1936) ?",
-        "Que fut le Front populaire ?",
-        "Comment définir le Front populaire ?"
-      ],
-      "correctAnswer": "Une coalition de gauche au pouvoir",
-      "wrongAnswers": [
-        "Une guerre",
-        "Un mouvement fasciste",
-        "Une révolution",
-        "Un parti unique",
-        "Un gouvernement de droite",
-        "Une dictature"
-      ]
-    },
-    {
-      "id": 159,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui était Simone Veil ?",
-        "Pour quoi Simone Veil est-elle connue ?",
-        "Quel fut le rôle de Simone Veil ?"
-      ],
-      "correctAnswer": "Une ministre qui a fait voter la loi sur l'IVG",
-      "wrongAnswers": [
-        "Une reine de France",
-        "Une actrice",
-        "Une scientifique",
-        "Une écrivaine",
-        "Une chanteuse",
-        "Une sportive"
-      ]
-    },
-    {
-      "id": 160,
-      "theme": "Histoire de France",
-      "questions": [
-        "En quelle année la loi Veil sur l'IVG a-t-elle été votée ?",
-        "Quand la loi sur l'avortement a-t-elle été adoptée ?",
-        "De quelle année date la loi Veil ?"
-      ],
-      "correctAnswer": "1975",
-      "wrongAnswers": [
-        "1968",
-        "1981",
-        "1990",
-        "1970",
-        "1965",
-        "1982"
-      ]
-    },
-    {
-      "id": 184,
-      "theme": "Histoire de France",
-      "questions": [
-        "Quand la France a-t-elle adopté le système métrique ?",
-        "De quelle année date le système métrique en France ?",
-        "En quelle année le système métrique a-t-il été instauré ?"
-      ],
-      "correctAnswer": "1795",
-      "wrongAnswers": [
-        "1789",
-        "1848",
-        "1900",
-        "1804",
-        "1870",
-        "1750"
-      ]
-    },
-    {
-      "id": 185,
-      "theme": "Histoire de France",
-      "questions": [
-        "Qui a été le premier président de la Ve République ?",
-        "Qui fut le premier président de la Ve République ?",
-        "Quel président a inauguré la Ve République ?"
-      ],
-      "correctAnswer": "Charles de Gaulle",
-      "wrongAnswers": [
-        "Georges Pompidou",
-        "François Mitterrand",
-        "Vincent Auriol",
-        "René Coty",
-        "Valéry Giscard d'Estaing",
-        "Jacques Chirac"
-      ]
-    },
-    {
-      "id": 186,
-      "theme": "Histoire de France",
-      "questions": [
-        "Quand le quinquennat a-t-il remplacé le septennat ?",
-        "En quelle année le mandat présidentiel est-il passé à 5 ans ?",
-        "De quand date le quinquennat ?"
-      ],
-      "correctAnswer": "2000",
-      "wrongAnswers": [
-        "1995",
-        "2002",
-        "2007",
+        "2001",
+        "2003",
+        "2004",
         "1998",
         "2005",
-        "1992"
+        "1997"
       ]
     },
     {
-      "id": 193,
-      "theme": "Histoire de France",
+      "id": 266,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qui était Clovis ?",
-        "Quel rôle historique a joué Clovis ?",
-        "Pourquoi Clovis est-il célèbre ?"
+        "En quelle année a commencé la Première Guerre mondiale ?",
+        "Quand a débuté la Grande Guerre ?",
+        "Quelle année marque le début de la guerre de 14-18 ?"
       ],
-      "correctAnswer": "Le premier roi des Francs converti au christianisme",
+      "correctAnswers": ["1914"],
       "wrongAnswers": [
-        "Un empereur romain",
-        "Un révolutionnaire",
-        "Un président de la République",
-        "Un philosophe",
-        "Un général de Napoléon",
-        "Un pape"
+        "1912",
+        "1913",
+        "1915",
+        "1916",
+        "1910",
+        "1917",
+        "1918",
+        "1911"
       ]
     },
     {
-      "id": 194,
-      "theme": "Histoire de France",
+      "id": 267,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qui était Charlemagne ?",
-        "Quel titre portait Charlemagne ?",
-        "Pourquoi Charlemagne est-il célèbre ?"
+        "Où a eu lieu le débarquement du 6 juin 1944 ?",
+        "Où les Alliés ont-ils débarqué le 6 juin 1944 ?"
       ],
-      "correctAnswer": "Empereur des Romains, fondateur de l'Empire carolingien",
+      "correctAnswers": ["En Normandie"],
       "wrongAnswers": [
-        "Un roi de France uniquement",
-        "Un président",
-        "Un général",
-        "Un pape",
-        "Un philosophe",
-        "Un révolutionnaire"
+        "En Bretagne",
+        "En Provence",
+        "En Picardie",
+        "Dans le Nord-Pas-de-Calais",
+        "En Aquitaine",
+        "En Charente-Maritime",
+        "En Vendée",
+        "Dans les Pays de la Loire"
       ]
     },
     {
-      "id": 195,
-      "theme": "Histoire de France",
+      "id": 268,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Qui était Jeanne d'Arc ?",
-        "Quel rôle a joué Jeanne d'Arc ?",
-        "Pourquoi Jeanne d'Arc est-elle célèbre ?"
+        "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+        "Où se trouvaient la majorité des colonies françaises ?",
+        "Quel continent comptait le plus de colonies françaises ?"
       ],
-      "correctAnswer": "Une héroïne de la Guerre de Cent Ans",
+      "correctAnswers": ["L'Afrique"],
       "wrongAnswers": [
-        "Une reine de France",
-        "Une révolutionnaire",
-        "Une impératrice",
-        "Une philosophe",
-        "Une scientifique",
-        "Une artiste"
+        "L'Asie",
+        "L'Amérique du Sud",
+        "L'Océanie",
+        "L'Europe",
+        "L'Amérique du Nord",
+        "L'Amérique centrale",
+        "Le Moyen-Orient",
+        "Les Caraïbes"
       ]
     },
     {
-      "id": 209,
-      "theme": "Histoire de France",
+      "id": 269,
+      "theme": "Histoire géographie et culture",
       "questions": [
-        "Quel roi a dit 'Paris vaut bien une messe' ?",
-        "À quel roi attribue-t-on 'Paris vaut bien une messe' ?",
-        "Qui a prononcé 'Paris vaut bien une messe' ?"
+        "Que fête-t-on le 8 mai ?",
+        "Que commémore-t-on le 8 mai ?",
+        "Quelle victoire célèbre-t-on le 8 mai ?"
       ],
-      "correctAnswer": "Henri IV",
+      "correctAnswers": ["La victoire de 1945 (fin de la Seconde Guerre mondiale)"],
       "wrongAnswers": [
-        "Louis XIV",
-        "Louis XVI",
-        "François Ier",
-        "Charles X",
-        "Louis XV",
-        "Philippe Auguste"
+        "La victoire de 1918 (fin de la Première Guerre mondiale)",
+        "Le débarquement en Normandie",
+        "La Libération de Paris",
+        "L'armistice de 1940",
+        "La fin de la guerre d'Algérie",
+        "La capitulation allemande de 1918",
+        "Le traité de Versailles",
+        "La bataille de Verdun"
+      ]
+    },
+    {
+      "id": 270,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle mer ou océan borde la France métropolitaine ?",
+        "Quels sont les espaces maritimes qui entourent la France ?",
+        "Par quelles mers et océans la France est-elle bordée ?"
+      ],
+      "correctAnswers": ["L'océan Atlantique", "La mer Méditerranée", "La Manche", "La mer du Nord"],
+      "wrongAnswers": [
+        "La mer Baltique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "La mer Noire",
+        "La mer Adriatique",
+        "La mer Rouge",
+        "La mer Caspienne"
+      ]
+    },
+    {
+      "id": 271,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+        "Quels sont les voisins terrestres de la France ?",
+        "Quel pays est frontalier de la France ?"
+      ],
+      "correctAnswers": ["L'Espagne", "L'Italie", "L'Allemagne", "La Belgique", "La Suisse", "Le Luxembourg", "Monaco", "Andorre"],
+      "wrongAnswers": [
+        "Le Royaume-Uni",
+        "Les Pays-Bas",
+        "Le Portugal",
+        "L'Autriche",
+        "La Pologne",
+        "La République tchèque",
+        "Le Danemark",
+        "L'Irlande"
+      ]
+    },
+    {
+      "id": 272,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle ville française est un port maritime ?",
+        "Quel grand port se trouve en France ?",
+        "Quelle ville portuaire française connaissez-vous ?"
+      ],
+      "correctAnswers": ["Marseille", "Le Havre", "Bordeaux"],
+      "wrongAnswers": [
+        "Paris",
+        "Lyon",
+        "Toulouse",
+        "Clermont-Ferrand",
+        "Strasbourg",
+        "Dijon",
+        "Limoges",
+        "Grenoble"
+      ]
+    },
+    {
+      "id": 273,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle mer se situe entre la France et l'Angleterre ?",
+        "Comment s'appelle la mer qui sépare la France du Royaume-Uni ?",
+        "Quel bras de mer se trouve entre la France et la Grande-Bretagne ?"
+      ],
+      "correctAnswers": ["La Manche"],
+      "wrongAnswers": [
+        "La mer du Nord",
+        "La mer Celtique",
+        "L'océan Atlantique",
+        "La mer d'Iroise",
+        "Le golfe de Gascogne",
+        "La mer Baltique",
+        "Le pas de Calais",
+        "La mer Méditerranée"
+      ]
+    },
+    {
+      "id": 274,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qu'est ce que la France d'outre-mer ?",
+        "Que désigne l'expression « France d'outre-mer » ?",
+        "Quels sont les territoires d'outre-mer français ?"
+      ],
+      "correctAnswers": ["Les territoires français situés hors de l'Europe (Guadeloupe, Martinique, Réunion, Guyane, Mayotte, etc.)"],
+      "wrongAnswers": [
+        "Les anciennes colonies françaises en Afrique",
+        "Les pays francophones hors de France",
+        "Les régions frontalières avec d'autres pays",
+        "Les îles de la mer Méditerranée",
+        "Les territoires français en Europe de l'Est",
+        "Les ambassades et consulats français à l'étranger",
+        "Les bases militaires françaises dans le monde",
+        "Les régions autonomes de France métropolitaine"
+      ]
+    },
+    {
+      "id": 275,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+        "Quelles montagnes forment la frontière franco-espagnole ?",
+        "Comment s'appelle le massif montagneux séparant la France de l'Espagne ?"
+      ],
+      "correctAnswers": ["Les Pyrénées"],
+      "wrongAnswers": [
+        "Les Alpes",
+        "Le Massif central",
+        "Les Vosges",
+        "Le Jura",
+        "Les Ardennes",
+        "Le Massif armoricain",
+        "Les Cévennes",
+        "Le Mont Blanc"
+      ]
+    },
+    {
+      "id": 276,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle île française se trouve dans l'océan Indien ?",
+        "Quel département d'outre-mer est situé dans l'océan Indien ?",
+        "Quel territoire français est dans l'océan Indien ?"
+      ],
+      "correctAnswers": ["La Réunion", "Mayotte"],
+      "wrongAnswers": [
+        "La Guadeloupe",
+        "La Martinique",
+        "La Guyane",
+        "La Nouvelle-Calédonie",
+        "La Polynésie française",
+        "Saint-Pierre-et-Miquelon",
+        "Wallis-et-Futuna",
+        "Saint-Martin"
+      ]
+    },
+    {
+      "id": 277,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle est la population approximative de la France en 2025 ?",
+        "Combien d'habitants compte la France ?",
+        "Quel est le nombre d'habitants en France ?"
+      ],
+      "correctAnswers": ["Environ 68 millions d'habitants"],
+      "wrongAnswers": [
+        "Environ 45 millions d'habitants",
+        "Environ 50 millions d'habitants",
+        "Environ 55 millions d'habitants",
+        "Environ 60 millions d'habitants",
+        "Environ 75 millions d'habitants",
+        "Environ 80 millions d'habitants",
+        "Environ 85 millions d'habitants",
+        "Environ 90 millions d'habitants"
+      ]
+    },
+    {
+      "id": 278,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel fleuve traverse Paris ?",
+        "Quelle rivière passe par Paris ?",
+        "Comment s'appelle le cours d'eau qui traverse la capitale ?"
+      ],
+      "correctAnswers": ["La Seine"],
+      "wrongAnswers": [
+        "La Loire",
+        "Le Rhône",
+        "La Garonne",
+        "Le Rhin",
+        "La Marne",
+        "L'Oise",
+        "La Somme",
+        "La Meuse"
+      ]
+    },
+    {
+      "id": 279,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Lequel de ces pays partage des frontières terrestres avec la France ?",
+        "Quel pays est voisin de la France ?",
+        "Quel État est limitrophe de la France métropolitaine ?"
+      ],
+      "correctAnswers": ["L'Allemagne", "L'Espagne", "L'Italie", "La Belgique", "La Suisse", "Le Luxembourg", "Monaco", "Andorre"],
+      "wrongAnswers": [
+        "Le Royaume-Uni",
+        "Les Pays-Bas",
+        "Le Portugal",
+        "L'Autriche",
+        "La Pologne",
+        "La Hongrie",
+        "La Slovénie",
+        "La Croatie"
+      ]
+    },
+    {
+      "id": 280,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+        "Quels pays se trouvent au nord-est de la France ?",
+        "Quel est un voisin de la France au nord-est ?"
+      ],
+      "correctAnswers": ["L'Allemagne", "La Belgique", "Le Luxembourg"],
+      "wrongAnswers": [
+        "Les Pays-Bas",
+        "Le Royaume-Uni",
+        "La Pologne",
+        "La Suisse",
+        "L'Autriche",
+        "La République tchèque",
+        "Le Danemark",
+        "L'Italie"
+      ]
+    },
+    {
+      "id": 281,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Où se trouvent les principales activités économiques en France ?",
+        "Dans quelles zones se concentre l'économie française ?",
+        "Où sont situées les grandes zones économiques en France ?"
+      ],
+      "correctAnswers": ["Dans les grandes villes et métropoles (Paris, Lyon, Marseille)"],
+      "wrongAnswers": [
+        "Dans les zones rurales et agricoles",
+        "Uniquement dans le sud de la France",
+        "Dans les régions montagneuses",
+        "Principalement sur les côtes maritimes",
+        "Dans les territoires d'outre-mer",
+        "Uniquement en Île-de-France",
+        "Dans les zones frontalières uniquement",
+        "Dans les petites villes de province"
+      ]
+    },
+    {
+      "id": 282,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+        "Quel pays est le plus visité au monde ?",
+        "Quelle est la première destination touristique mondiale ?"
+      ],
+      "correctAnswers": ["La France"],
+      "wrongAnswers": [
+        "L'Espagne",
+        "L'Italie",
+        "Les États-Unis",
+        "La Chine",
+        "Le Royaume-Uni",
+        "L'Allemagne",
+        "La Thaïlande",
+        "Le Mexique"
+      ]
+    },
+    {
+      "id": 283,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Où habite la majorité des Français ?",
+        "Dans quel type de zone vivent la plupart des Français ?",
+        "Les Français vivent-ils principalement en ville ou à la campagne ?"
+      ],
+      "correctAnswers": ["Dans les villes (zone urbaine)"],
+      "wrongAnswers": [
+        "À la campagne (zone rurale)",
+        "Dans les zones montagneuses",
+        "Sur le littoral uniquement",
+        "Dans les zones périurbaines uniquement",
+        "Dans les territoires d'outre-mer",
+        "Dans les zones industrielles",
+        "En banlieue exclusivement",
+        "Dans les villages"
+      ]
+    },
+    {
+      "id": 284,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle région est la plus peuplée ?",
+        "Quelle est la région française la plus peuplée ?",
+        "Où se concentre la plus grande population en France ?"
+      ],
+      "correctAnswers": ["L'Île-de-France"],
+      "wrongAnswers": [
+        "L'Auvergne-Rhône-Alpes",
+        "La Nouvelle-Aquitaine",
+        "L'Occitanie",
+        "Les Hauts-de-France",
+        "La Provence-Alpes-Côte d'Azur",
+        "Le Grand Est",
+        "La Bretagne",
+        "Les Pays de la Loire"
+      ]
+    },
+    {
+      "id": 285,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+        "Quelles sont les grandes villes de France ?",
+        "Quelle grande métropole française connaissez-vous ?"
+      ],
+      "correctAnswers": ["Lyon", "Marseille", "Toulouse", "Bordeaux", "Lille", "Nice"],
+      "wrongAnswers": [
+        "Perpignan",
+        "Brest",
+        "Limoges",
+        "Clermont-Ferrand",
+        "Amiens",
+        "Besançon",
+        "Orléans",
+        "Caen"
+      ]
+    },
+    {
+      "id": 286,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Lequel de ces départements de France est le plus touristique ?",
+        "Quel département français attire le plus de touristes ?",
+        "Quelle zone géographique est la plus visitée en France ?"
+      ],
+      "correctAnswers": ["Paris", "Les Alpes-Maritimes", "Côte d'Azur"],
+      "wrongAnswers": [
+        "La Creuse",
+        "Le Cantal",
+        "La Lozère",
+        "L'Indre",
+        "La Meuse",
+        "La Nièvre",
+        "Les Ardennes",
+        "La Haute-Marne"
+      ]
+    },
+    {
+      "id": 287,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+        "À quelle occasion les musées sont-ils gratuits ?",
+        "Quel événement permet de visiter gratuitement le patrimoine ?"
+      ],
+      "correctAnswers": ["Lors des Journées européennes du patrimoine"],
+      "wrongAnswers": [
+        "Lors de la Fête nationale du 14 juillet",
+        "Pendant la Nuit des musées uniquement",
+        "Pendant les vacances scolaires d'été uniquement",
+        "Pendant les vacances scolaires d'été",
+        "À Noël et au Jour de l'An",
+        "Lors de la Fête de la musique",
+        "Pendant le Festival d'Avignon",
+        "Le 1er mai uniquement"
+      ]
+    },
+    {
+      "id": 288,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Combien de personnes parlent français dans le monde ?",
+        "Quel est le nombre de francophones dans le monde ?",
+        "Combien de gens parlent le français à travers le monde ?"
+      ],
+      "correctAnswers": ["Environ 300 millions"],
+      "wrongAnswers": [
+        "Environ 50 millions",
+        "Environ 100 millions",
+        "Environ 150 millions",
+        "Environ 200 millions",
+        "Environ 400 millions",
+        "Environ 500 millions",
+        "Environ 750 millions",
+        "Environ 1 milliard"
+      ]
+    },
+    {
+      "id": 289,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était Marguerite Yourcenar ?",
+        "Qu'a fait Marguerite Yourcenar de remarquable ?",
+        "Pourquoi Marguerite Yourcenar est-elle célèbre ?"
+      ],
+      "correctAnswers": ["Une écrivaine française, première femme élue à l'Académie française"],
+      "wrongAnswers": [
+        "Une scientifique française, prix Nobel de physique",
+        "Une résistante française de la Seconde Guerre mondiale",
+        "Une philosophe française du XVIIIe siècle",
+        "Une peintre impressionniste du XIXe siècle",
+        "Une actrice célèbre du cinéma français",
+        "Une femme politique, première ministre de France",
+        "Une compositrice de musique classique",
+        "Une exploratrice et aviatrice française"
+      ]
+    },
+    {
+      "id": 290,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel peintre est français ?",
+        "Quel artiste peintre vient de France ?",
+        "Quel peintre français est célèbre ?"
+      ],
+      "correctAnswers": ["Claude Monet", "Auguste Renoir", "Paul Cézanne", "Edgar Degas"],
+      "wrongAnswers": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dalí",
+        "Rembrandt",
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Gustav Klimt",
+        "Edvard Munch"
+      ]
+    },
+    {
+      "id": 291,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel musée est situé à Paris ?",
+        "Quel musée célèbre se trouve à Paris ?",
+        "Quel grand musée parisien connaissez-vous ?"
+      ],
+      "correctAnswers": ["Le Louvre", "Le musée d'Orsay", "Le Centre Pompidou"],
+      "wrongAnswers": [
+        "Le British Museum",
+        "Le Musée du Prado",
+        "Le Metropolitan Museum of Art",
+        "Le Rijksmuseum",
+        "Le Musée de l'Ermitage",
+        "La Galerie des Offices",
+        "Le Pergamon Museum",
+        "Le Musée Guggenheim"
+      ]
+    },
+    {
+      "id": 292,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était Auguste Rodin ?",
+        "Qu'a créé Auguste Rodin ?",
+        "Pourquoi Auguste Rodin est-il connu ?"
+      ],
+      "correctAnswers": ["Un sculpteur français célèbre (Le Penseur)"],
+      "wrongAnswers": [
+        "Un peintre impressionniste français",
+        "Un architecte français du XIXe siècle",
+        "Un compositeur de musique classique",
+        "Un écrivain romantique français",
+        "Un photographe pionnier français",
+        "Un réalisateur de cinéma français",
+        "Un inventeur et ingénieur français",
+        "Un philosophe français des Lumières"
+      ]
+    },
+    {
+      "id": 293,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+        "À quelle place se situe le français parmi les langues mondiales ?",
+        "Le français est la combientième langue la plus parlée ?"
+      ],
+      "correctAnswers": ["5e langue mondiale"],
+      "wrongAnswers": [
+        "1ère langue mondiale",
+        "2e langue mondiale",
+        "3e langue mondiale",
+        "4e langue mondiale",
+        "6e langue mondiale",
+        "7e langue mondiale",
+        "8e langue mondiale",
+        "10e langue mondiale"
+      ]
+    },
+    {
+      "id": 294,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+        "Quel monument parisien a brûlé en 2019 ?",
+        "Quelle église a subi un grave incendie en avril 2019 ?"
+      ],
+      "correctAnswers": ["Notre-Dame de Paris"],
+      "wrongAnswers": [
+        "La cathédrale de Chartres",
+        "La basilique du Sacré-Cœur",
+        "La cathédrale de Reims",
+        "La cathédrale de Strasbourg",
+        "La basilique Saint-Denis",
+        "La cathédrale d'Amiens",
+        "La cathédrale de Rouen",
+        "La Sainte-Chapelle"
+      ]
+    },
+    {
+      "id": 295,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était une écrivaine française célèbre ?",
+        "Quelle femme de lettres française est renommée ?",
+        "Quelle autrice française est célèbre ?"
+      ],
+      "correctAnswers": ["Simone de Beauvoir", "Colette", "George Sand", "Marguerite Duras"],
+      "wrongAnswers": [
+        "Virginia Woolf",
+        "Jane Austen",
+        "Agatha Christie",
+        "Mary Shelley",
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Toni Morrison",
+        "Isabel Allende"
+      ]
+    },
+    {
+      "id": 296,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était un célèbre musicien français ?",
+        "Quel compositeur français est connu ?",
+        "Quel musicien classique français est célèbre ?"
+      ],
+      "correctAnswers": ["Claude Debussy", "Maurice Ravel", "Hector Berlioz"],
+      "wrongAnswers": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert",
+        "Richard Wagner",
+        "Giuseppe Verdi",
+        "Piotr Ilitch Tchaïkovski",
+        "Antonio Vivaldi"
+      ]
+    },
+    {
+      "id": 297,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Qui était Auguste Renoir ?",
+        "Que faisait Auguste Renoir ?",
+        "Pourquoi Auguste Renoir est-il célèbre ?"
+      ],
+      "correctAnswers": ["Un peintre impressionniste français"],
+      "wrongAnswers": [
+        "Un sculpteur français célèbre",
+        "Un compositeur de musique classique",
+        "Un architecte du XIXe siècle",
+        "Un écrivain romantique français",
+        "Un photographe pionnier français",
+        "Un réalisateur de cinéma muet",
+        "Un philosophe des Lumières",
+        "Un inventeur et ingénieur français"
+      ]
+    },
+    {
+      "id": 298,
+      "theme": "Histoire géographie et culture",
+      "questions": [
+        "Quelle fête est française ?",
+        "Quel événement festif est propre à la France ?",
+        "Quelle fête typiquement française connaissez-vous ?"
+      ],
+      "correctAnswers": ["Le 14 juillet (Fête nationale)", "La Fête de la musique (21 juin)"],
+      "wrongAnswers": [
+        "Thanksgiving",
+        "La Saint-Patrick",
+        "Halloween",
+        "Le Jour de l'Indépendance américain",
+        "La Tomatina",
+        "L'Oktoberfest",
+        "Le Jour des Morts mexicain",
+        "La Fête de la Reine"
       ]
     }
   ]

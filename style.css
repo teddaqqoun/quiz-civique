@@ -453,6 +453,17 @@ h2 {
     margin-bottom: 10px;
 }
 
+.time-taken {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    background: var(--light-blue);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
 .result-message {
     font-size: 1.2rem;
     color: var(--gray);

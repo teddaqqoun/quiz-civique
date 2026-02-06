@@ -1,1209 +1,640 @@
 {
   "questions": [
     {
-      "id": 91,
-      "theme": "Vie en France et société",
+      "id": 389,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quelle est la langue officielle de la France ?",
-        "Quelle langue est officielle en France ?",
-        "Quelle est la langue de la République française ?"
+        "Quel mariage est reconnu par l'État ?",
+        "Quel type de mariage a une valeur légale en France ?"
       ],
-      "correctAnswer": "Le français",
+      "correctAnswers": ["Le mariage civil (célébré à la mairie)"],
       "wrongAnswers": [
-        "L'anglais",
-        "Le latin",
-        "Il n'y a pas de langue officielle",
-        "Le français et l'anglais",
-        "Les langues régionales",
-        "L'occitan"
+        "Le mariage religieux (célébré à l'église ou au temple)",
+        "Le mariage coutumier (selon les traditions familiales)",
+        "Le mariage devant notaire",
+        "Le mariage célébré au consulat uniquement",
+        "Le mariage par procuration sans formalités",
+        "Le mariage symbolique entre témoins",
+        "Le mariage célébré par un notaire",
+        "Le mariage traditionnel sans cérémonie officielle"
       ]
     },
     {
-      "id": 92,
-      "theme": "Vie en France et société",
+      "id": 390,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quelle est la capitale de la France ?",
-        "Quelle ville est la capitale française ?",
-        "Où se trouve le siège du gouvernement français ?"
+        "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+        "Où doit-on inscrire son enfant pour l'école publique ?",
+        "Quelle administration gère l'inscription scolaire ?"
       ],
-      "correctAnswer": "Paris",
+      "correctAnswers": ["La mairie"],
       "wrongAnswers": [
-        "Lyon",
-        "Marseille",
-        "Bordeaux",
-        "Toulouse",
-        "Nice",
-        "Strasbourg"
+        "La préfecture",
+        "Le rectorat",
+        "L'inspection académique",
+        "La CAF (Caisse d'Allocations Familiales)",
+        "Le ministère de l'Éducation nationale",
+        "La sous-préfecture",
+        "Le conseil départemental",
+        "L'école directement sans démarche préalable"
       ]
     },
     {
-      "id": 93,
-      "theme": "Vie en France et société",
+      "id": 391,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Combien d'habitants compte approximativement la France ?",
-        "Quelle est la population de la France ?",
-        "Combien de personnes vivent en France ?"
+        "En cas de divorce, qui exerce l'autorité parentale ?",
+        "Après un divorce, qui a la responsabilité des enfants ?",
+        "Comment est partagée l'autorité parentale après une séparation ?"
       ],
-      "correctAnswer": "68 millions",
+      "correctAnswers": ["Les deux parents conjointement"],
       "wrongAnswers": [
-        "45 millions",
-        "55 millions",
-        "80 millions",
-        "50 millions",
-        "75 millions",
-        "60 millions"
+        "La mère uniquement",
+        "Le père uniquement",
+        "Le parent qui a la garde principale",
+        "Le juge aux affaires familiales",
+        "Les grands-parents",
+        "Le parent qui verse la pension alimentaire",
+        "L'État jusqu'à la majorité de l'enfant",
+        "Le parent désigné par l'enfant"
       ]
     },
     {
-      "id": 94,
-      "theme": "Vie en France et société",
+      "id": 392,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel fleuve traverse Paris ?",
-        "Quelle rivière coule à Paris ?",
-        "Quel cours d'eau passe par la capitale ?"
+        "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+        "Comment une personne sans moyens peut-elle être défendue en justice ?",
+        "Quel dispositif aide les personnes modestes à payer un avocat ?"
       ],
-      "correctAnswer": "La Seine",
+      "correctAnswers": ["L'aide juridictionnelle"],
       "wrongAnswers": [
-        "La Loire",
-        "Le Rhône",
-        "La Garonne",
-        "La Marne",
-        "L'Oise",
-        "Le Rhin"
+        "Le RSA (Revenu de Solidarité Active)",
+        "L'aide sociale d'urgence",
+        "La prime d'activité",
+        "L'allocation de soutien familial",
+        "Le fonds de solidarité logement",
+        "L'aide personnalisée au logement",
+        "La couverture maladie universelle",
+        "L'allocation aux adultes handicapés"
       ]
     },
     {
-      "id": 95,
-      "theme": "Vie en France et société",
+      "id": 393,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel est le plus long fleuve de France ?",
-        "Quel fleuve français est le plus long ?",
-        "Quelle est la plus longue rivière de France ?"
+        "Où faut-il déclarer la naissance d'un enfant ?",
+        "Où doit-on enregistrer une naissance ?",
+        "Auprès de quelle administration déclare-t-on un nouveau-né ?"
       ],
-      "correctAnswer": "La Loire",
+      "correctAnswers": ["À la mairie (dans les 5 jours suivant la naissance)"],
       "wrongAnswers": [
-        "La Seine",
-        "Le Rhône",
-        "La Garonne",
-        "Le Rhin",
-        "La Meuse",
-        "La Dordogne"
+        "À l'hôpital ou la maternité uniquement",
+        "À la préfecture (dans les 10 jours)",
+        "Au tribunal de grande instance",
+        "À la CAF (dans les 30 jours)",
+        "À la Sécurité sociale (dans la semaine)",
+        "Au consulat le plus proche",
+        "À l'état civil de la région",
+        "À la sous-préfecture (dans les 15 jours)"
       ]
     },
     {
-      "id": 96,
-      "theme": "Vie en France et société",
+      "id": 394,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quelle est la plus haute montagne de France ?",
-        "Quel est le sommet le plus élevé de France ?",
-        "Quel mont est le plus haut en France ?"
+        "À quel âge peut-on passer le permis de conduire ?",
+        "Quelle condition d'âge faut-il remplir pour le permis de conduire ?"
       ],
-      "correctAnswer": "Le mont Blanc",
+      "correctAnswers": ["17 ans"],
       "wrongAnswers": [
-        "Le mont Ventoux",
-        "Le pic du Midi",
-        "Le puy de Sancy",
-        "L'aiguille du Midi",
-        "Le mont Canigou",
-        "Le Vignemale"
+        "21 ans",
+        "16 ans",
+        "20 ans",
+        "19 ans",
+        "18 ans",
+        "15 ans avec autorisation parentale",
+        "18 ans et un an de résidence en France",
+        "14 ans avec accompagnateur",
+        "22 ans"
       ]
     },
     {
-      "id": 97,
-      "theme": "Vie en France et société",
+      "id": 395,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quels pays frontaliers la France partage-t-elle ?",
-        "Avec quels pays la France a-t-elle une frontière ?",
-        "Quels sont les voisins de la France ?"
+        "Un bail locatif est valide s'il est :",
+        "Un contrat de location est valable s'il est :",
+        "Pour être valide, un bail doit être :"
       ],
-      "correctAnswer": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
+      "correctAnswers": ["Écrit et signé par les deux parties"],
       "wrongAnswers": [
-        "Uniquement l'Allemagne et l'Espagne",
-        "L'Angleterre et l'Allemagne",
-        "L'Italie et la Grèce",
-        "L'Espagne et le Portugal",
-        "La Belgique uniquement",
-        "L'Allemagne et les Pays-Bas"
+        "Oral et validé par deux témoins",
+        "Enregistré auprès de la mairie",
+        "Validé par un notaire obligatoirement",
+        "Déposé à la préfecture",
+        "Signé devant un huissier de justice",
+        "Approuvé par la CAF",
+        "Certifié par un agent immobilier agréé",
+        "Enregistré au tribunal d'instance"
       ]
     },
     {
-      "id": 98,
-      "theme": "Vie en France et société",
+      "id": 396,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce qu'un DOM-TOM ?",
-        "Que signifie DOM-TOM ?",
-        "À quoi correspond un DOM-TOM ?"
+        "Où peut-on déposer un lave-vaisselle cassé ?",
+        "Comment se débarrasser d'un gros électroménager usagé ?",
+        "Où jeter un appareil électroménager hors d'usage ?"
       ],
-      "correctAnswer": "Les territoires français d'outre-mer",
+      "correctAnswers": ["À la déchetterie", "Au magasin qui vend ce type d'appareil"],
       "wrongAnswers": [
-        "Un type de logement",
-        "Un parti politique",
-        "Une institution européenne",
-        "Une région métropolitaine",
-        "Un département de Paris",
-        "Une zone économique"
+        "Dans la poubelle des ordures ménagères",
+        "Dans le conteneur de recyclage jaune",
+        "Sur le trottoir le jour des encombrants uniquement",
+        "Dans une benne à gravats",
+        "Au centre de tri sélectif classique",
+        "Dans le conteneur à verre",
+        "À la mairie pour destruction",
+        "Dans un point de collecte textile"
       ]
     },
     {
-      "id": 99,
-      "theme": "Vie en France et société",
+      "id": 397,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "La Corse est :",
-        "Quel est le statut de la Corse ?",
-        "Comment la Corse est-elle rattachée à la France ?"
+        "Quel numéro d'urgence permet d'appeler la police ?",
+        "Quel est le numéro de téléphone de la police ?",
+        "Comment joindre la police en cas d'urgence ?"
       ],
-      "correctAnswer": "Une collectivité territoriale française",
-      "wrongAnswers": [
-        "Un pays indépendant",
-        "Une région italienne",
-        "Un protectorat",
-        "Un département d'outre-mer",
-        "Un État associé",
-        "Une région autonome"
-      ]
-    },
-    {
-      "id": 100,
-      "theme": "Vie en France et société",
-      "questions": [
-        "La Guadeloupe est :",
-        "Quel est le statut de la Guadeloupe ?",
-        "Comment définir la Guadeloupe ?"
-      ],
-      "correctAnswer": "Un département d'outre-mer",
-      "wrongAnswers": [
-        "Une région d'Afrique",
-        "Un pays indépendant",
-        "Une ville de France métropolitaine",
-        "Un territoire britannique",
-        "Une île italienne",
-        "Un État associé"
-      ]
-    },
-    {
-      "id": 101,
-      "theme": "Vie en France et société",
-      "questions": [
-        "La Martinique est située :",
-        "Où se trouve la Martinique ?",
-        "Dans quelle zone géographique est la Martinique ?"
-      ],
-      "correctAnswer": "Dans les Caraïbes",
-      "wrongAnswers": [
-        "Dans l'océan Indien",
-        "Dans le Pacifique",
-        "En Méditerranée",
-        "En Afrique",
-        "En Amérique du Sud",
-        "En Asie"
-      ]
-    },
-    {
-      "id": 102,
-      "theme": "Vie en France et société",
-      "questions": [
-        "La Réunion est un département situé :",
-        "Où se trouve La Réunion ?",
-        "Dans quel océan est située La Réunion ?"
-      ],
-      "correctAnswer": "Dans l'océan Indien",
-      "wrongAnswers": [
-        "Dans les Caraïbes",
-        "En Amérique du Sud",
-        "Dans le Pacifique",
-        "En Méditerranée",
-        "Dans l'Atlantique Nord",
-        "En Afrique continentale"
-      ]
-    },
-    {
-      "id": 103,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quelle est la monnaie utilisée en France ?",
-        "Avec quelle devise paie-t-on en France ?",
-        "Quelle monnaie a cours légal en France ?"
-      ],
-      "correctAnswer": "L'euro",
-      "wrongAnswers": [
-        "Le franc",
-        "Le dollar",
-        "La livre",
-        "Le mark",
-        "Le franc suisse",
-        "La peseta"
-      ]
-    },
-    {
-      "id": 104,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Depuis quelle année l'euro est-il en circulation ?",
-        "Quand l'euro a-t-il remplacé le franc ?",
-        "De quelle année date la mise en circulation de l'euro ?"
-      ],
-      "correctAnswer": "2002",
-      "wrongAnswers": [
-        "1999",
-        "2000",
-        "2005",
-        "1998",
-        "2001",
-        "2004"
-      ]
-    },
-    {
-      "id": 105,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel est le numéro d'appel d'urgence européen ?",
-        "Quel numéro appeler pour les urgences en Europe ?",
-        "Quel est le numéro d'urgence commun européen ?"
-      ],
-      "correctAnswer": "112",
+      "correctAnswers": ["17"],
       "wrongAnswers": [
         "15",
-        "17",
         "18",
-        "911",
-        "999",
-        "114"
-      ]
-    },
-    {
-      "id": 106,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel numéro appeler pour le SAMU ?",
-        "Quel est le numéro des urgences médicales ?",
-        "Comment joindre le SAMU ?"
-      ],
-      "correctAnswer": "15",
-      "wrongAnswers": [
-        "17",
-        "18",
-        "112",
-        "19",
+        "10",
         "114",
-        "116"
-      ]
-    },
-    {
-      "id": 107,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel numéro appeler pour la police ?",
-        "Comment joindre la police en urgence ?",
-        "Quel est le numéro d'urgence de la police ?"
-      ],
-      "correctAnswer": "17",
-      "wrongAnswers": [
-        "15",
-        "18",
-        "112",
+        "119",
+        "116",
         "19",
-        "911",
-        "114"
+        "12"
       ]
     },
     {
-      "id": 108,
-      "theme": "Vie en France et société",
+      "id": 398,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel numéro appeler pour les pompiers ?",
-        "Comment joindre les pompiers en urgence ?",
-        "Quel est le numéro des sapeurs-pompiers ?"
+        "Concernant l'accès aux soins, quelle proposition est correcte ?",
+        "Qui a droit aux soins de santé en France ?",
+        "L'accès aux soins est-il un droit pour tous ?"
       ],
-      "correctAnswer": "18",
+      "correctAnswers": ["Toute personne a droit à un accès aux soins de santé"],
       "wrongAnswers": [
-        "15",
-        "17",
-        "112",
-        "19",
-        "911",
-        "119"
+        "Seuls les citoyens français ont droit aux soins",
+        "L'accès aux soins est réservé aux personnes ayant un emploi",
+        "Les soins sont accessibles uniquement aux assurés sociaux",
+        "Seules les personnes majeures ont droit aux soins",
+        "L'accès aux soins dépend du niveau de revenus",
+        "Les soins sont réservés aux résidents depuis plus de 5 ans",
+        "Seules les personnes cotisant à une mutuelle ont accès aux soins",
+        "L'accès aux soins est limité aux urgences pour les non-résidents"
       ]
     },
     {
-      "id": 109,
-      "theme": "Vie en France et société",
+      "id": 399,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Que célèbre-t-on le 1er mai ?",
-        "Quel événement fête-t-on le 1er mai ?",
-        "Pourquoi le 1er mai est-il férié ?"
+        "À qui est accessible la contraception ?",
+        "Qui peut obtenir des moyens de contraception ?",
+        "Les mineurs peuvent-ils accéder à la contraception ?"
       ],
-      "correctAnswer": "La fête du travail",
+      "correctAnswers": ["À toutes les personnes, y compris les mineurs"],
       "wrongAnswers": [
-        "La fête nationale",
-        "L'Armistice",
-        "La victoire de 1945",
-        "La Toussaint",
-        "L'Ascension",
-        "La fête de la musique"
+        "Uniquement aux personnes majeures",
+        "Aux personnes majeures et aux mineurs avec autorisation parentale",
+        "Uniquement aux femmes mariées",
+        "Aux personnes de plus de 16 ans uniquement",
+        "Uniquement sur prescription médicale après 18 ans",
+        "Aux mineurs seulement avec l'accord d'un médecin",
+        "Uniquement aux personnes affiliées à la Sécurité sociale",
+        "Aux personnes ayant une ordonnance obligatoire"
       ]
     },
     {
-      "id": 110,
-      "theme": "Vie en France et société",
+      "id": 400,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Que commémore le 1er novembre ?",
-        "Quelle fête tombe le 1er novembre ?",
-        "Qu'est-ce que le 1er novembre ?"
+        "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+        "Comment appelle-t-on la protection des informations médicales ?",
+        "Que garantit le secret médical ?"
       ],
-      "correctAnswer": "La Toussaint",
+      "correctAnswers": ["Le secret médical (les informations de santé ne peuvent pas être divulguées sans accord)"],
       "wrongAnswers": [
-        "La fête du travail",
-        "L'Armistice",
-        "Noël",
-        "La fête nationale",
-        "Pâques",
-        "L'Ascension"
+        "Le droit à l'anonymat (aucune identité n'est enregistrée)",
+        "La protection des données administratives uniquement",
+        "Le secret professionnel limité aux médecins hospitaliers",
+        "La confidentialité des ordonnances seulement",
+        "Le droit de refuser tout dossier médical",
+        "La protection limitée aux maladies graves",
+        "Le secret partagé obligatoirement avec la famille",
+        "La confidentialité réservée aux consultations privées"
       ]
     },
     {
-      "id": 111,
-      "theme": "Vie en France et société",
+      "id": 401,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quand célèbre-t-on Noël en France ?",
-        "Quelle est la date de Noël ?",
-        "Quel jour fête-t-on Noël ?"
+        "L'inscription à l'Assurance maladie est :",
+        "L'affiliation à la Sécurité sociale est :",
+        "S'inscrire à l'Assurance maladie en France est :"
       ],
-      "correctAnswer": "Le 25 décembre",
+      "correctAnswers": ["Obligatoire pour toute personne résidant en France"],
       "wrongAnswers": [
-        "Le 24 décembre",
-        "Le 31 décembre",
-        "Le 1er janvier",
-        "Le 6 janvier",
-        "Le 26 décembre",
-        "Le 15 décembre"
+        "Facultative pour les personnes sans emploi",
+        "Obligatoire uniquement pour les salariés",
+        "Réservée aux citoyens français",
+        "Optionnelle si on possède une assurance privée",
+        "Obligatoire après 5 ans de résidence",
+        "Limitée aux personnes ayant un titre de séjour",
+        "Facultative pour les travailleurs indépendants",
+        "Obligatoire uniquement pour les personnes de plus de 18 ans"
       ]
     },
     {
-      "id": 112,
-      "theme": "Vie en France et société",
+      "id": 402,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel monument est le symbole de Paris ?",
-        "Quel édifice représente Paris dans le monde ?",
-        "Quel monument emblématique symbolise Paris ?"
+        "Qui peut demander un congé parental d'éducation ?"
       ],
-      "correctAnswer": "La tour Eiffel",
+      "correctAnswers": ["Le père ou la mère"],
       "wrongAnswers": [
-        "L'Arc de Triomphe",
-        "Notre-Dame de Paris",
-        "Le Louvre",
-        "Le Sacré-Cœur",
-        "La Bastille",
-        "Le Panthéon"
+        "La mère uniquement",
+        "Le père uniquement si la mère travaille",
+        "Uniquement le parent qui a la garde principale",
+        "La mère en priorité, puis le père",
+        "Uniquement le parent qui a le salaire le plus bas",
+        "Le parent désigné par l'employeur",
+        "La mère pendant la première année, le père ensuite",
+        "Le parent ayant le plus d'ancienneté dans l'entreprise"
       ]
     },
     {
-      "id": 113,
-      "theme": "Vie en France et société",
+      "id": 403,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "En quelle année la tour Eiffel a-t-elle été construite ?",
-        "Quand la tour Eiffel a-t-elle été inaugurée ?",
-        "De quelle année date la tour Eiffel ?"
+        "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+        "De quoi s'occupe le conseil de prud'hommes ?",
+        "Quel type de litiges le conseil de prud'hommes règle-t-il ?"
       ],
-      "correctAnswer": "1889",
+      "correctAnswers": ["Les conflits entre employeurs et salariés"],
       "wrongAnswers": [
-        "1789",
-        "1900",
-        "1950",
-        "1870",
-        "1914",
-        "1867"
+        "Les litiges entre propriétaires et locataires",
+        "Les conflits familiaux et divorces",
+        "Les affaires pénales mineures",
+        "Les litiges commerciaux entre entreprises",
+        "Les conflits entre voisins",
+        "Les affaires de consommation",
+        "Les litiges entre administrations et citoyens",
+        "Les conflits entre associés d'une société"
       ]
     },
     {
-      "id": 114,
-      "theme": "Vie en France et société",
+      "id": 404,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a peint la Joconde ?",
-        "Quel artiste est l'auteur de la Joconde ?",
-        "À qui doit-on le tableau de la Joconde ?"
+        "Travailler sans être déclaré est :",
+        "Le travail au noir est :",
+        "Exercer un emploi non déclaré est :"
       ],
-      "correctAnswer": "Léonard de Vinci",
+      "correctAnswers": ["Interdit (c'est du travail dissimulé)"],
       "wrongAnswers": [
-        "Pablo Picasso",
-        "Claude Monet",
-        "Vincent van Gogh",
-        "Michel-Ange",
-        "Raphaël",
-        "Eugène Delacroix"
+        "Autorisé pour les petits travaux occasionnels",
+        "Toléré si le montant est inférieur au SMIC mensuel",
+        "Permis pour les étudiants pendant les vacances",
+        "Légal si l'employeur et le salarié sont d'accord",
+        "Accepté pour les travaux entre particuliers",
+        "Autorisé pour les personnes sans papiers",
+        "Permis si c'est pour de l'aide familiale",
+        "Toléré pour les emplois de courte durée"
       ]
     },
     {
-      "id": 115,
-      "theme": "Vie en France et société",
+      "id": 405,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a écrit Les Misérables ?",
-        "Quel auteur a écrit Les Misérables ?",
-        "À qui doit-on le roman Les Misérables ?"
+        "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+        "Quand un salarié effectue des heures au-delà de son contrat :",
+        "Si un employé travaille plus que prévu dans son contrat :"
       ],
-      "correctAnswer": "Victor Hugo",
+      "correctAnswers": ["Il doit payer des heures supplémentaires"],
       "wrongAnswers": [
-        "Émile Zola",
-        "Albert Camus",
-        "Gustave Flaubert",
-        "Alexandre Dumas",
-        "Honoré de Balzac",
-        "Stendhal"
+        "Il peut l'imposer sans compensation",
+        "Il doit donner des jours de congé en échange uniquement",
+        "Il peut modifier le contrat unilatéralement",
+        "Il n'a aucune obligation particulière",
+        "Il doit demander l'autorisation à l'inspection du travail",
+        "Il peut réduire le salaire de base en compensation",
+        "Il doit obtenir l'accord du comité d'entreprise",
+        "Il peut reporter les heures sur le mois suivant sans majoration"
       ]
     },
     {
-      "id": 116,
-      "theme": "Vie en France et société",
+      "id": 406,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a écrit Le Petit Prince ?",
-        "Quel auteur a créé Le Petit Prince ?",
-        "À qui doit-on Le Petit Prince ?"
+        "Quelle est la mission de France Travail ?",
+        "À quoi sert France Travail ?",
+        "Quel est le rôle de France Travail ?"
       ],
-      "correctAnswer": "Antoine de Saint-Exupéry",
+      "correctAnswers": ["Aider les demandeurs d'emploi à trouver un travail"],
       "wrongAnswers": [
-        "Jules Verne",
-        "Molière",
-        "Marcel Proust",
-        "Jean de La Fontaine",
-        "Charles Perrault",
-        "Voltaire"
+        "Verser les salaires aux employés du secteur public",
+        "Contrôler les conditions de travail dans les entreprises",
+        "Gérer les cotisations retraite des travailleurs",
+        "Délivrer les permis de travail aux étrangers",
+        "Former les jeunes en apprentissage",
+        "Fixer le montant du SMIC chaque année",
+        "Valider les contrats de travail",
+        "Organiser les élections professionnelles"
       ]
     },
     {
-      "id": 117,
-      "theme": "Vie en France et société",
+      "id": 407,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui est Molière ?",
-        "Que représente Molière dans la culture française ?",
-        "Pour quoi Molière est-il célèbre ?"
+        "Dans une entreprise, le droit syndical permet :",
+        "Le droit syndical autorise les salariés à :",
+        "Grâce au droit syndical, un employé peut :"
       ],
-      "correctAnswer": "Un dramaturge du XVIIe siècle",
+      "correctAnswers": ["De créer ou d'adhérer librement à un syndicat"],
       "wrongAnswers": [
-        "Un peintre",
-        "Un musicien",
-        "Un roi de France",
-        "Un scientifique",
-        "Un philosophe",
-        "Un architecte"
+        "De négocier son salaire individuellement avec l'employeur",
+        "D'imposer des décisions à la direction",
+        "De refuser toute tâche non prévue au contrat",
+        "De démissionner sans préavis",
+        "D'obtenir automatiquement une augmentation annuelle",
+        "De choisir ses horaires de travail",
+        "De prendre des congés sans autorisation préalable",
+        "D'accéder aux documents financiers de l'entreprise"
       ]
     },
     {
-      "id": 118,
-      "theme": "Vie en France et société",
+      "id": 408,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel prix littéraire français est le plus prestigieux ?",
-        "Quel est le prix littéraire majeur en France ?",
-        "Comment s'appelle le grand prix littéraire français ?"
+        "Dans une entreprise, le droit de grève autorise :",
+        "Le droit de grève permet aux salariés de :",
+        "Grâce au droit de grève, un travailleur peut :"
       ],
-      "correctAnswer": "Le prix Goncourt",
+      "correctAnswers": ["À cesser le travail pour défendre ses revendications professionnelles"],
       "wrongAnswers": [
-        "Le prix Renaudot",
-        "Le prix Femina",
-        "Le prix Interallié",
-        "Le prix Médicis",
-        "Le prix de Flore",
-        "Le Grand Prix du roman"
+        "À bloquer l'accès à l'entreprise pour tous les employés",
+        "À détruire du matériel pour faire pression",
+        "À cesser le travail sans préavis pour raisons personnelles",
+        "À refuser de travailler sans justification",
+        "À occuper les locaux de l'entreprise indéfiniment",
+        "À empêcher les non-grévistes de travailler",
+        "À cesser le travail tout en percevant son salaire",
+        "À menacer l'employeur de représailles"
       ]
     },
     {
-      "id": 119,
-      "theme": "Vie en France et société",
+      "id": 409,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a découvert la radioactivité ?",
-        "À qui doit-on la découverte de la radioactivité ?",
-        "Quel scientifique a découvert la radioactivité en 1896 ?"
+        "Quelles sont les conditions pour toucher les allocations chômage ?",
+        "Qui peut bénéficier des allocations chômage ?",
+        "Comment obtenir les indemnités de chômage ?"
       ],
-      "correctAnswer": "Henri Becquerel",
+      "correctAnswers": ["Avoir travaillé suffisamment longtemps et être inscrit à France Travail"],
       "wrongAnswers": [
-        "Marie Curie",
-        "Louis Pasteur",
-        "Antoine Lavoisier",
-        "Pierre Curie",
-        "René Descartes",
-        "André-Marie Ampère"
+        "Avoir démissionné de son emploi précédent",
+        "Être inscrit à la CAF et avoir des enfants à charge",
+        "Avoir plus de 25 ans et résider en France",
+        "Être au chômage depuis plus de 6 mois",
+        "Avoir cotisé à une mutuelle complémentaire",
+        "Être propriétaire de son logement",
+        "Avoir un niveau de diplôme minimum",
+        "Être de nationalité française ou européenne"
       ]
     },
     {
-      "id": 210,
-      "theme": "Vie en France et société",
+      "id": 410,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a découvert le polonium et le radium ?",
-        "À qui doit-on la découverte du radium ?",
-        "Quelle scientifique a découvert deux éléments radioactifs ?"
+        "Qu'est-ce que l'école maternelle ?",
+        "Pour quelle tranche d'âge est l'école maternelle ?",
+        "À qui s'adresse l'école maternelle ?"
       ],
-      "correctAnswer": "Marie Curie",
+      "correctAnswers": ["L'école pour les enfants de 3 à 6 ans"],
       "wrongAnswers": [
-        "Henri Becquerel",
-        "Louis Pasteur",
-        "Antoine Lavoisier",
-        "Pierre Curie seul",
-        "Irène Joliot-Curie",
-        "Lise Meitner"
+        "L'école pour les enfants de 2 à 5 ans",
+        "L'école pour les enfants de 4 à 7 ans",
+        "L'école pour les enfants de 6 à 10 ans",
+        "L'école pour les enfants de 5 à 8 ans",
+        "L'école pour les enfants de 2 à 4 ans",
+        "L'école pour les enfants de 3 à 5 ans",
+        "L'école pour les enfants de 4 à 6 ans",
+        "L'école pour les enfants de 1 à 3 ans"
       ]
     },
     {
-      "id": 120,
-      "theme": "Vie en France et société",
+      "id": 411,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qui a inventé le vaccin contre la rage ?",
-        "Quel scientifique a créé le vaccin antirabique ?",
-        "À qui doit-on le vaccin contre la rage ?"
+        "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+        "Quel examen passe-t-on en fin de 3ème ?",
+        "Quel diplôme sanctionne la fin du collège ?"
       ],
-      "correctAnswer": "Louis Pasteur",
+      "correctAnswers": ["Le Diplôme National du Brevet (DNB)"],
       "wrongAnswers": [
-        "Marie Curie",
-        "Claude Bernard",
-        "René Laennec",
-        "Pierre Curie",
-        "Jacques Monod",
-        "François Jacob"
+        "Le Baccalauréat",
+        "Le Certificat d'Aptitude Professionnelle (CAP)",
+        "Le Certificat de Fin d'Études Secondaires",
+        "Le Brevet d'Études Professionnelles (BEP)",
+        "Le Certificat d'Études Primaires",
+        "Le Diplôme de Fin de Scolarité Obligatoire",
+        "Le Brevet des Collèges Professionnel",
+        "Le Certificat de Compétences de Base"
       ]
     },
     {
-      "id": 121,
-      "theme": "Vie en France et société",
+      "id": 412,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "La France est membre fondateur de quelle organisation ?",
-        "De quelle organisation la France est-elle un membre fondateur ?",
-        "Quelle institution la France a-t-elle contribué à créer ?"
+        "Les parents d'élève ont le droit de :",
+        "Dans la vie scolaire, les parents peuvent :",
+        "Concernant l'école, les parents ont la possibilité de :"
       ],
-      "correctAnswer": "L'Union européenne",
+      "correctAnswers": ["Participer à la vie de l'école (élections de représentants, réunions)"],
       "wrongAnswers": [
-        "L'ONU uniquement",
-        "L'OTAN uniquement",
-        "L'OCDE uniquement",
-        "L'OMS uniquement",
-        "Le FMI uniquement",
-        "L'UNESCO uniquement"
+        "Assister aux cours de leur enfant quand ils le souhaitent",
+        "Choisir les enseignants de leur enfant",
+        "Modifier le programme scolaire",
+        "Décider du contenu des examens",
+        "Imposer les horaires de classe",
+        "Choisir les camarades de classe de leur enfant",
+        "Contester les notes sans procédure officielle",
+        "Exiger le changement de classe de leur enfant"
       ]
     },
     {
-      "id": 122,
-      "theme": "Vie en France et société",
+      "id": 413,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Combien de pays composent l'Union européenne ?",
-        "Quel est le nombre de membres de l'UE ?",
-        "L'Union européenne compte combien d'États membres ?"
+        "Qui peut manger à la cantine scolaire ?",
+        "L'accès à la cantine est-il réservé à certains élèves ?",
+        "Tous les élèves peuvent-ils déjeuner à la cantine ?"
       ],
-      "correctAnswer": "27",
+      "correctAnswers": ["Tous les élèves sans discrimination"],
       "wrongAnswers": [
-        "15",
-        "28",
-        "50",
-        "25",
-        "30",
-        "22"
+        "Uniquement les élèves dont les parents travaillent",
+        "Les élèves habitant à plus de 2 km de l'école",
+        "Seulement les élèves inscrits depuis plus d'un an",
+        "Les élèves ayant un certificat médical",
+        "Uniquement les élèves en difficulté sociale",
+        "Les élèves dont les parents paient des impôts locaux",
+        "Seulement les élèves de nationalité française",
+        "Les élèves sélectionnés par tirage au sort"
       ]
     },
     {
-      "id": 123,
-      "theme": "Vie en France et société",
+      "id": 414,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Où se trouve le siège du Parlement européen ?",
-        "Dans quelle ville siège le Parlement européen ?",
-        "Où les députés européens se réunissent-ils ?"
+        "À quel âge commence l'instruction obligatoire des enfants ?",
+        "Dès quel âge un enfant doit-il être scolarisé ?",
+        "Quand débute l'obligation scolaire en France ?"
       ],
-      "correctAnswer": "Strasbourg",
+      "correctAnswers": ["3 ans"],
       "wrongAnswers": [
-        "Paris",
-        "Bruxelles",
-        "Luxembourg",
-        "Berlin",
-        "Amsterdam",
-        "Genève"
+        "6 ans",
+        "5 ans",
+        "4 ans",
+        "2 ans",
+        "7 ans",
+        "5 ans et demi",
+        "4 ans et demi",
+        "6 ans et demi"
       ]
     },
     {
-      "id": 124,
-      "theme": "Vie en France et société",
+      "id": 415,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce que l'espace Schengen ?",
-        "À quoi correspond l'espace Schengen ?",
-        "Que permet l'espace Schengen ?"
+        "Quel est l'âge de la majorité ?",
+        "À quel âge devient-on majeur en France ?",
+        "Quand atteint-on la majorité légale ?"
       ],
-      "correctAnswer": "Un espace de libre circulation des personnes",
+      "correctAnswers": ["18 ans"],
       "wrongAnswers": [
-        "Une zone monétaire",
-        "Une alliance militaire",
-        "Un accord commercial",
-        "Une zone fiscale commune",
-        "Un espace de défense",
-        "Une union douanière uniquement"
+        "21 ans",
+        "16 ans",
+        "17 ans",
+        "19 ans",
+        "20 ans",
+        "15 ans",
+        "16 ans avec émancipation automatique",
+        "17 ans et demi"
       ]
     },
     {
-      "id": 125,
-      "theme": "Vie en France et société",
+      "id": 416,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Quel est le sport le plus populaire en France ?",
-        "Quel sport est le plus pratiqué en France ?",
-        "Quel est le sport national français ?"
+        "À l'école, il est interdit aux parents de :",
+        "Dans l'enceinte scolaire, les parents ne peuvent pas :",
+        "Ce que les parents n'ont pas le droit de faire à l'école :"
       ],
-      "correctAnswer": "Le football",
+      "correctAnswers": ["Faire du prosélytisme ou perturber le fonctionnement de l'établissement"],
       "wrongAnswers": [
-        "Le rugby",
-        "Le tennis",
-        "Le cyclisme",
-        "Le basketball",
-        "Le handball",
-        "La natation"
+        "Accompagner les sorties scolaires",
+        "Rencontrer les enseignants sur rendez-vous",
+        "Participer aux réunions de parents d'élèves",
+        "Voter pour les représentants de parents",
+        "Consulter le règlement intérieur",
+        "Demander des informations sur la scolarité de leur enfant",
+        "Signaler un problème à la direction",
+        "Assister aux spectacles de fin d'année"
       ]
     },
     {
-      "id": 126,
-      "theme": "Vie en France et société",
+      "id": 417,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce que le Tour de France ?",
-        "Le Tour de France est quelle compétition ?",
-        "Quel type d'épreuve est le Tour de France ?"
+        "Quel motif d'absence est accepté par l'école ?",
+        "Quelles raisons justifient une absence scolaire ?",
+        "Pour quels motifs un élève peut-il être absent de l'école ?"
       ],
-      "correctAnswer": "Une course cycliste",
+      "correctAnswers": ["La maladie (avec certificat médical)", "Un décès familial"],
       "wrongAnswers": [
-        "Une course automobile",
-        "Un marathon",
-        "Une régate",
-        "Une course à pied",
-        "Un rallye moto",
-        "Une randonnée pédestre"
+        "Les vacances familiales prolongées",
+        "Un anniversaire ou une fête de famille",
+        "Une grasse matinée occasionnelle",
+        "Un rendez-vous de shopping avec les parents",
+        "Une journée de repos choisie par les parents",
+        "Un voyage non urgent pendant la période scolaire",
+        "Une activité sportive non scolaire",
+        "Une sortie au parc d'attractions"
       ]
     },
     {
-      "id": 127,
-      "theme": "Vie en France et société",
+      "id": 418,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce que Roland-Garros ?",
-        "Que désigne Roland-Garros dans le sport ?",
-        "Roland-Garros est célèbre pour quel événement ?"
+        "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+        "Que risquent les parents qui ne scolarisent pas leurs enfants ?",
+        "Quelles sont les sanctions pour non-respect de l'obligation scolaire ?"
       ],
-      "correctAnswer": "Un tournoi de tennis",
+      "correctAnswers": ["Une amende et/ou une peine de prison"],
       "wrongAnswers": [
-        "Un stade de football",
-        "Un circuit automobile",
-        "Un aéroport",
-        "Un stade de rugby",
-        "Une piscine olympique",
-        "Un hippodrome"
+        "Un simple avertissement écrit",
+        "La suppression des allocations familiales uniquement",
+        "Une convocation à la mairie sans suite",
+        "Un rappel à la loi sans conséquence",
+        "Une médiation familiale obligatoire",
+        "Un stage de sensibilisation parentale",
+        "Une visite d'un assistant social uniquement",
+        "Une lettre de mise en demeure sans sanction"
       ]
     },
     {
-      "id": 128,
-      "theme": "Vie en France et société",
+      "id": 419,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce que le Festival de Cannes ?",
-        "Que célèbre le Festival de Cannes ?",
-        "Pour quel art le Festival de Cannes est-il connu ?"
+        "Quand ont lieu les vacances scolaires de Noël ?",
+        "À quelle période sont les vacances de Noël ?",
+        "Quelles sont les dates habituelles des vacances de fin d'année ?"
       ],
-      "correctAnswer": "Un festival de cinéma",
+      "correctAnswers": ["Fin décembre - début janvier (environ 2 semaines)"],
       "wrongAnswers": [
-        "Un festival de musique",
-        "Un festival de danse",
-        "Un festival gastronomique",
-        "Un festival de théâtre",
-        "Un festival de littérature",
-        "Un festival de mode"
+        "Mi-novembre - fin novembre (environ 1 semaine)",
+        "Début décembre - mi-décembre (environ 10 jours)",
+        "Mi-janvier - fin janvier (environ 2 semaines)",
+        "Fin novembre - mi-décembre (environ 3 semaines)",
+        "Du 15 décembre au 15 janvier (1 mois)",
+        "Uniquement la semaine du 25 décembre",
+        "De mi-décembre à mi-janvier (environ 4 semaines)",
+        "Début janvier uniquement (1 semaine)"
       ]
     },
     {
-      "id": 161,
-      "theme": "Vie en France et société",
+      "id": 420,
+      "theme": "Vivre dans la société française",
       "questions": [
-        "Qu'est-ce que la CAF ?",
-        "Que signifie CAF ?",
-        "À quoi sert la CAF ?"
+        "À l'école, un enfant en situation de handicap :",
+        "Concernant la scolarisation des enfants handicapés :",
+        "Pour un enfant en situation de handicap, l'école :"
       ],
-      "correctAnswer": "La Caisse d'Allocations Familiales",
+      "correctAnswers": ["A le droit d'être scolarisé comme tous les autres enfants"],
       "wrongAnswers": [
-        "Un tribunal",
-        "Un syndicat",
-        "Une banque",
-        "Un hôpital",
-        "Une école",
-        "Une mairie"
-      ]
-    },
-    {
-      "id": 162,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que Pôle emploi ?",
-        "À quoi sert Pôle emploi ?",
-        "Que fait Pôle emploi ?"
-      ],
-      "correctAnswer": "Le service public de l'emploi",
-      "wrongAnswers": [
-        "Une entreprise privée",
-        "Un syndicat",
-        "Une école",
-        "Une agence immobilière",
-        "Une banque",
-        "Un cabinet de recrutement privé"
-      ]
-    },
-    {
-      "id": 163,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le RSA ?",
-        "Que signifie RSA ?",
-        "À qui s'adresse le RSA ?"
-      ],
-      "correctAnswer": "Le Revenu de Solidarité Active",
-      "wrongAnswers": [
-        "Un impôt",
-        "Une retraite",
-        "Un salaire",
-        "Une prime",
-        "Un crédit",
-        "Une assurance"
-      ]
-    },
-    {
-      "id": 164,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que la CMU (CSS) ?",
-        "À quoi sert la CSS (ancienne CMU) ?",
-        "Que couvre la CSS ?"
-      ],
-      "correctAnswer": "Une couverture maladie pour les personnes à faibles revenus",
-      "wrongAnswers": [
-        "Une assurance voiture",
-        "Un diplôme",
-        "Un contrat de travail",
-        "Une carte de transport",
-        "Un permis de conduire",
-        "Une carte bancaire"
-      ]
-    },
-    {
-      "id": 165,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le baccalauréat ?",
-        "À quoi correspond le baccalauréat ?",
-        "Que sanctionne le baccalauréat ?"
-      ],
-      "correctAnswer": "Le diplôme de fin d'études secondaires",
-      "wrongAnswers": [
-        "Un diplôme de fin d'études primaires",
-        "Un diplôme universitaire",
-        "Un certificat professionnel",
-        "Un diplôme de collège",
-        "Un master",
-        "Un doctorat"
-      ]
-    },
-    {
-      "id": 166,
-      "theme": "Vie en France et société",
-      "questions": [
-        "À quel âge l'instruction est-elle obligatoire ?",
-        "Quelle est la période d'instruction obligatoire ?",
-        "De quel âge à quel âge l'école est-elle obligatoire ?"
-      ],
-      "correctAnswer": "De 3 à 16 ans",
-      "wrongAnswers": [
-        "De 6 à 16 ans",
-        "De 3 à 18 ans",
-        "De 6 à 18 ans",
-        "De 5 à 15 ans",
-        "De 4 à 14 ans",
-        "De 6 à 14 ans"
-      ]
-    },
-    {
-      "id": 167,
-      "theme": "Vie en France et société",
-      "questions": [
-        "L'école publique en France est :",
-        "Quel est le caractère de l'école publique ?",
-        "Comment qualifier l'école publique française ?"
-      ],
-      "correctAnswer": "Laïque",
-      "wrongAnswers": [
-        "Religieuse",
-        "Privée",
-        "Payante",
-        "Confessionnelle",
-        "Catholique",
-        "Protestante"
-      ]
-    },
-    {
-      "id": 168,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le collège en France ?",
-        "À qui s'adresse le collège ?",
-        "Quelle tranche d'âge concerne le collège ?"
-      ],
-      "correctAnswer": "L'établissement pour les élèves de 11 à 15 ans",
-      "wrongAnswers": [
-        "L'école primaire",
-        "L'université",
-        "L'école maternelle",
-        "Le lycée",
-        "L'école professionnelle",
-        "La grande école"
-      ]
-    },
-    {
-      "id": 169,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le lycée ?",
-        "À quoi prépare le lycée ?",
-        "Comment définir le lycée ?"
-      ],
-      "correctAnswer": "L'établissement qui prépare au baccalauréat",
-      "wrongAnswers": [
-        "L'école primaire",
-        "L'école maternelle",
-        "Le collège",
-        "L'université",
-        "L'école professionnelle",
-        "Le centre d'apprentissage"
-      ]
-    },
-    {
-      "id": 211,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel diplôme obtient-on après le lycée ?",
-        "Quel examen passe-t-on à la fin du lycée ?",
-        "Quel diplôme sanctionne la fin des études secondaires ?"
-      ],
-      "correctAnswer": "Le baccalauréat",
-      "wrongAnswers": [
-        "Le brevet des collèges",
-        "La licence",
-        "Le master",
-        "Le CAP",
-        "Le BTS",
-        "Le certificat d'études"
-      ]
-    },
-    {
-      "id": 187,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le PACS ?",
-        "Que signifie PACS ?",
-        "À quoi sert le PACS ?"
-      ],
-      "correctAnswer": "Un contrat d'union civile entre deux personnes",
-      "wrongAnswers": [
-        "Un contrat de travail",
-        "Un type de logement",
-        "Une assurance",
-        "Un prêt bancaire",
-        "Un diplôme",
-        "Un permis"
-      ]
-    },
-    {
-      "id": 188,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Depuis quelle année le PACS existe-t-il ?",
-        "Quand le PACS a-t-il été créé ?",
-        "De quelle année date le PACS ?"
-      ],
-      "correctAnswer": "1999",
-      "wrongAnswers": [
-        "1995",
-        "2004",
-        "2010",
-        "2001",
-        "1997",
-        "2006"
-      ]
-    },
-    {
-      "id": 189,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quelle fête célèbre-t-on le 21 juin ?",
-        "Qu'est-ce que le 21 juin en France ?",
-        "Que fête-t-on le 21 juin ?"
-      ],
-      "correctAnswer": "La Fête de la musique",
-      "wrongAnswers": [
-        "La fête nationale",
-        "Noël",
-        "La fête du travail",
-        "La Saint-Jean",
-        "Pâques",
-        "La Toussaint"
-      ]
-    },
-    {
-      "id": 190,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que les Journées du Patrimoine ?",
-        "Que permettent les Journées du Patrimoine ?",
-        "À quoi servent les Journées du Patrimoine ?"
-      ],
-      "correctAnswer": "Des journées où les monuments ouvrent gratuitement",
-      "wrongAnswers": [
-        "Des jours fériés",
-        "Des jours de soldes",
-        "Des journées sportives",
-        "Des jours de congés",
-        "Des fêtes religieuses",
-        "Des vacances scolaires"
-      ]
-    },
-    {
-      "id": 191,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quelle est la deuxième ville de France ?",
-        "Quelle ville est la deuxième plus peuplée de France ?",
-        "Après Paris, quelle est la plus grande ville ?"
-      ],
-      "correctAnswer": "Marseille",
-      "wrongAnswers": [
-        "Lyon",
-        "Toulouse",
-        "Nice",
-        "Bordeaux",
-        "Lille",
-        "Nantes"
-      ]
-    },
-    {
-      "id": 196,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel est le principal aéroport de Paris ?",
-        "Comment s'appelle le grand aéroport parisien ?",
-        "Quel aéroport dessert principalement Paris ?"
-      ],
-      "correctAnswer": "Charles de Gaulle",
-      "wrongAnswers": [
-        "Orly",
-        "Le Bourget",
-        "Beauvais",
-        "Lyon Saint-Exupéry",
-        "Nice Côte d'Azur",
-        "Marseille Provence"
-      ]
-    },
-    {
-      "id": 197,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le TGV ?",
-        "Que signifie TGV ?",
-        "À quoi sert le TGV ?"
-      ],
-      "correctAnswer": "Le Train à Grande Vitesse",
-      "wrongAnswers": [
-        "Une autoroute",
-        "Un avion",
-        "Un bus",
-        "Un métro",
-        "Un tramway",
-        "Un bateau"
-      ]
-    },
-    {
-      "id": 198,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que la SNCF ?",
-        "Que signifie SNCF ?",
-        "À quoi sert la SNCF ?"
-      ],
-      "correctAnswer": "La Société Nationale des Chemins de fer Français",
-      "wrongAnswers": [
-        "Une compagnie aérienne",
-        "Une banque",
-        "Une entreprise de télécommunications",
-        "Une compagnie d'assurance",
-        "Une chaîne de télévision",
-        "Un opérateur téléphonique"
-      ]
-    },
-    {
-      "id": 199,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que l'AOC ?",
-        "Que signifie AOC ?",
-        "À quoi sert l'AOC ?"
-      ],
-      "correctAnswer": "L'Appellation d'Origine Contrôlée pour les produits",
-      "wrongAnswers": [
-        "Un parti politique",
-        "Une taxe",
-        "Un diplôme",
-        "Un syndicat",
-        "Une entreprise",
-        "Un ministère"
-      ]
-    },
-    {
-      "id": 200,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Le camembert est :",
-        "Qu'est-ce que le camembert ?",
-        "Comment qualifier le camembert ?"
-      ],
-      "correctAnswer": "Un fromage",
-      "wrongAnswers": [
-        "Un vin",
-        "Un dessert",
-        "Un pain",
-        "Une viande",
-        "Un poisson",
-        "Un légume"
-      ]
-    },
-    {
-      "id": 201,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quelle région est célèbre pour son vin ?",
-        "Quelle région française produit du vin renommé ?",
-        "Où trouve-t-on les grands vignobles français ?"
-      ],
-      "correctAnswer": "La Bourgogne",
-      "wrongAnswers": [
-        "La Bretagne",
-        "La Normandie",
-        "La Picardie",
-        "Le Nord-Pas-de-Calais",
-        "La Lorraine",
-        "Les Hauts-de-France"
-      ]
-    },
-    {
-      "id": 202,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Le champagne est produit dans quelle région ?",
-        "D'où vient le champagne ?",
-        "Quelle région produit le champagne ?"
-      ],
-      "correctAnswer": "La Champagne",
-      "wrongAnswers": [
-        "La Provence",
-        "L'Alsace",
-        "La Bourgogne",
-        "Le Bordelais",
-        "La Loire",
-        "Le Languedoc"
-      ]
-    },
-    {
-      "id": 203,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que le service civique ?",
-        "À quoi sert le service civique ?",
-        "Que permet le service civique ?"
-      ],
-      "correctAnswer": "Un engagement volontaire au service de l'intérêt général",
-      "wrongAnswers": [
-        "Le service militaire obligatoire",
-        "Un impôt",
-        "Une formation professionnelle",
-        "Un stage en entreprise",
-        "Un travail forcé",
-        "Un emploi public"
-      ]
-    },
-    {
-      "id": 204,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Quel philosophe a écrit Le Contrat social ?",
-        "À qui doit-on Le Contrat social ?",
-        "Qui est l'auteur du Contrat social ?"
-      ],
-      "correctAnswer": "Jean-Jacques Rousseau",
-      "wrongAnswers": [
-        "Voltaire",
-        "Montesquieu",
-        "Denis Diderot",
-        "Descartes",
-        "Pascal",
-        "Spinoza"
-      ]
-    },
-    {
-      "id": 205,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qui a théorisé la séparation des pouvoirs ?",
-        "À qui doit-on la théorie de la séparation des pouvoirs ?",
-        "Quel philosophe a écrit L'Esprit des lois ?"
-      ],
-      "correctAnswer": "Montesquieu",
-      "wrongAnswers": [
-        "Voltaire",
-        "Rousseau",
-        "Diderot",
-        "Descartes",
-        "Locke",
-        "Hobbes"
-      ]
-    },
-    {
-      "id": 206,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que l'Encyclopédie ?",
-        "Que représente l'Encyclopédie ?",
-        "À quoi sert l'Encyclopédie du XVIIIe siècle ?"
-      ],
-      "correctAnswer": "Un ouvrage des Lumières résumant les connaissances",
-      "wrongAnswers": [
-        "Un roman",
-        "Un journal",
-        "Une loi",
-        "Un traité de paix",
-        "Une constitution",
-        "Un code juridique"
-      ]
-    },
-    {
-      "id": 207,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qui était le principal auteur de l'Encyclopédie ?",
-        "Qui a dirigé la rédaction de l'Encyclopédie ?",
-        "À qui doit-on principalement l'Encyclopédie ?"
-      ],
-      "correctAnswer": "Denis Diderot",
-      "wrongAnswers": [
-        "Voltaire",
-        "Rousseau",
-        "Montesquieu",
-        "D'Alembert seul",
-        "Buffon",
-        "Condorcet"
-      ]
-    },
-    {
-      "id": 208,
-      "theme": "Vie en France et société",
-      "questions": [
-        "Qu'est-ce que les Lumières ?",
-        "Que représente le mouvement des Lumières ?",
-        "Comment définir les Lumières ?"
-      ],
-      "correctAnswer": "Un mouvement intellectuel du XVIIIe siècle promouvant la raison",
-      "wrongAnswers": [
-        "Un mouvement artistique",
-        "Une fête religieuse",
-        "Un parti politique",
-        "Une révolution",
-        "Un style architectural",
-        "Un courant musical"
+        "Doit obligatoirement aller dans un établissement spécialisé",
+        "Ne peut être scolarisé qu'à temps partiel",
+        "Doit avoir l'autorisation du médecin scolaire",
+        "Est scolarisé uniquement si des places sont disponibles",
+        "Doit suivre un programme différent des autres élèves",
+        "Ne peut pas participer aux activités sportives",
+        "Est automatiquement orienté vers une classe spéciale",
+        "Doit être accompagné en permanence par ses parents"
       ]
     }
   ]

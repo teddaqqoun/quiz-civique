@@ -1,687 +1,839 @@
 {
   "questions": [
     {
-      "id": 41,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 212,
+      "theme": "Droits et devoirs",
       "questions": [
-        "À partir de quel âge peut-on voter en France ?",
-        "Quel est l'âge minimum pour voter ?",
-        "À quel âge obtient-on le droit de vote ?"
+        "À quelle liberté la PMA fait-elle référence ?",
+        "Quelle liberté est associée à la procréation médicalement assistée ?",
+        "De quelle liberté fondamentale la PMA relève-t-elle ?"
       ],
-      "correctAnswer": "18 ans",
+      "correctAnswers": ["La liberté de disposer de son corps", "La liberté reproductive"],
       "wrongAnswers": [
-        "16 ans",
-        "21 ans",
-        "25 ans",
-        "17 ans",
-        "20 ans",
-        "15 ans"
+        "La liberté d'expression",
+        "La liberté de circulation",
+        "Le droit à la vie privée",
+        "La liberté de conscience",
+        "Le droit au travail",
+        "La liberté d'association",
+        "Le droit à la santé",
+        "La liberté de réunion",
+        "Le droit à l'éducation",
+        "La liberté religieuse"
       ]
     },
     {
-      "id": 42,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 213,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le vote en France est-il obligatoire ?",
-        "Est-on obligé de voter en France ?",
-        "Le vote est-il une obligation légale en France ?"
+        "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+        "Pour quelle raison l'État peut-il limiter les droits des citoyens ?",
+        "Quel motif permet à l'État de restreindre certains droits ?"
       ],
-      "correctAnswer": "Non, c'est un droit mais pas une obligation légale",
+      "correctAnswers": ["L'intérêt général", "L'ordre public"],
       "wrongAnswers": [
-        "Oui, pour tous les citoyens",
-        "Oui, seulement pour les élections présidentielles",
-        "Oui, sous peine d'amende",
-        "Oui, pour les plus de 25 ans",
-        "Oui, mais seulement aux municipales",
-        "Oui, avec des exceptions"
+        "La volonté du Président",
+        "Les intérêts économiques",
+        "La tradition républicaine",
+        "Le confort des citoyens",
+        "Les demandes des entreprises",
+        "L'avis des médias",
+        "Les sondages d'opinion",
+        "Les recommandations européennes",
+        "La pression internationale",
+        "Les considérations budgétaires"
       ]
     },
     {
-      "id": 43,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 214,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Quels documents officiels prouvent la nationalité française ?",
-        "Quels documents attestent de la nationalité française ?",
-        "Comment prouver sa nationalité française ?"
+        "Concernant le droit de se marier, quelle proposition est correcte ?",
+        "Que dit la loi française sur le droit au mariage ?",
+        "Qui peut se marier en France ?"
       ],
-      "correctAnswer": "La carte d'identité nationale ou le passeport français",
+      "correctAnswers": ["Deux personnes majeures peuvent se marier librement, y compris du même sexe"],
       "wrongAnswers": [
-        "Le permis de conduire",
-        "La carte Vitale",
-        "La carte électorale",
-        "Le livret de famille",
-        "L'attestation de domicile",
-        "La carte de séjour"
+        "Seules les personnes de sexe différent peuvent se marier",
+        "Le mariage est réservé aux citoyens français uniquement",
+        "L'autorisation des parents est toujours obligatoire pour se marier",
+        "Le mariage religieux suffit pour être reconnu légalement",
+        "Il faut avoir au moins 21 ans pour se marier",
+        "Le mariage entre personnes du même sexe n'est autorisé que civilement",
+        "Un certificat médical est obligatoire pour se marier",
+        "Seules les personnes ayant un emploi peuvent se marier",
+        "Le mariage nécessite l'accord du maire de la commune",
+        "Il faut résider en France depuis 5 ans pour pouvoir se marier"
       ]
     },
     {
-      "id": 44,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 215,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La scolarité est obligatoire jusqu'à quel âge ?",
-        "Jusqu'à quel âge l'instruction est-elle obligatoire ?",
-        "À quel âge peut-on quitter l'école ?"
+        "Est-il toujours possible de divorcer ?",
+        "Le divorce est-il un droit en France ?",
+        "Peut-on toujours demander le divorce en France ?"
       ],
-      "correctAnswer": "16 ans",
+      "correctAnswers": ["Oui, le divorce est un droit"],
       "wrongAnswers": [
-        "14 ans",
-        "18 ans",
-        "12 ans",
-        "15 ans",
-        "17 ans",
-        "10 ans"
+        "Non, il faut l'accord des deux époux obligatoirement",
+        "Seulement après 5 ans de mariage",
+        "Uniquement si le couple n'a pas d'enfants",
+        "Non, le divorce est interdit en France",
+        "Seulement avec l'autorisation d'un juge religieux",
+        "Uniquement pour faute grave prouvée",
+        "Non, sauf en cas de violence conjugale",
+        "Seulement si les deux époux sont de nationalité française",
+        "Uniquement après une période de séparation de 2 ans",
+        "Non, le mariage est indissoluble selon la loi"
       ]
     },
     {
-      "id": 184,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 216,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Depuis 2020, les jeunes de 16 à 18 ans ont une obligation de :",
-        "Quelle obligation concerne les jeunes de 16 à 18 ans depuis 2020 ?",
-        "Que doivent faire les jeunes de 16 à 18 ans depuis 2020 ?"
+        "La peine de mort est :",
+        "En France, la peine de mort est :",
+        "Le statut de la peine de mort en France est :"
       ],
-      "correctAnswer": "Formation (être en études, formation ou emploi)",
+      "correctAnswers": ["Abolie en France depuis 1981"],
       "wrongAnswers": [
-        "Service militaire",
-        "Travail obligatoire",
-        "Bénévolat",
-        "Aucune obligation",
-        "Voter",
-        "Payer des impôts"
+        "Abolie en France depuis 1958",
+        "Abolie en France depuis 1789",
+        "Abolie en France depuis 2000",
+        "Toujours en vigueur pour les crimes les plus graves",
+        "Abolie en France depuis 1945",
+        "Suspendue mais pas officiellement abolie",
+        "Abolie en France depuis 1968",
+        "Réservée aux cas de haute trahison",
+        "Abolie en France depuis 1995",
+        "Abolie en France depuis 1974"
       ]
     },
     {
-      "id": 45,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 217,
+      "theme": "Droits et devoirs",
       "questions": [
-        "L'école publique en France est :",
-        "Comment caractériser l'école publique française ?",
-        "Quelles sont les caractéristiques de l'école publique ?"
+        "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+        "Quelle phrase célèbre figure dans la Déclaration des Droits de l'homme de 1789 ?",
+        "Quel principe fondamental est écrit dans la Déclaration de 1789 ?"
       ],
-      "correctAnswer": "Gratuite et laïque",
+      "correctAnswers": ["Les hommes naissent et demeurent libres et égaux en droits"],
       "wrongAnswers": [
-        "Payante",
-        "Religieuse",
-        "Réservée aux citoyens français",
-        "Facultative",
-        "Privée",
-        "Mixte et payante"
+        "Liberté, Égalité, Fraternité",
+        "La République est une et indivisible",
+        "Le gouvernement du peuple, par le peuple, pour le peuple",
+        "Tous les citoyens ont droit au bonheur",
+        "La France est une République laïque et sociale",
+        "Le travail est un droit et un devoir pour tous",
+        "Nul n'est censé ignorer la loi",
+        "L'État garantit la protection de tous ses citoyens",
+        "La souveraineté nationale appartient au Roi",
+        "Chaque citoyen a le devoir de défendre la patrie"
       ]
     },
     {
-      "id": 46,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 218,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Quel est le devoir fiscal des citoyens ?",
-        "Quelle obligation fiscale ont les citoyens ?",
-        "Quel devoir financier ont les citoyens envers l'État ?"
+        "Le recours à l'avortement est-il autorisé ?",
+        "L'IVG est-elle légale en France ?",
+        "Une femme peut-elle avorter en France ?"
       ],
-      "correctAnswer": "Payer les impôts",
+      "correctAnswers": ["Oui, c'est un droit inscrit dans la Constitution"],
       "wrongAnswers": [
-        "Faire du bénévolat",
-        "Voter",
-        "Servir dans l'armée",
-        "Donner à des associations",
-        "Travailler pour l'État",
-        "Acheter des produits français"
+        "Oui, mais uniquement en cas de danger pour la mère",
+        "Non, l'avortement est interdit en France",
+        "Oui, mais uniquement avec l'accord du père",
+        "Oui, mais seulement dans les hôpitaux publics",
+        "Oui, mais ce n'est pas un droit constitutionnel",
+        "Oui, mais uniquement pour les femmes majeures",
+        "Oui, mais seulement après avis d'une commission médicale",
+        "Non, sauf pour raisons médicales graves",
+        "Oui, mais uniquement jusqu'à 8 semaines de grossesse",
+        "Oui, mais avec l'autorisation obligatoire d'un juge"
       ]
     },
     {
-      "id": 47,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 219,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La liberté d'expression permet de :",
-        "Que garantit la liberté d'expression ?",
-        "En quoi consiste la liberté d'expression ?"
+        "Que contient la Constitution ?",
+        "Qu'est-ce qui figure dans la Constitution française ?",
+        "De quoi est composée la Constitution ?"
       ],
-      "correctAnswer": "Exprimer ses opinions dans le respect de la loi",
+      "correctAnswers": ["Les règles d'organisation de l'État et les droits fondamentaux"],
       "wrongAnswers": [
-        "Dire tout ce qu'on veut sans limite",
-        "Insulter qui l'on veut",
-        "Diffuser de fausses informations",
-        "Inciter à la haine",
-        "Menacer autrui",
-        "Diffamer sans conséquence"
+        "Uniquement les droits des citoyens",
+        "Les lois pénales et civiles du pays",
+        "Le budget annuel de l'État",
+        "La liste des ministres et leurs fonctions",
+        "Les règles de la vie quotidienne des citoyens",
+        "Le Code civil et le Code pénal",
+        "Les traités internationaux signés par la France",
+        "Les règles électorales uniquement",
+        "L'histoire de la République française",
+        "Les obligations fiscales des citoyens"
       ]
     },
     {
-      "id": 48,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 220,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que la présomption d'innocence ?",
-        "Que signifie la présomption d'innocence ?",
-        "Comment définir la présomption d'innocence ?"
+        "Que garantit la liberté de la presse ?",
+        "Qu'est-ce que la liberté de la presse permet ?",
+        "À quoi sert la liberté de la presse ?"
       ],
-      "correctAnswer": "Tout accusé est considéré innocent jusqu'à preuve du contraire",
+      "correctAnswers": ["Le droit d'informer et d'être informé librement"],
       "wrongAnswers": [
-        "Tout accusé est considéré coupable",
-        "Seul le juge décide de la culpabilité",
-        "L'accusé doit prouver son innocence",
-        "La police décide de la culpabilité",
-        "L'accusé est coupable s'il est arrêté",
-        "Le procureur décide seul"
+        "Le droit de publier sans aucune limite",
+        "Le droit de critiquer le gouvernement uniquement",
+        "La gratuité des journaux pour tous",
+        "Le droit de diffamer sans conséquence",
+        "L'obligation pour l'État de financer les médias",
+        "Le droit exclusif des journalistes professionnels",
+        "La censure préalable des publications",
+        "Le contrôle de l'information par l'État",
+        "Le droit de révéler tous les secrets d'État",
+        "L'interdiction de la publicité dans les médias"
       ]
     },
     {
-      "id": 49,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 221,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le droit de grève en France est :",
-        "Quel est le statut du droit de grève ?",
-        "Comment est reconnu le droit de grève en France ?"
+        "Que prévoit la Charte de l'environnement ?",
+        "Qu'est-ce que la Charte de l'environnement garantit ?",
+        "Quels droits et devoirs la Charte de l'environnement établit-elle ?"
       ],
-      "correctAnswer": "Un droit constitutionnel",
+      "correctAnswers": ["Le droit de vivre dans un environnement sain et le devoir de le protéger"],
       "wrongAnswers": [
-        "Interdit",
-        "Réservé au secteur privé",
-        "Soumis à autorisation",
-        "Limité à 3 jours par an",
-        "Réservé aux syndicats",
-        "Interdit dans le public"
+        "L'interdiction totale de la pollution industrielle",
+        "Le droit à un logement écologique pour tous",
+        "L'obligation de recycler tous ses déchets",
+        "La gratuité des transports en commun",
+        "L'interdiction des véhicules polluants",
+        "Le droit à l'eau potable gratuite",
+        "L'obligation de planter des arbres chaque année",
+        "Le droit d'accès gratuit aux espaces naturels",
+        "L'interdiction de la chasse sur tout le territoire",
+        "Le devoir de consommer uniquement des produits locaux"
       ]
     },
     {
-      "id": 50,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 222,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La liberté de réunion permet :",
-        "Que garantit la liberté de réunion ?",
-        "En quoi consiste la liberté de réunion ?"
+        "Que signifie la dignité humaine ?",
+        "Comment définit-on la dignité humaine ?",
+        "Qu'est-ce que le principe de dignité humaine ?"
       ],
-      "correctAnswer": "De se réunir pacifiquement",
+      "correctAnswers": ["Le respect dû à toute personne humaine en raison de sa seule humanité"],
       "wrongAnswers": [
-        "De bloquer les routes sans autorisation",
-        "D'occuper des bâtiments publics",
-        "De manifester avec des armes",
-        "De se réunir en secret contre l'État",
-        "D'envahir des propriétés privées",
-        "De bloquer les aéroports"
+        "Le droit de vivre dans le confort matériel",
+        "Le respect accordé selon le statut social de chacun",
+        "Le droit d'être traité selon ses mérites",
+        "La protection des personnes âgées uniquement",
+        "Le respect dû aux citoyens français exclusivement",
+        "Le droit à un salaire minimum pour tous",
+        "La protection contre la pauvreté économique",
+        "Le droit d'être respecté selon sa religion",
+        "Le respect accordé aux personnes en fonction de leur emploi",
+        "La garantie d'un niveau de vie décent"
       ]
     },
     {
-      "id": 51,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 223,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Les discriminations sont :",
-        "Quel est le statut des discriminations en France ?",
-        "Comment la loi traite-t-elle les discriminations ?"
+        "Que signifie le droit de manifester ?",
+        "En quoi consiste le droit de manifestation ?",
+        "Qu'est-ce que le droit de manifester permet ?"
       ],
-      "correctAnswer": "Interdites et punies par la loi",
+      "correctAnswers": ["Le droit de se rassembler pacifiquement pour exprimer une opinion"],
       "wrongAnswers": [
-        "Autorisées dans certains cas",
-        "Tolérées dans le secteur privé",
-        "Légales pour l'emploi",
-        "Permises pour le logement",
-        "Acceptées selon les régions",
-        "Non réglementées"
+        "Le droit de bloquer les routes sans autorisation",
+        "Le droit de protester uniquement contre le gouvernement",
+        "Le droit de manifester sans prévenir les autorités",
+        "Le droit de se rassembler même de manière violente",
+        "Le droit réservé aux syndicats uniquement",
+        "Le droit de manifester uniquement le week-end",
+        "Le droit de protester sans respecter l'ordre public",
+        "Le droit de manifester uniquement dans les grandes villes",
+        "Le droit accordé uniquement aux citoyens français",
+        "Le droit de manifester sans limite de durée ni de lieu"
       ]
     },
     {
-      "id": 52,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 224,
+      "theme": "Droits et devoirs",
       "questions": [
-        "L'égalité entre les femmes et les hommes est :",
-        "Quel est le statut de l'égalité femmes-hommes ?",
-        "Comment est reconnue l'égalité des sexes en France ?"
+        "Que signifie PMA ?",
+        "Que veut dire le sigle PMA ?",
+        "Quelle est la signification de PMA ?"
       ],
-      "correctAnswer": "Un principe constitutionnel",
+      "correctAnswers": ["Procréation Médicalement Assistée"],
       "wrongAnswers": [
-        "Un objectif à atteindre",
-        "Une recommandation",
-        "Une option selon les cultures",
-        "Un souhait du gouvernement",
-        "Une tradition récente",
-        "Un idéal non contraignant"
+        "Protection Maternelle et Alimentaire",
+        "Programme Médical d'Accompagnement",
+        "Prestation Minimale d'Autonomie",
+        "Plan de Modernisation Administrative",
+        "Protocole Médical Avancé",
+        "Prévention des Maladies Acquises",
+        "Programme de Médecine Alternative",
+        "Protection des Mineurs et Adultes",
+        "Procédure Médicale d'Adoption",
+        "Prise en charge Médicale Automatique"
       ]
     },
     {
-      "id": 53,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 225,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le mariage civil en France est :",
-        "Quelle est la règle pour le mariage civil ?",
-        "Que dit la loi sur le mariage civil ?"
+        "Quel texte est le plus difficile à modifier ?",
+        "Quel document juridique est le plus difficile à changer ?",
+        "Quelle norme est la plus difficile à réviser ?"
       ],
-      "correctAnswer": "Obligatoire avant tout mariage religieux",
+      "correctAnswers": ["La Constitution"],
       "wrongAnswers": [
-        "Facultatif avant le mariage religieux",
-        "Réservé aux Français",
-        "Célébré à l'église",
-        "Optionnel",
-        "Réservé aux croyants",
-        "Interdit aux étrangers"
+        "Le Code civil",
+        "Le Code pénal",
+        "Les décrets ministériels",
+        "Les lois ordinaires",
+        "Les arrêtés préfectoraux",
+        "Le Code du travail",
+        "Les ordonnances",
+        "Les règlements européens",
+        "Les circulaires administratives",
+        "Le Code de la route"
       ]
     },
     {
-      "id": 54,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 226,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Depuis quelle année le mariage pour tous est-il légal en France ?",
-        "Quand le mariage homosexuel a-t-il été autorisé ?",
-        "En quelle année la loi sur le mariage pour tous a-t-elle été votée ?"
+        "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+        "Comment s'appelle la liberté de choisir sa religion ?",
+        "Quelle liberté garantit le droit de croire ou ne pas croire ?"
       ],
-      "correctAnswer": "2013",
+      "correctAnswers": ["La liberté de conscience"],
       "wrongAnswers": [
-        "2008",
-        "2015",
-        "2020",
-        "2010",
-        "2005",
-        "2018"
+        "La liberté religieuse",
+        "La liberté de culte",
+        "La liberté d'expression",
+        "La liberté de pensée",
+        "La laïcité",
+        "La liberté d'opinion",
+        "Le droit à la vie privée",
+        "La liberté individuelle",
+        "Le droit à la différence",
+        "La tolérance religieuse"
       ]
     },
     {
-      "id": 55,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 227,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La polygamie en France est :",
-        "Quel est le statut de la polygamie en France ?",
-        "La loi française autorise-t-elle la polygamie ?"
+        "Qu'est-ce que le droit de grève ?",
+        "En quoi consiste le droit de grève ?",
+        "Comment définit-on le droit de grève ?"
       ],
-      "correctAnswer": "Interdite",
+      "correctAnswers": ["Le droit de cesser le travail pour défendre ses revendications professionnelles"],
       "wrongAnswers": [
-        "Autorisée",
-        "Tolérée pour certaines religions",
-        "Légale sous conditions",
-        "Permise avec autorisation",
-        "Acceptée pour les étrangers",
-        "Réglementée mais possible"
+        "Le droit de ne pas travailler sans raison particulière",
+        "Le droit de bloquer l'accès aux entreprises",
+        "Le droit de manifester dans la rue",
+        "Le droit de démissionner sans préavis",
+        "Le droit de refuser certaines tâches au travail",
+        "Le droit d'être payé pendant les jours de grève",
+        "Le droit de créer un syndicat",
+        "Le droit de contester son licenciement",
+        "Le droit de négocier son salaire individuellement",
+        "Le droit de quitter son poste sans autorisation"
       ]
     },
     {
-      "id": 56,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 228,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Quel est l'âge minimum légal pour se marier en France ?",
-        "À partir de quel âge peut-on se marier ?",
-        "Quel âge faut-il avoir pour se marier légalement ?"
+        "Qu'est-ce que la Constitution ?",
+        "Comment définit-on la Constitution ?",
+        "Quel est le rôle de la Constitution ?"
       ],
-      "correctAnswer": "18 ans",
+      "correctAnswers": ["La loi fondamentale qui organise les pouvoirs de l'État"],
       "wrongAnswers": [
-        "16 ans",
-        "21 ans",
-        "15 ans avec autorisation",
-        "17 ans",
-        "20 ans",
-        "14 ans avec autorisation parentale"
+        "Un recueil de toutes les lois françaises",
+        "Le règlement intérieur du Parlement",
+        "Un document définissant les impôts",
+        "Le Code civil de la République",
+        "Un traité international sur les droits de l'homme",
+        "Le programme politique du gouvernement",
+        "Un texte définissant les sanctions pénales",
+        "Le contrat social entre les citoyens",
+        "Un document historique sans valeur juridique actuelle",
+        "Le règlement de l'administration publique"
       ]
     },
     {
-      "id": 57,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 229,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le droit à l'avortement (IVG) en France est :",
-        "Quel est le statut de l'IVG en France ?",
-        "Comment la loi reconnaît-elle le droit à l'avortement ?"
+        "Qui peut demander à avorter ?",
+        "Qui a le droit de recourir à l'IVG ?",
+        "À qui l'avortement est-il accessible ?"
       ],
-      "correctAnswer": "Légal et inscrit dans la Constitution",
+      "correctAnswers": ["Toute femme enceinte qui le souhaite"],
       "wrongAnswers": [
-        "Interdit",
-        "Autorisé seulement pour raisons médicales",
-        "Toléré mais pas légal",
-        "Soumis à autorisation du conjoint",
-        "Limité aux femmes mariées",
-        "Interdit après 8 semaines"
+        "Uniquement les femmes mariées",
+        "Les femmes de plus de 25 ans seulement",
+        "Les femmes avec l'accord de leur conjoint",
+        "Uniquement les femmes de nationalité française",
+        "Les femmes après avis obligatoire d'un psychologue",
+        "Uniquement les femmes ayant déjà des enfants",
+        "Les femmes avec l'autorisation de leurs parents",
+        "Uniquement les femmes en situation de précarité",
+        "Les femmes après validation par une commission",
+        "Uniquement les femmes victimes de viol"
       ]
     },
     {
-      "id": 58,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 230,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La Journée défense et citoyenneté (JDC) concerne :",
-        "Qui doit participer à la JDC ?",
-        "À qui s'adresse la Journée défense et citoyenneté ?"
+        "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+        "Les femmes françaises peuvent-elles voter ?",
+        "Une citoyenne française majeure peut-elle participer aux élections ?"
       ],
-      "correctAnswer": "Tous les jeunes Français de 16 à 25 ans",
+      "correctAnswers": ["Oui, si elle est inscrite sur les listes électorales"],
       "wrongAnswers": [
-        "Uniquement les hommes",
-        "Uniquement les volontaires",
-        "Les personnes de plus de 30 ans",
-        "Les militaires uniquement",
-        "Les étudiants seulement",
-        "Les majeurs de plus de 21 ans"
+        "Oui, sans aucune condition particulière",
+        "Non, le vote est réservé aux hommes",
+        "Oui, mais seulement aux élections locales",
+        "Oui, sans aucune démarche administrative",
+        "Non, sauf si elle est propriétaire",
+        "Oui, mais uniquement aux élections présidentielles",
+        "Oui, si elle a un emploi",
+        "Non, sauf si elle a fait son service civique",
+        "Oui, mais seulement si elle paie des impôts",
+        "Oui, si elle réside en France depuis plus de 5 ans"
       ]
     },
     {
-      "id": 59,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 231,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le service militaire obligatoire en France a été :",
-        "Quel est le statut actuel du service militaire ?",
-        "Quand le service militaire a-t-il pris fin ?"
+        "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+        "Quelles règles s'appliquent sur les réseaux sociaux ?",
+        "La loi s'applique-t-elle sur internet et les réseaux sociaux ?"
       ],
-      "correctAnswer": "Suspendu en 1997",
+      "correctAnswers": ["Les lois s'appliquent aussi sur internet (interdiction des propos haineux, diffamation)"],
       "wrongAnswers": [
-        "Maintenu jusqu'à aujourd'hui",
-        "Aboli en 1945",
-        "Rétabli en 2020",
-        "Supprimé en 2010",
-        "Transformé en 1980",
-        "Abandonné en 1968"
+        "Internet est un espace de liberté totale sans aucune règle",
+        "Seules les lois américaines s'appliquent sur internet",
+        "Les propos tenus sur internet ne peuvent pas être poursuivis",
+        "La liberté d'expression est absolue sur les réseaux sociaux",
+        "Les réseaux sociaux sont régis par leurs propres règles uniquement",
+        "On peut tout dire sur internet car c'est anonyme",
+        "Les lois ne s'appliquent que sur les sites français",
+        "Internet échappe à toute juridiction nationale",
+        "Seuls les contenus commerciaux sont réglementés",
+        "Les mineurs sont les seuls protégés par la loi sur internet"
       ]
     },
     {
-      "id": 60,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 232,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Que garantit le droit au logement ?",
-        "En quoi consiste le droit au logement ?",
-        "Que prévoit le droit au logement en France ?"
+        "Jeter un mégot par terre est :",
+        "Jeter un mégot de cigarette sur la voie publique est :",
+        "Abandonner un mégot dans l'espace public est :"
       ],
-      "correctAnswer": "Une aide pour accéder à un logement décent",
+      "correctAnswers": ["Interdit et passible d'une amende"],
       "wrongAnswers": [
-        "Un logement gratuit pour tous",
-        "Un appartement offert par l'État",
-        "La propriété d'un bien immobilier",
-        "Un hébergement hôtelier gratuit",
-        "Une maison individuelle garantie",
-        "Un logement de fonction"
+        "Toléré dans les zones fumeurs",
+        "Autorisé si le mégot est éteint",
+        "Permis mais déconseillé",
+        "Interdit uniquement dans les parcs",
+        "Autorisé sauf devant les écoles",
+        "Toléré mais mal vu socialement",
+        "Permis dans les zones urbaines",
+        "Interdit seulement pendant l'été",
+        "Autorisé si on ne se fait pas remarquer",
+        "Permis sur les trottoirs uniquement"
       ]
     },
     {
-      "id": 61,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 233,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le respect de la vie privée est :",
-        "Quel est le statut du droit à la vie privée ?",
-        "Comment est protégée la vie privée en France ?"
+        "L'État peut-il limiter les droits et libertés ?",
+        "Les droits fondamentaux peuvent-ils être restreints par l'État ?",
+        "L'État a-t-il le pouvoir de restreindre certaines libertés ?"
       ],
-      "correctAnswer": "Un droit fondamental",
+      "correctAnswers": ["Oui, dans certaines conditions pour protéger l'ordre public ou la sécurité"],
       "wrongAnswers": [
-        "Une option selon les circonstances",
-        "Réservé aux personnalités",
-        "Applicable uniquement chez soi",
-        "Un privilège des riches",
-        "Limité aux adultes",
-        "Soumis à autorisation"
+        "Non, les droits fondamentaux sont absolus et illimités",
+        "Oui, sans aucune condition ni justification",
+        "Non, seul le Parlement peut limiter les libertés",
+        "Oui, mais uniquement en temps de guerre",
+        "Non, les libertés sont garanties sans exception",
+        "Oui, selon la volonté du Président uniquement",
+        "Non, sauf avec l'accord de l'Union européenne",
+        "Oui, mais seulement pour les étrangers",
+        "Non, c'est contraire aux droits de l'homme",
+        "Oui, mais uniquement par référendum"
       ]
     },
     {
-      "id": 62,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 234,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que le SMIC ?",
-        "Que signifie SMIC ?",
-        "À quoi correspond le SMIC ?"
+        "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+        "Quel comportement est écologiquement responsable ?",
+        "Comment peut-on protéger l'environnement au quotidien ?"
       ],
-      "correctAnswer": "Le salaire minimum légal",
+      "correctAnswers": ["Trier ses déchets", "Économiser l'eau et l'énergie"],
       "wrongAnswers": [
-        "Un impôt",
-        "Une allocation chômage",
-        "Une prime de fin d'année",
-        "Un bonus annuel",
-        "Une cotisation sociale",
-        "Un complément de retraite"
+        "Utiliser sa voiture pour tous ses déplacements",
+        "Jeter tous ses déchets dans la même poubelle",
+        "Laisser les lumières allumées en permanence",
+        "Acheter uniquement des produits neufs",
+        "Prendre des bains quotidiens",
+        "Imprimer tous ses documents",
+        "Chauffer son logement à 25 degrés",
+        "Acheter des produits suremballés",
+        "Laisser couler l'eau pendant le brossage des dents",
+        "Jeter les appareils électroniques à la poubelle classique"
       ]
     },
     {
-      "id": 63,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 235,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La durée légale du travail en France est de :",
-        "Combien d'heures travaille-t-on légalement par semaine ?",
-        "Quelle est la durée hebdomadaire légale du travail ?"
+        "Quelle proposition constitue une obligation ?",
+        "Qu'est-ce qui est obligatoire pour tous en France ?",
+        "Quel est un devoir de tout citoyen ?"
       ],
-      "correctAnswer": "35 heures par semaine",
+      "correctAnswers": ["Respecter les lois", "Payer ses impôts"],
       "wrongAnswers": [
-        "32 heures par semaine",
-        "39 heures par semaine",
-        "40 heures par semaine",
-        "38 heures par semaine",
-        "42 heures par semaine",
-        "30 heures par semaine"
+        "Voter à toutes les élections",
+        "Faire du bénévolat dans une association",
+        "Adhérer à un parti politique",
+        "Participer aux cérémonies nationales",
+        "Donner son sang régulièrement",
+        "S'engager dans l'armée",
+        "Avoir un emploi rémunéré",
+        "Posséder une carte d'identité",
+        "Apprendre la Marseillaise par coeur",
+        "Participer à la vie de sa commune"
       ]
     },
     {
-      "id": 64,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 236,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que la Sécurité sociale ?",
-        "À quoi sert la Sécurité sociale ?",
-        "Comment définir la Sécurité sociale ?"
+        "Pour quel motif peut-on limiter la liberté d'expression ?",
+        "Dans quels cas la liberté d'expression peut-elle être restreinte ?",
+        "Quelles sont les limites à la liberté d'expression ?"
       ],
-      "correctAnswer": "Le système de protection sociale français",
+      "correctAnswers": ["Pour protéger la dignité des personnes (interdiction de la diffamation, de l'injure)"],
       "wrongAnswers": [
-        "Une assurance privée",
-        "Une mutuelle optionnelle",
-        "Un service de police",
-        "Une banque publique",
-        "Un syndicat",
-        "Une entreprise d'État"
+        "Pour éviter de critiquer le gouvernement",
+        "Pour empêcher les opinions minoritaires",
+        "Pour protéger les intérêts économiques des entreprises",
+        "Pour interdire les opinions politiques opposées",
+        "Pour censurer les critiques artistiques",
+        "Pour limiter les débats sur les réseaux sociaux",
+        "Pour empêcher la satire politique",
+        "Pour interdire les manifestations pacifiques",
+        "Pour contrôler les médias indépendants",
+        "Pour supprimer les opinions impopulaires"
       ]
     },
     {
-      "id": 65,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 237,
+      "theme": "Droits et devoirs",
       "questions": [
-        "En quelle année la Sécurité sociale a-t-elle été créée ?",
-        "Quand a été fondée la Sécurité sociale ?",
-        "De quand date la création de la Sécurité sociale ?"
+        "Pourquoi doit-on trier ses déchets ?",
+        "Quelle est l'utilité du tri des déchets ?",
+        "À quoi sert le tri sélectif des déchets ?"
       ],
-      "correctAnswer": "1945",
+      "correctAnswers": ["Pour protéger l'environnement et permettre le recyclage"],
       "wrongAnswers": [
-        "1936",
-        "1958",
-        "1968",
-        "1920",
-        "1950",
-        "1981"
+        "Pour réduire les impôts locaux",
+        "Pour créer des emplois dans les usines",
+        "Pour éviter les amendes uniquement",
+        "Pour faciliter le travail des éboueurs",
+        "Pour diminuer le coût de la vie",
+        "Pour respecter les règles européennes exclusivement",
+        "Pour produire de l'énergie nucléaire",
+        "Pour limiter les odeurs dans les rues",
+        "Pour satisfaire les écologistes",
+        "Pour réduire le nombre de poubelles"
       ]
     },
     {
-      "id": 143,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 238,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que le droit d'asile ?",
-        "Que garantit le droit d'asile ?",
-        "En quoi consiste le droit d'asile ?"
+        "Que doit faire une victime de violences ?",
+        "Quelle démarche doit entreprendre une personne victime de violence ?",
+        "Comment réagir si on est victime de violences ?"
       ],
-      "correctAnswer": "Le droit de demander protection en cas de persécution",
+      "correctAnswers": ["Porter plainte auprès de la police ou de la gendarmerie"],
       "wrongAnswers": [
-        "Le droit de quitter son pays",
-        "Le droit de voyager librement",
-        "Le droit d'obtenir la nationalité",
-        "Le droit au tourisme",
-        "Le droit de travailler à l'étranger",
-        "Le droit d'émigrer"
+        "Régler le problème soi-même directement",
+        "Attendre que la situation s'améliore",
+        "En parler uniquement à ses proches",
+        "Déménager pour éviter l'agresseur",
+        "Contacter un avocat avant toute démarche",
+        "Publier son témoignage sur les réseaux sociaux",
+        "Écrire une lettre au Président de la République",
+        "Contacter uniquement une association",
+        "Attendre d'avoir des preuves solides",
+        "Se défendre physiquement si nécessaire"
       ]
     },
     {
-      "id": 144,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 239,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que la liberté syndicale ?",
-        "Que permet la liberté syndicale ?",
-        "En quoi consiste la liberté syndicale ?"
+        "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+        "Doit-on obéir aux instructions de la police ?",
+        "Comment doit-on réagir face aux directives des forces de l'ordre ?"
       ],
-      "correctAnswer": "Le droit de créer ou d'adhérer librement à un syndicat",
+      "correctAnswers": ["Obéir à leurs instructions légales"],
       "wrongAnswers": [
-        "L'obligation d'adhérer à un syndicat",
-        "L'interdiction des syndicats",
-        "Le droit des patrons uniquement",
-        "L'obligation de créer un syndicat",
-        "Le syndicat unique obligatoire",
-        "Le contrôle des syndicats par l'État"
+        "Toujours négocier avant d'obéir",
+        "Demander systématiquement leur numéro de matricule",
+        "Refuser si on n'est pas d'accord",
+        "Filmer l'intervention avant d'obéir",
+        "Demander la présence d'un avocat",
+        "Obéir uniquement si on est coupable",
+        "Contacter d'abord un proche",
+        "Exiger une explication écrite",
+        "Refuser de répondre à toute question",
+        "Demander l'autorisation de partir"
       ]
     },
     {
-      "id": 145,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 240,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La liberté de la presse signifie :",
-        "Qu'est-ce que la liberté de la presse ?",
-        "Que garantit la liberté de la presse ?"
+        "Quel est le rôle de la police ?",
+        "À quoi sert la police ?",
+        "Quelle est la mission principale de la police ?"
       ],
-      "correctAnswer": "Les médias peuvent informer librement dans le respect de la loi",
+      "correctAnswers": ["Assurer la sécurité des personnes et des biens et maintenir l'ordre public"],
       "wrongAnswers": [
-        "Les journalistes peuvent publier ce qu'ils veulent sans limite",
-        "Seul l'État peut publier des journaux",
-        "La presse est contrôlée par le gouvernement",
-        "Les médias sont censurés",
-        "Seuls les journaux officiels existent",
-        "La presse appartient à l'État"
+        "Juger et condamner les criminels",
+        "Rédiger les lois de la République",
+        "Collecter les impôts auprès des citoyens",
+        "Surveiller les frontières uniquement",
+        "Gérer les prisons et les détenus",
+        "Organiser les élections nationales",
+        "Contrôler la circulation routière exclusivement",
+        "Protéger uniquement les personnalités politiques",
+        "Enquêter sur les affaires de corruption",
+        "Réguler l'immigration sur le territoire"
       ]
     },
     {
-      "id": 146,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 241,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que le secret du vote ?",
-        "Que garantit le secret du vote ?",
-        "En quoi consiste le secret du vote ?"
+        "Quel est un exemple d'assistance à personne en danger ?",
+        "Comment peut-on porter assistance à une personne en danger ?",
+        "Qu'est-ce qu'un acte d'assistance à personne en danger ?"
       ],
-      "correctAnswer": "Personne ne peut savoir pour qui vous avez voté",
+      "correctAnswers": ["Appeler les secours en cas d'accident"],
       "wrongAnswers": [
-        "Le vote est public",
-        "Le vote doit être déclaré à la mairie",
-        "Le vote est surveillé par la police",
-        "On doit dire pour qui on vote",
-        "Le vote est enregistré nominativement",
-        "Les bulletins portent le nom du votant"
+        "Donner de l'argent à un sans-abri",
+        "Aider un voisin à déménager",
+        "Prêter de l'argent à un ami en difficulté",
+        "Accompagner une personne âgée au supermarché",
+        "Garder les enfants d'un voisin",
+        "Donner des vêtements à une association",
+        "Aider un touriste à trouver son chemin",
+        "Faire les courses pour un voisin malade",
+        "Tenir la porte pour une personne chargée",
+        "Offrir son siège dans les transports"
       ]
     },
     {
-      "id": 147,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 242,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Pour voter en France, il faut :",
-        "Quelles conditions pour voter en France ?",
-        "Qui peut voter en France ?"
+        "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+        "Quelle restriction de liberté est justifiée par l'intérêt général ?",
+        "Quelle mesure limite une liberté individuelle au nom de l'intérêt collectif ?"
       ],
-      "correctAnswer": "Être majeur et de nationalité française",
+      "correctAnswers": ["L'interdiction de fumer dans les lieux publics"],
       "wrongAnswers": [
-        "Avoir plus de 21 ans",
-        "Être propriétaire",
-        "Avoir un emploi",
-        "Payer des impôts",
-        "Avoir un diplôme",
-        "Être né en France"
+        "L'interdiction de critiquer le gouvernement",
+        "L'obligation de posséder un téléphone portable",
+        "L'interdiction de voyager à l'étranger",
+        "L'obligation d'avoir un compte bancaire",
+        "L'interdiction de changer de travail",
+        "L'obligation de porter un uniforme au travail",
+        "L'interdiction de parler une langue étrangère",
+        "L'obligation d'acheter des produits français",
+        "L'interdiction de manifester pacifiquement",
+        "L'obligation de voter aux élections"
       ]
     },
     {
-      "id": 148,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 243,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Les citoyens européens peuvent-ils voter en France ?",
-        "À quelles élections les Européens peuvent-ils voter ?",
-        "Un Européen peut-il voter en France ?"
+        "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
+        "Que faire si on assiste à des violences ?",
+        "Comment réagir en tant que témoin d'une agression ?"
       ],
-      "correctAnswer": "Oui, aux élections municipales et européennes",
+      "correctAnswers": ["Alerter les secours ou la police"],
       "wrongAnswers": [
-        "Non, jamais",
-        "Oui, à toutes les élections",
-        "Seulement aux présidentielles",
-        "Seulement aux législatives",
-        "Seulement aux régionales",
-        "Non, sauf s'ils sont naturalisés"
+        "Intervenir physiquement pour séparer les personnes",
+        "Filmer la scène pour avoir des preuves",
+        "Partir rapidement pour ne pas être impliqué",
+        "Crier pour faire fuir l'agresseur",
+        "Attendre que la situation se calme d'elle-même",
+        "Demander aux autres témoins d'intervenir",
+        "Ne rien faire pour ne pas aggraver la situation",
+        "Tenter de raisonner l'agresseur verbalement",
+        "Publier immédiatement sur les réseaux sociaux",
+        "Attendre d'être certain que c'est grave"
       ]
     },
     {
-      "id": 149,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 244,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Qu'est-ce que la carte électorale ?",
-        "À quoi sert la carte électorale ?",
-        "Que prouve la carte électorale ?"
+        "Quelle est l'infraction la plus grave ?",
+        "Quel type d'infraction est le plus sévèrement puni ?",
+        "Dans la hiérarchie des infractions, laquelle est la plus grave ?"
       ],
-      "correctAnswer": "Un document attestant l'inscription sur les listes électorales",
+      "correctAnswers": ["Le crime"],
       "wrongAnswers": [
-        "Un document obligatoire pour voter",
-        "Un document d'identité",
-        "Un permis de conduire",
-        "Une carte de séjour",
-        "Un justificatif de domicile",
-        "Une carte d'adhérent à un parti"
+        "Le délit",
+        "La contravention",
+        "L'infraction administrative",
+        "Le délit pénal",
+        "La faute civile",
+        "L'infraction routière",
+        "Le manquement fiscal",
+        "La contravention de 5e classe",
+        "Le délit correctionnel",
+        "L'infraction mineure"
       ]
     },
     {
-      "id": 150,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 245,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Où doit-on s'inscrire pour voter ?",
-        "Où s'inscrire sur les listes électorales ?",
-        "Comment s'inscrire pour voter ?"
+        "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+        "Quel devoir s'applique à tous les résidents en France ?",
+        "Qu'est-ce que toute personne vivant en France doit respecter ?"
       ],
-      "correctAnswer": "À la mairie de son domicile",
+      "correctAnswers": ["Respecter les lois françaises"],
       "wrongAnswers": [
-        "À la préfecture",
-        "Au tribunal",
-        "À l'Assemblée nationale",
-        "À la sous-préfecture",
-        "Au commissariat",
-        "À la gendarmerie"
+        "Voter aux élections nationales",
+        "Effectuer un service militaire",
+        "Payer l'impôt sur la fortune",
+        "S'inscrire sur les listes électorales",
+        "Apprendre la langue française",
+        "Obtenir la nationalité française",
+        "Participer aux jurys d'assises",
+        "Posséder un titre de séjour",
+        "Adhérer aux valeurs républicaines par écrit",
+        "Exercer une activité professionnelle"
       ]
     },
     {
-      "id": 180,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 246,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le respect des lois est :",
-        "Quel est le statut du respect des lois ?",
-        "Respecter les lois est-il obligatoire ?"
+        "Quelle proposition représente un exemple de crime ?",
+        "Quel acte est qualifié de crime ?",
+        "Qu'est-ce qui constitue un crime ?"
       ],
-      "correctAnswer": "Une obligation pour tous",
+      "correctAnswers": ["Le meurtre", "Le viol"],
       "wrongAnswers": [
-        "Facultatif",
-        "Réservé aux citoyens",
-        "Optionnel pour les étrangers",
-        "Conseillé mais pas obligatoire",
-        "Variable selon les régions",
-        "À la discrétion de chacun"
+        "Le vol à l'étalage",
+        "L'excès de vitesse",
+        "Le stationnement interdit",
+        "L'injure publique",
+        "La fraude fiscale mineure",
+        "Le tapage nocturne",
+        "La conduite sans permis",
+        "L'outrage à agent",
+        "Le travail dissimulé",
+        "L'usage de stupéfiants"
       ]
     },
     {
-      "id": 181,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 247,
+      "theme": "Droits et devoirs",
       "questions": [
-        "La non-assistance à personne en danger est :",
-        "Que risque-t-on en cas de non-assistance ?",
-        "Comment la loi traite-t-elle la non-assistance ?"
+        "Quelle proposition représente un exemple de délit ?",
+        "Quel acte est qualifié de délit ?",
+        "Qu'est-ce qui constitue un délit ?"
       ],
-      "correctAnswer": "Punie par la loi",
+      "correctAnswers": ["Le vol", "La conduite en état d'ivresse"],
       "wrongAnswers": [
-        "Autorisée",
-        "Tolérée",
-        "Une affaire privée",
-        "Sans conséquence",
-        "Moralement condamnée uniquement",
-        "Acceptée dans certains cas"
+        "Le meurtre prémédité",
+        "Le stationnement gênant",
+        "L'excès de vitesse de 10 km/h",
+        "Le tapage nocturne occasionnel",
+        "Le non-respect d'un feu rouge",
+        "L'assassinat avec préméditation",
+        "Le dépôt sauvage d'ordures",
+        "Le viol aggravé",
+        "L'oubli de clignotant",
+        "Le jet de mégot sur la voie publique"
       ]
     },
     {
-      "id": 182,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 248,
+      "theme": "Droits et devoirs",
       "questions": [
-        "L'incitation à la haine raciale est :",
-        "Quel est le statut de l'incitation à la haine ?",
-        "L'incitation à la haine est-elle légale ?"
+        "Qui veille au maintien de l'ordre public ?",
+        "Quelles institutions assurent le maintien de l'ordre ?",
+        "Qui est responsable de la sécurité publique en France ?"
       ],
-      "correctAnswer": "Un délit puni par la loi",
+      "correctAnswers": ["La police et la gendarmerie"],
       "wrongAnswers": [
-        "Protégée par la liberté d'expression",
-        "Autorisée sur internet",
-        "Tolérée en privé",
-        "Légale dans certains cas",
-        "Sans conséquence juridique",
-        "Une opinion comme une autre"
+        "L'armée française",
+        "Les pompiers",
+        "Le Président de la République",
+        "Les agents de sécurité privée",
+        "Les magistrats et les juges",
+        "Les maires des communes",
+        "Les préfets uniquement",
+        "Les citoyens volontaires",
+        "Le ministère de la Justice",
+        "Les services de renseignement"
       ]
     },
     {
-      "id": 183,
-      "theme": "Droits et devoirs des citoyens",
+      "id": 249,
+      "theme": "Droits et devoirs",
       "questions": [
-        "Le harcèlement est :",
-        "Comment la loi traite-t-elle le harcèlement ?",
-        "Le harcèlement est-il puni ?"
+        "S'agissant des déchets, quelle proposition est correcte ?",
+        "Comment doit-on gérer ses déchets ?",
+        "Quelle est la bonne pratique concernant les déchets ?"
       ],
-      "correctAnswer": "Un délit puni par la loi",
+      "correctAnswers": ["Il faut les trier et les déposer dans les conteneurs appropriés"],
       "wrongAnswers": [
-        "Autorisé au travail",
-        "Une affaire privée",
-        "Légal sur internet",
-        "Toléré entre collègues",
-        "Non réglementé",
-        "Permis dans certains cas"
+        "On peut les jeter n'importe où si c'est biodégradable",
+        "Le tri n'est obligatoire que pour les entreprises",
+        "On peut les brûler dans son jardin",
+        "Il suffit de les mettre dans un sac poubelle quelconque",
+        "Le tri est facultatif et laissé au choix de chacun",
+        "On peut les déposer sur le trottoir à n'importe quelle heure",
+        "Les déchets électroniques vont dans la poubelle classique",
+        "Le verre peut être jeté avec les emballages plastiques",
+        "Les médicaments périmés vont dans la poubelle ordinaire",
+        "On peut jeter les piles avec les ordures ménagères"
       ]
     }
   ]

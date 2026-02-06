@@ -1,451 +1,803 @@
 {
   "questions": [
-    {
-      "id": 1,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quelle est la devise de la République française ?",
-        "Quels sont les trois mots de la devise de la France ?",
-        "Comment s'appelle la devise nationale française ?"
-      ],
-      "correctAnswer": "Liberté, Égalité, Fraternité",
-      "wrongAnswers": [
-        "Unité, Force, Progrès",
-        "Patrie, Honneur, Devoir",
-        "Justice, Paix, Solidarité",
-        "Travail, Famille, Patrie",
-        "Foi, Espérance, Charité",
-        "Ordre, Progrès, Nation"
-      ]
-    },
-    {
-      "id": 2,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "À quoi correspond la date du 14 juillet ?",
-        "Que célèbre-t-on le 14 juillet en France ?",
-        "Quel événement historique est commémoré le 14 juillet ?"
-      ],
-      "correctAnswer": "La prise de la Bastille",
-      "wrongAnswers": [
-        "La signature de la Constitution",
-        "La fin de la Première Guerre mondiale",
-        "La proclamation de la République",
-        "La Révolution de 1848",
-        "L'abolition de la monarchie",
-        "La fin de la Seconde Guerre mondiale"
-      ]
-    },
-    {
-      "id": 3,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quel est l'hymne national français ?",
-        "Comment s'appelle l'hymne de la France ?",
-        "Quel chant est l'hymne officiel de la République française ?"
-      ],
-      "correctAnswer": "La Marseillaise",
-      "wrongAnswers": [
-        "Le Chant du Départ",
-        "L'Internationale",
-        "La Parisienne",
-        "Le Chant des Partisans",
-        "La Carmagnole",
-        "Ça Ira"
-      ]
-    },
-    {
-      "id": 4,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quelles sont les trois couleurs du drapeau français ?",
-        "De quelles couleurs est composé le drapeau tricolore ?",
-        "Quelles couleurs forment le drapeau de la France ?"
-      ],
-      "correctAnswer": "Bleu, blanc, rouge",
-      "wrongAnswers": [
-        "Rouge, blanc, noir",
-        "Bleu, jaune, rouge",
-        "Vert, blanc, rouge",
-        "Bleu, blanc, jaune",
-        "Rouge, orange, vert",
-        "Noir, rouge, or"
-      ]
-    },
-    {
-      "id": 5,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quel personnage symbolise la République française ?",
-        "Qui est le symbole féminin de la République ?",
-        "Quel est le visage de la République française ?"
-      ],
-      "correctAnswer": "Marianne",
-      "wrongAnswers": [
-        "Jeanne d'Arc",
-        "La Liberté",
-        "Marie-Antoinette",
-        "Cléopâtre",
-        "La Justice",
-        "Catherine de Médicis"
-      ]
-    },
-    {
-      "id": 6,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Que signifie le principe de laïcité ?",
-        "Qu'est-ce que la laïcité en France ?",
-        "Comment définir la laïcité ?"
-      ],
-      "correctAnswer": "La séparation des Églises et de l'État",
-      "wrongAnswers": [
-        "L'interdiction de toutes les religions",
-        "L'obligation d'être athée",
-        "La promotion d'une religion officielle",
-        "L'interdiction de prier",
-        "La suppression des fêtes religieuses",
-        "Le contrôle des religions par l'État"
-      ]
-    },
-    {
-      "id": 7,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Depuis quelle année la loi de séparation des Églises et de l'État est-elle en vigueur ?",
-        "En quelle année a été votée la loi sur la laïcité ?",
-        "Quand la séparation des Églises et de l'État a-t-elle été instaurée ?"
-      ],
-      "correctAnswer": "1905",
-      "wrongAnswers": [
-        "1789",
-        "1848",
-        "1958",
-        "1870",
-        "1946",
-        "1881"
-      ]
-    },
-    {
-      "id": 8,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "La République française est :",
-        "Comment est définie la République française dans la Constitution ?",
-        "Quels sont les caractères de la République française ?"
-      ],
-      "correctAnswer": "Une république indivisible, laïque, démocratique et sociale",
-      "wrongAnswers": [
-        "Une monarchie constitutionnelle",
-        "Une république fédérale",
-        "Une théocratie",
-        "Une confédération d'États",
-        "Une république parlementaire uniquement",
-        "Un État unitaire non démocratique"
-      ]
-    },
-    {
-      "id": 9,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quel est le principe d'égalité en France ?",
-        "Que garantit le principe d'égalité ?",
-        "Comment s'exprime l'égalité républicaine ?"
-      ],
-      "correctAnswer": "Tous les citoyens sont égaux devant la loi",
-      "wrongAnswers": [
-        "Tous les citoyens ont le même salaire",
-        "Seuls les hommes sont égaux",
-        "L'égalité ne concerne que les Français de naissance",
-        "L'égalité s'applique uniquement aux impôts",
-        "Les riches ont plus de droits",
-        "L'égalité dépend de la religion"
-      ]
-    },
-    {
-      "id": 10,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Que garantit la liberté de conscience ?",
-        "Qu'est-ce que la liberté de conscience ?",
-        "En quoi consiste la liberté de conscience ?"
-      ],
-      "correctAnswer": "Le droit de croire ou de ne pas croire en une religion",
-      "wrongAnswers": [
-        "Le droit de critiquer le gouvernement",
-        "Le droit de vote",
-        "Le droit au travail",
-        "Le droit de manifester",
-        "Le droit à l'éducation",
-        "Le droit de grève"
-      ]
-    },
-    {
-      "id": 11,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Qu'est-ce que la fraternité ?",
-        "Que signifie la fraternité dans la devise française ?",
-        "Comment définir la fraternité républicaine ?"
-      ],
-      "correctAnswer": "Un sentiment de solidarité entre les citoyens",
-      "wrongAnswers": [
-        "Un lien de parenté",
-        "Une organisation religieuse",
-        "Un parti politique",
-        "Une association caritative",
-        "Un syndicat",
-        "Une obligation légale"
-      ]
-    },
-    {
-      "id": 12,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quel est le symbole présent sur les documents officiels de la République ?",
-        "Qui figure sur les timbres et documents officiels français ?",
-        "Quel symbole représente la République sur les documents administratifs ?"
-      ],
-      "correctAnswer": "Marianne",
-      "wrongAnswers": [
-        "L'aigle",
-        "Le lion",
-        "Le coq",
-        "La fleur de lys",
-        "Napoléon",
-        "Le soleil"
-      ]
-    },
-    {
-      "id": 13,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Le coq gaulois est :",
-        "Que représente le coq gaulois ?",
-        "Quel est le statut du coq gaulois ?"
-      ],
-      "correctAnswer": "Un emblème traditionnel de la France",
-      "wrongAnswers": [
-        "Le symbole officiel de la France",
-        "L'animal national protégé",
-        "Le logo de l'équipe de football uniquement",
-        "Un symbole religieux",
-        "L'emblème de la royauté",
-        "Un symbole régional breton"
-      ]
-    },
-    {
-      "id": 14,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quelle valeur n'appartient PAS à la devise républicaine ?",
-        "Lequel de ces mots ne fait pas partie de la devise française ?",
-        "Quel terme n'est pas dans la devise de la République ?"
-      ],
-      "correctAnswer": "Solidarité",
-      "wrongAnswers": [
-        "Liberté",
-        "Égalité",
-        "Fraternité"
-      ]
-    },
-    {
-      "id": 15,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Qu'est-ce que le suffrage universel ?",
-        "Que signifie le suffrage universel ?",
-        "Comment définir le suffrage universel ?"
-      ],
-      "correctAnswer": "Le droit de vote pour tous les citoyens majeurs",
-      "wrongAnswers": [
-        "Le vote réservé aux hommes",
-        "Le vote réservé aux propriétaires",
-        "Le vote obligatoire",
-        "Le vote réservé aux diplômés",
-        "Le vote des étrangers",
-        "Le vote à partir de 16 ans"
-      ]
-    },
-    {
-      "id": 129,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Qu'est-ce que la République ?",
-        "Comment définir une république ?",
-        "Que signifie vivre en République ?"
-      ],
-      "correctAnswer": "Un système où le pouvoir appartient au peuple",
-      "wrongAnswers": [
-        "Un système où le pouvoir est héréditaire",
-        "Un système dirigé par un roi",
-        "Un système religieux",
-        "Un système militaire",
-        "Un système aristocratique",
-        "Un système tribal"
-      ]
-    },
-    {
-      "id": 130,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Que signifie 'indivisible' pour la République ?",
-        "Pourquoi la République est-elle indivisible ?",
-        "Qu'implique le caractère indivisible de la République ?"
-      ],
-      "correctAnswer": "La loi est la même pour tous sur tout le territoire",
-      "wrongAnswers": [
-        "La France peut se diviser en plusieurs pays",
-        "Chaque région a ses propres lois",
-        "La France n'a pas de frontières",
-        "Les territoires sont autonomes",
-        "Les régions sont indépendantes",
-        "Chaque département vote ses lois"
-      ]
-    },
-    {
-      "id": 131,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Que signifie le caractère 'social' de la République ?",
-        "Pourquoi la République est-elle sociale ?",
-        "En quoi la République française est-elle sociale ?"
-      ],
-      "correctAnswer": "L'État assure la solidarité et la protection sociale",
-      "wrongAnswers": [
-        "Tout le monde a le même salaire",
-        "Les citoyens doivent être sociables",
-        "La France est un pays socialiste",
-        "L'État contrôle l'économie",
-        "Tout appartient à l'État",
-        "Il n'y a pas de propriété privée"
-      ]
-    },
-    {
-      "id": 132,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Pourquoi la République est-elle 'démocratique' ?",
-        "Qu'est-ce qui rend la République démocratique ?",
-        "En quoi consiste le caractère démocratique de la République ?"
-      ],
-      "correctAnswer": "Le pouvoir appartient au peuple qui l'exerce par le vote",
-      "wrongAnswers": [
-        "Parce que le président décide seul",
-        "Parce que seuls les riches peuvent voter",
-        "Parce que les militaires dirigent le pays",
-        "Parce que le roi est élu",
-        "Parce que les nobles gouvernent",
-        "Parce que l'Église dirige"
-      ]
-    },
-    {
-      "id": 170,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Le drapeau tricolore représente :",
-        "Que symbolise le drapeau tricolore ?",
-        "Quelle est l'origine du drapeau bleu-blanc-rouge ?"
-      ],
-      "correctAnswer": "L'union de la royauté (blanc) et de Paris (bleu et rouge)",
-      "wrongAnswers": [
-        "Les trois pouvoirs",
-        "Les trois religions",
-        "Les trois régions de France",
-        "La terre, le ciel et le sang",
-        "Les trois états généraux",
-        "Les trois ordres"
-      ]
-    },
-    {
-      "id": 171,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Qui a composé La Marseillaise ?",
-        "Quel est l'auteur de La Marseillaise ?",
-        "À qui doit-on La Marseillaise ?"
-      ],
-      "correctAnswer": "Rouget de Lisle",
-      "wrongAnswers": [
-        "Victor Hugo",
-        "Jean-Jacques Rousseau",
-        "Voltaire",
-        "Napoléon Bonaparte",
-        "Molière",
-        "Berlioz"
-      ]
-    },
-    {
-      "id": 172,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "La Marseillaise est devenue hymne national en :",
-        "Quand La Marseillaise est-elle devenue l'hymne ?",
-        "De quelle année date l'adoption de La Marseillaise ?"
-      ],
-      "correctAnswer": "1795",
-      "wrongAnswers": [
-        "1789",
-        "1870",
-        "1958",
-        "1792",
-        "1848",
-        "1830"
-      ]
-    },
-    {
-      "id": 173,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "La laïcité garantit :",
-        "Qu'assure la laïcité ?",
-        "Quel droit protège la laïcité ?"
-      ],
-      "correctAnswer": "La liberté de croire ou de ne pas croire",
-      "wrongAnswers": [
-        "L'interdiction de pratiquer une religion",
-        "Une religion d'État",
-        "L'obligation d'être athée",
-        "Le contrôle des religions",
-        "La suppression des cultes",
-        "L'interdiction de prier"
-      ]
-    },
-    {
-      "id": 174,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Les signes religieux ostensibles sont interdits :",
-        "Où les signes religieux sont-ils interdits ?",
-        "Dans quel lieu les signes religieux sont-ils proscrits ?"
-      ],
-      "correctAnswer": "Dans les écoles publiques pour les élèves",
-      "wrongAnswers": [
-        "Partout en France",
-        "Uniquement dans les églises",
-        "Dans tous les lieux de travail",
-        "Dans la rue",
-        "Chez soi",
-        "Dans les transports"
-      ]
-    },
-    {
-      "id": 192,
-      "theme": "Principes et valeurs de la République",
-      "questions": [
-        "Quel est l'article premier de la Constitution ?",
-        "Que dit l'article 1 de la Constitution ?",
-        "Comment commence la Constitution française ?"
-      ],
-      "correctAnswer": "La France est une République indivisible, laïque, démocratique et sociale",
-      "wrongAnswers": [
-        "La France est une monarchie",
-        "La France est membre de l'Union européenne",
-        "Le français est la langue officielle",
-        "Le Président est le chef de l'État",
-        "Tous les citoyens sont égaux",
-        "La souveraineté appartient au peuple"
-      ]
-    }
-  ]
+  {
+    "id": 299,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "Quel acte représente une forme de participation citoyenne ?",
+      "Comment peut-on participer à la vie citoyenne ?"
+    ],
+    "correctAnswers": ["Voter aux élections"],
+    "wrongAnswers": [
+      "Payer ses factures d'électricité",
+      "Regarder les informations à la télévision",
+      "Posséder une carte d'identité",
+      "Avoir un compte bancaire en France",
+      "Lire le journal quotidiennement",
+      "Faire ses courses dans un supermarché français",
+      "Posséder un véhicule immatriculé en France",
+      "Suivre les réseaux sociaux du gouvernement"
+    ]
+  },
+  {
+    "id": 300,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que garantit la liberté d'expression ?",
+      "Qu'est-ce que la liberté d'expression permet ?",
+      "En quoi consiste la liberté d'expression ?"
+    ],
+    "correctAnswers": ["Le droit d'exprimer librement ses opinions dans le respect de la loi"],
+    "wrongAnswers": [
+      "Le droit de dire tout ce que l'on veut sans aucune limite",
+      "Le droit de diffamer publiquement toute personne",
+      "Le droit d'inciter à la haine envers certains groupes",
+      "Le droit de diffuser des informations confidentielles de l'État",
+      "Le droit de nier les crimes contre l'humanité",
+      "Le droit d'insulter les représentants de l'État",
+      "Le droit de publier des propos racistes",
+      "Le droit de révéler des secrets de défense nationale"
+    ]
+  },
+  {
+    "id": 301,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "À quoi sert un titre de séjour ?",
+      "Quelle est l'utilité d'un titre de séjour ?",
+      "Pourquoi un étranger a-t-il besoin d'un titre de séjour ?"
+    ],
+    "correctAnswers": ["À autoriser un étranger à séjourner légalement en France"],
+    "wrongAnswers": [
+      "À obtenir automatiquement la nationalité française",
+      "À remplacer le passeport de son pays d'origine",
+      "À permettre de voter aux élections présidentielles",
+      "À servir de carte d'identité française",
+      "À circuler librement dans tous les pays du monde",
+      "À obtenir un emploi dans la fonction publique",
+      "À accéder aux services réservés aux citoyens français",
+      "À bénéficier des mêmes droits qu'un citoyen français"
+    ]
+  },
+  {
+    "id": 302,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "La liberté de circulation permet à toute personne de :",
+      "La liberté de circulation autorise chacun à :",
+      "Grâce à la liberté de circulation, toute personne peut :"
+    ],
+    "correctAnswers": ["Se déplacer librement sur le territoire français"],
+    "wrongAnswers": [
+      "Entrer dans n'importe quel pays sans visa",
+      "Circuler sans respecter le code de la route",
+      "Franchir les frontières sans contrôle d'identité",
+      "Accéder à toutes les propriétés privées",
+      "Voyager gratuitement dans les transports en commun",
+      "Pénétrer dans les zones militaires sécurisées",
+      "Se déplacer sans pièce d'identité valide",
+      "Entrer dans tous les bâtiments publics à toute heure"
+    ]
+  },
+  {
+    "id": 303,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "Où trouve-t-on les symboles officiels de la République en ligne ?",
+      "Quel type de site affiche les symboles de la République ?"
+    ],
+    "correctAnswers": ["Sur les sites officiels du gouvernement (*.gouv.fr)"],
+    "wrongAnswers": [
+      "Sur tous les sites internet français",
+      "Uniquement sur le site de l'Élysée",
+      "Sur les sites des entreprises privées françaises",
+      "Sur les réseaux sociaux uniquement",
+      "Sur les sites des médias nationaux",
+      "Sur les sites se terminant par .fr",
+      "Sur les pages Wikipédia en français",
+      "Sur les sites des partis politiques français"
+    ]
+  },
+  {
+    "id": 304,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "Dans la Marseillaise, quel mot complète \"Aux armes [...] !\" ?",
+      "Quelle est la suite des paroles \"Aux armes [...] ! Formez vos bataillons\" ?"
+    ],
+    "correctAnswers": ["citoyens"],
+    "wrongAnswers": [
+      "patriotes",
+      "soldats",
+      "français",
+      "camarades",
+      "enfants",
+      "frères",
+      "guerriers",
+      "républicains"
+    ]
+  },
+  {
+    "id": 305,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\"",
+      "Quelle est la suite de \"Allons enfants de la patrie\" ?",
+      "Comment se poursuit le premier vers de la Marseillaise ?"
+    ],
+    "correctAnswers": ["Le jour de gloire est arrivé"],
+    "wrongAnswers": [
+      "L'heure de la victoire a sonné",
+      "Le temps de la liberté est venu",
+      "Notre heure de gloire est venue",
+      "Le moment du combat est là",
+      "L'aube de la liberté se lève",
+      "Marchons vers la victoire",
+      "Le temps de la révolution est arrivé",
+      "Notre jour de triomphe est là"
+    ]
+  },
+  {
+    "id": 306,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "Que permet la liberté individuelle ? Une personne peut :",
+      "Grâce à la liberté individuelle, une personne peut :"
+    ],
+    "correctAnswers": ["Choisir librement son lieu de résidence"],
+    "wrongAnswers": [
+      "S'installer dans n'importe quelle propriété privée",
+      "Occuper un logement sans payer de loyer",
+      "Refuser de donner son adresse aux autorités",
+      "Habiter dans un lieu sans respecter les règles d'urbanisme",
+      "Vivre dans un espace public de manière permanente",
+      "S'installer sur le terrain d'autrui sans autorisation",
+      "Résider en France sans aucun document administratif",
+      "Choisir son domicile fiscal dans n'importe quel pays"
+    ]
+  },
+  {
+    "id": 307,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "Que dit la loi française sur la liberté religieuse ?",
+      "Est-on libre de pratiquer la religion de son choix en France ?"
+    ],
+    "correctAnswers": ["Chacun est libre de pratiquer la religion de son choix ou de ne pas en avoir"],
+    "wrongAnswers": [
+      "L'État recommande officiellement une religion aux citoyens",
+      "La pratique religieuse est interdite dans les lieux publics",
+      "Seules les religions reconnues par l'État peuvent être pratiquées",
+      "La religion catholique est la religion officielle de la France",
+      "Il faut une autorisation préfectorale pour pratiquer une religion",
+      "Les parents doivent choisir la religion de leurs enfants",
+      "La pratique religieuse est tolérée mais non encouragée",
+      "L'athéisme est interdit par la Constitution"
+    ]
+  },
+  {
+    "id": 308,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "Un parent peut-il exiger des cours de sport non-mixtes pour son enfant ?",
+      "La mixité dans les cours de sport est-elle obligatoire à l'école publique ?"
+    ],
+    "correctAnswers": ["Non, la mixité est obligatoire à l'école publique"],
+    "wrongAnswers": [
+      "Oui, pour des raisons religieuses",
+      "Oui, avec un certificat médical",
+      "Oui, si l'enfant en fait la demande",
+      "Oui, dans les établissements privés sous contrat",
+      "Oui, avec une autorisation du directeur",
+      "Oui, si les parents signent une décharge",
+      "Oui, pour des motifs de pudeur personnelle",
+      "Oui, dans certaines académies qui l'autorisent"
+    ]
+  },
+  {
+    "id": 309,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Quelle est la devise de la France ?",
+      "Quelle est la devise de la République française ?",
+      "Quels sont les trois mots de la devise française ?"
+    ],
+    "correctAnswers": ["Liberté, Égalité, Fraternité"],
+    "wrongAnswers": [
+      "Liberté, Justice, Solidarité",
+      "Unité, Force, Progrès",
+      "Honneur, Patrie, Devoir",
+      "Liberté, Égalité, Justice",
+      "Paix, Travail, Progrès",
+      "Nation, Liberté, Égalité",
+      "République, Démocratie, Laïcité",
+      "Justice, Égalité, Solidarité"
+    ]
+  },
+  {
+    "id": 310,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "La répudiation de sa femme est :",
+      "En France, la répudiation est :",
+      "Le statut de la répudiation en France est :"
+    ],
+    "correctAnswers": ["Interdite en France"],
+    "wrongAnswers": [
+      "Autorisée sous certaines conditions",
+      "Possible avec l'accord d'un juge",
+      "Tolérée pour les étrangers en France",
+      "Permise pour motifs religieux",
+      "Reconnue si effectuée à l'étranger",
+      "Autorisée avec le consentement de l'épouse",
+      "Légale dans certaines circonstances exceptionnelles",
+      "Possible après une période de séparation"
+    ]
+  },
+  {
+    "id": 311,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "Qui doit payer des impôts en France ?",
+      "Comment fonctionne la contribution fiscale en France ?"
+    ],
+    "correctAnswers": ["Toute personne résidant en France doit contribuer aux impôts selon ses moyens"],
+    "wrongAnswers": [
+      "Seuls les citoyens français doivent payer des impôts",
+      "Les étrangers sont exemptés d'impôts pendant 5 ans",
+      "Le paiement des impôts est facultatif",
+      "Seuls les propriétaires immobiliers paient des impôts",
+      "Les impôts sont uniquement payés par les entreprises",
+      "Chacun paie le même montant d'impôts",
+      "Les retraités sont exemptés de tout impôt",
+      "Les impôts ne concernent que les revenus supérieurs au SMIC"
+    ]
+  },
+  {
+    "id": 312,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Peut-on brûler publiquement un drapeau français ?",
+      "Est-il légal de brûler le drapeau tricolore ?"
+    ],
+    "correctAnswers": ["Non, c'est un délit puni par la loi"],
+    "wrongAnswers": [
+      "Oui, c'est un droit au titre de la liberté d'expression",
+      "Oui, lors de manifestations autorisées",
+      "Oui, avec l'accord du maire",
+      "Oui, si c'est pour protester contre le gouvernement",
+      "Oui, c'est une forme de contestation politique légale",
+      "Oui, à condition de ne pas troubler l'ordre public",
+      "Oui, si le drapeau vous appartient personnellement",
+      "Oui, mais uniquement le 14 juillet"
+    ]
+  },
+  {
+    "id": 313,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que fait l'État pour lutter contre les discriminations ?",
+      "Comment l'État combat-il les discriminations ?",
+      "Quelle est la politique de l'État face aux discriminations ?"
+    ],
+    "correctAnswers": ["Il interdit et sanctionne les discriminations par la loi"],
+    "wrongAnswers": [
+      "Il recommande aux entreprises d'éviter les discriminations",
+      "Il sensibilise sans pouvoir sanctionner",
+      "Il laisse les tribunaux civils gérer ces questions",
+      "Il intervient uniquement dans les cas les plus graves",
+      "Il publie des chartes de bonnes pratiques non contraignantes",
+      "Il encourage les victimes à régler le problème à l'amiable",
+      "Il ne peut agir que si la victime porte plainte",
+      "Il délègue cette responsabilité aux associations"
+    ]
+  },
+  {
+    "id": 314,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que représente Marianne ?",
+      "Qui est Marianne ?",
+      "De quoi Marianne est-elle le symbole ?"
+    ],
+    "correctAnswers": ["La République française"],
+    "wrongAnswers": [
+      "La Révolution française",
+      "La monarchie française",
+      "La nation française",
+      "La démocratie européenne",
+      "La justice française",
+      "La liberté uniquement",
+      "L'histoire de France",
+      "La souveraineté nationale"
+    ]
+  },
+  {
+    "id": 315,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Qu'est-ce que la liberté d'association ?",
+      "En quoi consiste la liberté d'association ?",
+      "Que permet la liberté d'association ?"
+    ],
+    "correctAnswers": ["Le droit de créer ou d'adhérer librement à une association"],
+    "wrongAnswers": [
+      "Le droit de créer une entreprise sans formalités",
+      "Le droit de rejoindre n'importe quel parti politique étranger",
+      "Le droit de créer des groupes armés pour se défendre",
+      "L'obligation d'adhérer à une association professionnelle",
+      "Le droit de créer des associations sans les déclarer",
+      "Le droit de former des groupes secrets",
+      "Le droit de s'associer uniquement entre citoyens français",
+      "Le droit de créer des milices privées"
+    ]
+  },
+  {
+    "id": 316,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Qu'est-ce que la liberté ?",
+      "Comment définit-on la liberté ?",
+      "Quelle est la définition de la liberté selon la loi française ?"
+    ],
+    "correctAnswers": ["Le droit de faire tout ce qui ne nuit pas à autrui"],
+    "wrongAnswers": [
+      "Le droit de faire absolument tout ce que l'on veut",
+      "Le droit de vivre sans aucune contrainte sociale",
+      "Le droit de ne pas respecter les lois injustes",
+      "Le droit de s'opposer à toute forme d'autorité",
+      "Le droit de ne rendre de comptes à personne",
+      "Le droit d'agir selon ses propres valeurs uniquement",
+      "Le droit de refuser toute obligation imposée par l'État",
+      "Le droit de vivre sans responsabilité envers la société"
+    ]
+  },
+  {
+    "id": 317,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Qu'est-ce que la Marseillaise ?",
+      "Quel est le statut de la Marseillaise ?",
+      "Comment qualifie-t-on la Marseillaise ?"
+    ],
+    "correctAnswers": ["L'hymne national français"],
+    "wrongAnswers": [
+      "Un chant régional du sud de la France",
+      "L'hymne de la ville de Marseille",
+      "Un chant militaire de l'armée française",
+      "L'hymne de la Révolution française uniquement",
+      "Un chant patriotique sans statut officiel",
+      "L'hymne de l'Union européenne",
+      "Un poème devenu chanson populaire",
+      "L'hymne de la région Provence-Alpes-Côte d'Azur"
+    ]
+  },
+  {
+    "id": 318,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Sur quel document peut-on voir Marianne ?",
+      "Où trouve-t-on l'image de Marianne ?",
+      "Sur quels supports officiels Marianne apparaît-elle ?"
+    ],
+    "correctAnswers": ["Sur les timbres-poste et les documents officiels"],
+    "wrongAnswers": [
+      "Uniquement sur les billets de banque français",
+      "Sur les passeports uniquement",
+      "Uniquement sur les pièces de monnaie",
+      "Sur les cartes d'identité exclusivement",
+      "Sur les plaques d'immatriculation",
+      "Uniquement dans les mairies",
+      "Sur les billets de la Loterie nationale",
+      "Uniquement sur les monuments historiques"
+    ]
+  },
+  {
+    "id": 319,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Un employeur refuse d'embaucher des femmes dans son entreprise. Que dit la loi ?",
+      "Refuser d'embaucher quelqu'un en raison de son sexe est-il légal ?",
+      "Un patron peut-il refuser d'embaucher une personne parce qu'elle est une femme ?"
+    ],
+    "correctAnswers": ["C'est interdit, c'est une discrimination"],
+    "wrongAnswers": [
+      "C'est autorisé dans certains secteurs d'activité",
+      "C'est légal si l'entreprise est privée",
+      "C'est permis pour des postes physiquement exigeants",
+      "C'est toléré dans les petites entreprises",
+      "C'est acceptable si c'est justifié par la clientèle",
+      "C'est légal si c'est mentionné dans l'offre d'emploi",
+      "C'est autorisé pour des raisons de sécurité",
+      "C'est permis si les autres employés le demandent"
+    ]
+  },
+  {
+    "id": 320,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?",
+      "Que signifie le principe d'égalité dans la devise française ?",
+      "Comment comprendre la valeur d'égalité de la République ?"
+    ],
+    "correctAnswers": ["Tous les citoyens ont les mêmes droits et les mêmes devoirs"],
+    "wrongAnswers": [
+      "Tous les citoyens ont le même salaire",
+      "Tous les citoyens ont le même niveau de vie",
+      "Tous les citoyens reçoivent les mêmes aides de l'État",
+      "Tous les citoyens paient le même montant d'impôts",
+      "Tous les citoyens ont le même patrimoine",
+      "Tous les citoyens ont accès au même logement",
+      "Tous les citoyens ont les mêmes revenus mensuels",
+      "Tous les citoyens ont le même pouvoir d'achat"
+    ]
+  },
+  {
+    "id": 321,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Quelle est la place de la langue française dans la République ?",
+      "Quel est le statut du français en France ?",
+      "Que dit la Constitution sur la langue française ?"
+    ],
+    "correctAnswers": ["Le français est la langue officielle de la République"],
+    "wrongAnswers": [
+      "Le français est une des langues officielles avec l'anglais",
+      "Le français n'a pas de statut constitutionnel particulier",
+      "Les langues régionales ont le même statut que le français",
+      "Le français est la langue recommandée mais pas obligatoire",
+      "Le français et les langues régionales sont toutes officielles",
+      "L'usage du français est facultatif dans l'administration",
+      "Le français partage son statut avec les langues européennes",
+      "Le français est la langue officielle uniquement à Paris"
+    ]
+  },
+  {
+    "id": 322,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Quels sont des symboles officiels de la République française ?",
+      "Quels éléments représentent officiellement la République ?",
+      "Quels sont les emblèmes de la République française ?"
+    ],
+    "correctAnswers": ["Le drapeau tricolore, la Marseillaise, Marianne, la devise Liberté-Égalité-Fraternité"],
+    "wrongAnswers": [
+      "Le coq gaulois, la Tour Eiffel, le béret et la baguette",
+      "La fleur de lys, le drapeau bleu, le chant des partisans",
+      "Le coq gaulois, l'euro, l'hymne européen, le château de Versailles",
+      "La Tour Eiffel, le croissant, le vin et le fromage",
+      "Le drapeau blanc, la croix de Lorraine, Jeanne d'Arc",
+      "L'Arc de Triomphe, le champagne, le parfum français",
+      "Le bonnet phrygien uniquement et les couleurs bleu et blanc",
+      "La fleur de lys, le soleil royal, et la devise Dieu et mon droit"
+    ]
+  },
+  {
+    "id": 323,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent (handicap, apparence physique, sexe…) ?",
+      "Les insultes discriminatoires sont-elles autorisées ?",
+      "Peut-on insulter quelqu'un en raison de son handicap ou de son apparence ?"
+    ],
+    "correctAnswers": ["Non, c'est interdit et puni par la loi"],
+    "wrongAnswers": [
+      "Oui, c'est couvert par la liberté d'expression",
+      "Oui, si c'est dit sur un ton humoristique",
+      "Oui, si c'est dans un cadre privé",
+      "Oui, si la personne ne porte pas plainte",
+      "Oui, si c'est une opinion personnelle sincère",
+      "Oui, mais uniquement entre adultes consentants",
+      "Oui, si c'est dans le cadre d'un débat public",
+      "Oui, si l'insulte n'est pas répétée"
+    ]
+  },
+  {
+    "id": 324,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Le régime de la France est :",
+      "Le système politique de la France est :",
+      "La forme de gouvernement en France est :"
+    ],
+    "correctAnswers": ["Une République"],
+    "wrongAnswers": [
+      "Une monarchie constitutionnelle",
+      "Un empire parlementaire",
+      "Une démocratie fédérale",
+      "Un État confédéral",
+      "Une principauté démocratique",
+      "Un royaume parlementaire",
+      "Une union d'États régionaux",
+      "Une oligarchie démocratique"
+    ]
+  },
+  {
+    "id": 325,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "Quelle est l'importance de la laïcité à l'école ?",
+      "À quoi sert la laïcité dans les établissements scolaires ?"
+    ],
+    "correctAnswers": ["Pour garantir la neutralité et le respect de toutes les croyances"],
+    "wrongAnswers": [
+      "Pour interdire toute discussion sur les religions",
+      "Pour promouvoir l'athéisme auprès des élèves",
+      "Pour éviter les conflits entre parents d'élèves",
+      "Pour simplifier l'organisation des cantines scolaires",
+      "Pour empêcher les élèves de parler de leur foi",
+      "Pour faciliter le travail des enseignants",
+      "Pour uniformiser les comportements des élèves",
+      "Pour réduire les absences liées aux fêtes religieuses"
+    ]
+  },
+  {
+    "id": 326,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
+      "Quand a été adoptée la loi sur la laïcité ?",
+      "Quelle année marque la séparation des Églises et de l'État en France ?"
+    ],
+    "correctAnswers": ["1905"],
+    "wrongAnswers": [
+      "1789",
+      "1848",
+      "1870",
+      "1881",
+      "1892",
+      "1901",
+      "1914",
+      "1936"
+    ]
+  },
+  {
+    "id": 327,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "L'athéisme est-il autorisé en France ?",
+      "Peut-on légalement ne pas avoir de religion en France ?"
+    ],
+    "correctAnswers": ["Oui, c'est la liberté de conscience"],
+    "wrongAnswers": [
+      "Oui, mais uniquement dans la sphère privée",
+      "Non, chacun doit choisir une religion",
+      "Oui, mais il faut le déclarer aux autorités",
+      "Non, c'est contraire aux valeurs de la France",
+      "Oui, mais cela peut limiter certains droits",
+      "Non, l'État recommande d'avoir une religion",
+      "Oui, mais uniquement pour les adultes majeurs",
+      "Non, la Constitution impose une croyance minimale"
+    ]
+  },
+  {
+    "id": 328,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Quel droit est garanti par la laïcité ?",
+      "Que protège le principe de laïcité ?",
+      "Quelle liberté la laïcité garantit-elle ?"
+    ],
+    "correctAnswers": ["La liberté de croire ou de ne pas croire"],
+    "wrongAnswers": [
+      "Le droit de pratiquer uniquement les grandes religions",
+      "La liberté de convertir autrui à sa religion",
+      "Le droit d'imposer ses croyances dans l'espace public",
+      "La liberté de critiquer toutes les religions sauf une",
+      "Le droit de faire du prosélytisme à l'école",
+      "La liberté de créer de nouvelles religions officielles",
+      "Le droit d'exiger des accommodements religieux",
+      "La liberté de refuser les lois contraires à sa foi"
+    ]
+  },
+  {
+    "id": 329,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "À l'école publique, qui peut porter des signes religieux très visibles ?",
+      "Le port de signes religieux ostensibles est-il autorisé à l'école publique ?",
+      "Les signes religieux visibles sont-ils permis dans les écoles publiques ?"
+    ],
+    "correctAnswers": ["Ni les élèves ni le personnel de l'établissement"],
+    "wrongAnswers": [
+      "Les élèves uniquement avec autorisation parentale",
+      "Le personnel enseignant uniquement",
+      "Les élèves majeurs seulement",
+      "Les élèves en dehors des heures de cours",
+      "Le personnel non-enseignant uniquement",
+      "Les élèves des classes terminales",
+      "Les parents d'élèves lors des réunions",
+      "Les élèves dans les cours de récréation"
+    ]
+  },
+  {
+    "id": 330,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
+      "Comment l'État applique-t-il la neutralité religieuse ?",
+      "Que veut dire la neutralité de l'État en matière de religion ?"
+    ],
+    "correctAnswers": ["L'État ne favorise aucune religion et les traite toutes de manière égale"],
+    "wrongAnswers": [
+      "L'État interdit la pratique de toutes les religions",
+      "L'État combat activement les croyances religieuses",
+      "L'État privilégie les religions historiques de France",
+      "L'État ignore complètement l'existence des religions",
+      "L'État décourage la pratique religieuse dans la société",
+      "L'État favorise l'athéisme comme position officielle",
+      "L'État reconnaît certaines religions mais pas d'autres",
+      "L'État limite le nombre de lieux de culte autorisés"
+    ]
+  },
+  {
+    "id": 331,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que peut faire un usager du service public dans une mairie ?",
+      "Un usager peut-il porter des signes religieux dans une mairie ?",
+      "Les citoyens doivent-ils être neutres religieusement dans les services publics ?"
+    ],
+    "correctAnswers": ["Porter des signes religieux (les usagers ne sont pas soumis à la neutralité)"],
+    "wrongAnswers": [
+      "Retirer tout signe religieux visible",
+      "Cacher ses convictions religieuses",
+      "Porter uniquement des signes discrets",
+      "Respecter la même neutralité que les agents",
+      "Demander une autorisation pour garder ses signes",
+      "Masquer son visage pour raisons religieuses",
+      "Se conformer aux règles vestimentaires de la mairie",
+      "Renoncer temporairement à ses convictions religieuses"
+    ]
+  },
+  {
+    "id": 332,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+      "À qui s'applique l'obligation de neutralité religieuse dans l'administration ?",
+      "Les fonctionnaires doivent-ils être neutres religieusement ?"
+    ],
+    "correctAnswers": ["Les agents publics (fonctionnaires)"],
+    "wrongAnswers": [
+      "Tous les visiteurs et usagers",
+      "Uniquement le préfet et ses adjoints",
+      "Les agents et les usagers également",
+      "Personne, c'est une recommandation facultative",
+      "Uniquement les agents en contact avec le public",
+      "Les agents seulement pendant les cérémonies officielles",
+      "Les usagers qui demandent un service",
+      "Uniquement les agents de sécurité"
+    ]
+  },
+  {
+    "id": 333,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+      "Les fonctionnaires doivent-ils traiter tous les usagers de la même façon ?",
+      "Le principe de laïcité oblige-t-il les agents à l'égalité de traitement ?"
+    ],
+    "correctAnswers": ["Oui, ils doivent traiter tous les usagers de manière égale"],
+    "wrongAnswers": [
+      "Non, ils peuvent adapter leur service selon les croyances",
+      "Oui, mais uniquement dans les grandes administrations",
+      "Non, ils peuvent refuser de servir certains usagers",
+      "Oui, sauf pour les demandes liées à la religion",
+      "Non, chaque agent décide selon ses convictions",
+      "Oui, mais des exceptions existent pour certaines religions",
+      "Non, la neutralité ne concerne que les apparences",
+      "Oui, mais ils peuvent exprimer leurs opinions personnelles"
+    ]
+  },
+  {
+    "id": 334,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que garantit le principe de laïcité ?",
+      "Quels droits le principe de laïcité protège-t-il ?",
+      "Qu'est-ce que la laïcité assure aux citoyens ?"
+    ],
+    "correctAnswers": ["La liberté de conscience et la séparation des religions et de l'État"],
+    "wrongAnswers": [
+      "L'interdiction de toute pratique religieuse publique",
+      "La promotion de l'athéisme comme valeur nationale",
+      "La suppression progressive des religions en France",
+      "Le contrôle de l'État sur les pratiques religieuses",
+      "La limitation des religions à la sphère strictement privée",
+      "L'égalité des revenus entre tous les citoyens",
+      "La neutralité obligatoire de tous les citoyens",
+      "L'interdiction de construire de nouveaux lieux de culte"
+    ]
+  },
+  {
+    "id": 335,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "A-t-on le droit de changer de religion ?",
+      "Peut-on librement changer de religion en France ?",
+      "Est-il autorisé de quitter sa religion pour une autre ?"
+    ],
+    "correctAnswers": ["Oui, c'est une liberté fondamentale"],
+    "wrongAnswers": [
+      "Oui, mais avec l'autorisation d'un tribunal",
+      "Non, on doit garder la religion de ses parents",
+      "Oui, mais une seule fois dans sa vie",
+      "Non, c'est considéré comme un abandon de valeurs",
+      "Oui, mais il faut le déclarer à l'état civil",
+      "Non, sauf pour des raisons de mariage",
+      "Oui, mais après une période de réflexion obligatoire",
+      "Non, l'apostasie est sanctionnée en France"
+    ]
+  },
+  {
+    "id": 336,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que représente la laïcité ?",
+      "Comment définit-on la laïcité en France ?",
+      "Qu'est-ce que le principe de laïcité ?"
+    ],
+    "correctAnswers": ["La séparation des Églises et de l'État et la liberté de conscience"],
+    "wrongAnswers": [
+      "L'interdiction de toutes les religions sur le territoire",
+      "La promotion officielle de l'athéisme par l'État",
+      "Le contrôle gouvernemental sur les cultes religieux",
+      "La tolérance limitée des religions historiques uniquement",
+      "L'obligation pour tous d'être neutres religieusement",
+      "La disparition progressive des croyances religieuses",
+      "Le refus de reconnaître l'existence des religions",
+      "L'uniformisation des pratiques religieuses par l'État"
+    ]
+  },
+  {
+    "id": 337,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+      "Que prohibe la Charte de la laïcité dans les établissements scolaires ?",
+      "Selon la Charte de la laïcité, que ne peuvent pas porter les élèves ?"
+    ],
+    "correctAnswers": ["Le port de signes religieux ostensibles par les élèves"],
+    "wrongAnswers": [
+      "Toute discussion sur les religions pendant les cours",
+      "L'enseignement de l'histoire des religions",
+      "Les absences pour fêtes religieuses importantes",
+      "Le port de bijoux de toute nature",
+      "L'expression de ses opinions politiques",
+      "Les demandes de menus spéciaux à la cantine",
+      "Le port de vêtements de couleur foncée",
+      "Les signes d'appartenance à un club sportif"
+    ]
+  },
+  {
+    "id": 338,
+    "theme": "Principes et valeurs de la République",
+    "questions": [
+      "Que dit l'article 1er de la Constitution française ?",
+      "Comment la Constitution définit-elle la France dans son premier article ?",
+      "Quelles caractéristiques de la République sont inscrites à l'article 1er de la Constitution ?"
+    ],
+    "correctAnswers": ["La France est une République indivisible, laïque, démocratique et sociale"],
+    "wrongAnswers": [
+      "La France est une nation libre, souveraine et chrétienne",
+      "La France est un État fédéral, laïque et parlementaire",
+      "La France est une République monarchique et traditionnelle",
+      "La France est une démocratie libérale et capitaliste",
+      "La France est une nation indépendante et européenne",
+      "La France est un État unitaire, religieux et démocratique",
+      "La France est une confédération de régions autonomes",
+      "La France est une République divisible, laïque et libérale"
+    ]
+  }
+]
 }
