@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "id": 610,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quel est le premier devoir civique du citoyen français ?",
+        "Quel acte civique est le plus important pour un citoyen ?",
+        "Quelle est la principale obligation civique des citoyens français ?"
+      ],
+      "correctAnswers": ["Voter aux élections"],
+      "wrongAnswers": [
+        "Payer ses factures à temps",
+        "Faire du bénévolat",
+        "Adhérer à un parti politique",
+        "Lire la presse quotidiennement",
+        "Posséder un passeport français",
+        "Participer aux manifestations"
+      ]
+    },
+    {
+      "id": 611,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "À partir de quel âge peut-on voter en France ?",
+        "Quel est l'âge minimum pour exercer le droit de vote ?",
+        "Quand un citoyen français acquiert-il le droit de vote ?"
+      ],
+      "correctAnswers": ["18 ans"],
+      "wrongAnswers": [
+        "16 ans",
+        "21 ans",
+        "20 ans",
+        "17 ans",
+        "25 ans",
+        "15 ans"
+      ]
+    },
+    {
+      "id": 612,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Le vote est-il obligatoire en France ?",
+        "Est-on obligé de voter en France ?",
+        "Que dit la loi française sur l'obligation de voter ?"
+      ],
+      "correctAnswers": ["Non, le vote n'est pas obligatoire mais c'est un devoir civique"],
+      "wrongAnswers": [
+        "Oui, le vote est obligatoire et sanctionné par une amende",
+        "Oui, le vote est obligatoire uniquement pour les élections présidentielles",
+        "Oui, le vote est obligatoire pour les personnes de plus de 25 ans",
+        "Non, le vote n'est ni un droit ni un devoir",
+        "Oui, le vote est obligatoire depuis 2020",
+        "Non, le vote est réservé aux personnes inscrites sur les listes électorales depuis plus de 5 ans"
+      ]
+    },
+    {
+      "id": 613,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Tout citoyen français est-il tenu de payer des impôts ?",
+        "L'impôt est-il un devoir en France ?",
+        "Quel est le devoir fiscal du citoyen français ?"
+      ],
+      "correctAnswers": ["Oui, chaque citoyen doit contribuer aux dépenses publiques selon ses capacités"],
+      "wrongAnswers": [
+        "Non, seuls les propriétaires doivent payer des impôts",
+        "Oui, mais uniquement les citoyens gagnant plus de 50 000 euros",
+        "Non, les impôts sont facultatifs en France",
+        "Oui, mais uniquement les citoyens de plus de 30 ans",
+        "Non, seuls les commerçants et les entreprises paient des impôts",
+        "Oui, mais uniquement pour les services publics qu'on utilise"
+      ]
+    },
+    {
+      "id": 614,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la Journée Défense et Citoyenneté (JDC) ?",
+        "En quoi consiste la JDC ?",
+        "Que doivent faire les jeunes Français lors de la Journée Défense et Citoyenneté ?"
+      ],
+      "correctAnswers": ["Une journée obligatoire pour tous les jeunes Français de 16 à 25 ans, consacrée à l'information sur la défense et les droits civiques"],
+      "wrongAnswers": [
+        "Un service militaire obligatoire de 6 mois",
+        "Un stage de formation professionnelle pour les jeunes",
+        "Un examen de citoyenneté pour obtenir le droit de vote",
+        "Une journée de bénévolat obligatoire dans une association",
+        "Un service civique de 3 mois dans l'armée",
+        "Une journée de cours d'histoire de France obligatoire"
+      ]
+    },
+    {
+      "id": 615,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Les étrangers résidant en France ont-ils des droits fondamentaux ?",
+        "Les droits fondamentaux s'appliquent-ils aux étrangers en France ?",
+        "Un étranger vivant en France bénéficie-t-il de droits ?"
+      ],
+      "correctAnswers": ["Oui, les droits fondamentaux (liberté, sûreté, dignité) s'appliquent à toute personne sur le territoire français"],
+      "wrongAnswers": [
+        "Non, seuls les citoyens français ont des droits",
+        "Oui, mais uniquement les étrangers en situation régulière",
+        "Non, les étrangers n'ont que des devoirs en France",
+        "Oui, mais uniquement les ressortissants de l'Union européenne",
+        "Non, les droits sont réservés aux Français et aux résidents permanents",
+        "Oui, mais uniquement après 5 ans de résidence en France"
+      ]
+    },
+    {
+      "id": 616,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Les étrangers non européens peuvent-ils voter en France ?",
+        "Un étranger hors UE résidant en France a-t-il le droit de vote ?",
+        "Les ressortissants non européens participent-ils aux élections françaises ?"
+      ],
+      "correctAnswers": ["Non, le droit de vote est réservé aux citoyens français (et aux citoyens européens pour les élections municipales et européennes)"],
+      "wrongAnswers": [
+        "Oui, ils peuvent voter à toutes les élections après 5 ans de résidence",
+        "Oui, ils peuvent voter aux élections municipales uniquement",
+        "Oui, ils peuvent voter s'ils paient des impôts en France",
+        "Oui, ils peuvent voter aux élections européennes uniquement",
+        "Non, même les citoyens européens ne peuvent pas voter en France",
+        "Oui, ils peuvent voter aux référendums"
+      ]
+    },
+    {
+      "id": 617,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit au respect de la vie privée ?",
+        "En quoi consiste la protection de la vie privée en France ?",
+        "Comment la loi française protège-t-elle la vie privée ?"
+      ],
+      "correctAnswers": ["Le droit de chaque personne à ce que sa vie personnelle, familiale et son domicile soient protégés contre les intrusions"],
+      "wrongAnswers": [
+        "Le droit de cacher ses revenus au fisc",
+        "Le droit de refuser tout contrôle d'identité",
+        "Le droit de ne pas se présenter devant un tribunal",
+        "Le droit de ne pas répondre aux recensements",
+        "Le droit de vivre sans voisins",
+        "Le droit de ne pas être filmé par les caméras de surveillance publiques"
+      ]
+    },
+    {
+      "id": 618,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit de grève ?",
+        "En quoi consiste le droit de grève en France ?",
+        "Que permet le droit de grève aux travailleurs ?"
+      ],
+      "correctAnswers": ["Le droit pour les salariés de cesser collectivement le travail pour défendre leurs revendications professionnelles"],
+      "wrongAnswers": [
+        "Le droit de ne pas travailler quand on le souhaite",
+        "Le droit de détruire son lieu de travail",
+        "Le droit de bloquer indéfiniment une entreprise",
+        "Le droit de séquestrer son employeur",
+        "Le droit de refuser tout travail pénible",
+        "Le droit de ne pas venir travailler sans justification"
+      ]
+    },
+    {
+      "id": 619,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit à l'éducation en France ?",
+        "Comment la France garantit-elle le droit à l'éducation ?",
+        "En quoi consiste le droit à l'instruction en France ?"
+      ],
+      "correctAnswers": ["L'instruction est obligatoire pour tous les enfants de 3 à 16 ans et l'enseignement public est gratuit et laïc"],
+      "wrongAnswers": [
+        "L'éducation est obligatoire de 6 à 18 ans uniquement dans les écoles publiques",
+        "L'enseignement est gratuit uniquement dans les écoles primaires",
+        "L'éducation est un droit réservé aux enfants de nationalité française",
+        "L'instruction est obligatoire uniquement jusqu'à 12 ans",
+        "L'éducation est gratuite mais l'enseignement religieux est obligatoire",
+        "L'instruction est obligatoire de 5 à 14 ans"
+      ]
+    },
+    {
+      "id": 620,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la présomption d'innocence ?",
+        "En quoi consiste le principe de présomption d'innocence ?",
+        "Que garantit la présomption d'innocence en droit français ?"
+      ],
+      "correctAnswers": ["Toute personne est considérée comme innocente tant que sa culpabilité n'a pas été établie par un tribunal"],
+      "wrongAnswers": [
+        "Toute personne arrêtée est considérée comme coupable",
+        "La police décide si une personne est coupable ou innocente",
+        "L'accusé doit prouver son innocence devant le tribunal",
+        "La victime décide de la culpabilité de l'accusé",
+        "Le procureur décide seul de la culpabilité",
+        "Les médias déterminent la culpabilité d'un suspect"
+      ]
+    },
+    {
+      "id": 621,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Tout citoyen français a-t-il le droit à un avocat ?",
+        "Qu'est-ce que le droit à la défense ?",
+        "Que garantit le droit à un avocat en France ?"
+      ],
+      "correctAnswers": ["Oui, toute personne a le droit d'être assistée par un avocat, y compris gratuitement en cas de ressources insuffisantes (aide juridictionnelle)"],
+      "wrongAnswers": [
+        "Non, seuls les citoyens aisés peuvent avoir un avocat",
+        "Oui, mais uniquement pour les crimes graves",
+        "Non, l'avocat est facultatif devant les tribunaux",
+        "Oui, mais uniquement si la personne est de nationalité française",
+        "Non, l'État ne fournit jamais d'avocat gratuitement",
+        "Oui, mais uniquement en cas de garde à vue"
+      ]
+    },
+    {
+      "id": 622,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quelles sont les obligations d'un étranger résidant en France ?",
+        "Quels devoirs un étranger doit-il respecter en France ?",
+        "Que doit faire un étranger vivant sur le territoire français ?"
+      ],
+      "correctAnswers": ["Respecter les lois françaises, payer ses impôts et respecter les valeurs de la République"],
+      "wrongAnswers": [
+        "Uniquement posséder un titre de séjour valide",
+        "Apprendre le français et voter aux élections",
+        "Uniquement travailler et payer ses impôts",
+        "Adhérer à un parti politique et faire son service militaire",
+        "Uniquement respecter les lois sans aucun autre devoir",
+        "Renoncer à sa nationalité d'origine"
+      ]
+    },
+    {
+      "id": 623,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que l'aide juridictionnelle ?",
+        "En quoi consiste l'aide juridictionnelle en France ?",
+        "Qui peut bénéficier de l'aide juridictionnelle ?"
+      ],
+      "correctAnswers": ["Une prise en charge par l'État des frais de justice pour les personnes ayant des revenus insuffisants"],
+      "wrongAnswers": [
+        "Une aide financière pour les avocats en début de carrière",
+        "Une assistance réservée aux victimes d'accidents du travail",
+        "Un fonds d'indemnisation pour les erreurs judiciaires",
+        "Une aide réservée aux étrangers en situation irrégulière",
+        "Un service d'information juridique par téléphone",
+        "Une aide financière pour les entreprises en difficulté"
+      ]
+    },
+    {
+      "id": 624,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "La France a-t-elle aboli la peine de mort ?",
+        "Depuis quand la peine de mort est-elle abolie en France ?",
+        "Quel est le statut de la peine de mort en France ?"
+      ],
+      "correctAnswers": ["Oui, la peine de mort a été abolie en 1981"],
+      "wrongAnswers": [
+        "Non, la peine de mort existe encore pour les crimes de guerre",
+        "Oui, elle a été abolie en 1945",
+        "Oui, elle a été abolie en 1968",
+        "Non, la peine de mort est maintenue pour le terrorisme",
+        "Oui, elle a été abolie en 2000",
+        "Non, la peine de mort peut être rétablie par référendum"
+      ]
+    },
+    {
+      "id": 625,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qui a fait abolir la peine de mort en France ?",
+        "Quel homme politique est à l'origine de l'abolition de la peine de mort ?",
+        "Quel garde des Sceaux a défendu l'abolition de la peine de mort en 1981 ?"
+      ],
+      "correctAnswers": ["Robert Badinter, garde des Sceaux sous la présidence de François Mitterrand"],
+      "wrongAnswers": [
+        "Charles de Gaulle en 1958",
+        "Jacques Chirac en 1995",
+        "Valéry Giscard d'Estaing en 1974",
+        "Simone Veil en 1975",
+        "Georges Pompidou en 1969",
+        "Nicolas Sarkozy en 2007"
+      ]
+    },
+    {
+      "id": 626,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit du sol en matière de nationalité ?",
+        "Comment fonctionne le droit du sol en France ?",
+        "En quoi consiste le principe du droit du sol pour la nationalité française ?"
+      ],
+      "correctAnswers": ["Un enfant né en France de parents étrangers peut obtenir la nationalité française, notamment à sa majorité s'il réside en France depuis l'âge de 11 ans"],
+      "wrongAnswers": [
+        "Tout enfant né en France est automatiquement français à la naissance",
+        "Le droit du sol n'existe pas en France",
+        "Seuls les enfants nés à Paris bénéficient du droit du sol",
+        "Le droit du sol s'applique uniquement aux enfants de parents européens",
+        "Le droit du sol donne la nationalité à 21 ans uniquement",
+        "Le droit du sol ne s'applique qu'en métropole, pas en outre-mer"
+      ]
+    },
+    {
+      "id": 627,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit du sang en matière de nationalité ?",
+        "Comment fonctionne le droit du sang pour la nationalité française ?",
+        "En quoi consiste le principe du droit du sang ?"
+      ],
+      "correctAnswers": ["Un enfant dont au moins un parent est français est français dès la naissance, quel que soit son lieu de naissance"],
+      "wrongAnswers": [
+        "Un enfant est français uniquement si ses deux parents sont français",
+        "Le droit du sang s'applique uniquement aux enfants nés en France",
+        "Le droit du sang donne la nationalité uniquement à la majorité",
+        "Le droit du sang ne s'applique qu'aux hommes",
+        "Le droit du sang n'existe plus en France depuis 2010",
+        "Le droit du sang s'applique uniquement si le parent français est le père"
+      ]
+    },
+    {
+      "id": 628,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quelles sont les principales voies d'acquisition de la nationalité française ?",
+        "Comment peut-on devenir français ?",
+        "Par quels moyens peut-on obtenir la nationalité française ?"
+      ],
+      "correctAnswers": ["Par naissance (droit du sang, droit du sol), par mariage, par naturalisation, ou par déclaration"],
+      "wrongAnswers": [
+        "Uniquement par naissance en France",
+        "Uniquement par mariage avec un Français",
+        "Uniquement par naturalisation après 10 ans de résidence",
+        "Uniquement par le service militaire",
+        "Par achat d'un bien immobilier en France",
+        "Par création d'une entreprise en France"
+      ]
+    },
+    {
+      "id": 629,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Combien d'années de résidence en France faut-il en principe pour demander la naturalisation ?",
+        "Quelle est la durée minimale de résidence pour une demande de naturalisation ?",
+        "Après combien d'années de séjour en France peut-on demander la naturalisation ?"
+      ],
+      "correctAnswers": ["5 ans de résidence habituelle et régulière en France"],
+      "wrongAnswers": [
+        "3 ans de résidence",
+        "10 ans de résidence",
+        "2 ans de résidence",
+        "7 ans de résidence",
+        "1 an de résidence",
+        "8 ans de résidence"
+      ]
+    },
+    {
+      "id": 630,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Dans quels cas la durée de résidence pour la naturalisation peut-elle être réduite ?",
+        "Quand la condition de 5 ans de résidence est-elle assouplie pour la naturalisation ?",
+        "Pour qui la durée de résidence est-elle réduite à 2 ans pour la naturalisation ?"
+      ],
+      "correctAnswers": ["Pour les personnes ayant accompli deux ans d'études supérieures en France ou ayant rendu des services exceptionnels à la France"],
+      "wrongAnswers": [
+        "Pour les personnes de plus de 60 ans",
+        "Pour les personnes ayant un CDI en France",
+        "Pour les personnes propriétaires d'un logement en France",
+        "Pour les personnes parlant trois langues étrangères",
+        "Pour les personnes ayant un compte bancaire en France",
+        "Pour les personnes ayant des enfants scolarisés en France"
+      ]
+    },
+    {
+      "id": 631,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Après combien d'années de mariage avec un Français peut-on demander la nationalité française ?",
+        "Quelle est la durée de mariage requise pour demander la nationalité par mariage ?",
+        "Combien de temps faut-il être marié à un Français pour demander la nationalité ?"
+      ],
+      "correctAnswers": ["4 ans de mariage (5 ans si le couple ne justifie pas d'une communauté de vie affective et matérielle en France)"],
+      "wrongAnswers": [
+        "1 an de mariage",
+        "2 ans de mariage",
+        "3 ans de mariage",
+        "6 ans de mariage",
+        "10 ans de mariage",
+        "Immédiatement après le mariage"
+      ]
+    },
+    {
+      "id": 632,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Un candidat à la naturalisation peut-il avoir un casier judiciaire ?",
+        "Les antécédents judiciaires empêchent-ils la naturalisation ?",
+        "Quel est l'impact du casier judiciaire sur une demande de naturalisation ?"
+      ],
+      "correctAnswers": ["Les condamnations pénales peuvent constituer un motif de refus de la naturalisation, l'administration examine la bonne moralité du candidat"],
+      "wrongAnswers": [
+        "Non, le casier judiciaire n'est jamais vérifié",
+        "Oui, mais uniquement les crimes, pas les délits",
+        "Non, toute condamnation est automatiquement un motif de refus",
+        "Oui, mais les infractions au code de la route ne comptent pas",
+        "Non, seules les condamnations de plus de 5 ans de prison comptent",
+        "Oui, les condamnations à l'étranger ne sont jamais prises en compte"
+      ]
+    },
+    {
+      "id": 633,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que l'entretien d'assimilation dans le cadre de la naturalisation ?",
+        "En quoi consiste l'entretien individuel lors d'une demande de naturalisation ?",
+        "Que vérifie l'entretien de naturalisation ?"
+      ],
+      "correctAnswers": ["Un entretien en préfecture qui évalue le niveau de langue française, la connaissance des valeurs républicaines et l'intégration du candidat"],
+      "wrongAnswers": [
+        "Un examen écrit sur l'histoire de France",
+        "Un test de compétences professionnelles",
+        "Un entretien avec le président de la République",
+        "Un test médical obligatoire",
+        "Un entretien bancaire sur la situation financière",
+        "Un examen de conduite automobile"
+      ]
+    },
+    {
+      "id": 634,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Le nouveau citoyen français doit-il renoncer à sa nationalité d'origine ?",
+        "Peut-on avoir la double nationalité en France ?",
+        "La France oblige-t-elle à renoncer à sa nationalité d'origine lors de la naturalisation ?"
+      ],
+      "correctAnswers": ["Non, la France autorise la double nationalité et ne demande pas de renoncer à sa nationalité d'origine"],
+      "wrongAnswers": [
+        "Oui, il faut obligatoirement renoncer à sa nationalité d'origine",
+        "Oui, sauf pour les ressortissants de l'Union européenne",
+        "Non, mais la double nationalité n'est autorisée qu'avec certains pays",
+        "Oui, dans un délai de 2 ans après la naturalisation",
+        "Non, mais il faut obtenir l'accord de son pays d'origine",
+        "Oui, sauf si le pays d'origine n'autorise pas le renoncement"
+      ]
+    },
+    {
+      "id": 635,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la déchéance de nationalité ?",
+        "Dans quels cas peut-on perdre la nationalité française ?",
+        "Quand la nationalité française peut-elle être retirée ?"
+      ],
+      "correctAnswers": ["Le retrait de la nationalité française à une personne l'ayant acquise, en cas d'actes de terrorisme ou d'atteinte aux intérêts fondamentaux de la Nation"],
+      "wrongAnswers": [
+        "Le retrait automatique de la nationalité après 10 ans à l'étranger",
+        "La perte de nationalité pour non-paiement d'impôts",
+        "Le retrait de nationalité pour tout crime ou délit",
+        "La perte de nationalité en cas de mariage avec un étranger",
+        "Le retrait automatique de la nationalité à 70 ans",
+        "La perte de nationalité en cas de changement de religion"
+      ]
+    },
+    {
+      "id": 636,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le devoir de défense nationale ?",
+        "En quoi consiste l'obligation de défense nationale ?",
+        "Que prévoit le devoir de défense pour les citoyens français ?"
+      ],
+      "correctAnswers": ["L'obligation pour tout citoyen de participer à la défense de la nation, matérialisée par la Journée Défense et Citoyenneté"],
+      "wrongAnswers": [
+        "L'obligation de servir dans l'armée pendant 2 ans",
+        "Le devoir de posséder une arme pour défendre le territoire",
+        "L'obligation de participer à des exercices militaires annuels",
+        "Le devoir de financer personnellement l'armée",
+        "L'obligation de s'enrôler dans la réserve militaire",
+        "Le devoir de garder un secret-défense toute sa vie"
+      ]
+    },
+    {
+      "id": 637,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit au logement en France ?",
+        "Comment la France garantit-elle le droit au logement ?",
+        "En quoi consiste le droit au logement opposable (DALO) ?"
+      ],
+      "correctAnswers": ["Le droit pour toute personne de disposer d'un logement décent, garanti par la loi DALO de 2007"],
+      "wrongAnswers": [
+        "Le droit d'occuper gratuitement un logement social",
+        "L'obligation pour l'État de fournir un logement à tout citoyen",
+        "Le droit de ne jamais être expulsé de son logement",
+        "L'attribution automatique d'un logement à la naissance",
+        "Le droit de choisir librement sa commune de résidence",
+        "L'obligation pour les propriétaires de louer à prix fixe"
+      ]
+    },
+    {
+      "id": 638,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit au travail en France ?",
+        "Comment la France reconnaît-elle le droit au travail ?",
+        "En quoi consiste le droit au travail dans la République ?"
+      ],
+      "correctAnswers": ["Le droit de chacun d'obtenir un emploi et l'obligation pour l'État de favoriser l'accès à l'emploi"],
+      "wrongAnswers": [
+        "La garantie d'un emploi à vie pour chaque citoyen",
+        "L'obligation de travailler pour tous les citoyens de 18 à 60 ans",
+        "Le droit de travailler sans contrat ni déclaration",
+        "L'obligation pour les entreprises d'embaucher tous les candidats",
+        "Le droit de choisir n'importe quel emploi sans qualification",
+        "L'obligation de travailler au moins 40 heures par semaine"
+      ]
+    },
+    {
+      "id": 639,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le respect des lois en tant que devoir citoyen ?",
+        "Pourquoi le respect des lois est-il un devoir fondamental ?",
+        "En quoi consiste l'obligation de respecter les lois en France ?"
+      ],
+      "correctAnswers": ["Tout citoyen et toute personne résidant en France doit respecter les lois de la République, même si elle n'est pas d'accord avec elles"],
+      "wrongAnswers": [
+        "Les citoyens ne doivent respecter que les lois qu'ils approuvent",
+        "Le respect des lois est un choix personnel, pas une obligation",
+        "Seuls les citoyens français doivent respecter les lois",
+        "Les lois ne s'appliquent qu'aux personnes de plus de 18 ans",
+        "Le respect des lois est obligatoire uniquement dans l'espace public",
+        "Les coutumes culturelles peuvent remplacer les lois françaises"
+      ]
+    },
+    {
+      "id": 640,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit à la protection sociale en France ?",
+        "Comment la France garantit-elle la protection sociale ?",
+        "En quoi consiste le système de protection sociale français ?"
+      ],
+      "correctAnswers": ["La garantie pour tous d'une couverture maladie, retraite, chômage et prestations familiales financée par les cotisations sociales"],
+      "wrongAnswers": [
+        "Une assurance privée obligatoire pour chaque citoyen",
+        "Un système de protection réservé aux salariés du secteur public",
+        "Une couverture santé gratuite sans aucune cotisation",
+        "Un système de protection réservé aux Français de naissance",
+        "Une aide sociale réservée aux personnes de plus de 65 ans",
+        "Un système d'assurance facultatif financé par l'État"
+      ]
+    },
+    {
+      "id": 641,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le devoir de jury d'assises ?",
+        "Peut-on refuser d'être juré aux assises ?",
+        "Que doit faire un citoyen convoqué comme juré ?"
+      ],
+      "correctAnswers": ["Tout citoyen inscrit sur les listes électorales peut être convoqué comme juré aux assises et ne peut refuser que pour des motifs légitimes"],
+      "wrongAnswers": [
+        "Seuls les avocats et les magistrats peuvent être jurés",
+        "On peut toujours refuser d'être juré sans conséquence",
+        "Seules les personnes de plus de 40 ans peuvent être jurées",
+        "Le jury est composé uniquement de fonctionnaires",
+        "Les jurés sont des volontaires qui se portent candidats",
+        "Seuls les hommes peuvent être jurés aux assises"
+      ]
+    },
+    {
+      "id": 642,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quels droits politiques un naturalisé français acquiert-il ?",
+        "De quels droits civiques bénéficie un nouveau citoyen français ?",
+        "Que peut faire un Français naturalisé en matière de droits politiques ?"
+      ],
+      "correctAnswers": ["Le droit de vote, le droit de se présenter aux élections et le droit d'accéder à la fonction publique"],
+      "wrongAnswers": [
+        "Uniquement le droit de vote",
+        "Le droit de vote seulement après 5 ans de naturalisation",
+        "Le droit de vote et le droit de se présenter uniquement aux élections municipales",
+        "Aucun droit politique pendant les 10 premières années",
+        "Le droit de vote uniquement pour les élections présidentielles",
+        "Le droit de vote mais pas le droit de se présenter aux élections"
+      ]
+    },
+    {
+      "id": 643,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Un Français naturalisé peut-il devenir président de la République ?",
+        "L'accès à la présidence est-il réservé aux Français de naissance ?",
+        "Un citoyen naturalisé a-t-il le droit de se présenter à l'élection présidentielle ?"
+      ],
+      "correctAnswers": ["Oui, tout citoyen français, qu'il soit Français de naissance ou naturalisé, peut se présenter à l'élection présidentielle"],
+      "wrongAnswers": [
+        "Non, seuls les Français de naissance peuvent être président",
+        "Oui, mais seulement après 10 ans de naturalisation",
+        "Non, les naturalisés ne peuvent pas se présenter aux élections nationales",
+        "Oui, mais seulement s'il est né en France",
+        "Non, il faut être Français depuis au moins trois générations",
+        "Oui, mais seulement avec l'accord du Conseil constitutionnel"
+      ]
+    },
+    {
+      "id": 644,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Comment s'inscrire sur les listes électorales en France ?",
+        "Quelle démarche faut-il faire pour pouvoir voter ?",
+        "Où doit-on s'inscrire pour exercer son droit de vote ?"
+      ],
+      "correctAnswers": ["En s'inscrivant à la mairie de son domicile ou en ligne sur le site service-public.fr"],
+      "wrongAnswers": [
+        "L'inscription est automatique pour tous les Français",
+        "Il faut s'inscrire à la préfecture de son département",
+        "Il faut s'inscrire au tribunal de grande instance",
+        "L'inscription se fait uniquement par courrier postal",
+        "Il faut s'inscrire au ministère de l'Intérieur",
+        "L'inscription n'est possible que tous les 5 ans"
+      ]
+    },
+    {
+      "id": 645,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le PACS ?",
+        "En quoi consiste le Pacte civil de solidarité ?",
+        "Comment définir le PACS en droit français ?"
+      ],
+      "correctAnswers": ["Un contrat entre deux personnes majeures, de sexe différent ou de même sexe, pour organiser leur vie commune"],
+      "wrongAnswers": [
+        "Un mariage simplifié réservé aux couples hétérosexuels",
+        "Un contrat de cohabitation obligatoire après 2 ans de vie commune",
+        "Un accord financier entre deux partenaires commerciaux",
+        "Un engagement religieux reconnu par l'État",
+        "Un contrat réservé aux couples de même sexe",
+        "Un contrat de bail entre un propriétaire et un locataire"
+      ]
+    },
+    {
+      "id": 646,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Depuis quand le mariage entre personnes de même sexe est-il autorisé en France ?",
+        "En quelle année le mariage homosexuel a-t-il été légalisé en France ?",
+        "Quand la France a-t-elle ouvert le mariage aux couples de même sexe ?"
+      ],
+      "correctAnswers": ["Depuis 2013 (loi du 17 mai 2013)"],
+      "wrongAnswers": [
+        "Depuis 2000",
+        "Depuis 2005",
+        "Depuis 2010",
+        "Depuis 2015",
+        "Depuis 1999",
+        "Depuis 2020"
+      ]
+    },
+    {
+      "id": 647,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que l'autorité parentale en France ?",
+        "Comment la loi française définit-elle l'autorité parentale ?",
+        "En quoi consiste l'autorité parentale ?"
+      ],
+      "correctAnswers": ["L'ensemble des droits et devoirs des parents envers leurs enfants mineurs pour assurer leur éducation, sécurité et bien-être"],
+      "wrongAnswers": [
+        "Le droit pour les parents de punir physiquement leurs enfants",
+        "L'autorité exclusive du père sur les enfants",
+        "Le pouvoir de décision des grands-parents sur les enfants",
+        "Le droit pour les parents de faire travailler leurs enfants mineurs",
+        "L'obligation pour les enfants d'obéir à tous les adultes",
+        "Le droit des parents de marier leurs enfants mineurs"
+      ]
+    },
+    {
+      "id": 648,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Les violences conjugales sont-elles sanctionnées en France ?",
+        "Que dit la loi française sur les violences au sein du couple ?",
+        "Quel est le statut juridique des violences conjugales ?"
+      ],
+      "correctAnswers": ["Oui, les violences conjugales sont un délit sévèrement puni par la loi, avec des circonstances aggravantes liées au lien conjugal"],
+      "wrongAnswers": [
+        "Non, les conflits conjugaux relèvent de la vie privée",
+        "Oui, mais uniquement les violences physiques",
+        "Non, les violences conjugales ne sont pas spécifiquement réprimées",
+        "Oui, mais uniquement si la victime porte plainte",
+        "Non, la loi n'intervient pas dans les affaires familiales",
+        "Oui, mais les sanctions sont les mêmes que pour toute violence"
+      ]
+    },
+    {
+      "id": 649,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la carte nationale d'identité ?",
+        "À quoi sert la carte nationale d'identité ?",
+        "La carte d'identité est-elle obligatoire en France ?"
+      ],
+      "correctAnswers": ["Un document officiel d'identité, gratuit, non obligatoire mais très utile pour les démarches administratives et les déplacements en Europe"],
+      "wrongAnswers": [
+        "Un document obligatoire que tout Français doit posséder",
+        "Un document payant délivré uniquement aux majeurs",
+        "Un document qui remplace le passeport pour voyager dans le monde entier",
+        "Un document réservé aux Français de naissance",
+        "Un document obligatoire pour travailler en France",
+        "Un document qui expire après 5 ans"
+      ]
+    },
+    {
+      "id": 650,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quels sont les principaux impôts payés par les citoyens en France ?",
+        "Quels impôts un résident en France est-il susceptible de payer ?",
+        "Citez des exemples d'impôts et taxes en France."
+      ],
+      "correctAnswers": ["L'impôt sur le revenu, la TVA (taxe sur la valeur ajoutée), la taxe foncière et les cotisations sociales"],
+      "wrongAnswers": [
+        "Uniquement l'impôt sur le revenu",
+        "Uniquement la TVA",
+        "L'impôt sur les successions uniquement",
+        "La taxe d'habitation et la taxe d'aéroport",
+        "Uniquement les cotisations sociales",
+        "La taxe sur les véhicules et l'impôt sur les animaux domestiques"
+      ]
+    },
+    {
+      "id": 651,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit de manifester en France ?",
+        "La manifestation est-elle un droit en France ?",
+        "Comment s'exerce le droit de manifester ?"
+      ],
+      "correctAnswers": ["Le droit de participer à des manifestations publiques, à condition de les déclarer préalablement en préfecture"],
+      "wrongAnswers": [
+        "Le droit de bloquer les routes sans autorisation",
+        "Le droit de manifester uniquement dans les parcs publics",
+        "L'interdiction totale de manifester dans les grandes villes",
+        "Le droit de manifester sans aucune formalité",
+        "Le droit de manifester uniquement le dimanche",
+        "L'autorisation de manifester délivrée par le président"
+      ]
+    },
+    {
+      "id": 652,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le secret de la correspondance ?",
+        "En quoi consiste le droit au secret des correspondances ?",
+        "Comment le secret de la correspondance est-il protégé en France ?"
+      ],
+      "correctAnswers": ["L'interdiction d'ouvrir, de lire ou d'intercepter le courrier ou les communications d'autrui sans autorisation judiciaire"],
+      "wrongAnswers": [
+        "L'obligation de crypter toutes ses communications",
+        "Le droit de ne pas recevoir de courrier publicitaire",
+        "L'interdiction d'envoyer des lettres anonymes",
+        "Le droit de ne pas donner son adresse postale",
+        "L'obligation pour la poste de livrer en main propre",
+        "Le droit de refuser toute correspondance de l'administration"
+      ]
+    },
+    {
+      "id": 653,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quel est le devoir de scolarisation des parents en France ?",
+        "L'inscription des enfants à l'école est-elle obligatoire ?",
+        "Que dit la loi sur l'obligation scolaire des enfants ?"
+      ],
+      "correctAnswers": ["Les parents ont l'obligation de faire instruire leurs enfants de 3 à 16 ans, à l'école ou par l'instruction en famille"],
+      "wrongAnswers": [
+        "L'instruction est obligatoire uniquement de 6 à 12 ans",
+        "Seule l'école publique satisfait l'obligation d'instruction",
+        "L'instruction en famille est interdite en France",
+        "L'obligation scolaire commence à 5 ans",
+        "Les parents peuvent choisir de ne pas scolariser leurs enfants",
+        "L'obligation scolaire s'applique uniquement aux enfants français"
+      ]
+    },
+    {
+      "id": 654,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Comment un décret de naturalisation peut-il être contesté ?",
+        "Quel recours existe en cas de refus de naturalisation ?",
+        "Que faire si une demande de naturalisation est refusée ?"
+      ],
+      "correctAnswers": ["Le demandeur peut exercer un recours gracieux auprès du ministre de l'Intérieur puis un recours contentieux devant le tribunal administratif de Nantes"],
+      "wrongAnswers": [
+        "Il n'existe aucun recours possible",
+        "Il faut saisir le Conseil constitutionnel",
+        "Il faut attendre 10 ans pour refaire une demande",
+        "Il faut saisir la Cour de cassation",
+        "Il faut faire appel auprès du président de la République",
+        "Il faut saisir le Défenseur des droits obligatoirement"
+      ]
+    },
+    {
+      "id": 655,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que l'obligation de secours en France ?",
+        "En quoi consiste le devoir d'assistance à personne en danger ?",
+        "Que risque-t-on en France si on ne porte pas secours à une personne en danger ?"
+      ],
+      "correctAnswers": ["Toute personne témoin d'un danger a l'obligation de porter assistance ou d'alerter les secours, sous peine de poursuites pénales"],
+      "wrongAnswers": [
+        "Il n'y a aucune obligation de porter secours en France",
+        "Seuls les médecins et pompiers ont l'obligation de porter secours",
+        "L'obligation de secours ne concerne que les accidents de la route",
+        "Seuls les citoyens français ont cette obligation",
+        "L'obligation de secours n'existe que dans les lieux publics",
+        "Il suffit de filmer la scène et de la publier sur internet"
+      ]
+    },
+    {
+      "id": 656,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le droit à l'image en France ?",
+        "Comment le droit à l'image protège-t-il les citoyens ?",
+        "En quoi consiste la protection du droit à l'image ?"
+      ],
+      "correctAnswers": ["Le droit de chaque personne à s'opposer à la diffusion de son image sans son consentement"],
+      "wrongAnswers": [
+        "Le droit de photographier toute personne dans l'espace public",
+        "L'interdiction de prendre des photos dans les lieux publics",
+        "Le droit de publier les photos de célébrités sans autorisation",
+        "L'obligation de flouter tous les visages dans les médias",
+        "Le droit exclusif des photographes professionnels",
+        "L'interdiction de posséder un appareil photo sans autorisation"
+      ]
+    },
+    {
+      "id": 657,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le service civique ?",
+        "En quoi consiste le service civique en France ?",
+        "À quoi sert le service civique pour les jeunes ?"
+      ],
+      "correctAnswers": ["Un engagement volontaire de 6 à 12 mois pour les jeunes de 16 à 25 ans, au service de l'intérêt général"],
+      "wrongAnswers": [
+        "Un service militaire obligatoire de 10 mois",
+        "Un travail rémunéré dans une entreprise privée",
+        "Un stage obligatoire pour obtenir le baccalauréat",
+        "Un service réservé aux jeunes sans emploi ni formation",
+        "Un engagement obligatoire pour les naturalisés",
+        "Un programme de réinsertion pour les jeunes délinquants"
+      ]
+    },
+    {
+      "id": 658,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quel document prouve la nationalité française ?",
+        "Comment peut-on justifier de sa nationalité française ?",
+        "Quel est le document officiel attestant de la nationalité française ?"
+      ],
+      "correctAnswers": ["Le certificat de nationalité française (CNF), délivré par le tribunal judiciaire"],
+      "wrongAnswers": [
+        "La carte nationale d'identité suffit toujours",
+        "Le passeport français uniquement",
+        "L'acte de naissance uniquement",
+        "La carte de séjour",
+        "Le livret de famille uniquement",
+        "Le certificat de résidence"
+      ]
+    },
+    {
+      "id": 659,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la protection des données personnelles en France ?",
+        "Comment les données personnelles sont-elles protégées en France ?",
+        "Quelle institution protège les données personnelles ?"
+      ],
+      "correctAnswers": ["Un droit fondamental encadré par la CNIL (Commission nationale de l'informatique et des libertés) et le RGPD"],
+      "wrongAnswers": [
+        "Un service payant proposé par les entreprises",
+        "Une protection réservée aux fonctionnaires",
+        "Un système géré par le ministère de la Défense",
+        "Un droit applicable uniquement sur internet",
+        "Une assurance privée contre le vol d'identité",
+        "Un service réservé aux victimes de cybercriminalité"
+      ]
+    },
+    {
+      "id": 660,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Les châtiments corporels sur les enfants sont-ils autorisés en France ?",
+        "Que dit la loi française sur les violences éducatives ordinaires ?",
+        "Les parents ont-ils le droit de frapper leurs enfants en France ?"
+      ],
+      "correctAnswers": ["Non, la loi interdit les violences éducatives ordinaires (gifles, fessées) depuis 2019"],
+      "wrongAnswers": [
+        "Oui, les parents ont le droit de correction sur leurs enfants",
+        "Oui, si les châtiments restent modérés",
+        "Non, mais les fessées restent autorisées",
+        "Oui, si l'enfant a plus de 6 ans",
+        "Non, mais seules les gifles sont interdites",
+        "Oui, si les parents sont de bonne foi"
+      ]
+    },
+    {
+      "id": 661,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que la carte de résident pour un étranger en France ?",
+        "Quelle est la durée de validité d'une carte de résident ?",
+        "À quoi donne droit la carte de résident ?"
+      ],
+      "correctAnswers": ["Un titre de séjour de 10 ans renouvelable qui permet de résider et de travailler librement en France"],
+      "wrongAnswers": [
+        "Un titre de séjour de 1 an renouvelable",
+        "Un titre de séjour de 5 ans non renouvelable",
+        "Un titre qui donne automatiquement la nationalité française",
+        "Un titre réservé aux ressortissants européens",
+        "Un titre de séjour de 3 ans renouvelable une fois",
+        "Un titre qui ne permet pas de travailler en France"
+      ]
+    },
+    {
+      "id": 662,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Qu'est-ce que le devoir de mémoire ?",
+        "En quoi consiste le devoir de mémoire en France ?",
+        "Pourquoi le devoir de mémoire est-il important pour les citoyens ?"
+      ],
+      "correctAnswers": ["L'obligation morale de se souvenir des événements tragiques de l'histoire (guerres, génocides) pour éviter qu'ils ne se reproduisent"],
+      "wrongAnswers": [
+        "L'obligation de visiter les musées d'histoire au moins une fois par an",
+        "Le devoir de mémoriser toutes les dates de l'histoire de France",
+        "L'obligation de participer à toutes les commémorations nationales",
+        "Le devoir de connaître par cœur les noms de tous les présidents",
+        "L'obligation de porter un badge commémoratif les jours fériés",
+        "Le devoir d'enseigner l'histoire de France à ses enfants à domicile"
+      ]
+    },
+    {
+      "id": 663,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Quels documents sont remis lors de la cérémonie de naturalisation ?",
+        "Que reçoit le nouveau citoyen lors de la cérémonie d'accueil dans la citoyenneté ?",
+        "Quels documents officiels sont donnés au nouveau Français lors de la cérémonie ?"
+      ],
+      "correctAnswers": ["Le décret de naturalisation, un livret du citoyen et un exemplaire de la Charte des droits et devoirs du citoyen français"],
+      "wrongAnswers": [
+        "Uniquement la carte nationale d'identité",
+        "Le passeport français et une carte de vote",
+        "Un certificat de résidence et un titre de séjour permanent",
+        "Uniquement le décret de naturalisation",
+        "La Constitution et un drapeau français",
+        "Un certificat de langue française et un diplôme d'intégration"
+      ]
+    },
+    {
+      "id": 664,
+      "theme": "Droits et devoirs du citoyen",
+      "questions": [
+        "Un étranger en situation irrégulière a-t-il des droits en France ?",
+        "Les droits fondamentaux s'appliquent-ils aux sans-papiers ?",
+        "Quels droits un étranger sans titre de séjour possède-t-il en France ?"
+      ],
+      "correctAnswers": ["Oui, il bénéficie des droits fondamentaux : dignité, accès aux soins urgents, scolarisation des enfants et droit à un avocat"],
+      "wrongAnswers": [
+        "Non, il n'a strictement aucun droit en France",
+        "Oui, il a les mêmes droits qu'un citoyen français",
+        "Non, il ne peut bénéficier d'aucune aide publique",
+        "Oui, mais uniquement s'il dépose une demande d'asile",
+        "Non, il peut être expulsé sans aucune procédure",
+        "Oui, mais uniquement s'il a des enfants nés en France"
+      ]
+    }
+  ]
+}

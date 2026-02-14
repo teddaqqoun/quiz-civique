@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "id": 555,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui est le chef de l'État en France ?",
+        "Qui exerce la plus haute fonction de l'État ?",
+        "Quelle est la plus haute autorité de l'État en France ?"
+      ],
+      "correctAnswers": ["Le président de la République"],
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le président du Sénat",
+        "Le président de l'Assemblée nationale",
+        "Le président du Conseil constitutionnel",
+        "Le ministre de l'Intérieur",
+        "Le garde des Sceaux"
+      ]
+    },
+    {
+      "id": 556,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Pour combien de temps le président de la République est-il élu ?",
+        "Quelle est la durée du mandat présidentiel en France ?",
+        "Combien d'années dure un mandat présidentiel ?"
+      ],
+      "correctAnswers": ["5 ans (quinquennat)"],
+      "wrongAnswers": [
+        "4 ans",
+        "6 ans",
+        "7 ans (septennat)",
+        "3 ans",
+        "8 ans",
+        "10 ans"
+      ]
+    },
+    {
+      "id": 557,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Comment le président de la République est-il élu ?",
+        "Par quel mode de scrutin le président français est-il élu ?",
+        "Qui élit le président de la République française ?"
+      ],
+      "correctAnswers": ["Au suffrage universel direct, au scrutin uninominal majoritaire à deux tours"],
+      "wrongAnswers": [
+        "Par les membres du Parlement",
+        "Par un collège de grands électeurs",
+        "Par les maires de France",
+        "Par les conseillers régionaux et départementaux",
+        "Par les membres du Conseil constitutionnel",
+        "Par un vote en ligne des citoyens"
+      ]
+    },
+    {
+      "id": 558,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de mandats consécutifs le président de la République peut-il exercer ?",
+        "Le président peut-il se faire réélire indéfiniment ?",
+        "Quelle est la limite de mandats consécutifs pour le président ?"
+      ],
+      "correctAnswers": ["Deux mandats consécutifs maximum"],
+      "wrongAnswers": [
+        "Un seul mandat, non renouvelable",
+        "Trois mandats consécutifs maximum",
+        "Il n'y a aucune limite de mandats",
+        "Deux mandats au total dans sa vie",
+        "Quatre mandats consécutifs maximum",
+        "Un mandat renouvelable une seule fois après une interruption"
+      ]
+    },
+    {
+      "id": 559,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui nomme le Premier ministre en France ?",
+        "Par qui le Premier ministre est-il désigné ?",
+        "Quelle autorité choisit le Premier ministre ?"
+      ],
+      "correctAnswers": ["Le président de la République"],
+      "wrongAnswers": [
+        "L'Assemblée nationale",
+        "Le Sénat",
+        "Le Conseil constitutionnel",
+        "Les citoyens par vote direct",
+        "Le Conseil d'État",
+        "Le président du Sénat"
+      ]
+    },
+    {
+      "id": 560,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle du Premier ministre ?",
+        "Quelle est la fonction principale du Premier ministre ?",
+        "Que fait le Premier ministre en France ?"
+      ],
+      "correctAnswers": ["Il dirige l'action du gouvernement et assure l'exécution des lois"],
+      "wrongAnswers": [
+        "Il préside le Conseil des ministres",
+        "Il commande les armées françaises",
+        "Il promulgue les lois",
+        "Il nomme les ambassadeurs",
+        "Il préside le Conseil constitutionnel",
+        "Il dissout l'Assemblée nationale"
+      ]
+    },
+    {
+      "id": 561,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quels sont les deux chambres qui composent le Parlement français ?",
+        "De quoi est composé le Parlement en France ?",
+        "Quelles assemblées forment le Parlement français ?"
+      ],
+      "correctAnswers": ["L'Assemblée nationale et le Sénat"],
+      "wrongAnswers": [
+        "L'Assemblée nationale et le Conseil constitutionnel",
+        "Le Sénat et le Conseil d'État",
+        "L'Assemblée nationale et la Cour de cassation",
+        "Le Sénat et le Conseil économique, social et environnemental",
+        "L'Assemblée nationale et le Conseil des ministres",
+        "Le Sénat et la Cour des comptes"
+      ]
+    },
+    {
+      "id": 562,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle principal du Parlement ?",
+        "Quelle est la mission fondamentale du Parlement ?",
+        "À quoi sert le Parlement en France ?"
+      ],
+      "correctAnswers": ["Voter les lois et contrôler l'action du gouvernement"],
+      "wrongAnswers": [
+        "Nommer le président de la République",
+        "Diriger la politique étrangère",
+        "Rendre la justice",
+        "Gérer les collectivités territoriales",
+        "Commander les forces armées",
+        "Négocier les traités internationaux"
+      ]
+    },
+    {
+      "id": 563,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de députés siègent à l'Assemblée nationale ?",
+        "Quel est le nombre de députés à l'Assemblée nationale ?",
+        "De combien de membres l'Assemblée nationale est-elle composée ?"
+      ],
+      "correctAnswers": ["577 députés"],
+      "wrongAnswers": [
+        "348 députés",
+        "500 députés",
+        "450 députés",
+        "600 députés",
+        "400 députés",
+        "650 députés"
+      ]
+    },
+    {
+      "id": 564,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Pour combien de temps les députés sont-ils élus ?",
+        "Quelle est la durée du mandat d'un député ?",
+        "Combien d'années dure un mandat de député ?"
+      ],
+      "correctAnswers": ["5 ans"],
+      "wrongAnswers": [
+        "4 ans",
+        "6 ans",
+        "7 ans",
+        "3 ans",
+        "9 ans",
+        "2 ans"
+      ]
+    },
+    {
+      "id": 565,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Comment les députés sont-ils élus ?",
+        "Par quel mode de scrutin les députés sont-ils élus ?",
+        "Qui élit les députés de l'Assemblée nationale ?"
+      ],
+      "correctAnswers": ["Au suffrage universel direct dans des circonscriptions"],
+      "wrongAnswers": [
+        "Au suffrage universel indirect par les grands électeurs",
+        "Par les conseillers municipaux",
+        "Par les conseillers départementaux",
+        "Par le président de la République",
+        "Par les sénateurs",
+        "Par les maires des communes"
+      ]
+    },
+    {
+      "id": 566,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Comment les sénateurs sont-ils élus ?",
+        "Par quel mode de scrutin les sénateurs sont-ils désignés ?",
+        "Qui élit les sénateurs en France ?"
+      ],
+      "correctAnswers": ["Au suffrage universel indirect par un collège de grands électeurs"],
+      "wrongAnswers": [
+        "Au suffrage universel direct par les citoyens",
+        "Par les députés de l'Assemblée nationale",
+        "Par le président de la République",
+        "Par les conseillers constitutionnels",
+        "Par les membres du gouvernement",
+        "Par un vote en ligne de tous les citoyens"
+      ]
+    },
+    {
+      "id": 567,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quelle est la durée du mandat d'un sénateur ?",
+        "Pour combien de temps un sénateur est-il élu ?",
+        "Combien d'années dure le mandat sénatorial ?"
+      ],
+      "correctAnswers": ["6 ans"],
+      "wrongAnswers": [
+        "5 ans",
+        "4 ans",
+        "7 ans",
+        "9 ans",
+        "3 ans",
+        "8 ans"
+      ]
+    },
+    {
+      "id": 568,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Où siège l'Assemblée nationale ?",
+        "Dans quel bâtiment se réunit l'Assemblée nationale ?",
+        "Quel est le lieu de réunion de l'Assemblée nationale ?"
+      ],
+      "correctAnswers": ["Au Palais Bourbon, à Paris"],
+      "wrongAnswers": [
+        "Au Palais du Luxembourg, à Paris",
+        "Au Palais de l'Élysée, à Paris",
+        "Au Palais de Versailles",
+        "À l'Hôtel de Matignon, à Paris",
+        "Au Palais de Justice, à Paris",
+        "Au Palais-Royal, à Paris"
+      ]
+    },
+    {
+      "id": 569,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Où siège le Sénat ?",
+        "Dans quel bâtiment le Sénat se réunit-il ?",
+        "Quel est le lieu de réunion du Sénat ?"
+      ],
+      "correctAnswers": ["Au Palais du Luxembourg, à Paris"],
+      "wrongAnswers": [
+        "Au Palais Bourbon, à Paris",
+        "Au Palais de l'Élysée, à Paris",
+        "Au Palais de Versailles",
+        "À l'Hôtel de Matignon, à Paris",
+        "Au Palais de Justice, à Paris",
+        "Au Palais-Royal, à Paris"
+      ]
+    },
+    {
+      "id": 570,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle du Conseil constitutionnel ?",
+        "À quoi sert le Conseil constitutionnel ?",
+        "Quelle est la mission du Conseil constitutionnel ?"
+      ],
+      "correctAnswers": ["Vérifier la conformité des lois à la Constitution et veiller à la régularité des élections"],
+      "wrongAnswers": [
+        "Rédiger la Constitution",
+        "Juger les crimes et délits",
+        "Nommer les ministres du gouvernement",
+        "Voter les lois au Parlement",
+        "Diriger la politique étrangère",
+        "Gérer le budget de l'État"
+      ]
+    },
+    {
+      "id": 571,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de membres composent le Conseil constitutionnel ?",
+        "Quel est le nombre de membres du Conseil constitutionnel ?",
+        "De combien de personnes le Conseil constitutionnel est-il composé ?"
+      ],
+      "correctAnswers": ["9 membres nommés, plus les anciens présidents de la République qui en sont membres de droit"],
+      "wrongAnswers": [
+        "12 membres élus par le Parlement",
+        "7 membres nommés par le président",
+        "15 membres nommés par le Sénat",
+        "5 membres élus par les citoyens",
+        "11 membres nommés par les magistrats",
+        "6 membres nommés et 3 élus"
+      ]
+    },
+    {
+      "id": 572,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle du Conseil d'État ?",
+        "À quoi sert le Conseil d'État en France ?",
+        "Quelle est la fonction principale du Conseil d'État ?"
+      ],
+      "correctAnswers": ["Conseiller le gouvernement sur les projets de loi et juger les litiges entre les citoyens et l'administration"],
+      "wrongAnswers": [
+        "Voter les lois au Parlement",
+        "Nommer les préfets de département",
+        "Contrôler la conformité des lois à la Constitution",
+        "Diriger les forces armées",
+        "Gérer la politique étrangère",
+        "Organiser les élections nationales"
+      ]
+    },
+    {
+      "id": 573,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que la Cour de cassation ?",
+        "Quel est le rôle de la Cour de cassation ?",
+        "Quelle est la plus haute juridiction de l'ordre judiciaire ?"
+      ],
+      "correctAnswers": ["La plus haute juridiction de l'ordre judiciaire, qui vérifie la bonne application du droit par les tribunaux"],
+      "wrongAnswers": [
+        "La juridiction qui juge les crimes les plus graves",
+        "Le tribunal qui juge les litiges entre l'État et les citoyens",
+        "La juridiction qui contrôle la constitutionnalité des lois",
+        "Le tribunal qui juge les conflits commerciaux",
+        "La juridiction qui juge les ministres pour leurs actes",
+        "Le tribunal qui organise les élections"
+      ]
+    },
+    {
+      "id": 574,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce qu'une commune en France ?",
+        "Quel est le niveau le plus petit de collectivité territoriale ?",
+        "Comment définir la commune dans l'organisation territoriale française ?"
+      ],
+      "correctAnswers": ["La plus petite collectivité territoriale, administrée par un maire et un conseil municipal"],
+      "wrongAnswers": [
+        "Une division administrative gérée par un préfet",
+        "Un territoire administré par un sous-préfet",
+        "Une collectivité dirigée par un député",
+        "Un regroupement de départements",
+        "Une subdivision d'un arrondissement sans autonomie",
+        "Une entité administrative rattachée à la région"
+      ]
+    },
+    {
+      "id": 575,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui dirige la commune ?",
+        "Qui est à la tête de l'administration communale ?",
+        "Quelle est l'autorité qui gère la commune ?"
+      ],
+      "correctAnswers": ["Le maire, élu par le conseil municipal"],
+      "wrongAnswers": [
+        "Le préfet, nommé par le gouvernement",
+        "Le député de la circonscription",
+        "Le sénateur du département",
+        "Le président du conseil départemental",
+        "Le sous-préfet de l'arrondissement",
+        "Le conseiller régional"
+      ]
+    },
+    {
+      "id": 576,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de communes la France compte-t-elle environ ?",
+        "Quel est le nombre approximatif de communes en France ?",
+        "Environ combien y a-t-il de communes sur le territoire français ?"
+      ],
+      "correctAnswers": ["Environ 35 000 communes"],
+      "wrongAnswers": [
+        "Environ 5 000 communes",
+        "Environ 10 000 communes",
+        "Environ 20 000 communes",
+        "Environ 50 000 communes",
+        "Environ 100 000 communes",
+        "Environ 75 000 communes"
+      ]
+    },
+    {
+      "id": 577,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de régions la France métropolitaine compte-t-elle ?",
+        "Quel est le nombre de régions en France métropolitaine ?",
+        "En combien de régions la France métropolitaine est-elle divisée ?"
+      ],
+      "correctAnswers": ["13 régions métropolitaines"],
+      "wrongAnswers": [
+        "18 régions métropolitaines",
+        "22 régions métropolitaines",
+        "10 régions métropolitaines",
+        "15 régions métropolitaines",
+        "20 régions métropolitaines",
+        "8 régions métropolitaines"
+      ]
+    },
+    {
+      "id": 578,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Combien de départements la France compte-t-elle au total (métropole et outre-mer) ?",
+        "Quel est le nombre total de départements français ?",
+        "La France est divisée en combien de départements ?"
+      ],
+      "correctAnswers": ["101 départements (96 en métropole et 5 en outre-mer)"],
+      "wrongAnswers": [
+        "95 départements",
+        "110 départements",
+        "75 départements",
+        "120 départements",
+        "80 départements",
+        "90 départements"
+      ]
+    },
+    {
+      "id": 579,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle du préfet ?",
+        "Que représente le préfet dans un département ?",
+        "Quelle est la mission principale du préfet ?"
+      ],
+      "correctAnswers": ["Il représente l'État dans le département et veille à l'application des lois"],
+      "wrongAnswers": [
+        "Il est élu par les citoyens du département",
+        "Il dirige le conseil départemental",
+        "Il vote les lois au niveau départemental",
+        "Il est le chef de la police municipale",
+        "Il gère uniquement les impôts du département",
+        "Il est le juge principal du tribunal départemental"
+      ]
+    },
+    {
+      "id": 580,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Où se trouve la résidence officielle du président de la République ?",
+        "Quel est le siège de la présidence de la République ?",
+        "Dans quel palais le président de la République réside-t-il ?"
+      ],
+      "correctAnswers": ["Au Palais de l'Élysée, à Paris"],
+      "wrongAnswers": [
+        "Au Palais de Versailles",
+        "À l'Hôtel de Matignon",
+        "Au Palais Bourbon",
+        "Au Palais du Luxembourg",
+        "Au Palais-Royal",
+        "Au château de Vincennes"
+      ]
+    },
+    {
+      "id": 581,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Où se trouve la résidence officielle du Premier ministre ?",
+        "Quel est le siège du Premier ministre en France ?",
+        "Dans quel bâtiment le Premier ministre travaille-t-il ?"
+      ],
+      "correctAnswers": ["À l'Hôtel de Matignon, à Paris"],
+      "wrongAnswers": [
+        "Au Palais de l'Élysée",
+        "Au Palais Bourbon",
+        "Au Palais du Luxembourg",
+        "Au Palais-Royal",
+        "Au Palais de Versailles",
+        "À l'Hôtel de Ville de Paris"
+      ]
+    },
+    {
+      "id": 582,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce qu'un référendum ?",
+        "Comment définir un référendum en France ?",
+        "En quoi consiste un référendum ?"
+      ],
+      "correctAnswers": ["Un vote par lequel les citoyens se prononcent directement sur un projet de loi ou une question"],
+      "wrongAnswers": [
+        "Un vote réservé aux élus du Parlement",
+        "Une consultation organisée par les maires",
+        "Un sondage d'opinion réalisé par le gouvernement",
+        "Un vote obligatoire sur le budget de l'État",
+        "Une pétition adressée au président de la République",
+        "Un débat télévisé entre les partis politiques"
+      ]
+    },
+    {
+      "id": 583,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui peut dissoudre l'Assemblée nationale ?",
+        "Quelle autorité a le pouvoir de dissoudre l'Assemblée nationale ?",
+        "Qui décide de la dissolution de l'Assemblée nationale ?"
+      ],
+      "correctAnswers": ["Le président de la République"],
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le président du Sénat",
+        "Le Conseil constitutionnel",
+        "Le Conseil d'État",
+        "Le président de l'Assemblée nationale",
+        "Le peuple par référendum"
+      ]
+    },
+    {
+      "id": 584,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce qu'une motion de censure ?",
+        "Quel mécanisme permet à l'Assemblée nationale de renverser le gouvernement ?",
+        "Comment l'Assemblée nationale peut-elle mettre fin aux fonctions du gouvernement ?"
+      ],
+      "correctAnswers": ["Un vote par lequel l'Assemblée nationale peut renverser le gouvernement en lui retirant sa confiance"],
+      "wrongAnswers": [
+        "Un vote du Sénat pour destituer le président",
+        "Une décision du Conseil constitutionnel pour annuler une loi",
+        "Un vote des citoyens pour révoquer un député",
+        "Une pétition adressée au président pour changer de Premier ministre",
+        "Un arrêt de la Cour de cassation contre le gouvernement",
+        "Un décret du président pour changer de gouvernement"
+      ]
+    },
+    {
+      "id": 585,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que le Conseil économique, social et environnemental (CESE) ?",
+        "Quel est le rôle du CESE ?",
+        "À quoi sert le Conseil économique, social et environnemental ?"
+      ],
+      "correctAnswers": ["Une assemblée consultative qui conseille le gouvernement et le Parlement sur les questions économiques, sociales et environnementales"],
+      "wrongAnswers": [
+        "Un tribunal qui juge les litiges économiques",
+        "Un ministère chargé de l'économie",
+        "Une chambre du Parlement qui vote les lois",
+        "Un organisme de contrôle des finances publiques",
+        "Une agence qui gère les allocations sociales",
+        "Un conseil qui nomme les dirigeants d'entreprises publiques"
+      ]
+    },
+    {
+      "id": 586,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle de la Cour des comptes ?",
+        "Quelle institution contrôle les finances publiques ?",
+        "À quoi sert la Cour des comptes en France ?"
+      ],
+      "correctAnswers": ["Contrôler la bonne utilisation de l'argent public"],
+      "wrongAnswers": [
+        "Voter le budget de l'État",
+        "Collecter les impôts",
+        "Fixer les taux d'intérêt bancaires",
+        "Gérer la dette publique",
+        "Distribuer les subventions aux entreprises",
+        "Juger les infractions fiscales"
+      ]
+    },
+    {
+      "id": 587,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui promulgue les lois en France ?",
+        "Quelle autorité signe la promulgation des lois ?",
+        "Qui rend les lois exécutoires par leur promulgation ?"
+      ],
+      "correctAnswers": ["Le président de la République"],
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le président de l'Assemblée nationale",
+        "Le président du Sénat",
+        "Le Conseil constitutionnel",
+        "Le garde des Sceaux",
+        "Le ministre de l'Intérieur"
+      ]
+    },
+    {
+      "id": 588,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quelle institution est responsable des demandes de naturalisation ?",
+        "Quel ministère traite les dossiers de naturalisation ?",
+        "À quelle administration doit-on s'adresser pour une demande de naturalisation ?"
+      ],
+      "correctAnswers": ["Le ministère de l'Intérieur, via les préfectures"],
+      "wrongAnswers": [
+        "Le ministère de la Justice",
+        "Le ministère des Affaires étrangères",
+        "Le ministère du Travail",
+        "La mairie du lieu de résidence",
+        "Le Conseil constitutionnel",
+        "Le tribunal de grande instance"
+      ]
+    },
+    {
+      "id": 589,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui préside le Conseil des ministres en France ?",
+        "Quelle autorité dirige le Conseil des ministres ?",
+        "Sous la présidence de qui se réunit le Conseil des ministres ?"
+      ],
+      "correctAnswers": ["Le président de la République"],
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le président de l'Assemblée nationale",
+        "Le président du Sénat",
+        "Le garde des Sceaux",
+        "Le ministre de l'Intérieur",
+        "Le secrétaire général du gouvernement"
+      ]
+    },
+    {
+      "id": 590,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quelles sont les trois catégories de collectivités territoriales en France ?",
+        "Comment est organisé le territoire français en collectivités ?",
+        "Quels sont les trois niveaux de collectivités territoriales ?"
+      ],
+      "correctAnswers": ["Les communes, les départements et les régions"],
+      "wrongAnswers": [
+        "Les communes, les cantons et les arrondissements",
+        "Les villages, les villes et les métropoles",
+        "Les quartiers, les communes et les départements",
+        "Les préfectures, les sous-préfectures et les mairies",
+        "Les cantons, les arrondissements et les districts",
+        "Les communautés de communes, les intercommunalités et les pays"
+      ]
+    },
+    {
+      "id": 591,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Que signifie la décentralisation en France ?",
+        "En quoi consiste la décentralisation ?",
+        "Qu'est-ce que la décentralisation dans l'organisation territoriale française ?"
+      ],
+      "correctAnswers": ["Le transfert de compétences de l'État central vers les collectivités territoriales"],
+      "wrongAnswers": [
+        "Le transfert de tous les pouvoirs de l'État aux communes",
+        "La suppression des préfets dans les départements",
+        "L'indépendance totale des régions par rapport à l'État",
+        "Le déplacement des ministères en dehors de Paris",
+        "La création de parlements régionaux autonomes",
+        "La privatisation des services publics locaux"
+      ]
+    },
+    {
+      "id": 592,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel est le rôle du maire dans la commune ?",
+        "Quelles sont les fonctions principales du maire ?",
+        "Que fait le maire dans sa commune ?"
+      ],
+      "correctAnswers": ["Il est à la fois agent de l'État (état civil, élections) et chef de l'exécutif communal (gestion de la commune)"],
+      "wrongAnswers": [
+        "Il est uniquement responsable de la police municipale",
+        "Il est uniquement chargé de célébrer les mariages",
+        "Il représente le département dans la commune",
+        "Il vote les lois au niveau communal",
+        "Il est nommé par le préfet pour gérer la commune",
+        "Il est uniquement responsable du budget communal"
+      ]
+    },
+    {
+      "id": 593,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que l'article 49 alinéa 3 de la Constitution ?",
+        "Que permet le 49.3 au Premier ministre ?",
+        "En quoi consiste le recours à l'article 49.3 ?"
+      ],
+      "correctAnswers": ["Il permet au Premier ministre d'engager la responsabilité du gouvernement pour faire adopter un texte sans vote, sauf motion de censure"],
+      "wrongAnswers": [
+        "Il permet au président de dissoudre l'Assemblée nationale",
+        "Il permet au Sénat de bloquer une loi de l'Assemblée",
+        "Il permet aux citoyens de demander un référendum",
+        "Il permet au Conseil constitutionnel d'annuler une loi",
+        "Il permet au gouvernement de légiférer par décret",
+        "Il permet au président de gouverner par ordonnances"
+      ]
+    },
+    {
+      "id": 594,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que le Conseil supérieur de la magistrature (CSM) ?",
+        "Quel est le rôle du CSM ?",
+        "À quoi sert le Conseil supérieur de la magistrature ?"
+      ],
+      "correctAnswers": ["L'organe qui garantit l'indépendance de la justice et intervient dans la nomination et la discipline des magistrats"],
+      "wrongAnswers": [
+        "L'organe qui dirige tous les tribunaux de France",
+        "Le tribunal qui juge les magistrats corrompus",
+        "L'assemblée qui élit les juges au suffrage universel",
+        "L'institution qui rédige le Code pénal",
+        "Le conseil qui fixe les peines de prison",
+        "L'organe qui contrôle les avocats"
+      ]
+    },
+    {
+      "id": 595,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quels sont les territoires français d'outre-mer ?",
+        "Quels sont les DROM-COM de la France ?",
+        "Citez des exemples de territoires ultramarins français."
+      ],
+      "correctAnswers": ["La Guadeloupe, la Martinique, la Guyane, La Réunion, Mayotte, et les collectivités d'outre-mer comme la Nouvelle-Calédonie et la Polynésie française"],
+      "wrongAnswers": [
+        "Uniquement la Corse et Monaco",
+        "Uniquement les Antilles et Madagascar",
+        "L'Algérie, le Maroc et la Tunisie",
+        "Uniquement la Guyane et le Québec",
+        "Saint-Pierre-et-Miquelon et Haïti",
+        "Madagascar, le Sénégal et le Vietnam"
+      ]
+    },
+    {
+      "id": 596,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que la Haute Cour ?",
+        "Quel est le rôle de la Haute Cour dans les institutions françaises ?",
+        "Dans quel cas la Haute Cour se réunit-elle ?"
+      ],
+      "correctAnswers": ["La juridiction composée de parlementaires qui peut destituer le président de la République en cas de manquement grave"],
+      "wrongAnswers": [
+        "La juridiction qui juge les crimes de guerre",
+        "Le tribunal qui juge les ministres pour leurs actes",
+        "La plus haute cour d'appel du pays",
+        "Le tribunal qui contrôle les élections présidentielles",
+        "La juridiction qui juge les affaires de terrorisme",
+        "Le tribunal suprême de l'ordre administratif"
+      ]
+    },
+    {
+      "id": 597,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que la Cour de justice de la République ?",
+        "Quelle juridiction juge les ministres ?",
+        "Quel tribunal est compétent pour juger les actes des ministres commis dans l'exercice de leurs fonctions ?"
+      ],
+      "correctAnswers": ["La juridiction compétente pour juger les ministres pour les actes commis dans l'exercice de leurs fonctions"],
+      "wrongAnswers": [
+        "La juridiction qui juge le président de la République",
+        "Le tribunal de grande instance de Paris",
+        "La Cour de cassation",
+        "Le Conseil constitutionnel",
+        "Le tribunal correctionnel de Paris",
+        "La cour d'appel de Paris"
+      ]
+    },
+    {
+      "id": 598,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel rôle joue le Conseil constitutionnel lors des élections ?",
+        "Que fait le Conseil constitutionnel pendant les élections présidentielles ?",
+        "Quelle est la mission électorale du Conseil constitutionnel ?"
+      ],
+      "correctAnswers": ["Il veille à la régularité des élections présidentielles et des référendums et proclame les résultats"],
+      "wrongAnswers": [
+        "Il organise le scrutin dans les bureaux de vote",
+        "Il choisit les candidats autorisés à se présenter",
+        "Il finance les campagnes électorales",
+        "Il compte les bulletins de vote",
+        "Il nomme les assesseurs dans les bureaux de vote",
+        "Il imprime les bulletins de vote officiels"
+      ]
+    },
+    {
+      "id": 599,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qui assure l'intérim du président de la République en cas d'empêchement ?",
+        "Qui remplace le président si celui-ci ne peut exercer ses fonctions ?",
+        "En cas de vacance de la présidence, qui exerce temporairement les fonctions ?"
+      ],
+      "correctAnswers": ["Le président du Sénat"],
+      "wrongAnswers": [
+        "Le Premier ministre",
+        "Le président de l'Assemblée nationale",
+        "Le président du Conseil constitutionnel",
+        "Le ministre de l'Intérieur",
+        "Le garde des Sceaux",
+        "Le chef d'état-major des armées"
+      ]
+    },
+    {
+      "id": 600,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que l'OFPRA ?",
+        "Quel est le rôle de l'OFPRA ?",
+        "Que fait l'Office français de protection des réfugiés et apatrides ?"
+      ],
+      "correctAnswers": ["L'organisme qui instruit les demandes d'asile et accorde le statut de réfugié"],
+      "wrongAnswers": [
+        "L'organisme qui délivre les titres de séjour",
+        "L'organisme qui gère les naturalisations",
+        "L'organisme qui contrôle l'immigration aux frontières",
+        "L'organisme qui gère les visas de court séjour",
+        "L'organisme qui organise le retour des étrangers",
+        "L'organisme qui délivre les passeports français"
+      ]
+    },
+    {
+      "id": 601,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que l'OFII ?",
+        "Quel est le rôle de l'Office français de l'immigration et de l'intégration ?",
+        "Que fait l'OFII pour les étrangers en France ?"
+      ],
+      "correctAnswers": ["L'organisme chargé de l'accueil et de l'intégration des étrangers en France, notamment la gestion du contrat d'intégration républicaine"],
+      "wrongAnswers": [
+        "L'organisme qui délivre les visas d'entrée en France",
+        "L'organisme qui juge les demandes d'asile",
+        "L'organisme qui contrôle les frontières françaises",
+        "L'organisme qui gère les consulats français à l'étranger",
+        "L'organisme qui accorde la nationalité française",
+        "L'organisme qui organise l'expulsion des étrangers en situation irrégulière"
+      ]
+    },
+    {
+      "id": 602,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quel rôle joue la préfecture dans la procédure de naturalisation ?",
+        "Comment la préfecture intervient-elle dans les demandes de nationalité ?",
+        "Quelle est la compétence de la préfecture en matière de naturalisation ?"
+      ],
+      "correctAnswers": ["La préfecture reçoit les dossiers de demande de naturalisation, mène l'enquête et transmet le dossier au ministère de l'Intérieur"],
+      "wrongAnswers": [
+        "La préfecture décide seule d'accorder ou de refuser la naturalisation",
+        "La préfecture organise l'examen de langue française",
+        "La préfecture délivre directement le décret de naturalisation",
+        "La préfecture n'a aucun rôle dans la naturalisation",
+        "La préfecture juge les recours en cas de refus",
+        "La préfecture vérifie uniquement le casier judiciaire"
+      ]
+    },
+    {
+      "id": 603,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que la QPC (Question prioritaire de constitutionnalité) ?",
+        "En quoi consiste la Question prioritaire de constitutionnalité ?",
+        "Que permet la QPC aux citoyens ?"
+      ],
+      "correctAnswers": ["Un mécanisme permettant à tout justiciable de contester la constitutionnalité d'une loi devant le Conseil constitutionnel"],
+      "wrongAnswers": [
+        "Un vote du Parlement pour modifier la Constitution",
+        "Un référendum sur une question constitutionnelle",
+        "Une question posée au gouvernement par les députés",
+        "Un recours devant la Cour européenne des droits de l'homme",
+        "Un examen automatique de toutes les lois par le Conseil constitutionnel",
+        "Une procédure réservée aux membres du Parlement"
+      ]
+    },
+    {
+      "id": 604,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Qu'est-ce que le droit de pétition en France ?",
+        "En quoi consiste le droit de pétition des citoyens ?",
+        "Comment les citoyens peuvent-ils exercer leur droit de pétition ?"
+      ],
+      "correctAnswers": ["Le droit pour les citoyens d'adresser une demande écrite aux autorités publiques ou au Parlement"],
+      "wrongAnswers": [
+        "Le droit de voter lors des référendums",
+        "Le droit de manifester dans la rue",
+        "Le droit de créer un parti politique",
+        "Le droit de publier un article dans la presse",
+        "Le droit de porter plainte contre l'État",
+        "Le droit de contester une décision de justice"
+      ]
+    },
+    {
+      "id": 605,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Quelle est la juridiction compétente en matière de droit de la nationalité ?",
+        "Devant quel tribunal conteste-t-on un refus de naturalisation ?",
+        "Quelle juridiction juge les litiges relatifs à la nationalité française ?"
+      ],
+      "correctAnswers": ["Le tribunal judiciaire (ex-tribunal de grande instance) pour les questions de nationalité, et le tribunal administratif pour les refus de naturalisation"],
+      "wrongAnswers": [
+        "Le Conseil constitutionnel uniquement",
+        "La Cour de cassation en première instance",
+        "Le Conseil d'État en première instance",
+        "La cour d'appel uniquement",
+        "Le tribunal de commerce",
+        "La Cour européenne de justice"
+      ]
+    },
+    {
+      "id": 606,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Comment s'appelle l'institution européenne à laquelle la France appartient en tant que membre fondateur ?",
+        "De quelle organisation européenne la France est-elle membre fondateur ?",
+        "Quelle institution supranationale regroupe la France et d'autres pays européens ?"
+      ],
+      "correctAnswers": ["L'Union européenne"],
+      "wrongAnswers": [
+        "L'OTAN uniquement",
+        "Le Conseil de l'Europe uniquement",
+        "L'Organisation des Nations Unies",
+        "L'Organisation mondiale du commerce",
+        "La Cour pénale internationale",
+        "L'Organisation de coopération et de développement économiques"
+      ]
+    },
+    {
+      "id": 607,
+      "theme": "Institutions françaises",
+      "questions": [
+        "De quelle institution la France est-elle membre permanent du Conseil de sécurité ?",
+        "La France est membre permanent du Conseil de sécurité de quelle organisation ?",
+        "À quelle organisation internationale la France siège-t-elle en tant que membre permanent ?"
+      ],
+      "correctAnswers": ["L'Organisation des Nations Unies (ONU)"],
+      "wrongAnswers": [
+        "L'Union européenne",
+        "L'OTAN",
+        "Le G7",
+        "L'Organisation mondiale du commerce",
+        "Le Conseil de l'Europe",
+        "L'UNESCO"
+      ]
+    },
+    {
+      "id": 608,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Comment la Constitution française peut-elle être révisée ?",
+        "Quelle est la procédure de révision de la Constitution ?",
+        "Par quels moyens peut-on modifier la Constitution ?"
+      ],
+      "correctAnswers": ["Par référendum ou par le Congrès (Assemblée nationale + Sénat réunis) à la majorité des 3/5"],
+      "wrongAnswers": [
+        "Par un simple vote de l'Assemblée nationale",
+        "Par un décret du président de la République",
+        "Par une décision du Conseil constitutionnel",
+        "Par un vote du Sénat uniquement",
+        "Par une loi ordinaire votée au Parlement",
+        "Par une pétition signée par un million de citoyens"
+      ]
+    },
+    {
+      "id": 609,
+      "theme": "Institutions françaises",
+      "questions": [
+        "Où le Congrès se réunit-il pour voter une révision de la Constitution ?",
+        "Dans quel lieu les parlementaires se rassemblent-ils en Congrès ?",
+        "Quel est le lieu de réunion du Congrès du Parlement ?"
+      ],
+      "correctAnswers": ["Au château de Versailles"],
+      "wrongAnswers": [
+        "Au Palais Bourbon",
+        "Au Palais du Luxembourg",
+        "Au Palais de l'Élysée",
+        "À l'Hôtel de Matignon",
+        "Au Panthéon",
+        "Au Palais-Royal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+/* Flashcard styles */
+
+.flashcard-container {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: var(--space-5);
+}
+
+.flashcard-progress {
+    text-align: center;
+    font-size: var(--text-sm);
+    color: var(--gray-500);
+    margin-bottom: var(--space-4);
+    font-weight: 500;
+}
+
+.flashcard-wrapper {
+    perspective: 1000px;
+    margin-bottom: var(--space-6);
+}
+
+.flashcard {
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 280px;
+    backface-visibility: hidden;
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flashcard-front {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+}
+
+.flashcard-front .card-label {
+    color: var(--gray-400);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-4);
+    font-weight: 500;
+}
+
+.flashcard-front .card-question {
+    font-size: var(--text-lg);
+    line-height: 1.6;
+    color: var(--gray-900);
+    font-weight: 600;
+}
+
+.flashcard-back {
+    background: var(--blue);
+    color: var(--white);
+    transform: rotateY(180deg);
+}
+
+.flashcard-back .card-label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-4);
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.flashcard-back .card-answer {
+    font-size: var(--text-xl);
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.flashcard-hint {
+    text-align: center;
+    color: var(--gray-400);
+    font-size: var(--text-xs);
+    margin-bottom: var(--space-6);
+}
+
+.flashcard-controls {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+
+.fc-btn {
+    padding: 10px var(--space-5);
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius-full);
+    background: var(--white);
+    color: var(--gray-700);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color var(--transition-fast), background var(--transition-fast), color var(--transition-fast);
+    font-family: var(--font-sans);
+}
+
+.fc-btn:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.fc-btn:disabled {
+    border-color: var(--gray-200);
+    color: var(--gray-300);
+    cursor: not-allowed;
+}
+
+.fc-btn:disabled:hover {
+    background: var(--white);
+    color: var(--gray-300);
+    border-color: var(--gray-200);
+}
+
+.fc-btn.primary {
+    background: var(--blue);
+    color: var(--white);
+    border-color: var(--blue);
+}
+
+.fc-btn.primary:hover {
+    background: #1a44c0;
+    border-color: #1a44c0;
+}
+
+@media (max-width: 600px) {
+    .flashcard-face {
+        min-height: 220px;
+        padding: var(--space-6) var(--space-5);
+    }
+    .flashcard-front .card-question { font-size: var(--text-base); }
+    .flashcard-back .card-answer { font-size: var(--text-lg); }
+    .fc-btn { padding: 8px var(--space-4); font-size: var(--text-xs); }
+}

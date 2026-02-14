@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "id": 665,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quelle date marque la prise de la Bastille ?",
+        "Quand la Bastille a-t-elle été prise d'assaut ?",
+        "Quel événement s'est produit le 14 juillet 1789 ?"
+      ],
+      "correctAnswers": ["Le 14 juillet 1789"],
+      "wrongAnswers": [
+        "Le 4 août 1789",
+        "Le 26 août 1789",
+        "Le 21 janvier 1793",
+        "Le 5 mai 1789",
+        "Le 14 juillet 1790",
+        "Le 10 août 1792"
+      ]
+    },
+    {
+      "id": 666,
+      "theme": "Histoire de France",
+      "questions": [
+        "Pourquoi le 14 juillet est-il la fête nationale française ?",
+        "Que commémore la fête nationale du 14 juillet ?",
+        "Quel est l'événement célébré le jour de la fête nationale ?"
+      ],
+      "correctAnswers": ["Il commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790), symboles de la liberté et de l'unité nationale"],
+      "wrongAnswers": [
+        "Il commémore la fin de la Seconde Guerre mondiale",
+        "Il commémore la naissance de Napoléon Bonaparte",
+        "Il commémore la proclamation de la Ve République",
+        "Il commémore la fin de la guerre d'Algérie",
+        "Il commémore le couronnement de Charlemagne",
+        "Il commémore la victoire de la bataille de Verdun"
+      ]
+    },
+    {
+      "id": 667,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?",
+        "En quelle année la DDHC a-t-elle été proclamée ?",
+        "Quelle est la date d'adoption de la Déclaration des droits de l'homme et du citoyen ?"
+      ],
+      "correctAnswers": ["Le 26 août 1789"],
+      "wrongAnswers": [
+        "Le 14 juillet 1789",
+        "Le 4 août 1789",
+        "Le 1er janvier 1790",
+        "Le 21 septembre 1792",
+        "Le 5 mai 1789",
+        "Le 22 septembre 1789"
+      ]
+    },
+    {
+      "id": 668,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Révolution française ?",
+        "Que s'est-il passé en France en 1789 ?",
+        "Comment définir la Révolution française ?"
+      ],
+      "correctAnswers": ["Un mouvement politique et social qui a renversé la monarchie absolue et établi les principes de liberté, égalité et souveraineté du peuple"],
+      "wrongAnswers": [
+        "Une guerre entre la France et l'Angleterre",
+        "Un changement de dynastie royale",
+        "Une réforme économique menée par le roi Louis XVI",
+        "Un mouvement artistique et culturel",
+        "Une invasion militaire par les pays voisins",
+        "Un conflit religieux entre catholiques et protestants"
+      ]
+    },
+    {
+      "id": 669,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quel roi a été exécuté pendant la Révolution française ?",
+        "Quel monarque a été guillotiné en 1793 ?",
+        "Qui était le roi de France lors de la Révolution ?"
+      ],
+      "correctAnswers": ["Louis XVI"],
+      "wrongAnswers": [
+        "Louis XIV",
+        "Louis XV",
+        "Louis XVIII",
+        "Charles X",
+        "Henri IV",
+        "Louis-Philippe"
+      ]
+    },
+    {
+      "id": 670,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Ire République française ?",
+        "Quand la première République a-t-elle été proclamée ?",
+        "En quelle année la monarchie a-t-elle été abolie pour instaurer la République ?"
+      ],
+      "correctAnswers": ["Le premier régime républicain français, proclamé le 22 septembre 1792"],
+      "wrongAnswers": [
+        "Le régime instauré par Napoléon Bonaparte en 1799",
+        "Le régime proclamé après la révolution de 1848",
+        "Le régime instauré après la défaite de 1870",
+        "Le régime fondé par le général de Gaulle en 1958",
+        "Le régime instauré après la Libération en 1944",
+        "Le régime créé par la Déclaration des droits de l'homme en 1789"
+      ]
+    },
+    {
+      "id": 671,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Napoléon Bonaparte ?",
+        "Quel rôle Napoléon a-t-il joué dans l'histoire de France ?",
+        "Que retient-on de Napoléon Bonaparte ?"
+      ],
+      "correctAnswers": ["Un général devenu empereur des Français (1804-1814/1815), qui a modernisé la France en créant le Code civil et en réorganisant l'administration"],
+      "wrongAnswers": [
+        "Un roi de France qui a régné au XVIIe siècle",
+        "Un révolutionnaire qui a pris la Bastille en 1789",
+        "Un président de la République au XIXe siècle",
+        "Un philosophe des Lumières du XVIIIe siècle",
+        "Un maréchal de France pendant la Première Guerre mondiale",
+        "Un chef de la Résistance pendant la Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": 672,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le Code civil (Code Napoléon) ?",
+        "Quand le Code civil a-t-il été créé ?",
+        "En quoi le Code civil est-il important ?"
+      ],
+      "correctAnswers": ["Un recueil de lois régissant les relations entre les personnes (famille, propriété, contrats), promulgué en 1804 sous Napoléon"],
+      "wrongAnswers": [
+        "Un code militaire pour les soldats de l'armée napoléonienne",
+        "Un texte religieux adopté sous l'Ancien Régime",
+        "Un code pénal créé pendant la Révolution",
+        "Un recueil de règles diplomatiques internationales",
+        "Un code de conduite pour les fonctionnaires de l'État",
+        "Un traité de commerce avec les pays européens"
+      ]
+    },
+    {
+      "id": 673,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la IIe République ?",
+        "Quand la Deuxième République a-t-elle été proclamée ?",
+        "Quel événement important s'est produit sous la IIe République ?"
+      ],
+      "correctAnswers": ["La République proclamée en 1848, qui a instauré le suffrage universel masculin et aboli l'esclavage dans les colonies"],
+      "wrongAnswers": [
+        "La République proclamée en 1792 après la chute de la monarchie",
+        "La République instaurée en 1870 après la défaite de Sedan",
+        "La République fondée en 1946 après la Libération",
+        "La République créée en 1958 par le général de Gaulle",
+        "La République instaurée en 1830 après la révolution de Juillet",
+        "La République fondée en 1815 après Waterloo"
+      ]
+    },
+    {
+      "id": 674,
+      "theme": "Histoire de France",
+      "questions": [
+        "En quelle année l'esclavage a-t-il été définitivement aboli en France ?",
+        "Quand l'abolition définitive de l'esclavage a-t-elle eu lieu ?",
+        "Sous quelle République l'esclavage a-t-il été aboli pour la dernière fois ?"
+      ],
+      "correctAnswers": ["En 1848, sous la IIe République, par le décret de Victor Schœlcher"],
+      "wrongAnswers": [
+        "En 1789, pendant la Révolution française",
+        "En 1794, sous la Convention",
+        "En 1804, sous Napoléon",
+        "En 1815, après Waterloo",
+        "En 1870, sous la IIIe République",
+        "En 1905, par la loi de séparation des Églises et de l'État"
+      ]
+    },
+    {
+      "id": 675,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la IIIe République ?",
+        "Quand la Troisième République a-t-elle été instaurée ?",
+        "Quelle République a été la plus longue de l'histoire de France ?"
+      ],
+      "correctAnswers": ["La République proclamée en 1870 après la défaite de Sedan, qui a duré jusqu'en 1940 (la plus longue République française)"],
+      "wrongAnswers": [
+        "La République instaurée en 1848 après la révolution",
+        "La République créée par Napoléon III en 1852",
+        "La République fondée en 1946 après la Libération",
+        "La République proclamée en 1792",
+        "La République instaurée en 1958 par de Gaulle",
+        "La République instaurée en 1830 après les Trois Glorieuses"
+      ]
+    },
+    {
+      "id": 676,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quelles grandes lois ont été adoptées sous la IIIe République ?",
+        "Quels progrès républicains ont marqué la IIIe République ?",
+        "Citez des lois importantes votées sous la IIIe République."
+      ],
+      "correctAnswers": ["Les lois sur l'école gratuite, laïque et obligatoire (1881-1882), la liberté de la presse (1881), la liberté syndicale (1884), la liberté d'association (1901) et la séparation des Églises et de l'État (1905)"],
+      "wrongAnswers": [
+        "L'abolition de l'esclavage et le suffrage universel masculin",
+        "Le Code civil et la création de la Banque de France",
+        "Le droit de vote des femmes et la Sécurité sociale",
+        "La création de la Ve République et la décolonisation",
+        "Le traité de Maastricht et la création de l'euro",
+        "L'abolition de la peine de mort et le mariage pour tous"
+      ]
+    },
+    {
+      "id": 677,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a rendu l'école publique gratuite, laïque et obligatoire ?",
+        "Quel homme politique est à l'origine des lois scolaires ?",
+        "Qui a instauré l'école de la République ?"
+      ],
+      "correctAnswers": ["Jules Ferry, par les lois de 1881 et 1882"],
+      "wrongAnswers": [
+        "Victor Hugo en 1870",
+        "Émile Zola en 1898",
+        "Léon Gambetta en 1875",
+        "Jean Jaurès en 1905",
+        "Georges Clemenceau en 1906",
+        "Aristide Briand en 1910"
+      ]
+    },
+    {
+      "id": 678,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Première Guerre mondiale a-t-elle eu lieu ?",
+        "Quelles sont les dates de la Grande Guerre ?",
+        "Sur quelle période s'est étendue la Première Guerre mondiale ?"
+      ],
+      "correctAnswers": ["De 1914 à 1918"],
+      "wrongAnswers": [
+        "De 1912 à 1916",
+        "De 1910 à 1920",
+        "De 1915 à 1919",
+        "De 1913 à 1917",
+        "De 1916 à 1920",
+        "De 1914 à 1920"
+      ]
+    },
+    {
+      "id": 679,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que commémore le 11 novembre ?",
+        "Pourquoi le 11 novembre est-il un jour férié en France ?",
+        "Quel événement historique est lié au 11 novembre ?"
+      ],
+      "correctAnswers": ["L'armistice du 11 novembre 1918, qui a mis fin à la Première Guerre mondiale"],
+      "wrongAnswers": [
+        "La fin de la Seconde Guerre mondiale",
+        "La proclamation de la Ve République",
+        "La prise de la Bastille",
+        "L'abolition de l'esclavage",
+        "La libération de Paris",
+        "La victoire de Verdun"
+      ]
+    },
+    {
+      "id": 680,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la bataille de Verdun ?",
+        "Pourquoi la bataille de Verdun est-elle célèbre ?",
+        "Quand a eu lieu la bataille de Verdun ?"
+      ],
+      "correctAnswers": ["Une des batailles les plus meurtrières de la Première Guerre mondiale, en 1916, devenue le symbole de la résistance française"],
+      "wrongAnswers": [
+        "La dernière bataille de la Seconde Guerre mondiale",
+        "La bataille qui a mis fin à la guerre de Cent Ans",
+        "Une bataille navale de la Révolution française",
+        "La bataille qui a opposé la France à la Russie",
+        "Une bataille de la guerre franco-prussienne de 1870",
+        "La première bataille de la guerre d'Algérie"
+      ]
+    },
+    {
+      "id": 681,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Seconde Guerre mondiale a-t-elle eu lieu ?",
+        "Quelles sont les dates de la Seconde Guerre mondiale ?",
+        "Sur quelle période s'est étendue la Seconde Guerre mondiale ?"
+      ],
+      "correctAnswers": ["De 1939 à 1945"],
+      "wrongAnswers": [
+        "De 1935 à 1943",
+        "De 1940 à 1946",
+        "De 1937 à 1944",
+        "De 1938 à 1945",
+        "De 1941 à 1947",
+        "De 1939 à 1944"
+      ]
+    },
+    {
+      "id": 682,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le régime de Vichy ?",
+        "Quel régime a gouverné la France entre 1940 et 1944 ?",
+        "Qu'a fait le régime de Vichy pendant la Seconde Guerre mondiale ?"
+      ],
+      "correctAnswers": ["Le régime autoritaire du maréchal Pétain (1940-1944) qui a collaboré avec l'Allemagne nazie"],
+      "wrongAnswers": [
+        "Le gouvernement de la Résistance française basé à Vichy",
+        "Le régime démocratique qui a remplacé la IIIe République",
+        "Un gouvernement provisoire dirigé par le général de Gaulle",
+        "Un régime monarchique restauré pendant la guerre",
+        "Le gouvernement français en exil à Londres",
+        "Un régime communiste instauré pendant l'Occupation"
+      ]
+    },
+    {
+      "id": 683,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était le chef de la France libre pendant la Seconde Guerre mondiale ?",
+        "Quel général a lancé l'appel du 18 juin 1940 ?",
+        "Qui a dirigé la Résistance française depuis Londres ?"
+      ],
+      "correctAnswers": ["Le général Charles de Gaulle"],
+      "wrongAnswers": [
+        "Le maréchal Philippe Pétain",
+        "Le général Jean de Lattre de Tassigny",
+        "Jean Moulin",
+        "Le maréchal Leclerc",
+        "Léon Blum",
+        "Pierre Mendès France"
+      ]
+    },
+    {
+      "id": 684,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que l'appel du 18 juin 1940 ?",
+        "Que s'est-il passé le 18 juin 1940 ?",
+        "Pourquoi l'appel du 18 juin est-il important dans l'histoire de France ?"
+      ],
+      "correctAnswers": ["L'appel lancé par le général de Gaulle depuis Londres à la radio BBC, appelant les Français à résister à l'occupation allemande"],
+      "wrongAnswers": [
+        "L'armistice signé entre la France et l'Allemagne",
+        "La libération de Paris par les Alliés",
+        "La proclamation de la IVe République",
+        "Le débarquement allié en Normandie",
+        "La capitulation de l'Allemagne nazie",
+        "La création du gouvernement de Vichy"
+      ]
+    },
+    {
+      "id": 685,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Jean Moulin ?",
+        "Quel rôle Jean Moulin a-t-il joué dans la Résistance ?",
+        "Pourquoi Jean Moulin est-il une figure emblématique de la Résistance ?"
+      ],
+      "correctAnswers": ["Un préfet devenu le chef du Conseil national de la Résistance, arrêté et mort sous la torture en 1943"],
+      "wrongAnswers": [
+        "Un général qui a libéré Paris en 1944",
+        "Le fondateur de la France libre à Londres",
+        "Un espion français infiltré dans l'armée allemande",
+        "Le premier président de la IVe République",
+        "Un pilote de chasse de la Seconde Guerre mondiale",
+        "Le rédacteur de la Constitution de 1946"
+      ]
+    },
+    {
+      "id": 686,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand le débarquement allié en Normandie a-t-il eu lieu ?",
+        "Quelle est la date du D-Day ?",
+        "Quand les Alliés ont-ils débarqué sur les plages de Normandie ?"
+      ],
+      "correctAnswers": ["Le 6 juin 1944"],
+      "wrongAnswers": [
+        "Le 8 mai 1945",
+        "Le 25 août 1944",
+        "Le 15 août 1944",
+        "Le 14 juillet 1944",
+        "Le 1er septembre 1944",
+        "Le 11 novembre 1944"
+      ]
+    },
+    {
+      "id": 687,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que commémore le 8 mai ?",
+        "Pourquoi le 8 mai est-il un jour férié en France ?",
+        "Quel événement est célébré le 8 mai ?"
+      ],
+      "correctAnswers": ["La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe, le 8 mai 1945"],
+      "wrongAnswers": [
+        "La fin de la Première Guerre mondiale",
+        "La prise de la Bastille",
+        "La libération de Paris",
+        "Le débarquement en Normandie",
+        "L'abolition de l'esclavage",
+        "La proclamation de la Ve République"
+      ]
+    },
+    {
+      "id": 688,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la IVe République ?",
+        "Quand la IVe République a-t-elle existé ?",
+        "Pourquoi la IVe République a-t-elle pris fin ?"
+      ],
+      "correctAnswers": ["Le régime républicain de 1946 à 1958, marqué par l'instabilité gouvernementale et la décolonisation"],
+      "wrongAnswers": [
+        "Le régime instauré par Napoléon III en 1852",
+        "Le régime instauré après la Première Guerre mondiale",
+        "Le régime fondé par le général de Gaulle en 1958",
+        "Le régime de Vichy pendant la Seconde Guerre mondiale",
+        "Le régime instauré après la révolution de 1848",
+        "Le régime actuel de la France"
+      ]
+    },
+    {
+      "id": 689,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la Ve République a-t-elle été fondée ?",
+        "En quelle année la Ve République a-t-elle été instaurée ?",
+        "Quelle est la date de naissance de la Ve République ?"
+      ],
+      "correctAnswers": ["En 1958, par la Constitution du 4 octobre 1958"],
+      "wrongAnswers": [
+        "En 1946, après la Libération",
+        "En 1962, après le référendum",
+        "En 1969, après le départ de de Gaulle",
+        "En 1945, après la fin de la guerre",
+        "En 1965, après la première élection présidentielle au suffrage universel",
+        "En 1944, après la Libération"
+      ]
+    },
+    {
+      "id": 690,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a fondé la Ve République ?",
+        "Qui est à l'origine de la Constitution de 1958 ?",
+        "Quel homme politique a créé la Ve République ?"
+      ],
+      "correctAnswers": ["Le général Charles de Gaulle"],
+      "wrongAnswers": [
+        "Georges Pompidou",
+        "François Mitterrand",
+        "Valéry Giscard d'Estaing",
+        "Léon Blum",
+        "Pierre Mendès France",
+        "René Coty"
+      ]
+    },
+    {
+      "id": 691,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que les Lumières ?",
+        "Qu'est-ce que le siècle des Lumières ?",
+        "Quels philosophes sont associés aux Lumières ?"
+      ],
+      "correctAnswers": ["Un mouvement intellectuel du XVIIIe siècle promouvant la raison, la liberté et le progrès, porté par Voltaire, Rousseau, Montesquieu et Diderot"],
+      "wrongAnswers": [
+        "Un mouvement artistique du XIXe siècle",
+        "Un mouvement religieux du XVIe siècle",
+        "Un mouvement politique du XXe siècle",
+        "Un mouvement scientifique de la Renaissance",
+        "Un mouvement littéraire du XVIIe siècle",
+        "Un courant philosophique antique"
+      ]
+    },
+    {
+      "id": 692,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Voltaire ?",
+        "Quel rôle Voltaire a-t-il joué dans l'histoire des idées ?",
+        "Pourquoi Voltaire est-il important dans l'histoire de France ?"
+      ],
+      "correctAnswers": ["Un philosophe des Lumières du XVIIIe siècle, défenseur de la liberté d'expression et de la tolérance religieuse"],
+      "wrongAnswers": [
+        "Un roi de France du XVIIe siècle",
+        "Un général de la Révolution française",
+        "Un peintre de la Renaissance",
+        "Un président de la IIIe République",
+        "Un révolutionnaire de 1789",
+        "Un scientifique du XIXe siècle"
+      ]
+    },
+    {
+      "id": 693,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Jean-Jacques Rousseau ?",
+        "Quelle idée majeure Rousseau a-t-il défendue ?",
+        "Pourquoi Rousseau est-il important pour la pensée politique ?"
+      ],
+      "correctAnswers": ["Un philosophe des Lumières qui a développé la théorie du contrat social et de la souveraineté du peuple"],
+      "wrongAnswers": [
+        "Un monarque éclairé du XVIIIe siècle",
+        "Un scientifique qui a découvert l'électricité",
+        "Un militaire de l'époque napoléonienne",
+        "Un artiste de la Renaissance française",
+        "Un homme politique de la Révolution",
+        "Un prêtre catholique réformateur"
+      ]
+    },
+    {
+      "id": 694,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Commune de Paris ?",
+        "Quand la Commune de Paris a-t-elle eu lieu ?",
+        "Que s'est-il passé lors de la Commune de Paris ?"
+      ],
+      "correctAnswers": ["Un gouvernement révolutionnaire qui a dirigé Paris du 18 mars au 28 mai 1871, écrasé dans le sang par le gouvernement de Versailles"],
+      "wrongAnswers": [
+        "La mairie de Paris fondée au Moyen Âge",
+        "Un mouvement de résistance pendant la Seconde Guerre mondiale",
+        "Une insurrection pendant la Révolution française de 1789",
+        "Un parti politique du XIXe siècle",
+        "Un conseil municipal créé par Napoléon",
+        "Une révolte étudiante en 1968"
+      ]
+    },
+    {
+      "id": 695,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que l'affaire Dreyfus ?",
+        "Pourquoi l'affaire Dreyfus est-elle importante dans l'histoire de France ?",
+        "Quand l'affaire Dreyfus a-t-elle eu lieu ?"
+      ],
+      "correctAnswers": ["Une erreur judiciaire antisémite (1894-1906) contre le capitaine Dreyfus, qui a divisé la France et renforcé les valeurs de justice et de droits de l'homme"],
+      "wrongAnswers": [
+        "Un scandale financier sous la IVe République",
+        "Un complot politique contre le général de Gaulle",
+        "Un procès contre un espion allemand pendant la Première Guerre mondiale",
+        "Un différend diplomatique entre la France et l'Allemagne",
+        "Un procès en sorcellerie au Moyen Âge",
+        "Un scandale de corruption sous la IIIe République"
+      ]
+    },
+    {
+      "id": 696,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui a écrit « J'accuse...! » dans l'affaire Dreyfus ?",
+        "Quel écrivain s'est engagé pour défendre le capitaine Dreyfus ?",
+        "Qui a publié une lettre ouverte célèbre pour dénoncer l'injustice de l'affaire Dreyfus ?"
+      ],
+      "correctAnswers": ["Émile Zola"],
+      "wrongAnswers": [
+        "Victor Hugo",
+        "Voltaire",
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Anatole France",
+        "Guy de Maupassant"
+      ]
+    },
+    {
+      "id": 697,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand le suffrage universel masculin a-t-il été définitivement instauré en France ?",
+        "En quelle année tous les hommes ont-ils obtenu le droit de vote de façon définitive ?",
+        "Sous quelle République le suffrage universel masculin est-il devenu permanent ?"
+      ],
+      "correctAnswers": ["En 1848, sous la IIe République"],
+      "wrongAnswers": [
+        "En 1789, pendant la Révolution",
+        "En 1792, sous la Ire République",
+        "En 1804, sous Napoléon",
+        "En 1870, sous la IIIe République",
+        "En 1830, sous la monarchie de Juillet",
+        "En 1815, sous la Restauration"
+      ]
+    },
+    {
+      "id": 698,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le Front populaire ?",
+        "Quand le Front populaire a-t-il gouverné ?",
+        "Quelles avancées sociales le Front populaire a-t-il réalisées ?"
+      ],
+      "correctAnswers": ["Une coalition de gauche qui a gouverné en 1936-1937 sous Léon Blum, instaurant les congés payés, la semaine de 40 heures et les conventions collectives"],
+      "wrongAnswers": [
+        "Un mouvement de résistance pendant la Seconde Guerre mondiale",
+        "Un parti politique fondé par Charles de Gaulle",
+        "Un gouvernement formé après la Première Guerre mondiale",
+        "Un mouvement syndical créé en 1905",
+        "Un parti politique de la IVe République",
+        "Un mouvement étudiant de mai 1968"
+      ]
+    },
+    {
+      "id": 699,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Résistance pendant la Seconde Guerre mondiale ?",
+        "En quoi consistait la Résistance française ?",
+        "Qui participait à la Résistance en France ?"
+      ],
+      "correctAnswers": ["L'ensemble des mouvements et réseaux clandestins qui ont lutté contre l'occupation allemande et le régime de Vichy"],
+      "wrongAnswers": [
+        "L'armée officielle française pendant la guerre",
+        "Un parti politique créé après la Libération",
+        "Une organisation exclusivement militaire dirigée par les Alliés",
+        "Un mouvement de protestation pacifique contre la guerre",
+        "Un gouvernement en exil basé en Suisse",
+        "Un réseau d'espionnage uniquement britannique"
+      ]
+    },
+    {
+      "id": 700,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quels droits nouveaux le préambule de la Constitution de 1946 a-t-il reconnus ?",
+        "Qu'a apporté le préambule de 1946 aux droits des Français ?",
+        "Quels droits sociaux ont été consacrés en 1946 ?"
+      ],
+      "correctAnswers": ["Le droit de vote des femmes (confirmé), le droit au travail, à la protection sociale, à l'éducation et le droit syndical"],
+      "wrongAnswers": [
+        "Uniquement le droit de vote pour tous",
+        "Le droit de propriété et le droit commercial",
+        "Le droit à la nationalité et le droit d'asile uniquement",
+        "Le droit au logement et le droit à internet",
+        "Le droit à l'environnement et le droit animalier",
+        "Le droit à la sécurité et le droit à la défense"
+      ]
+    },
+    {
+      "id": 701,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la décolonisation française ?",
+        "Quand la France a-t-elle perdu ses colonies ?",
+        "Comment la décolonisation s'est-elle déroulée en France ?"
+      ],
+      "correctAnswers": ["Le processus d'indépendance des colonies françaises, principalement dans les années 1950-1960 (Indochine 1954, Afrique, Algérie 1962)"],
+      "wrongAnswers": [
+        "La conquête de nouveaux territoires au XIXe siècle",
+        "Le transfert des colonies aux Nations Unies",
+        "L'intégration des colonies dans le territoire français",
+        "Le rattachement des colonies à d'autres puissances coloniales",
+        "La transformation des colonies en départements français",
+        "La vente des colonies à d'autres pays européens"
+      ]
+    },
+    {
+      "id": 702,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand la guerre d'Algérie a-t-elle eu lieu ?",
+        "Quelles sont les dates de la guerre d'Algérie ?",
+        "De quand à quand s'est étendue la guerre d'Algérie ?"
+      ],
+      "correctAnswers": ["De 1954 à 1962"],
+      "wrongAnswers": [
+        "De 1945 à 1950",
+        "De 1960 à 1968",
+        "De 1956 à 1964",
+        "De 1952 à 1958",
+        "De 1948 à 1954",
+        "De 1958 à 1966"
+      ]
+    },
+    {
+      "id": 703,
+      "theme": "Histoire de France",
+      "questions": [
+        "Que s'est-il passé en mai 1968 en France ?",
+        "Qu'est-ce que les événements de Mai 68 ?",
+        "Pourquoi mai 1968 est-il un moment marquant de l'histoire de France ?"
+      ],
+      "correctAnswers": ["Un mouvement de contestation étudiante et sociale qui a entraîné une grève générale et de profondes transformations de la société française"],
+      "wrongAnswers": [
+        "L'élection de Charles de Gaulle comme président",
+        "La fin de la guerre d'Algérie",
+        "La proclamation de la Ve République",
+        "Une tentative de coup d'État militaire",
+        "La signature du traité de Rome",
+        "L'entrée de la France dans l'OTAN"
+      ]
+    },
+    {
+      "id": 704,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quel président a instauré l'élection du président au suffrage universel direct ?",
+        "Depuis quand le président de la République est-il élu directement par les citoyens ?",
+        "Qui a décidé que le président serait élu au suffrage universel direct ?"
+      ],
+      "correctAnswers": ["Charles de Gaulle, par le référendum de 1962"],
+      "wrongAnswers": [
+        "François Mitterrand en 1981",
+        "Georges Pompidou en 1969",
+        "Valéry Giscard d'Estaing en 1974",
+        "Jacques Chirac en 1995",
+        "René Coty en 1958",
+        "Nicolas Sarkozy en 2007"
+      ]
+    },
+    {
+      "id": 705,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand le quinquennat présidentiel a-t-il remplacé le septennat ?",
+        "En quelle année le mandat présidentiel est-il passé de 7 à 5 ans ?",
+        "Quel référendum a instauré le quinquennat ?"
+      ],
+      "correctAnswers": ["En 2000, par référendum sous la présidence de Jacques Chirac"],
+      "wrongAnswers": [
+        "En 1995 sous Jacques Chirac",
+        "En 2007 sous Nicolas Sarkozy",
+        "En 1981 sous François Mitterrand",
+        "En 2002 sous Jacques Chirac",
+        "En 1969 sous Georges Pompidou",
+        "En 2012 sous François Hollande"
+      ]
+    },
+    {
+      "id": 706,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le traité de Rome ?",
+        "Quand le traité de Rome a-t-il été signé ?",
+        "Qu'a créé le traité de Rome ?"
+      ],
+      "correctAnswers": ["Le traité signé en 1957 par 6 pays européens (dont la France) créant la Communauté économique européenne (CEE), ancêtre de l'Union européenne"],
+      "wrongAnswers": [
+        "Le traité mettant fin à la Seconde Guerre mondiale",
+        "Le traité créant l'Organisation des Nations Unies",
+        "Le traité fondant l'OTAN",
+        "Le traité de paix entre la France et l'Allemagne en 1918",
+        "Le traité créant la zone euro",
+        "Le traité instaurant la libre circulation en Europe"
+      ]
+    },
+    {
+      "id": 707,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le traité de Maastricht ?",
+        "Quand le traité de Maastricht a-t-il été signé ?",
+        "Qu'a créé le traité de Maastricht ?"
+      ],
+      "correctAnswers": ["Le traité signé en 1992 qui a créé l'Union européenne et prévu la monnaie unique (l'euro)"],
+      "wrongAnswers": [
+        "Le traité fondateur de la CEE en 1957",
+        "Le traité créant l'espace Schengen",
+        "Le traité de paix mettant fin à la Première Guerre mondiale",
+        "Le traité d'adhésion du Royaume-Uni à l'Europe",
+        "Le traité créant le Conseil de l'Europe",
+        "Le traité instaurant la citoyenneté européenne uniquement"
+      ]
+    },
+    {
+      "id": 708,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que l'espace Schengen ?",
+        "En quoi consiste l'accord de Schengen ?",
+        "Que permet l'espace Schengen aux citoyens européens ?"
+      ],
+      "correctAnswers": ["Un espace de libre circulation des personnes entre 27 pays européens, sans contrôle aux frontières intérieures"],
+      "wrongAnswers": [
+        "Un marché commun de produits agricoles",
+        "Une alliance militaire entre pays européens",
+        "Un programme d'échange universitaire",
+        "Une zone de monnaie unique",
+        "Un accord de défense entre la France et l'Allemagne",
+        "Un programme de subventions européennes"
+      ]
+    },
+    {
+      "id": 709,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui est Simone Veil ?",
+        "Pourquoi Simone Veil est-elle une figure importante de l'histoire de France ?",
+        "Pour quelle loi Simone Veil est-elle surtout connue ?"
+      ],
+      "correctAnswers": ["Une femme politique, rescapée de la Shoah, qui a fait adopter la loi légalisant l'IVG en 1975 et a été présidente du Parlement européen"],
+      "wrongAnswers": [
+        "La première femme présidente de la République française",
+        "La fondatrice du mouvement féministe en France",
+        "La première femme ministre de l'Éducation nationale",
+        "La créatrice de la Sécurité sociale en France",
+        "La première femme élue à l'Assemblée nationale",
+        "La fondatrice de Médecins sans frontières"
+      ]
+    },
+    {
+      "id": 710,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la Shoah ?",
+        "Que désigne le terme Shoah ?",
+        "À quoi fait référence la Shoah dans l'histoire ?"
+      ],
+      "correctAnswers": ["Le génocide de six millions de Juifs par les nazis pendant la Seconde Guerre mondiale"],
+      "wrongAnswers": [
+        "Une guerre entre Israël et ses voisins",
+        "Un mouvement de résistance juif",
+        "Une période de famine en Europe",
+        "Un bombardement massif pendant la Première Guerre mondiale",
+        "Un traité de paix au Moyen-Orient",
+        "Une révolution politique en Europe de l'Est"
+      ]
+    },
+    {
+      "id": 711,
+      "theme": "Histoire de France",
+      "questions": [
+        "La France a-t-elle participé à la déportation des Juifs pendant la Seconde Guerre mondiale ?",
+        "Quel rôle la France a-t-elle joué dans la déportation des Juifs ?",
+        "Le régime de Vichy a-t-il collaboré à la déportation des Juifs ?"
+      ],
+      "correctAnswers": ["Oui, le régime de Vichy a participé à la déportation des Juifs, ce que la France a officiellement reconnu en 1995 par Jacques Chirac"],
+      "wrongAnswers": [
+        "Non, la France n'a joué aucun rôle dans la déportation",
+        "Oui, mais seuls les soldats allemands en France ont agi",
+        "Non, la France a protégé tous les Juifs sur son territoire",
+        "Oui, mais la France ne l'a jamais reconnu officiellement",
+        "Non, la Résistance a empêché toute déportation",
+        "Oui, mais uniquement après l'armistice de 1945"
+      ]
+    },
+    {
+      "id": 712,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que la rafle du Vel d'Hiv ?",
+        "Quand la rafle du Vélodrome d'Hiver a-t-elle eu lieu ?",
+        "Que s'est-il passé lors de la rafle du Vel d'Hiv ?"
+      ],
+      "correctAnswers": ["L'arrestation massive de plus de 13 000 Juifs à Paris les 16 et 17 juillet 1942 par la police française, sur ordre du régime de Vichy"],
+      "wrongAnswers": [
+        "Un rassemblement sportif organisé pendant l'Occupation",
+        "Une manifestation de résistants contre l'occupant",
+        "Une bataille entre les forces françaises et allemandes",
+        "L'arrestation de résistants français en 1944",
+        "Un bombardement allié sur Paris en 1943",
+        "Une grève générale des travailleurs parisiens"
+      ]
+    },
+    {
+      "id": 713,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le traité de l'Élysée ?",
+        "Quel traité a scellé la réconciliation franco-allemande ?",
+        "Quand le traité de l'Élysée a-t-il été signé ?"
+      ],
+      "correctAnswers": ["Le traité d'amitié franco-allemand signé en 1963 par de Gaulle et Adenauer, scellant la réconciliation entre les deux pays"],
+      "wrongAnswers": [
+        "Le traité de paix mettant fin à la Seconde Guerre mondiale",
+        "Le traité fondateur de l'Union européenne",
+        "Le traité de paix de la guerre franco-prussienne de 1870",
+        "Le traité d'adhésion de l'Allemagne à l'OTAN",
+        "Le traité de réunification de l'Allemagne",
+        "Le traité économique créant le marché commun"
+      ]
+    },
+    {
+      "id": 714,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que Charlemagne dans l'histoire de France ?",
+        "Qui était Charlemagne ?",
+        "Pourquoi Charlemagne est-il important dans l'histoire ?"
+      ],
+      "correctAnswers": ["Le roi des Francs couronné empereur d'Occident en 800, qui a unifié une grande partie de l'Europe et développé l'éducation"],
+      "wrongAnswers": [
+        "Le premier président de la République française",
+        "Un général de la Révolution française",
+        "Le fondateur de la dynastie des Bourbons",
+        "Un philosophe des Lumières",
+        "Le roi qui a construit le château de Versailles",
+        "Le chef de la Résistance française"
+      ]
+    },
+    {
+      "id": 715,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Henri IV ?",
+        "Pourquoi Henri IV est-il important dans l'histoire de France ?",
+        "Quel roi a signé l'Édit de Nantes ?"
+      ],
+      "correctAnswers": ["Le roi de France (1589-1610) qui a mis fin aux guerres de religion en signant l'Édit de Nantes en 1598, accordant la liberté de culte aux protestants"],
+      "wrongAnswers": [
+        "Le roi qui a construit le château de Versailles",
+        "Le dernier roi de France guillotiné en 1793",
+        "Le roi qui a lancé les croisades",
+        "Le roi qui a régné pendant la Révolution",
+        "Le roi qui a fondé l'Académie française",
+        "Le roi qui a conquis l'Algérie"
+      ]
+    },
+    {
+      "id": 716,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qui était Louis XIV ?",
+        "Pourquoi Louis XIV est-il surnommé le Roi-Soleil ?",
+        "Qu'a fait Louis XIV pour la France ?"
+      ],
+      "correctAnswers": ["Le roi de France (1643-1715), surnommé le Roi-Soleil, qui a instauré la monarchie absolue et construit le château de Versailles"],
+      "wrongAnswers": [
+        "Le roi qui a été guillotiné pendant la Révolution",
+        "Le roi qui a signé l'Édit de Nantes",
+        "Le premier roi de la dynastie des Capétiens",
+        "Le roi qui a créé le Code civil",
+        "Le roi qui a mené les croisades",
+        "Le roi qui a aboli l'esclavage"
+      ]
+    },
+    {
+      "id": 717,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le Panthéon à Paris ?",
+        "À quoi sert le Panthéon ?",
+        "Qui est honoré au Panthéon ?"
+      ],
+      "correctAnswers": ["Un monument où reposent les grands personnages de l'histoire de France, en hommage à leur contribution à la Nation"],
+      "wrongAnswers": [
+        "La résidence officielle du président de la République",
+        "Le siège du Parlement français",
+        "Un musée consacré à l'art contemporain",
+        "Le tribunal de grande instance de Paris",
+        "Le siège du Conseil constitutionnel",
+        "Un lieu de culte catholique"
+      ]
+    },
+    {
+      "id": 718,
+      "theme": "Histoire de France",
+      "questions": [
+        "Quand l'euro est-il devenu la monnaie officielle en France ?",
+        "En quelle année l'euro a-t-il remplacé le franc ?",
+        "Depuis quand les Français utilisent-ils l'euro ?"
+      ],
+      "correctAnswers": ["Le 1er janvier 2002 pour les pièces et billets (1999 pour la monnaie scripturale)"],
+      "wrongAnswers": [
+        "Le 1er janvier 1999",
+        "Le 1er janvier 2000",
+        "Le 1er janvier 1995",
+        "Le 1er janvier 2005",
+        "Le 1er juillet 2002",
+        "Le 1er janvier 2010"
+      ]
+    },
+    {
+      "id": 719,
+      "theme": "Histoire de France",
+      "questions": [
+        "Qu'est-ce que le Code de la nationalité française ?",
+        "Quand le droit de la nationalité a-t-il été codifié en France ?",
+        "Quel texte régit l'acquisition de la nationalité française ?"
+      ],
+      "correctAnswers": ["L'ensemble des règles régissant l'attribution et l'acquisition de la nationalité française, aujourd'hui intégré au Code civil (articles 17 à 33-2)"],
+      "wrongAnswers": [
+        "Un document signé par le candidat à la naturalisation",
+        "Un examen obligatoire pour les étrangers",
+        "Un code secret utilisé par les préfectures",
+        "Un traité international sur les nationalités",
+        "Un règlement européen sur la citoyenneté",
+        "Un décret présidentiel annuel sur l'immigration"
+      ]
+    }
+  ]
+}
