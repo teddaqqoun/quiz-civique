@@ -1176,6 +1176,59 @@ h2 {
 }
 
 /* ===================== */
+/* THEME INTRO SECTION    */
+/* ===================== */
+.theme-intro {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    margin: var(--space-5) auto var(--space-8);
+    max-width: 700px;
+}
+
+.theme-intro p {
+    line-height: 1.75;
+    color: var(--gray-600);
+    margin-bottom: var(--space-4);
+    font-size: var(--text-sm);
+}
+
+.theme-intro p:last-child {
+    margin-bottom: 0;
+}
+
+.theme-intro h2 {
+    font-size: var(--text-base);
+    color: var(--gray-800);
+    margin-bottom: var(--space-3);
+    font-weight: 600;
+}
+
+.theme-intro ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: var(--space-4);
+}
+
+.theme-intro li {
+    padding: 4px 0;
+    padding-left: var(--space-6);
+    position: relative;
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    line-height: 1.6;
+}
+
+.theme-intro li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+/* ===================== */
 /* 404 PAGE               */
 /* ===================== */
 .error-page {
