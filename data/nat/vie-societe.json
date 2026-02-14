@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "id": 720,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est l'hymne national de la France ?",
+        "Comment s'appelle l'hymne national français ?",
+        "Quel chant est l'hymne de la République française ?"
+      ],
+      "correctAnswers": ["La Marseillaise"],
+      "wrongAnswers": [
+        "Le Chant du Départ",
+        "La Carmagnole",
+        "L'Internationale",
+        "Ça Ira",
+        "Le Chant des Partisans",
+        "La Parisienne"
+      ]
+    },
+    {
+      "id": 721,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qui a composé La Marseillaise ?",
+        "Quel est l'auteur de l'hymne national français ?",
+        "Qui a écrit les paroles et la musique de La Marseillaise ?"
+      ],
+      "correctAnswers": ["Rouget de Lisle, en 1792"],
+      "wrongAnswers": [
+        "Victor Hugo en 1830",
+        "Hector Berlioz en 1835",
+        "Napoléon Bonaparte en 1804",
+        "Jean-Jacques Rousseau en 1762",
+        "Charles de Gaulle en 1940",
+        "Voltaire en 1770"
+      ]
+    },
+    {
+      "id": 722,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est le drapeau de la France ?",
+        "Quelles sont les couleurs du drapeau français ?",
+        "Comment se compose le drapeau national ?"
+      ],
+      "correctAnswers": ["Le drapeau tricolore bleu, blanc, rouge, avec trois bandes verticales"],
+      "wrongAnswers": [
+        "Un drapeau bleu avec des étoiles jaunes",
+        "Un drapeau rouge, blanc et bleu à bandes horizontales",
+        "Un drapeau blanc avec une fleur de lys",
+        "Un drapeau bleu et rouge à deux bandes verticales",
+        "Un drapeau tricolore vert, blanc, rouge",
+        "Un drapeau blanc avec un coq au centre"
+      ]
+    },
+    {
+      "id": 723,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quelle est l'allégorie de la République française ?",
+        "Quel personnage symbolise la République ?",
+        "Comment s'appelle la figure féminine représentant la République ?"
+      ],
+      "correctAnswers": ["Marianne"],
+      "wrongAnswers": [
+        "Jeanne d'Arc",
+        "La Liberté",
+        "Athéna",
+        "Marie",
+        "Gallia",
+        "Victoire"
+      ]
+    },
+    {
+      "id": 724,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel animal est le symbole non officiel de la France ?",
+        "Quel animal représente souvent la France ?",
+        "Quel est l'emblème animalier traditionnel de la France ?"
+      ],
+      "correctAnswers": ["Le coq gaulois"],
+      "wrongAnswers": [
+        "L'aigle impérial",
+        "Le lion",
+        "Le cheval",
+        "L'ours",
+        "Le cerf",
+        "Le taureau"
+      ]
+    },
+    {
+      "id": 725,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est le système éducatif en France ?",
+        "Comment est organisée l'école en France ?",
+        "Quelles sont les grandes étapes de la scolarité en France ?"
+      ],
+      "correctAnswers": ["L'école maternelle (3-6 ans), l'école élémentaire (6-11 ans), le collège (11-15 ans) et le lycée (15-18 ans)"],
+      "wrongAnswers": [
+        "L'école primaire (5-10 ans) et le secondaire (10-18 ans)",
+        "L'école obligatoire de 6 à 14 ans uniquement",
+        "L'école primaire (4-8 ans), le collège (8-14 ans), le lycée (14-16 ans)",
+        "L'école maternelle (2-5 ans) et l'école primaire (5-16 ans)",
+        "L'école élémentaire (5-12 ans) et le lycée (12-18 ans)",
+        "Le cycle primaire (3-10 ans) et le cycle secondaire (10-16 ans)"
+      ]
+    },
+    {
+      "id": 726,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le baccalauréat ?",
+        "À quoi sert le baccalauréat en France ?",
+        "Quel diplôme sanctionne la fin des études secondaires ?"
+      ],
+      "correctAnswers": ["Le diplôme national qui sanctionne la fin des études secondaires et donne accès à l'enseignement supérieur"],
+      "wrongAnswers": [
+        "Un diplôme universitaire obtenu après 3 ans d'études",
+        "Un certificat de fin d'études primaires",
+        "Un examen d'entrée dans la fonction publique",
+        "Un diplôme de fin de collège",
+        "Un certificat professionnel délivré par les entreprises",
+        "Un examen de langue française pour les étrangers"
+      ]
+    },
+    {
+      "id": 727,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Comment fonctionne le système de santé en France ?",
+        "Qu'est-ce que la Sécurité sociale ?",
+        "Comment les soins médicaux sont-ils pris en charge en France ?"
+      ],
+      "correctAnswers": ["La Sécurité sociale rembourse une grande partie des frais médicaux, complétée éventuellement par une mutuelle"],
+      "wrongAnswers": [
+        "Les soins sont entièrement gratuits pour tous",
+        "Chaque citoyen doit souscrire une assurance privée obligatoire",
+        "Les soins ne sont remboursés que pour les fonctionnaires",
+        "Seuls les hôpitaux publics sont gratuits",
+        "Les soins sont gratuits uniquement pour les enfants",
+        "Le système de santé est entièrement privé"
+      ]
+    },
+    {
+      "id": 728,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la CMU-C (devenue Complémentaire santé solidaire) ?",
+        "Que permet la Complémentaire santé solidaire ?",
+        "Comment les personnes à faibles revenus accèdent-elles aux soins en France ?"
+      ],
+      "correctAnswers": ["Une couverture maladie complémentaire gratuite ou à faible coût pour les personnes à faibles revenus"],
+      "wrongAnswers": [
+        "Une assurance santé réservée aux fonctionnaires",
+        "Une mutuelle obligatoire pour les entreprises",
+        "Un hôpital public gratuit pour les sans-abri",
+        "Un service médical réservé aux étrangers",
+        "Une aide financière pour acheter des médicaments en pharmacie",
+        "Un programme de prévention santé pour les retraités"
+      ]
+    },
+    {
+      "id": 729,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que Pôle emploi (France Travail depuis 2024) ?",
+        "Quel organisme aide les demandeurs d'emploi en France ?",
+        "À quoi sert France Travail ?"
+      ],
+      "correctAnswers": ["L'organisme public chargé de l'accompagnement des demandeurs d'emploi et de l'indemnisation du chômage"],
+      "wrongAnswers": [
+        "Un bureau de recrutement privé",
+        "Un ministère chargé de l'économie",
+        "Un syndicat de travailleurs",
+        "Une agence d'intérim publique",
+        "Un organisme de formation professionnelle uniquement",
+        "Un service réservé aux fonctionnaires en reconversion"
+      ]
+    },
+    {
+      "id": 730,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la CAF ?",
+        "Quel est le rôle de la Caisse d'allocations familiales ?",
+        "Quelles prestations la CAF verse-t-elle ?"
+      ],
+      "correctAnswers": ["L'organisme qui verse les prestations familiales et sociales (allocations familiales, APL, RSA, prime d'activité, etc.)"],
+      "wrongAnswers": [
+        "Un organisme qui gère les impôts",
+        "Une banque publique pour les familles",
+        "Un service de garde d'enfants",
+        "Un organisme qui gère les retraites",
+        "Un tribunal pour les affaires familiales",
+        "Un centre de formation pour les parents"
+      ]
+    },
+    {
+      "id": 731,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel numéro appeler en cas d'urgence en France ?",
+        "Quels sont les numéros d'urgence en France ?",
+        "Comment joindre les secours en France ?"
+      ],
+      "correctAnswers": ["Le 15 (SAMU), le 17 (police), le 18 (pompiers) ou le 112 (numéro européen d'urgence)"],
+      "wrongAnswers": [
+        "Le 911 comme aux États-Unis",
+        "Le 999 comme au Royaume-Uni",
+        "Le 100 pour tous les services d'urgence",
+        "Le 114 uniquement",
+        "Le 01 pour la police et le 02 pour les pompiers",
+        "Le 20 pour la police et le 30 pour les pompiers"
+      ]
+    },
+    {
+      "id": 732,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la mairie ?",
+        "Quel est le rôle de la mairie dans la vie quotidienne ?",
+        "Pour quelles démarches se rend-on à la mairie ?"
+      ],
+      "correctAnswers": ["Le siège de l'administration communale où l'on effectue les démarches d'état civil (naissance, mariage, décès), l'inscription sur les listes électorales, etc."],
+      "wrongAnswers": [
+        "Le bureau du préfet dans chaque commune",
+        "Un centre commercial géré par la commune",
+        "Un tribunal qui juge les litiges locaux",
+        "Un centre de santé municipal",
+        "Un bureau de poste communal",
+        "Un centre d'information touristique"
+      ]
+    },
+    {
+      "id": 733,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quelle est la durée légale du travail en France ?",
+        "Combien d'heures par semaine doit-on travailler en France ?",
+        "Quelle est la durée hebdomadaire légale du travail ?"
+      ],
+      "correctAnswers": ["35 heures par semaine"],
+      "wrongAnswers": [
+        "40 heures par semaine",
+        "38 heures par semaine",
+        "32 heures par semaine",
+        "42 heures par semaine",
+        "30 heures par semaine",
+        "37,5 heures par semaine"
+      ]
+    },
+    {
+      "id": 734,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Combien de jours de congés payés minimum un salarié a-t-il en France ?",
+        "Quel est le nombre minimal de jours de congés payés par an ?",
+        "De combien de semaines de vacances un salarié bénéficie-t-il ?"
+      ],
+      "correctAnswers": ["5 semaines (25 jours ouvrés) de congés payés par an"],
+      "wrongAnswers": [
+        "2 semaines par an",
+        "3 semaines par an",
+        "4 semaines par an",
+        "6 semaines par an",
+        "10 jours par an",
+        "20 jours par an"
+      ]
+    },
+    {
+      "id": 735,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le SMIC ?",
+        "Que signifie le SMIC en France ?",
+        "À quoi correspond le SMIC ?"
+      ],
+      "correctAnswers": ["Le Salaire Minimum Interprofessionnel de Croissance, soit le salaire horaire minimum légal en France"],
+      "wrongAnswers": [
+        "Le Système Minimum d'Indemnisation du Chômage",
+        "Le Service Minimum Interprofessionnel de la Commune",
+        "Le Statut Minimum des Indépendants et Commerçants",
+        "Le Seuil Maximal d'Imposition des Contribuables",
+        "Le Salaire Moyen Indicatif de la Collectivité",
+        "Le Système de Mutualisation des Impôts et Cotisations"
+      ]
+    },
+    {
+      "id": 736,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le livret de famille ?",
+        "À quoi sert le livret de famille en France ?",
+        "Quand un livret de famille est-il délivré ?"
+      ],
+      "correctAnswers": ["Un document officiel délivré lors du mariage ou de la naissance du premier enfant, qui recense les actes d'état civil de la famille"],
+      "wrongAnswers": [
+        "Un carnet de santé pour les enfants",
+        "Un document bancaire pour ouvrir un compte familial",
+        "Un passeport familial pour voyager ensemble",
+        "Un livret scolaire pour les enfants de la famille",
+        "Un document fiscal pour les familles nombreuses",
+        "Un certificat de résidence pour la famille"
+      ]
+    },
+    {
+      "id": 737,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Où déclare-t-on une naissance en France ?",
+        "Auprès de qui doit-on déclarer la naissance d'un enfant ?",
+        "Dans quel délai faut-il déclarer une naissance ?"
+      ],
+      "correctAnswers": ["À la mairie du lieu de naissance, dans les 5 jours suivant l'accouchement"],
+      "wrongAnswers": [
+        "À l'hôpital directement, qui s'occupe de tout",
+        "À la préfecture dans les 30 jours",
+        "Au tribunal dans les 10 jours",
+        "Au consulat de son pays d'origine",
+        "À la CAF dans les 15 jours",
+        "Au commissariat de police dans les 3 jours"
+      ]
+    },
+    {
+      "id": 738,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qui célèbre le mariage civil en France ?",
+        "Où le mariage civil est-il célébré ?",
+        "Quelle autorité officie lors d'un mariage civil ?"
+      ],
+      "correctAnswers": ["Le maire ou un adjoint au maire, à la mairie"],
+      "wrongAnswers": [
+        "Un prêtre ou un imam dans un lieu de culte",
+        "Un notaire dans son étude",
+        "Un juge au tribunal",
+        "Un préfet à la préfecture",
+        "Un député à l'Assemblée nationale",
+        "Un officier de l'état civil au tribunal"
+      ]
+    },
+    {
+      "id": 739,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Un mariage religieux a-t-il une valeur légale en France ?",
+        "Le mariage religieux est-il reconnu par l'État ?",
+        "Suffit-il d'un mariage religieux pour être marié en France ?"
+      ],
+      "correctAnswers": ["Non, seul le mariage civil a une valeur légale. Le mariage religieux peut avoir lieu après le mariage civil mais n'a pas d'effet juridique"],
+      "wrongAnswers": [
+        "Oui, le mariage religieux a la même valeur que le mariage civil",
+        "Oui, si le mariage religieux est célébré dans un lieu de culte reconnu",
+        "Non, les mariages religieux sont interdits en France",
+        "Oui, à condition que les deux époux soient de la même religion",
+        "Oui, si le prêtre ou l'imam est habilité par l'État",
+        "Non, mais le mariage religieux peut remplacer le mariage civil si les deux familles sont d'accord"
+      ]
+    },
+    {
+      "id": 740,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la Sécurité sociale en France ?",
+        "Quand la Sécurité sociale a-t-elle été créée ?",
+        "Que couvre la Sécurité sociale ?"
+      ],
+      "correctAnswers": ["Un système de protection sociale créé en 1945, couvrant la maladie, la maternité, les accidents du travail, la vieillesse et la famille"],
+      "wrongAnswers": [
+        "Une assurance privée obligatoire créée en 1958",
+        "Un service de police pour la sécurité des citoyens",
+        "Un système de retraite uniquement",
+        "Une mutuelle d'entreprise créée en 1936",
+        "Un organisme de charité géré par l'État",
+        "Un fonds d'indemnisation pour les accidents de la route"
+      ]
+    },
+    {
+      "id": 741,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quels sont les principaux jours fériés en France ?",
+        "Citez des jours fériés français.",
+        "Quels jours fériés commémorent des événements historiques en France ?"
+      ],
+      "correctAnswers": ["Le 1er janvier, le lundi de Pâques, le 1er mai, le 8 mai, l'Ascension, le 14 juillet, le 15 août, le 1er novembre, le 11 novembre, le 25 décembre"],
+      "wrongAnswers": [
+        "Le 1er janvier, le 14 février, le 1er mai et le 25 décembre uniquement",
+        "Le 1er janvier, le 8 mars, le 14 juillet et le 25 décembre",
+        "Uniquement le 14 juillet et le 25 décembre",
+        "Le 1er janvier, le 1er mai, le 14 juillet et le 11 novembre uniquement",
+        "Le 6 janvier, le 14 juillet, le 15 août et le 31 décembre",
+        "Le 1er mai, le 8 mai, le 14 juillet et le 2 novembre"
+      ]
+    },
+    {
+      "id": 742,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Que commémore le 1er mai en France ?",
+        "Pourquoi le 1er mai est-il un jour férié ?",
+        "Quelle est la signification du 1er mai ?"
+      ],
+      "correctAnswers": ["La fête du Travail, journée de célébration des droits des travailleurs"],
+      "wrongAnswers": [
+        "La fête nationale française",
+        "L'anniversaire de la Révolution française",
+        "La fête de la Victoire de 1945",
+        "La fête de la République",
+        "La fête des Mères",
+        "L'anniversaire de la création de la Sécurité sociale"
+      ]
+    },
+    {
+      "id": 743,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Comment le système de retraite fonctionne-t-il en France ?",
+        "Sur quel principe repose le système de retraite français ?",
+        "Qu'est-ce que le système de retraite par répartition ?"
+      ],
+      "correctAnswers": ["Un système par répartition où les cotisations des actifs financent les pensions des retraités actuels"],
+      "wrongAnswers": [
+        "Un système par capitalisation où chacun épargne pour sa propre retraite",
+        "Un système où l'État finance les retraites par l'impôt",
+        "Un système où les entreprises versent directement les pensions",
+        "Un système mixte où l'épargne individuelle est obligatoire",
+        "Un système où la retraite est financée par les investissements boursiers",
+        "Un système où seuls les fonctionnaires ont droit à une retraite"
+      ]
+    },
+    {
+      "id": 744,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le RSA ?",
+        "À quoi sert le Revenu de solidarité active ?",
+        "Qui peut bénéficier du RSA ?"
+      ],
+      "correctAnswers": ["Un revenu minimum garanti par l'État pour les personnes sans ressources ou à faibles revenus, sous certaines conditions"],
+      "wrongAnswers": [
+        "Un salaire versé par les entreprises aux stagiaires",
+        "Un revenu réservé aux retraités à faibles revenus",
+        "Un crédit d'impôt pour les familles nombreuses",
+        "Un complément de salaire obligatoire pour les apprentis",
+        "Une aide au logement pour les étudiants",
+        "Un fonds d'urgence pour les victimes de catastrophes naturelles"
+      ]
+    },
+    {
+      "id": 745,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le permis de conduire en France ?",
+        "À quel âge peut-on passer le permis de conduire ?",
+        "Comment obtient-on le permis de conduire en France ?"
+      ],
+      "correctAnswers": ["Un document officiel autorisant la conduite, obtenu après un examen théorique (code) et pratique, accessible dès 17 ans pour la conduite accompagnée"],
+      "wrongAnswers": [
+        "Un document que l'on peut acheter sans examen",
+        "Un permis délivré uniquement à partir de 21 ans",
+        "Un document délivré automatiquement à 18 ans",
+        "Un permis valable uniquement dans la région de résidence",
+        "Un document qui ne nécessite qu'un examen théorique",
+        "Un permis délivré par la préfecture sans examen"
+      ]
+    },
+    {
+      "id": 746,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la laïcité à l'hôpital public ?",
+        "Comment la laïcité s'applique-t-elle dans les services publics de santé ?",
+        "Un patient peut-il exiger un médecin d'un sexe particulier à l'hôpital public ?"
+      ],
+      "correctAnswers": ["Le personnel hospitalier est neutre en matière religieuse, et les patients ne peuvent pas refuser un soignant en raison de son sexe pour des motifs religieux"],
+      "wrongAnswers": [
+        "Les patients peuvent toujours choisir le sexe de leur médecin",
+        "Les signes religieux sont autorisés pour le personnel hospitalier",
+        "Chaque hôpital dispose d'une salle de prière obligatoire",
+        "Les patients peuvent imposer leurs règles alimentaires religieuses",
+        "Le personnel peut porter des signes religieux visibles",
+        "Les hôpitaux publics proposent des menus halal et casher obligatoirement"
+      ]
+    },
+    {
+      "id": 747,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est le rôle de l'Académie française ?",
+        "À quoi sert l'Académie française ?",
+        "Qu'est-ce que l'Académie française ?"
+      ],
+      "correctAnswers": ["Une institution chargée de veiller sur la langue française, de définir son usage et de rédiger le Dictionnaire"],
+      "wrongAnswers": [
+        "Un organisme de recherche scientifique",
+        "Un tribunal pour les litiges linguistiques",
+        "Une école de formation pour les professeurs de français",
+        "Un ministère chargé de la culture",
+        "Un centre d'examen pour les diplômes de français",
+        "Une association de traducteurs officiels"
+      ]
+    },
+    {
+      "id": 748,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le patrimoine culturel français ?",
+        "Comment la France protège-t-elle son patrimoine culturel ?",
+        "Citez des éléments du patrimoine culturel français."
+      ],
+      "correctAnswers": ["L'ensemble des monuments, œuvres d'art, traditions et savoir-faire hérités de l'histoire (châteaux, cathédrales, musées, gastronomie, etc.)"],
+      "wrongAnswers": [
+        "Uniquement les châteaux de la Loire",
+        "Les biens immobiliers appartenant à l'État",
+        "Les monuments construits au XXe siècle uniquement",
+        "Les parcs naturels et les forêts nationales",
+        "Les entreprises nationales et les marques françaises",
+        "Les stades et les équipements sportifs"
+      ]
+    },
+    {
+      "id": 749,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que les Journées du Patrimoine ?",
+        "Quand ont lieu les Journées européennes du patrimoine ?",
+        "À quoi servent les Journées du Patrimoine ?"
+      ],
+      "correctAnswers": ["Un événement annuel en septembre où les monuments et institutions ouvrent gratuitement leurs portes au public"],
+      "wrongAnswers": [
+        "Un festival de musique organisé en juillet",
+        "Un événement sportif national en mai",
+        "Une fête religieuse célébrée en décembre",
+        "Une semaine de promotion du tourisme en août",
+        "Un salon de l'immobilier en octobre",
+        "Un festival de cinéma en novembre"
+      ]
+    },
+    {
+      "id": 750,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel musée est le plus visité en France ?",
+        "Quel est le plus célèbre musée français ?",
+        "Où se trouve le musée le plus visité du monde ?"
+      ],
+      "correctAnswers": ["Le musée du Louvre, à Paris"],
+      "wrongAnswers": [
+        "Le musée d'Orsay, à Paris",
+        "Le château de Versailles",
+        "Le Centre Pompidou, à Paris",
+        "Le musée Picasso, à Paris",
+        "Le musée du Quai Branly, à Paris",
+        "Le Mucem, à Marseille"
+      ]
+    },
+    {
+      "id": 751,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qui est Victor Hugo ?",
+        "Pourquoi Victor Hugo est-il célèbre ?",
+        "Quel écrivain français du XIXe siècle a marqué la littérature et la politique ?"
+      ],
+      "correctAnswers": ["Un écrivain majeur du XIXe siècle, auteur des Misérables et de Notre-Dame de Paris, engagé pour la démocratie et contre la peine de mort"],
+      "wrongAnswers": [
+        "Un scientifique qui a découvert la radioactivité",
+        "Un philosophe des Lumières du XVIIIe siècle",
+        "Un peintre impressionniste célèbre",
+        "Un général de la Première Guerre mondiale",
+        "Un compositeur de musique classique",
+        "Un explorateur du Nouveau Monde"
+      ]
+    },
+    {
+      "id": 752,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qui sont Marie et Pierre Curie ?",
+        "Pourquoi les Curie sont-ils célèbres ?",
+        "Quelle découverte a rendu Marie Curie célèbre ?"
+      ],
+      "correctAnswers": ["Des physiciens qui ont découvert la radioactivité et le radium, Marie Curie étant la première femme à recevoir le prix Nobel"],
+      "wrongAnswers": [
+        "Des inventeurs de l'avion au début du XXe siècle",
+        "Des astronomes qui ont découvert une nouvelle planète",
+        "Des chimistes qui ont inventé le plastique",
+        "Des médecins qui ont découvert le vaccin contre la rage",
+        "Des ingénieurs qui ont construit la tour Eiffel",
+        "Des biologistes qui ont découvert l'ADN"
+      ]
+    },
+    {
+      "id": 753,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qui a construit la tour Eiffel et en quelle année ?",
+        "Pour quel événement la tour Eiffel a-t-elle été construite ?",
+        "Quand la tour Eiffel a-t-elle été inaugurée ?"
+      ],
+      "correctAnswers": ["Gustave Eiffel, pour l'Exposition universelle de 1889 à Paris"],
+      "wrongAnswers": [
+        "Napoléon Bonaparte en 1804",
+        "Baron Haussmann en 1870",
+        "Victor Hugo en 1885",
+        "Auguste Rodin en 1900",
+        "Le Corbusier en 1925",
+        "Jules Ferry en 1882"
+      ]
+    },
+    {
+      "id": 754,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est le sport le plus populaire en France ?",
+        "Quel sport rassemble le plus de spectateurs en France ?",
+        "Quel sport est le plus pratiqué et suivi en France ?"
+      ],
+      "correctAnswers": ["Le football"],
+      "wrongAnswers": [
+        "Le rugby",
+        "Le tennis",
+        "Le cyclisme",
+        "Le handball",
+        "Le basketball",
+        "La natation"
+      ]
+    },
+    {
+      "id": 755,
+      "theme": "Vie en société en France",
+      "questions": [
+        "La gastronomie française a-t-elle un statut particulier ?",
+        "La cuisine française est-elle reconnue internationalement ?",
+        "Quel honneur international la gastronomie française a-t-elle reçu ?"
+      ],
+      "correctAnswers": ["Oui, le repas gastronomique des Français est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2010"],
+      "wrongAnswers": [
+        "Non, la gastronomie n'a aucune reconnaissance officielle",
+        "Oui, elle est protégée par un brevet européen",
+        "Non, seule la cuisine italienne est reconnue par l'UNESCO",
+        "Oui, mais uniquement la pâtisserie française",
+        "Non, elle est reconnue uniquement au niveau national",
+        "Oui, elle est protégée par la Constitution française"
+      ]
+    },
+    {
+      "id": 756,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la francophonie ?",
+        "Que représente l'Organisation internationale de la Francophonie ?",
+        "Combien de personnes parlent français dans le monde ?"
+      ],
+      "correctAnswers": ["L'ensemble des pays et communautés partageant la langue française, regroupant plus de 300 millions de francophones dans le monde"],
+      "wrongAnswers": [
+        "Un mouvement politique pour l'indépendance des anciennes colonies",
+        "Un programme de cours de français réservé aux étrangers",
+        "Un accord commercial entre la France et ses anciennes colonies",
+        "Une organisation militaire francophone",
+        "Un festival de cinéma en langue française",
+        "Un programme d'échange universitaire en français"
+      ]
+    },
+    {
+      "id": 757,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quelle est la place de la France dans l'Union européenne ?",
+        "La France est-elle un membre important de l'UE ?",
+        "Quel rôle la France joue-t-elle dans l'Union européenne ?"
+      ],
+      "correctAnswers": ["La France est un des six membres fondateurs de l'UE, le plus grand pays par sa superficie, et un acteur majeur des politiques européennes"],
+      "wrongAnswers": [
+        "La France est un membre récent de l'UE, adhérant en 1995",
+        "La France est le plus petit pays de l'UE",
+        "La France a un rôle limité et n'a pas de commissaire européen",
+        "La France ne participe pas à l'espace Schengen",
+        "La France n'est pas dans la zone euro",
+        "La France est le pays le moins peuplé de l'UE"
+      ]
+    },
+    {
+      "id": 758,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce qu'une préfecture ?",
+        "Quel est le rôle de la préfecture ?",
+        "Pour quelles démarches se rend-on à la préfecture ?"
+      ],
+      "correctAnswers": ["Le siège de l'administration de l'État dans le département, où l'on effectue des démarches comme les titres de séjour, les permis de conduire et les cartes grises"],
+      "wrongAnswers": [
+        "Le siège du conseil départemental",
+        "Un tribunal pour les litiges administratifs",
+        "Un centre d'information touristique",
+        "Le bureau du député de la circonscription",
+        "Un centre de formation pour les fonctionnaires",
+        "Un centre médical géré par l'État"
+      ]
+    },
+    {
+      "id": 759,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que l'état civil en France ?",
+        "Quels événements sont enregistrés à l'état civil ?",
+        "Où sont enregistrés les actes d'état civil ?"
+      ],
+      "correctAnswers": ["Le service de la mairie qui enregistre les naissances, mariages, PACS et décès, et délivre les actes correspondants"],
+      "wrongAnswers": [
+        "Un registre tenu par les églises et les mosquées",
+        "Un fichier national géré par le ministère de l'Intérieur",
+        "Un service de la préfecture pour les étrangers uniquement",
+        "Un registre tenu par les hôpitaux",
+        "Un fichier géré par la Sécurité sociale",
+        "Un service du tribunal de grande instance"
+      ]
+    },
+    {
+      "id": 760,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le code de la route en France ?",
+        "Pourquoi le code de la route est-il important ?",
+        "Quelles sont les règles de base du code de la route ?"
+      ],
+      "correctAnswers": ["L'ensemble des règles régissant la circulation routière (limitation de vitesse, priorités, alcool au volant, port de la ceinture, etc.)"],
+      "wrongAnswers": [
+        "Un guide touristique pour les automobilistes",
+        "Un permis spécial pour conduire sur les autoroutes",
+        "Un document d'assurance pour les véhicules",
+        "Un contrat entre le conducteur et l'État",
+        "Un règlement applicable uniquement aux professionnels",
+        "Un code appliqué uniquement dans les grandes villes"
+      ]
+    },
+    {
+      "id": 761,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le système universitaire français ?",
+        "Comment fonctionne l'enseignement supérieur en France ?",
+        "Quels diplômes délivre l'université en France ?"
+      ],
+      "correctAnswers": ["Un système organisé en trois cycles : Licence (bac+3), Master (bac+5) et Doctorat (bac+8), appelé système LMD"],
+      "wrongAnswers": [
+        "Un système à deux niveaux : certificat et diplôme",
+        "Un système uniquement basé sur les grandes écoles",
+        "Un système où l'on obtient un diplôme unique après 4 ans",
+        "Un système à deux cycles : Bachelor et Master",
+        "Un système réservé aux étudiants français",
+        "Un système où seules les grandes écoles délivrent des diplômes"
+      ]
+    },
+    {
+      "id": 762,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que la mixité en France ?",
+        "Que signifie le principe de mixité dans la société française ?",
+        "Comment la mixité se traduit-elle dans la vie quotidienne en France ?"
+      ],
+      "correctAnswers": ["Le principe selon lequel hommes et femmes partagent les mêmes espaces (école, travail, transports) et ont les mêmes droits"],
+      "wrongAnswers": [
+        "L'obligation de mélanger les classes sociales dans les quartiers",
+        "Le regroupement obligatoire des personnes de même origine",
+        "La séparation des hommes et des femmes dans les transports",
+        "L'obligation de parler français dans tous les lieux publics",
+        "Le mélange obligatoire des religions dans les écoles",
+        "La séparation des élèves par niveau scolaire"
+      ]
+    },
+    {
+      "id": 763,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Que signifie le sceau de la République « Liberté, Égalité, Fraternité » sur les bâtiments publics ?",
+        "Pourquoi la devise de la République est-elle inscrite sur les bâtiments publics ?",
+        "Où peut-on voir la devise de la République ?"
+      ],
+      "correctAnswers": ["Elle rappelle les valeurs fondamentales de la République et le fait que le bâtiment est au service de tous les citoyens"],
+      "wrongAnswers": [
+        "Elle indique que le bâtiment appartient au président de la République",
+        "Elle signifie que le bâtiment est un lieu religieux républicain",
+        "Elle montre que le bâtiment est ouvert uniquement aux citoyens français",
+        "Elle indique que le bâtiment date de la Révolution française",
+        "Elle signifie que le bâtiment est protégé par l'armée",
+        "Elle prouve que le bâtiment a été construit par l'État"
+      ]
+    },
+    {
+      "id": 764,
+      "theme": "Vie en société en France",
+      "questions": [
+        "La France est-elle un pays centralisé ou décentralisé ?",
+        "Comment qualifier l'organisation administrative de la France ?",
+        "La France est-elle un État unitaire décentralisé ?"
+      ],
+      "correctAnswers": ["La France est un État unitaire décentralisé : le pouvoir central coexiste avec des collectivités territoriales dotées de compétences propres"],
+      "wrongAnswers": [
+        "La France est un État fédéral comme l'Allemagne",
+        "La France est un État entièrement centralisé sans autonomie locale",
+        "La France est un État confédéral",
+        "La France est divisée en États indépendants",
+        "Chaque région est totalement autonome de Paris",
+        "La France n'a aucune organisation administrative territoriale"
+      ]
+    },
+    {
+      "id": 765,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le 3939 (Allô Service Public) ?",
+        "Comment obtenir des informations administratives en France ?",
+        "Quel numéro appeler pour des renseignements administratifs ?"
+      ],
+      "correctAnswers": ["Un service téléphonique d'information administrative pour les démarches et les droits des usagers"],
+      "wrongAnswers": [
+        "Le numéro d'urgence de la police",
+        "Le numéro de la Sécurité sociale",
+        "Le service client de l'administration fiscale",
+        "Le numéro des pompiers",
+        "Le service de réclamation de la mairie de Paris",
+        "Le standard du palais de l'Élysée"
+      ]
+    },
+    {
+      "id": 766,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Comment fonctionne le tri des déchets en France ?",
+        "Le tri sélectif est-il obligatoire en France ?",
+        "Pourquoi doit-on trier ses déchets en France ?"
+      ],
+      "correctAnswers": ["Le tri sélectif est obligatoire : les déchets doivent être séparés (verre, emballages, papier, déchets organiques) pour permettre le recyclage"],
+      "wrongAnswers": [
+        "Le tri des déchets est facultatif en France",
+        "Seuls les professionnels doivent trier leurs déchets",
+        "Le tri des déchets concerne uniquement les entreprises",
+        "Les citoyens doivent apporter tous leurs déchets à la déchetterie",
+        "Le tri n'est obligatoire que dans les grandes villes",
+        "Tous les déchets sont mélangés et triés dans des usines"
+      ]
+    },
+    {
+      "id": 767,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le 1er décembre en matière de société ?",
+        "Quel événement est commémoré le 1er décembre en France ?",
+        "Quelle journée mondiale est célébrée le 1er décembre ?"
+      ],
+      "correctAnswers": ["La Journée mondiale de lutte contre le sida, occasion de sensibilisation en France"],
+      "wrongAnswers": [
+        "La journée de la laïcité",
+        "La fête nationale française",
+        "La journée des droits de l'homme",
+        "La journée de la femme",
+        "La journée du patrimoine",
+        "La journée de la langue française"
+      ]
+    },
+    {
+      "id": 768,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le 9 décembre en France ?",
+        "Que commémore-t-on le 9 décembre ?",
+        "Quelle journée est célébrée le 9 décembre en lien avec les valeurs républicaines ?"
+      ],
+      "correctAnswers": ["La journée de la laïcité, commémorant l'anniversaire de la loi de 1905 de séparation des Églises et de l'État"],
+      "wrongAnswers": [
+        "L'anniversaire de la Déclaration des droits de l'homme",
+        "La fête de la Constitution",
+        "L'anniversaire de l'abolition de l'esclavage",
+        "La journée de la fraternité",
+        "L'anniversaire du droit de vote des femmes",
+        "La journée nationale de la solidarité"
+      ]
+    },
+    {
+      "id": 769,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le service public de la justice en France ?",
+        "Comment fonctionne la justice en France ?",
+        "La justice est-elle gratuite en France ?"
+      ],
+      "correctAnswers": ["La justice est un service public gratuit (hors frais d'avocat) accessible à tous, rendue au nom du peuple français"],
+      "wrongAnswers": [
+        "La justice est payante pour tous les citoyens",
+        "La justice est gratuite uniquement pour les fonctionnaires",
+        "La justice est rendue par des juges élus par les citoyens",
+        "La justice est gérée par des entreprises privées",
+        "La justice est gratuite uniquement pour les mineurs",
+        "La justice est assurée par l'armée dans les cas graves"
+      ]
+    },
+    {
+      "id": 770,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Comment s'intégrer dans la société française en tant que nouveau citoyen ?",
+        "Quels conseils pour l'intégration d'un nouveau Français ?",
+        "Que recommande-t-on aux personnes naturalisées pour s'intégrer ?"
+      ],
+      "correctAnswers": ["Maîtriser la langue française, connaître ses droits et devoirs, participer à la vie locale (associations, élections) et respecter les valeurs républicaines"],
+      "wrongAnswers": [
+        "Se limiter à fréquenter sa communauté d'origine",
+        "Abandonner totalement sa culture d'origine",
+        "Adhérer obligatoirement à un parti politique",
+        "Se convertir à la religion majoritaire",
+        "Travailler uniquement dans la fonction publique",
+        "Vivre exclusivement dans les grandes villes"
+      ]
+    },
+    {
+      "id": 771,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que l'AME (Aide médicale de l'État) ?",
+        "Qui peut bénéficier de l'Aide médicale de l'État ?",
+        "Comment les étrangers en situation irrégulière accèdent-ils aux soins ?"
+      ],
+      "correctAnswers": ["Une couverture maladie gratuite pour les étrangers en situation irrégulière résidant en France depuis plus de 3 mois et ayant de faibles ressources"],
+      "wrongAnswers": [
+        "Une aide financière pour les médecins étrangers",
+        "Une assurance maladie pour les touristes étrangers",
+        "Un programme médical réservé aux demandeurs d'asile",
+        "Une aide pour les Français expatriés malades à l'étranger",
+        "Un fonds d'urgence pour les hôpitaux publics",
+        "Une aide pour les étudiants étrangers en France"
+      ]
+    },
+    {
+      "id": 772,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Quel est le rôle des associations en France ?",
+        "Pourquoi les associations sont-elles importantes dans la société française ?",
+        "Comment les associations contribuent-elles à la vie sociale ?"
+      ],
+      "correctAnswers": ["Les associations jouent un rôle essentiel dans la vie sociale, culturelle et sportive, et permettent aux citoyens de s'engager dans la vie collective"],
+      "wrongAnswers": [
+        "Les associations sont des entreprises à but lucratif",
+        "Les associations remplacent les services publics",
+        "Les associations sont gérées uniquement par l'État",
+        "Les associations sont réservées aux Français de naissance",
+        "Les associations n'ont aucune reconnaissance légale",
+        "Les associations sont interdites dans certaines communes"
+      ]
+    },
+    {
+      "id": 773,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Qu'est-ce que le recensement de la population en France ?",
+        "Pourquoi le recensement est-il organisé en France ?",
+        "Est-il obligatoire de répondre au recensement ?"
+      ],
+      "correctAnswers": ["Une enquête obligatoire organisée par l'INSEE pour compter la population et connaître ses caractéristiques, servant à adapter les services publics"],
+      "wrongAnswers": [
+        "Un contrôle d'identité organisé par la police",
+        "Un sondage facultatif réalisé par les mairies",
+        "Un examen médical obligatoire pour tous les résidents",
+        "Un registre des propriétaires immobiliers",
+        "Un fichier des contribuables géré par les impôts",
+        "Un inventaire des véhicules immatriculés en France"
+      ]
+    },
+    {
+      "id": 774,
+      "theme": "Vie en société en France",
+      "questions": [
+        "Comment le candidat à la naturalisation peut-il prouver son intégration dans la société française ?",
+        "Quels éléments démontrent l'intégration d'un candidat à la naturalisation ?",
+        "Sur quels critères l'intégration est-elle évaluée lors d'une demande de naturalisation ?"
+      ],
+      "correctAnswers": ["Par la maîtrise de la langue française (B1), la connaissance des valeurs républicaines, l'insertion professionnelle, la scolarisation des enfants et la participation à la vie locale"],
+      "wrongAnswers": [
+        "Uniquement par la durée de résidence en France",
+        "Uniquement par la possession d'un bien immobilier",
+        "Par l'adhésion à un parti politique français",
+        "Uniquement par le paiement de ses impôts",
+        "Par la conversion à une religion pratiquée en France",
+        "Uniquement par le fait d'avoir des enfants nés en France"
+      ]
+    }
+  ]
+}

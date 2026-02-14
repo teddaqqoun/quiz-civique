@@ -1,0 +1,994 @@
+{
+  "questions": [
+    {
+      "id": 500,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle est la devise de la République française ?",
+        "Quels sont les trois mots de la devise nationale ?",
+        "Comment se formule la devise de la France ?"
+      ],
+      "correctAnswers": ["Liberté, Égalité, Fraternité"],
+      "wrongAnswers": [
+        "Liberté, Justice, Fraternité",
+        "Liberté, Égalité, Solidarité",
+        "Honneur, Patrie, Liberté",
+        "Justice, Égalité, Fraternité",
+        "Liberté, Égalité, Dignité",
+        "Paix, Égalité, Fraternité"
+      ]
+    },
+    {
+      "id": 501,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel article de la Constitution définit la France comme une République indivisible, laïque, démocratique et sociale ?",
+        "Dans quel article de la Constitution sont énoncés les caractères fondamentaux de la République ?",
+        "Où trouve-t-on la définition officielle de la République française comme indivisible, laïque, démocratique et sociale ?"
+      ],
+      "correctAnswers": ["L'article premier de la Constitution"],
+      "wrongAnswers": [
+        "Le préambule de la Constitution",
+        "L'article 2 de la Constitution",
+        "L'article 3 de la Constitution",
+        "L'article 5 de la Constitution",
+        "La Déclaration des droits de l'homme et du citoyen",
+        "Le Code civil"
+      ]
+    },
+    {
+      "id": 502,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le principe de laïcité en France ?",
+        "En quoi consiste la laïcité dans la République française ?",
+        "Comment définir le principe de laïcité ?"
+      ],
+      "correctAnswers": ["La séparation des Églises et de l'État et la neutralité de l'État envers les religions"],
+      "wrongAnswers": [
+        "L'interdiction de toutes les religions sur le territoire français",
+        "L'obligation pour tous les citoyens d'être athées",
+        "Le soutien financier de l'État à toutes les religions",
+        "La reconnaissance d'une religion officielle d'État",
+        "L'interdiction de pratiquer sa religion en public",
+        "Le contrôle des religions par le gouvernement"
+      ]
+    },
+    {
+      "id": 503,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle loi a instauré la séparation des Églises et de l'État ?",
+        "En quelle année a été votée la loi de séparation des Églises et de l'État ?",
+        "Quand la séparation des Églises et de l'État a-t-elle été établie par la loi ?"
+      ],
+      "correctAnswers": ["La loi du 9 décembre 1905"],
+      "wrongAnswers": [
+        "La loi du 14 juillet 1789",
+        "La loi du 21 mars 1884",
+        "La loi du 28 mars 1882",
+        "La loi du 1er juillet 1901",
+        "La loi du 5 octobre 1958",
+        "La loi du 11 octobre 2010"
+      ]
+    },
+    {
+      "id": 504,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le caractère « indivisible » de la République ?",
+        "Pourquoi dit-on que la République française est indivisible ?",
+        "En quoi consiste l'indivisibilité de la République ?"
+      ],
+      "correctAnswers": ["La loi s'applique de manière uniforme sur tout le territoire et pour tous les citoyens"],
+      "wrongAnswers": [
+        "Le territoire français ne peut pas être divisé en régions",
+        "La France ne peut pas avoir de territoires d'outre-mer",
+        "Les régions ne peuvent pas avoir de compétences propres",
+        "Il est interdit de créer des partis politiques régionalistes",
+        "Aucune région ne peut avoir sa propre langue officielle",
+        "Le président ne peut pas déléguer ses pouvoirs"
+      ]
+    },
+    {
+      "id": 505,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que garantit le principe d'égalité devant la loi ?",
+        "En quoi consiste l'égalité devant la loi en France ?",
+        "Que signifie l'égalité de tous les citoyens devant la loi ?"
+      ],
+      "correctAnswers": ["Tous les citoyens sont traités de la même façon par la loi, sans distinction d'origine, de race ou de religion"],
+      "wrongAnswers": [
+        "Tous les citoyens doivent avoir le même salaire",
+        "Tous les citoyens doivent payer le même montant d'impôts",
+        "Tous les citoyens doivent avoir le même niveau d'éducation",
+        "Tous les citoyens doivent habiter dans le même type de logement",
+        "Tous les citoyens doivent exercer la même profession",
+        "Tous les citoyens doivent avoir le même patrimoine"
+      ]
+    },
+    {
+      "id": 506,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie la fraternité dans la devise républicaine ?",
+        "Comment comprendre le principe de fraternité ?",
+        "En quoi consiste la fraternité républicaine ?"
+      ],
+      "correctAnswers": ["La solidarité entre les citoyens et l'entraide mutuelle"],
+      "wrongAnswers": [
+        "L'obligation d'appartenir à une même famille",
+        "Le devoir de se marier entre citoyens français",
+        "L'interdiction de critiquer les autres citoyens",
+        "L'obligation de partager ses biens avec ses voisins",
+        "Le devoir de défendre militairement son voisin",
+        "L'obligation de pratiquer la même religion que ses concitoyens"
+      ]
+    },
+    {
+      "id": 507,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la souveraineté nationale ?",
+        "D'où provient la souveraineté dans la République française ?",
+        "À qui appartient la souveraineté nationale en France ?"
+      ],
+      "correctAnswers": ["La souveraineté appartient au peuple qui l'exerce par ses représentants et par le référendum"],
+      "wrongAnswers": [
+        "La souveraineté appartient au président de la République",
+        "La souveraineté appartient au gouvernement",
+        "La souveraineté appartient au Parlement exclusivement",
+        "La souveraineté appartient à l'Union européenne",
+        "La souveraineté appartient aux juges constitutionnels",
+        "La souveraineté appartient aux partis politiques"
+      ]
+    },
+    {
+      "id": 508,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le suffrage universel ?",
+        "Comment définir le suffrage universel ?",
+        "En quoi consiste le suffrage universel en France ?"
+      ],
+      "correctAnswers": ["Le droit de vote accordé à tous les citoyens majeurs, sans distinction"],
+      "wrongAnswers": [
+        "Le droit de vote réservé aux hommes de plus de 21 ans",
+        "Le droit de vote réservé aux propriétaires fonciers",
+        "Le droit de vote réservé aux personnes ayant un diplôme",
+        "Le droit de vote réservé aux contribuables",
+        "Le droit de vote réservé aux personnes de nationalité française depuis la naissance",
+        "Le droit de vote réservé aux résidents d'une commune depuis plus de 5 ans"
+      ]
+    },
+    {
+      "id": 509,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Depuis quand les femmes ont-elles le droit de vote en France ?",
+        "En quelle année le droit de vote a-t-il été accordé aux femmes en France ?",
+        "Quand les femmes françaises ont-elles obtenu le droit de vote ?"
+      ],
+      "correctAnswers": ["1944"],
+      "wrongAnswers": [
+        "1789",
+        "1848",
+        "1905",
+        "1936",
+        "1958",
+        "1968"
+      ]
+    },
+    {
+      "id": 510,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le principe fondamental du régime démocratique français ?",
+        "Sur quel principe repose la démocratie en France ?",
+        "Qu'est-ce qui caractérise fondamentalement la démocratie française ?"
+      ],
+      "correctAnswers": ["Le gouvernement du peuple, par le peuple et pour le peuple"],
+      "wrongAnswers": [
+        "Le gouvernement par une élite éclairée",
+        "Le gouvernement par les plus riches",
+        "Le gouvernement par les experts techniques",
+        "Le gouvernement par les partis politiques",
+        "Le gouvernement par l'administration publique",
+        "Le gouvernement par les militaires"
+      ]
+    },
+    {
+      "id": 511,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que garantit la liberté de conscience en France ?",
+        "En quoi consiste la liberté de conscience ?",
+        "Que permet la liberté de conscience dans la République ?"
+      ],
+      "correctAnswers": ["Le droit de croire ou de ne pas croire en une religion"],
+      "wrongAnswers": [
+        "Le droit de pratiquer uniquement les religions reconnues par l'État",
+        "L'obligation de déclarer sa religion à l'état civil",
+        "Le droit d'imposer sa religion aux autres",
+        "L'obligation de choisir une religion avant 18 ans",
+        "Le droit de créer sa propre religion officielle",
+        "L'obligation de pratiquer une religion"
+      ]
+    },
+    {
+      "id": 512,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le caractère « social » de la République française ?",
+        "Pourquoi dit-on que la République est sociale ?",
+        "En quoi la République française est-elle sociale ?"
+      ],
+      "correctAnswers": ["L'État garantit la protection sociale et la solidarité envers les plus vulnérables"],
+      "wrongAnswers": [
+        "L'État organise des événements sociaux pour les citoyens",
+        "Les citoyens sont obligés de participer à la vie associative",
+        "L'État gère tous les réseaux sociaux",
+        "Les citoyens doivent contribuer bénévolement à des œuvres caritatives",
+        "L'État impose un modèle social unique à tous",
+        "Les entreprises sont toutes contrôlées par l'État"
+      ]
+    },
+    {
+      "id": 513,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que l'État de droit ?",
+        "Comment définir l'État de droit en France ?",
+        "En quoi consiste le principe de l'État de droit ?"
+      ],
+      "correctAnswers": ["Un système où toutes les personnes, y compris l'État, sont soumises au droit"],
+      "wrongAnswers": [
+        "Un système où seuls les citoyens doivent respecter la loi",
+        "Un système où le président est au-dessus des lois",
+        "Un système où les juges créent les lois",
+        "Un système où le droit ne s'applique qu'aux étrangers",
+        "Un système où les lois sont décidées par référendum uniquement",
+        "Un système où l'armée fait respecter la loi"
+      ]
+    },
+    {
+      "id": 514,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le pluralisme politique ?",
+        "En quoi consiste le pluralisme politique en France ?",
+        "Comment se manifeste le pluralisme politique dans la République ?"
+      ],
+      "correctAnswers": ["L'existence et la libre activité de plusieurs partis politiques"],
+      "wrongAnswers": [
+        "L'obligation pour chaque citoyen d'adhérer à un parti",
+        "La limitation du nombre de partis politiques à trois",
+        "L'interdiction des partis d'opposition",
+        "L'obligation pour le gouvernement d'inclure tous les partis",
+        "Le droit pour un seul parti de gouverner en permanence",
+        "L'interdiction de créer de nouveaux partis politiques"
+      ]
+    },
+    {
+      "id": 515,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel texte fondateur proclame que les hommes naissent et demeurent libres et égaux en droits ?",
+        "D'où vient la phrase « Les hommes naissent et demeurent libres et égaux en droits » ?",
+        "Quel document historique affirme l'égalité en droits de tous les êtres humains dès la naissance ?"
+      ],
+      "correctAnswers": ["La Déclaration des droits de l'homme et du citoyen de 1789"],
+      "wrongAnswers": [
+        "La Constitution de 1958",
+        "Le Code civil de 1804",
+        "Le préambule de la Constitution de 1946",
+        "La Charte de l'environnement de 2004",
+        "Le traité de Maastricht de 1992",
+        "La loi de séparation des Églises et de l'État de 1905"
+      ]
+    },
+    {
+      "id": 516,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie la liberté d'association en France ?",
+        "En quoi consiste le droit d'association ?",
+        "Que permet la liberté d'association dans la République ?"
+      ],
+      "correctAnswers": ["Le droit de créer ou de rejoindre librement une association"],
+      "wrongAnswers": [
+        "L'obligation d'adhérer à au moins une association",
+        "Le droit de créer une association uniquement avec l'accord du préfet",
+        "Le droit de créer une association réservé aux citoyens français",
+        "L'obligation pour les associations d'être affiliées à un parti politique",
+        "Le droit de créer une association uniquement à but lucratif",
+        "L'interdiction de créer des associations religieuses"
+      ]
+    },
+    {
+      "id": 517,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle loi régit le droit d'association en France ?",
+        "Sur quelle loi repose la liberté d'association ?",
+        "Quel texte législatif encadre les associations en France ?"
+      ],
+      "correctAnswers": ["La loi du 1er juillet 1901"],
+      "wrongAnswers": [
+        "La loi du 9 décembre 1905",
+        "La loi du 28 mars 1882",
+        "La loi du 29 juillet 1881",
+        "La loi du 21 mars 1884",
+        "La loi du 5 octobre 1958",
+        "La loi du 13 juillet 1983"
+      ]
+    },
+    {
+      "id": 518,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie la liberté syndicale en France ?",
+        "En quoi consiste le droit syndical ?",
+        "Que permet la liberté syndicale aux travailleurs ?"
+      ],
+      "correctAnswers": ["Le droit de créer un syndicat ou d'y adhérer librement pour défendre ses intérêts professionnels"],
+      "wrongAnswers": [
+        "L'obligation d'adhérer à un syndicat pour travailler",
+        "Le droit de faire grève sans aucune condition",
+        "L'obligation pour l'employeur de financer les syndicats",
+        "Le droit de bloquer les entreprises indéfiniment",
+        "L'obligation pour chaque entreprise d'avoir un syndicat",
+        "Le droit de créer un syndicat uniquement dans le secteur public"
+      ]
+    },
+    {
+      "id": 519,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que garantit le droit d'asile en France ?",
+        "En quoi consiste le droit d'asile dans la République ?",
+        "Que permet le droit d'asile ?"
+      ],
+      "correctAnswers": ["La protection accordée à toute personne persécutée dans son pays en raison de son action en faveur de la liberté"],
+      "wrongAnswers": [
+        "Le droit pour tout étranger de s'installer librement en France",
+        "L'obtention automatique de la nationalité française",
+        "Le droit à un logement gratuit pour tout demandeur d'asile",
+        "L'exemption de toutes les lois françaises pour les réfugiés",
+        "Le droit de vote pour les demandeurs d'asile",
+        "Le droit de travailler immédiatement sans autorisation"
+      ]
+    },
+    {
+      "id": 520,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel principe interdit toute discrimination fondée sur le sexe en France ?",
+        "Sur quel fondement repose l'interdiction de la discrimination entre les sexes ?",
+        "Quel principe républicain garantit l'égalité entre les hommes et les femmes ?"
+      ],
+      "correctAnswers": ["Le principe d'égalité entre les femmes et les hommes"],
+      "wrongAnswers": [
+        "Le principe de laïcité",
+        "Le principe de fraternité",
+        "Le principe de solidarité nationale",
+        "Le principe de liberté individuelle",
+        "Le principe d'indivisibilité de la République",
+        "Le principe de souveraineté nationale"
+      ]
+    },
+    {
+      "id": 521,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle est la langue officielle de la République française ?",
+        "Quelle langue a un statut officiel dans la Constitution française ?",
+        "Quelle langue est constitutionnellement la langue de la République ?"
+      ],
+      "correctAnswers": ["Le français"],
+      "wrongAnswers": [
+        "Le français et l'anglais",
+        "Le français et les langues régionales",
+        "Le français, l'allemand et l'italien",
+        "Il n'y a pas de langue officielle",
+        "Le français et l'arabe",
+        "Le français et l'espagnol"
+      ]
+    },
+    {
+      "id": 522,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Pourquoi la maîtrise de la langue française est-elle importante pour la naturalisation ?",
+        "Quel rôle joue la connaissance du français dans le processus de naturalisation ?",
+        "En quoi la langue française est-elle essentielle pour devenir citoyen français ?"
+      ],
+      "correctAnswers": ["Elle est une condition obligatoire pour obtenir la nationalité française et permet l'intégration dans la société"],
+      "wrongAnswers": [
+        "Elle n'est pas nécessaire si le candidat parle anglais",
+        "Elle est uniquement recommandée mais pas obligatoire",
+        "Elle est requise uniquement pour les candidats non européens",
+        "Elle est nécessaire uniquement pour les candidats de plus de 50 ans",
+        "Elle est exigée uniquement pour les emplois dans la fonction publique",
+        "Elle est facultative si le candidat est marié à un Français"
+      ]
+    },
+    {
+      "id": 523,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le niveau minimum de français requis pour une demande de naturalisation ?",
+        "Quel niveau de langue française faut-il atteindre pour obtenir la nationalité par naturalisation ?",
+        "À quel niveau du CECRL faut-il maîtriser le français pour être naturalisé ?"
+      ],
+      "correctAnswers": ["Le niveau B1 oral et écrit"],
+      "wrongAnswers": [
+        "Le niveau A1 oral uniquement",
+        "Le niveau A2 oral et écrit",
+        "Le niveau B2 oral et écrit",
+        "Le niveau C1 oral et écrit",
+        "Le niveau A2 oral uniquement",
+        "Aucun niveau n'est requis"
+      ]
+    },
+    {
+      "id": 524,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la Charte des droits et devoirs du citoyen français ?",
+        "Quel document doit signer le candidat à la naturalisation ?",
+        "Que contient la Charte des droits et devoirs du citoyen français ?"
+      ],
+      "correctAnswers": ["Un document que le candidat à la naturalisation doit signer, rappelant les principes, valeurs et symboles de la République"],
+      "wrongAnswers": [
+        "Un examen écrit obligatoire sur l'histoire de France",
+        "Un contrat de travail spécifique pour les nouveaux citoyens",
+        "Un document bancaire attestant de revenus suffisants",
+        "Un certificat médical obligatoire",
+        "Un serment militaire de défense de la patrie",
+        "Un engagement à voter à toutes les élections"
+      ]
+    },
+    {
+      "id": 525,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le principe de non-discrimination ?",
+        "En quoi consiste l'interdiction de la discrimination en France ?",
+        "Comment se traduit le principe de non-discrimination dans la loi française ?"
+      ],
+      "correctAnswers": ["L'interdiction de traiter différemment une personne en raison de son origine, sexe, religion, handicap ou orientation sexuelle"],
+      "wrongAnswers": [
+        "L'obligation de traiter tout le monde exactement de la même manière, sans exception",
+        "L'interdiction de reconnaître les différences culturelles",
+        "L'obligation d'ignorer le handicap dans l'accès à l'emploi",
+        "L'interdiction de tout critère de sélection dans le recrutement",
+        "L'obligation de recruter des quotas de chaque minorité",
+        "L'interdiction de toute distinction entre citoyens et étrangers"
+      ]
+    },
+    {
+      "id": 526,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel organisme est chargé de lutter contre les discriminations en France ?",
+        "Quelle institution défend les droits des personnes victimes de discrimination ?",
+        "À qui peut-on s'adresser en cas de discrimination en France ?"
+      ],
+      "correctAnswers": ["Le Défenseur des droits"],
+      "wrongAnswers": [
+        "Le Conseil constitutionnel",
+        "Le Conseil d'État",
+        "Le procureur de la République",
+        "Le préfet de région",
+        "Le Médiateur national de l'énergie",
+        "La Cour des comptes"
+      ]
+    },
+    {
+      "id": 527,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le contrat d'intégration républicaine (CIR) ?",
+        "Quel dispositif accompagne l'intégration des étrangers en France ?",
+        "En quoi consiste le contrat d'intégration républicaine ?"
+      ],
+      "correctAnswers": ["Un contrat signé par les étrangers primo-arrivants qui comprend des formations civique et linguistique"],
+      "wrongAnswers": [
+        "Un contrat de travail obligatoire dans une entreprise française",
+        "Un engagement militaire de deux ans",
+        "Un document autorisant le séjour permanent en France",
+        "Un contrat de location de logement social",
+        "Un accord de remboursement des frais de visa",
+        "Un engagement à quitter la France après cinq ans"
+      ]
+    },
+    {
+      "id": 528,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que garantit la liberté de la presse en France ?",
+        "En quoi consiste la liberté de la presse ?",
+        "Quel droit protège les médias en France ?"
+      ],
+      "correctAnswers": ["Le droit pour les médias de publier des informations librement, dans le respect de la loi"],
+      "wrongAnswers": [
+        "Le droit de publier n'importe quelle information sans restriction",
+        "L'obligation pour l'État de financer tous les journaux",
+        "Le droit de diffamer des personnalités publiques",
+        "L'interdiction pour l'État de communiquer avec les médias",
+        "Le droit de publier des fausses informations volontairement",
+        "L'obligation pour chaque citoyen de s'abonner à un journal"
+      ]
+    },
+    {
+      "id": 529,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quelle loi garantit la liberté de la presse en France ?",
+        "Quel texte législatif protège la liberté de la presse ?",
+        "Sur quelle loi fondamentale repose la liberté de la presse en France ?"
+      ],
+      "correctAnswers": ["La loi du 29 juillet 1881"],
+      "wrongAnswers": [
+        "La loi du 9 décembre 1905",
+        "La loi du 1er juillet 1901",
+        "La loi du 28 mars 1882",
+        "La loi du 4 août 1789",
+        "La loi du 5 octobre 1958",
+        "La loi du 21 mars 1884"
+      ]
+    },
+    {
+      "id": 530,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quels sont les principes fondamentaux du service public en France ?",
+        "Sur quels grands principes repose le service public français ?",
+        "Quelles règles régissent le fonctionnement du service public ?"
+      ],
+      "correctAnswers": ["La continuité, l'égalité et l'adaptabilité (ou mutabilité)"],
+      "wrongAnswers": [
+        "La rentabilité, la performance et la compétitivité",
+        "La gratuité, la rapidité et l'universalité",
+        "La privatisation, la modernisation et la numérisation",
+        "La décentralisation, la régionalisation et la localisation",
+        "La sécurité, la défense et la souveraineté",
+        "L'innovation, l'efficacité et la productivité"
+      ]
+    },
+    {
+      "id": 531,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le rôle du Défenseur des droits ?",
+        "Quelle est la mission principale du Défenseur des droits ?",
+        "À quoi sert l'institution du Défenseur des droits ?"
+      ],
+      "correctAnswers": ["Défendre les droits et libertés des citoyens face à l'administration et lutter contre les discriminations"],
+      "wrongAnswers": [
+        "Juger les litiges entre particuliers",
+        "Rédiger les lois au Parlement",
+        "Diriger les forces de l'ordre",
+        "Gérer le budget de l'État",
+        "Nommer les ministres du gouvernement",
+        "Contrôler les impôts des citoyens"
+      ]
+    },
+    {
+      "id": 532,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la séparation des pouvoirs ?",
+        "En quoi consiste le principe de séparation des pouvoirs ?",
+        "Comment fonctionne la séparation des pouvoirs en France ?"
+      ],
+      "correctAnswers": ["La distinction entre le pouvoir législatif, le pouvoir exécutif et le pouvoir judiciaire"],
+      "wrongAnswers": [
+        "La distinction entre le pouvoir central et le pouvoir local",
+        "La distinction entre le pouvoir civil et le pouvoir militaire",
+        "La distinction entre le pouvoir religieux et le pouvoir laïc",
+        "La distinction entre le pouvoir national et le pouvoir européen",
+        "La distinction entre le pouvoir public et le pouvoir privé",
+        "La distinction entre le pouvoir économique et le pouvoir politique"
+      ]
+    },
+    {
+      "id": 533,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel philosophe a théorisé la séparation des pouvoirs ?",
+        "Qui a formulé le principe de séparation des pouvoirs ?",
+        "De quel penseur français vient la théorie de la séparation des pouvoirs ?"
+      ],
+      "correctAnswers": ["Montesquieu"],
+      "wrongAnswers": [
+        "Jean-Jacques Rousseau",
+        "Voltaire",
+        "Denis Diderot",
+        "René Descartes",
+        "Blaise Pascal",
+        "Alexis de Tocqueville"
+      ]
+    },
+    {
+      "id": 534,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le droit à la dignité humaine ?",
+        "En quoi consiste le principe de dignité humaine ?",
+        "Comment se traduit le respect de la dignité humaine en droit français ?"
+      ],
+      "correctAnswers": ["L'interdiction de tout traitement inhumain ou dégradant envers toute personne"],
+      "wrongAnswers": [
+        "Le droit à un salaire minimum pour tous les travailleurs",
+        "Le droit à un logement de luxe pour chaque citoyen",
+        "L'obligation de respecter les traditions culturelles de chacun",
+        "Le droit à un travail garanti par l'État",
+        "L'obligation de traiter les citoyens et les étrangers différemment",
+        "Le droit de ne pas être soumis à l'impôt"
+      ]
+    },
+    {
+      "id": 535,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'interdit la loi française en matière de propos publics ?",
+        "Quels types de propos sont sanctionnés par la loi en France ?",
+        "Quelles expressions sont interdites dans l'espace public en France ?"
+      ],
+      "correctAnswers": ["Les propos racistes, antisémites, discriminatoires et l'incitation à la haine"],
+      "wrongAnswers": [
+        "Les critiques du gouvernement",
+        "Les opinions politiques minoritaires",
+        "Les discours religieux dans les lieux de culte",
+        "Les débats philosophiques sur les valeurs républicaines",
+        "Les commentaires humoristiques sur la vie politique",
+        "Les discussions sur les résultats des élections"
+      ]
+    },
+    {
+      "id": 536,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le principe de précaution inscrit dans la Constitution ?",
+        "En quoi consiste le principe de précaution ?",
+        "Comment la Charte de l'environnement définit-elle le principe de précaution ?"
+      ],
+      "correctAnswers": ["L'obligation pour les autorités publiques de prévenir les risques environnementaux même en l'absence de certitude scientifique"],
+      "wrongAnswers": [
+        "L'interdiction de toute activité industrielle polluante",
+        "L'obligation pour les citoyens de recycler tous leurs déchets",
+        "L'interdiction d'utiliser des véhicules à moteur thermique",
+        "L'obligation de construire uniquement des bâtiments écologiques",
+        "L'interdiction de l'énergie nucléaire sur le territoire",
+        "L'obligation de consommer uniquement des produits biologiques"
+      ]
+    },
+    {
+      "id": 537,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel texte de valeur constitutionnelle concerne l'environnement ?",
+        "Quel document intégré au bloc de constitutionnalité traite de l'environnement ?",
+        "Quel texte constitutionnel protège l'environnement en France ?"
+      ],
+      "correctAnswers": ["La Charte de l'environnement de 2004"],
+      "wrongAnswers": [
+        "La Déclaration des droits de l'homme et du citoyen de 1789",
+        "Le préambule de la Constitution de 1946",
+        "La loi du 9 décembre 1905",
+        "Le Code de l'environnement de 2000",
+        "Le traité de Paris de 2015 sur le climat",
+        "La Convention européenne des droits de l'homme"
+      ]
+    },
+    {
+      "id": 538,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le bloc de constitutionnalité ?",
+        "Quels textes composent le bloc de constitutionnalité en France ?",
+        "De quoi est constitué le bloc de constitutionnalité ?"
+      ],
+      "correctAnswers": ["L'ensemble des textes à valeur constitutionnelle : la Constitution de 1958, la DDHC de 1789, le préambule de 1946 et la Charte de l'environnement de 2004"],
+      "wrongAnswers": [
+        "Uniquement la Constitution de 1958",
+        "La Constitution et le Code civil",
+        "Les traités européens et la Constitution",
+        "La Constitution et les lois organiques",
+        "Les décrets du président et les lois du Parlement",
+        "Le Code pénal et le Code civil"
+      ]
+    },
+    {
+      "id": 539,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que proclame le préambule de la Constitution de 1946 ?",
+        "Quels droits sont affirmés dans le préambule de 1946 ?",
+        "Quels principes fondamentaux le préambule de 1946 reconnaît-il ?"
+      ],
+      "correctAnswers": ["Les droits économiques et sociaux : droit au travail, à la protection sociale, à l'éducation, droit syndical et droit de grève"],
+      "wrongAnswers": [
+        "Uniquement le droit de propriété",
+        "Uniquement les libertés individuelles",
+        "Les droits des entreprises et des employeurs",
+        "Les droits des collectivités territoriales",
+        "Les droits militaires et de défense nationale",
+        "Les droits commerciaux et douaniers"
+      ]
+    },
+    {
+      "id": 540,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "En France, quelle est la place de la religion dans les écoles publiques ?",
+        "Quel est le principe appliqué à la religion dans l'enseignement public ?",
+        "Comment la laïcité s'applique-t-elle dans les écoles publiques françaises ?"
+      ],
+      "correctAnswers": ["L'enseignement public est laïc : aucun enseignement religieux n'y est dispensé et les signes religieux ostensibles y sont interdits"],
+      "wrongAnswers": [
+        "Les cours de religion catholique sont obligatoires",
+        "Les élèves choisissent un cours de religion parmi les religions reconnues",
+        "Les signes religieux sont autorisés pour les enseignants mais pas pour les élèves",
+        "L'enseignement religieux est obligatoire en Alsace-Moselle uniquement",
+        "La religion est enseignée comme matière facultative dans toutes les écoles",
+        "Les écoles publiques organisent des prières interconfessionnelles"
+      ]
+    },
+    {
+      "id": 541,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que la polygamie en droit français ?",
+        "Quel est le statut de la polygamie en France ?",
+        "La polygamie est-elle autorisée en France ?"
+      ],
+      "correctAnswers": ["La polygamie est interdite par la loi française"],
+      "wrongAnswers": [
+        "Elle est autorisée si les conjoints sont d'accord",
+        "Elle est autorisée pour les ressortissants de pays où elle est légale",
+        "Elle est tolérée si le mariage a eu lieu à l'étranger",
+        "Elle est autorisée uniquement dans les territoires d'outre-mer",
+        "Elle est autorisée si un juge donne son accord",
+        "Elle est autorisée pour des raisons religieuses"
+      ]
+    },
+    {
+      "id": 542,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est l'âge minimum légal pour se marier en France ?",
+        "À partir de quel âge peut-on se marier en France ?",
+        "Quel âge faut-il avoir pour pouvoir se marier en droit français ?"
+      ],
+      "correctAnswers": ["18 ans"],
+      "wrongAnswers": [
+        "16 ans",
+        "15 ans",
+        "21 ans",
+        "17 ans",
+        "14 ans",
+        "20 ans"
+      ]
+    },
+    {
+      "id": 543,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Le mariage forcé est-il autorisé en France ?",
+        "Que dit la loi française sur le mariage forcé ?",
+        "Quel est le statut juridique du mariage forcé en France ?"
+      ],
+      "correctAnswers": ["Non, le mariage forcé est interdit et constitue un délit"],
+      "wrongAnswers": [
+        "Oui, s'il est conforme aux traditions familiales",
+        "Oui, si les parents des deux époux sont d'accord",
+        "Oui, si le mariage est célébré à l'étranger",
+        "Oui, si un juge l'autorise pour des raisons culturelles",
+        "Oui, si les époux ont plus de 21 ans",
+        "Oui, s'il est prévu par un contrat familial"
+      ]
+    },
+    {
+      "id": 544,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que l'adhésion aux valeurs de la République dans le cadre de la naturalisation ?",
+        "Que doit démontrer un candidat à la naturalisation concernant les valeurs républicaines ?",
+        "Pourquoi l'adhésion aux valeurs de la République est-elle vérifiée lors de la naturalisation ?"
+      ],
+      "correctAnswers": ["Le candidat doit montrer qu'il connaît et adhère aux principes et valeurs de la République comme la laïcité, l'égalité et la démocratie"],
+      "wrongAnswers": [
+        "Le candidat doit adhérer à un parti politique républicain",
+        "Le candidat doit renoncer à toute pratique religieuse",
+        "Le candidat doit prouver qu'il est athée",
+        "Le candidat doit abandonner sa culture d'origine",
+        "Le candidat doit s'engager dans l'armée française",
+        "Le candidat doit renoncer à sa nationalité d'origine"
+      ]
+    },
+    {
+      "id": 545,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le principe de tolérance dans la République ?",
+        "Comment la tolérance s'inscrit-elle dans les valeurs républicaines ?",
+        "En quoi la tolérance est-elle une valeur de la République française ?"
+      ],
+      "correctAnswers": ["Le respect des opinions, croyances et modes de vie d'autrui dans le cadre de la loi"],
+      "wrongAnswers": [
+        "L'acceptation de toutes les pratiques, même illégales",
+        "L'interdiction de critiquer les opinions des autres",
+        "L'obligation de partager les mêmes idées que ses voisins",
+        "Le renoncement à ses propres convictions",
+        "L'acceptation inconditionnelle de toutes les coutumes étrangères",
+        "L'interdiction de tout débat public sur les religions"
+      ]
+    },
+    {
+      "id": 546,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "En France, qu'est-ce que l'excision et les mutilations sexuelles féminines ?",
+        "Quel est le statut juridique de l'excision en France ?",
+        "Les mutilations sexuelles féminines sont-elles autorisées en France ?"
+      ],
+      "correctAnswers": ["Ce sont des crimes sévèrement punis par la loi française"],
+      "wrongAnswers": [
+        "Ce sont des pratiques tolérées si elles ont lieu à l'étranger",
+        "Ce sont des pratiques autorisées pour des raisons culturelles",
+        "Ce sont des pratiques encadrées par le ministère de la Santé",
+        "Ce sont des pratiques autorisées avec le consentement des parents",
+        "Ce sont des contraventions passibles d'une amende",
+        "Ce sont des pratiques non réglementées par la loi"
+      ]
+    },
+    {
+      "id": 547,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le principe de solidarité nationale ?",
+        "En quoi consiste la solidarité nationale en France ?",
+        "Comment se traduit le principe de solidarité nationale ?"
+      ],
+      "correctAnswers": ["La redistribution des richesses par l'impôt et les prestations sociales pour réduire les inégalités"],
+      "wrongAnswers": [
+        "L'obligation pour chaque citoyen de donner à des associations caritatives",
+        "Le versement d'un salaire identique à tous les travailleurs",
+        "L'obligation de prêter de l'argent à ses voisins",
+        "La distribution égale de tous les biens de l'État",
+        "L'obligation de travailler bénévolement un jour par semaine",
+        "Le partage obligatoire de son logement avec les sans-abri"
+      ]
+    },
+    {
+      "id": 548,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel principe permet à un candidat à la naturalisation de conserver sa religion ?",
+        "Pourquoi un étranger peut-il garder sa religion après sa naturalisation ?",
+        "Quel droit protège la pratique religieuse d'un nouveau citoyen français ?"
+      ],
+      "correctAnswers": ["La liberté de conscience et la laïcité, qui garantissent le libre exercice de toute religion"],
+      "wrongAnswers": [
+        "L'interdiction de changer de religion après naturalisation",
+        "L'obligation de pratiquer sa religion uniquement en privé",
+        "Le droit de pratiquer uniquement les religions reconnues par l'État",
+        "L'obligation de déclarer sa religion lors de la naturalisation",
+        "Le droit de pratiquer sa religion uniquement dans les lieux de culte agréés",
+        "L'obligation d'adopter la religion majoritaire du pays"
+      ]
+    },
+    {
+      "id": 549,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le principe républicain de méritocratie ?",
+        "Comment la méritocratie s'applique-t-elle en France ?",
+        "En quoi consiste le principe de méritocratie dans la République ?"
+      ],
+      "correctAnswers": ["L'accès aux emplois et aux fonctions publiques selon les capacités et le mérite de chacun, sans distinction de naissance"],
+      "wrongAnswers": [
+        "L'accès aux emplois publics réservé aux diplômés des grandes écoles",
+        "L'obligation de transmettre son métier à ses enfants",
+        "L'attribution des postes en fonction de l'ancienneté uniquement",
+        "L'accès aux fonctions publiques réservé aux Français de naissance",
+        "La distribution des emplois par tirage au sort",
+        "L'obligation de commencer par le poste le plus bas"
+      ]
+    },
+    {
+      "id": 550,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie le principe républicain « la République ne reconnaît aucune race » ?",
+        "Pourquoi la Constitution française ne reconnaît-elle aucune race ?",
+        "Comment comprendre l'affirmation que la République ne distingue aucune race ?"
+      ],
+      "correctAnswers": ["La loi s'applique à tous sans distinction d'origine, de couleur de peau ou d'appartenance ethnique"],
+      "wrongAnswers": [
+        "Les statistiques ethniques sont obligatoires en France",
+        "Les citoyens doivent déclarer leur origine ethnique",
+        "L'État reconnaît officiellement différents groupes raciaux",
+        "La France pratique la discrimination positive par quotas ethniques",
+        "Les administrations classent les citoyens par origine ethnique",
+        "Les lois varient selon l'origine ethnique des personnes"
+      ]
+    },
+    {
+      "id": 551,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Quel est le rôle de l'école dans la transmission des valeurs républicaines ?",
+        "Comment l'école contribue-t-elle aux valeurs de la République ?",
+        "En quoi l'école est-elle un pilier des valeurs républicaines ?"
+      ],
+      "correctAnswers": ["L'école transmet les savoirs et forme les futurs citoyens en enseignant la laïcité, l'égalité, la tolérance et l'esprit critique"],
+      "wrongAnswers": [
+        "L'école enseigne uniquement les matières scientifiques",
+        "L'école forme les élèves à un métier précis dès le primaire",
+        "L'école prépare les élèves uniquement aux examens",
+        "L'école enseigne une idéologie politique unique",
+        "L'école forme les élèves à obéir sans poser de questions",
+        "L'école enseigne uniquement l'histoire de France"
+      ]
+    },
+    {
+      "id": 552,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Que signifie la devise « E pluribus unum » pour la France ?",
+        "La France a-t-elle une conception communautariste de la société ?",
+        "Comment la France conçoit-elle l'unité dans la diversité ?"
+      ],
+      "correctAnswers": ["La France privilégie le modèle d'intégration républicain où chaque citoyen est un individu égal, au-delà de ses appartenances communautaires"],
+      "wrongAnswers": [
+        "La France reconnaît officiellement les communautés ethniques et religieuses",
+        "La France attribue des droits spécifiques à chaque communauté",
+        "La France impose une culture unique à tous ses habitants",
+        "La France interdit toute diversité culturelle sur son territoire",
+        "La France finance les organisations communautaires",
+        "La France applique le multiculturalisme à l'anglo-saxonne"
+      ]
+    },
+    {
+      "id": 553,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Qu'est-ce que le vote secret en France ?",
+        "Pourquoi le vote est-il secret dans les élections françaises ?",
+        "En quoi consiste le secret du vote ?"
+      ],
+      "correctAnswers": ["Le vote est confidentiel : personne ne peut connaître le choix d'un électeur, grâce à l'isoloir et l'enveloppe"],
+      "wrongAnswers": [
+        "Le vote est enregistré avec le nom de l'électeur",
+        "Le vote est public et affiché dans la mairie",
+        "Le vote est communiqué à l'employeur de l'électeur",
+        "Le vote est transmis au parti politique de l'électeur",
+        "Le vote est secret uniquement pour les élections présidentielles",
+        "Le vote secret n'existe plus depuis 2020"
+      ]
+    },
+    {
+      "id": 554,
+      "theme": "Principes et valeurs de la République",
+      "questions": [
+        "Pourquoi la cérémonie d'accueil dans la citoyenneté française est-elle organisée ?",
+        "Quel est le but de la cérémonie de naturalisation ?",
+        "Que célèbre la cérémonie d'accueil dans la citoyenneté française ?"
+      ],
+      "correctAnswers": ["Elle marque solennellement l'entrée du nouveau citoyen dans la communauté nationale et l'adhésion aux valeurs de la République"],
+      "wrongAnswers": [
+        "Elle est facultative et purement administrative",
+        "Elle a lieu uniquement pour les personnes mariées à un Français",
+        "Elle est organisée par l'ambassade du pays d'origine",
+        "Elle est une fête privée organisée par la famille",
+        "Elle a lieu avant la décision de naturalisation",
+        "Elle est réservée aux candidats de moins de 30 ans"
+      ]
+    }
+  ]
+}
