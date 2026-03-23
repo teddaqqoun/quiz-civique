@@ -1,0 +1,6 @@
+_worker.js
+schema.sql
+package.json
+package-lock.json
+wrangler.jsonc
+.gitignore
