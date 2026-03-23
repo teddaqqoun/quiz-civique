@@ -1385,3 +1385,235 @@ h2 {
     height: 1px;
     overflow: hidden;
 }
+
+/* ===================== */
+/* FEEDBACK & REPORTING  */
+/* ===================== */
+
+/* Overlay */
+.feedback-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-4);
+    animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Modal card */
+.feedback-modal {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    padding: var(--space-8);
+    width: 100%;
+    max-width: 440px;
+    position: relative;
+    animation: slideUp 0.2s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(12px); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+}
+
+.feedback-modal h3 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--space-5);
+}
+
+.feedback-modal-close {
+    position: absolute;
+    top: var(--space-4);
+    right: var(--space-4);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--gray-400);
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast);
+}
+
+.feedback-modal-close:hover {
+    color: var(--gray-700);
+}
+
+/* Sections */
+.feedback-section {
+    margin-bottom: var(--space-5);
+}
+
+.feedback-section > label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--gray-700);
+    margin-bottom: var(--space-2);
+}
+
+.feedback-section textarea {
+    width: 100%;
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius-md);
+    padding: var(--space-3);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--gray-800);
+    resize: vertical;
+    transition: border-color var(--transition-fast);
+}
+
+.feedback-section textarea:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.1);
+}
+
+/* Star rating */
+.star-rating {
+    display: flex;
+    gap: var(--space-2);
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.star-rating span {
+    color: var(--gray-300);
+    transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.star-rating span:hover,
+.star-rating span.hovered {
+    color: #F59E0B;
+    transform: scale(1.1);
+}
+
+.star-rating span.selected {
+    color: #F59E0B;
+}
+
+/* Radio group */
+.feedback-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.feedback-radio-group label {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--gray-700);
+    cursor: pointer;
+}
+
+/* Recommend toggle */
+.feedback-toggle-group {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.feedback-toggle {
+    flex: 1;
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius-md);
+    background: var(--white);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.feedback-toggle:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.feedback-toggle.active {
+    background: var(--blue);
+    border-color: var(--blue);
+    color: var(--white);
+}
+
+/* Submit button within modal */
+.feedback-submit-btn {
+    width: 100%;
+    margin-top: var(--space-2);
+}
+
+/* Error message */
+.feedback-error {
+    font-size: var(--text-sm);
+    color: var(--error);
+    margin-bottom: var(--space-2);
+}
+
+/* Thank-you message */
+.feedback-thanks {
+    text-align: center;
+    font-size: var(--text-lg);
+    font-weight: 500;
+    color: var(--success);
+    padding: var(--space-8) 0;
+}
+
+/* Floating feedback button */
+.floating-feedback-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-full);
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.floating-feedback-btn:hover {
+    background: var(--dark-blue);
+    transform: scale(1.08);
+    box-shadow: var(--shadow-xl);
+}
+
+/* Report question button */
+.question-report-btn {
+    display: inline-block;
+    margin-top: var(--space-4);
+    background: none;
+    border: none;
+    font-size: var(--text-sm);
+    color: var(--gray-400);
+    cursor: pointer;
+    padding: var(--space-1) 0;
+    transition: color var(--transition-fast);
+}
+
+.question-report-btn:hover {
+    color: var(--error);
+}

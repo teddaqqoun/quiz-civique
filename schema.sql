@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS quiz_feedback (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  stars INTEGER NOT NULL,
+  difficulty TEXT,
+  would_recommend INTEGER,
+  comment TEXT,
+  level TEXT,
+  mode TEXT
+);
+
+CREATE TABLE IF NOT EXISTS bug_reports (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  page_url TEXT,
+  description TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS question_reports (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  question_text TEXT,
+  level TEXT,
+  theme TEXT,
+  reason TEXT
+);

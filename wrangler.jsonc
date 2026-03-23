@@ -4,6 +4,13 @@
   "assets": {
     "directory": "./"
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "quiz-civique-feedback",
+      "database_id": "REPLACE_WITH_DATABASE_ID"
+    }
+  ],
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,

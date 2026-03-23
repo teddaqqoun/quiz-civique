@@ -136,11 +136,74 @@
         el.innerHTML = html;
     }
 
+    function renderFeedbackButton() {
+        var btn = document.createElement('button');
+        btn.className = 'floating-feedback-btn';
+        btn.setAttribute('aria-label', 'Feedback / Bug');
+        btn.title = 'Feedback / Bug';
+        btn.textContent = '\ud83d\udcac';
+        document.body.appendChild(btn);
+
+        btn.addEventListener('click', function () {
+            var overlay = document.createElement('div');
+            overlay.className = 'feedback-overlay';
+            overlay.innerHTML =
+                '<div class="feedback-modal" role="dialog" aria-modal="true" aria-label="Feedback">' +
+                    '<button class="feedback-modal-close" aria-label="Fermer">&times;</button>' +
+                    '<h3>Feedback / Signaler un bug</h3>' +
+                    '<div class="feedback-section">' +
+                        '<label>Type</label>' +
+                        '<div class="feedback-radio-group">' +
+                            '<label><input type="radio" name="br-type" value="bug" checked> Signaler un bug</label>' +
+                            '<label><input type="radio" name="br-type" value="suggestion"> Suggestion</label>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="feedback-section">' +
+                        '<label for="br-description">Description *</label>' +
+                        '<textarea id="br-description" rows="4" placeholder="Décrivez le problème ou votre suggestion..." required></textarea>' +
+                    '</div>' +
+                    '<p id="br-error" class="feedback-error" style="display:none;">Veuillez entrer une description.</p>' +
+                    '<button class="primary-btn feedback-submit-btn" id="br-submit">Envoyer</button>' +
+                '</div>';
+
+            document.body.appendChild(overlay);
+
+            function closeOverlay() { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }
+            overlay.querySelector('.feedback-modal-close').addEventListener('click', closeOverlay);
+            overlay.addEventListener('click', function (e) { if (e.target === overlay) closeOverlay(); });
+            document.addEventListener('keydown', function escHandler(e) {
+                if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
+            });
+
+            document.getElementById('br-submit').addEventListener('click', function () {
+                var desc = (document.getElementById('br-description') || {}).value;
+                var errEl = document.getElementById('br-error');
+                if (!desc || !desc.trim()) {
+                    if (errEl) errEl.style.display = '';
+                    return;
+                }
+                var payload = {
+                    page_url: window.location.href,
+                    description: desc.trim()
+                };
+                fetch('/api/bug-report', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).catch(function () {});
+                overlay.querySelector('.feedback-modal').innerHTML =
+                    '<p class="feedback-thanks">Merci, votre retour a été enregistré !</p>';
+                setTimeout(closeOverlay, 2000);
+            });
+        });
+    }
+
     // Auto-init on DOMContentLoaded
     document.addEventListener('DOMContentLoaded', function () {
         var page = document.body.getAttribute('data-page') || '';
         renderHeader(page);
         renderFooter();
         renderBreadcrumbs();
+        renderFeedbackButton();
     });
 })();

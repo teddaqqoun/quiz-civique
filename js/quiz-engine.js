@@ -161,6 +161,16 @@ QuizEngine.prototype.displayQuestion = function () {
         btn.addEventListener('click', function () { self.selectOption(btn); });
     });
 
+    // Report question button
+    var existingReport = document.getElementById('qe-report-btn');
+    if (existingReport) existingReport.parentNode.removeChild(existingReport);
+    var reportBtn = document.createElement('button');
+    reportBtn.id = 'qe-report-btn';
+    reportBtn.className = 'question-report-btn';
+    reportBtn.textContent = '\u26a0 Signaler cette question';
+    reportBtn.addEventListener('click', function () { self.showQuestionReportModal(q); });
+    options.parentNode.insertBefore(reportBtn, options.nextSibling);
+
     nextBtn.disabled = true;
     if (this.currentQuestionIndex === total - 1) {
         nextBtn.textContent = 'Voir les résultats';
@@ -273,6 +283,176 @@ QuizEngine.prototype.displayResults = function (score) {
     var self = this;
     document.getElementById('qe-restart').addEventListener('click', function () {
         self.renderStartScreen();
+    });
+
+    if (passed) {
+        setTimeout(function () { self.showFeedbackPopup(); }, 1500);
+    }
+};
+
+QuizEngine.prototype.showFeedbackPopup = function () {
+    var THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
+    var last = localStorage.getItem('feedback_last_shown');
+    if (last && (Date.now() - parseInt(last, 10)) < THIRTY_DAYS) return;
+
+    var self = this;
+    var overlay = document.createElement('div');
+    overlay.className = 'feedback-overlay';
+    overlay.innerHTML =
+        '<div class="feedback-modal" role="dialog" aria-modal="true" aria-label="Votre avis">' +
+            '<button class="feedback-modal-close" aria-label="Fermer">&times;</button>' +
+            '<h3>Votre avis nous intéresse !</h3>' +
+            '<div class="feedback-section">' +
+                '<label>Satisfaction globale</label>' +
+                '<div class="star-rating" id="fb-stars">' +
+                    '<span data-val="1">&#9733;</span>' +
+                    '<span data-val="2">&#9733;</span>' +
+                    '<span data-val="3">&#9733;</span>' +
+                    '<span data-val="4">&#9733;</span>' +
+                    '<span data-val="5">&#9733;</span>' +
+                '</div>' +
+            '</div>' +
+            '<div class="feedback-section">' +
+                '<label>Niveau de difficulté</label>' +
+                '<div class="feedback-radio-group">' +
+                    '<label><input type="radio" name="fb-diff" value="easy"> Trop facile</label>' +
+                    '<label><input type="radio" name="fb-diff" value="right"> Bien équilibré</label>' +
+                    '<label><input type="radio" name="fb-diff" value="hard"> Trop difficile</label>' +
+                '</div>' +
+            '</div>' +
+            '<div class="feedback-section">' +
+                '<label>Recommanderiez-vous ce site ?</label>' +
+                '<div class="feedback-toggle-group">' +
+                    '<button class="feedback-toggle" data-val="1">Oui</button>' +
+                    '<button class="feedback-toggle" data-val="0">Non</button>' +
+                '</div>' +
+            '</div>' +
+            '<div class="feedback-section">' +
+                '<label for="fb-comment">Commentaire (optionnel)</label>' +
+                '<textarea id="fb-comment" rows="3" placeholder="Votre message..."></textarea>' +
+            '</div>' +
+            '<button class="primary-btn feedback-submit-btn" id="fb-submit">Envoyer</button>' +
+        '</div>';
+
+    document.body.appendChild(overlay);
+
+    var selectedStars = 0;
+    var selectedRecommend = null;
+
+    var starEls = overlay.querySelectorAll('#fb-stars span');
+    starEls.forEach(function (star) {
+        star.addEventListener('mouseover', function () {
+            var val = parseInt(star.dataset.val);
+            starEls.forEach(function (s) { s.classList.toggle('hovered', parseInt(s.dataset.val) <= val); });
+        });
+        star.addEventListener('mouseout', function () {
+            starEls.forEach(function (s) { s.classList.remove('hovered'); });
+        });
+        star.addEventListener('click', function () {
+            selectedStars = parseInt(star.dataset.val);
+            starEls.forEach(function (s) { s.classList.toggle('selected', parseInt(s.dataset.val) <= selectedStars); });
+        });
+    });
+
+    overlay.querySelectorAll('.feedback-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            selectedRecommend = parseInt(btn.dataset.val);
+            overlay.querySelectorAll('.feedback-toggle').forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+        });
+    });
+
+    function closeOverlay() { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }
+    overlay.querySelector('.feedback-modal-close').addEventListener('click', closeOverlay);
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) closeOverlay(); });
+    document.addEventListener('keydown', function escHandler(e) {
+        if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
+    });
+
+    document.getElementById('fb-submit').addEventListener('click', function () {
+        var difficulty = (overlay.querySelector('input[name="fb-diff"]:checked') || {}).value || null;
+        var comment = document.getElementById('fb-comment').value.trim();
+        var payload = {
+            stars: selectedStars || 3,
+            difficulty: difficulty,
+            would_recommend: selectedRecommend,
+            comment: comment || null,
+            level: self.level,
+            mode: self.mode
+        };
+        localStorage.setItem('feedback_last_shown', String(Date.now()));
+        fetch('/api/feedback', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        }).catch(function () {});
+        overlay.querySelector('.feedback-modal').innerHTML =
+            '<p class="feedback-thanks">Merci pour votre retour !</p>';
+        setTimeout(closeOverlay, 2000);
+    });
+};
+
+QuizEngine.prototype.showQuestionReportModal = function (q) {
+    var self = this;
+    var overlay = document.createElement('div');
+    overlay.className = 'feedback-overlay';
+    overlay.innerHTML =
+        '<div class="feedback-modal" role="dialog" aria-modal="true" aria-label="Signaler une question">' +
+            '<button class="feedback-modal-close" aria-label="Fermer">&times;</button>' +
+            '<h3>Signaler cette question</h3>' +
+            '<div class="feedback-section">' +
+                '<label>Raison</label>' +
+                '<div class="feedback-radio-group">' +
+                    '<label><input type="radio" name="qr-reason" value="La question est mal formulée"> La question est mal formulée</label>' +
+                    '<label><input type="radio" name="qr-reason" value="La bonne réponse semble incorrecte"> La bonne réponse semble incorrecte</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Question hors sujet"> Question hors sujet</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Autre"> Autre</label>' +
+                '</div>' +
+            '</div>' +
+            '<div class="feedback-section" id="qr-other-section" style="display:none;">' +
+                '<label for="qr-other-text">Précisez</label>' +
+                '<textarea id="qr-other-text" rows="2" placeholder="Décrivez le problème..."></textarea>' +
+            '</div>' +
+            '<button class="primary-btn feedback-submit-btn" id="qr-submit">Envoyer</button>' +
+        '</div>';
+
+    document.body.appendChild(overlay);
+
+    overlay.querySelectorAll('input[name="qr-reason"]').forEach(function (radio) {
+        radio.addEventListener('change', function () {
+            var otherSection = document.getElementById('qr-other-section');
+            if (otherSection) otherSection.style.display = radio.value === 'Autre' ? '' : 'none';
+        });
+    });
+
+    function closeOverlay() { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }
+    overlay.querySelector('.feedback-modal-close').addEventListener('click', closeOverlay);
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) closeOverlay(); });
+    document.addEventListener('keydown', function escHandler(e) {
+        if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
+    });
+
+    document.getElementById('qr-submit').addEventListener('click', function () {
+        var selected = overlay.querySelector('input[name="qr-reason"]:checked');
+        var reason = selected ? selected.value : null;
+        if (reason === 'Autre') {
+            var otherText = (document.getElementById('qr-other-text') || {}).value;
+            if (otherText && otherText.trim()) reason = otherText.trim();
+        }
+        var payload = {
+            question_text: q.question,
+            level: self.level || null,
+            theme: q.theme || null,
+            reason: reason
+        };
+        fetch('/api/question-report', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        }).catch(function () {});
+        overlay.querySelector('.feedback-modal').innerHTML =
+            '<p class="feedback-thanks">Merci, nous examinerons cette question.</p>';
+        setTimeout(closeOverlay, 2000);
     });
 };
 
