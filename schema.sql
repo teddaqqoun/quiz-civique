@@ -6,14 +6,16 @@ CREATE TABLE IF NOT EXISTS quiz_feedback (
   would_recommend INTEGER,
   comment TEXT,
   level TEXT,
-  mode TEXT
+  mode TEXT,
+  sandbox INTEGER DEFAULT 0
 );
 
 CREATE TABLE IF NOT EXISTS bug_reports (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   page_url TEXT,
-  description TEXT NOT NULL
+  description TEXT NOT NULL,
+  sandbox INTEGER DEFAULT 0
 );
 
 CREATE TABLE IF NOT EXISTS question_reports (
@@ -22,5 +24,6 @@ CREATE TABLE IF NOT EXISTS question_reports (
   question_text TEXT,
   level TEXT,
   theme TEXT,
-  reason TEXT
+  reason TEXT,
+  sandbox INTEGER DEFAULT 0
 );

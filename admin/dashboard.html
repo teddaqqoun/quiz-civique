@@ -64,6 +64,16 @@
     .radio-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.25rem; }
     .radio-row label { display: flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: #4B5563; margin: 0; cursor: pointer; }
     .sandbox-warning { background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; font-size: 0.8rem; color: #92400E; }
+    .filter-bar { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+    .toggle-label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; color: #4B5563; cursor: pointer; user-select: none; }
+    .toggle-switch { position: relative; width: 36px; height: 20px; background: #D1D5DB; border-radius: 999px; transition: background 0.2s; cursor: pointer; }
+    .toggle-switch.on { background: #1D4ED8; }
+    .toggle-switch::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: #fff; border-radius: 50%; transition: transform 0.2s; }
+    .toggle-switch.on::after { transform: translateX(16px); }
+    .badge-sandbox { background: #FEF3C7; color: #92400E; }
+    tr.sandbox-row { opacity: 0.6; }
+    tr.sandbox-row td:first-child { position: relative; padding-left: 1.5rem; }
+    tr.sandbox-row td:first-child::before { content: 'S'; position: absolute; left: 0.25rem; top: 50%; transform: translateY(-50%); background: #FEF3C7; color: #92400E; font-size: 0.6rem; font-weight: 700; width: 14px; height: 14px; display: flex; align-items: center; justify-content: center; border-radius: 3px; }
   </style>
 </head>
 <body>
@@ -77,6 +87,12 @@
   <div class="container">
     <div class="stats" id="stats">
       <div class="loading">Chargement...</div>
+    </div>
+    <div class="filter-bar">
+      <label class="toggle-label">
+        <div class="toggle-switch" id="sandbox-toggle"></div>
+        Afficher les donnees sandbox
+      </label>
     </div>
     <div class="tabs">
       <button class="tab active" data-tab="feedback">Avis</button>
@@ -156,6 +172,29 @@
       });
     });
 
+    let showSandbox = false;
+    let allData = { feedback: [], bugs: [], questions: [] };
+
+    document.getElementById('sandbox-toggle').addEventListener('click', function() {
+      showSandbox = !showSandbox;
+      this.classList.toggle('on', showSandbox);
+      renderAll();
+    });
+
+    function filterData(data) {
+      return showSandbox ? data : data.filter(r => !r.sandbox);
+    }
+
+    function renderAll() {
+      const fb = filterData(allData.feedback);
+      const bg = filterData(allData.bugs);
+      const qr = filterData(allData.questions);
+      renderStats(fb, bg, qr);
+      renderFeedback(fb);
+      renderBugs(bg);
+      renderQuestions(qr);
+    }
+
     function esc(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
     function fmtDate(d) { if (!d) return '-'; return new Date(d + 'Z').toLocaleDateString('fr-FR', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }); }
     function starsHtml(n) { return '<span class="stars">' + '\u2605'.repeat(n) + '\u2606'.repeat(5 - n) + '</span>'; }
@@ -167,10 +206,8 @@
           fetch('/api/admin/bug-reports').then(r => r.json()),
           fetch('/api/admin/question-reports').then(r => r.json()),
         ]);
-        renderStats(feedback.data, bugs.data, questions.data);
-        renderFeedback(feedback.data);
-        renderBugs(bugs.data);
-        renderQuestions(questions.data);
+        allData = { feedback: feedback.data, bugs: bugs.data, questions: questions.data };
+        renderAll();
         document.getElementById('last-updated').textContent = 'Mis \u00e0 jour : ' + new Date().toLocaleTimeString('fr-FR');
       } catch (e) {
         console.error(e);
@@ -194,7 +231,7 @@
     function renderFeedback(data) {
       if (!data.length) { document.getElementById('panel-feedback').innerHTML = '<div class="empty">Aucun avis pour le moment</div>'; return; }
       document.getElementById('panel-feedback').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Note</th><th>Difficulte</th><th>Recommande</th><th>Niveau</th><th>Mode</th><th>Commentaire</th></tr></thead><tbody>'
-        + data.map(r => `<tr>
+        + data.map(r => `<tr class="${r.sandbox ? 'sandbox-row' : ''}">
           <td>${fmtDate(r.created_at)}</td>
           <td>${starsHtml(r.stars)}</td>
           <td><span class="badge-pill badge-gray">${esc(r.difficulty) || '-'}</span></td>
@@ -209,7 +246,7 @@
     function renderBugs(data) {
       if (!data.length) { document.getElementById('panel-bugs').innerHTML = '<div class="empty">Aucun signalement de bug</div>'; return; }
       document.getElementById('panel-bugs').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Page</th><th>Description</th></tr></thead><tbody>'
-        + data.map(r => `<tr>
+        + data.map(r => `<tr class="${r.sandbox ? 'sandbox-row' : ''}">
           <td>${fmtDate(r.created_at)}</td>
           <td>${esc(r.page_url) || '-'}</td>
           <td>${esc(r.description)}</td>
@@ -220,7 +257,7 @@
     function renderQuestions(data) {
       if (!data.length) { document.getElementById('panel-questions').innerHTML = '<div class="empty">Aucun signalement de question</div>'; return; }
       document.getElementById('panel-questions').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Niveau</th><th>Theme</th><th>Raison</th><th>Question</th></tr></thead><tbody>'
-        + data.map(r => `<tr>
+        + data.map(r => `<tr class="${r.sandbox ? 'sandbox-row' : ''}">
           <td>${fmtDate(r.created_at)}</td>
           <td><span class="badge-pill badge-blue">${esc(r.level) || '-'}</span></td>
           <td>${esc(r.theme) || '-'}</td>
@@ -267,7 +304,7 @@
         stars: sbStars || 3,
         difficulty: diff,
         would_recommend: rec ? parseInt(rec.value) : null,
-        comment: '[SANDBOX] ' + (document.getElementById('sb-fb-comment').value.trim() || ''),
+        comment: document.getElementById('sb-fb-comment').value.trim() || null,
         level: document.getElementById('sb-fb-level').value || null,
         mode: document.getElementById('sb-fb-mode').value || null
       }, 'sb-fb-result');
@@ -278,14 +315,14 @@
       if (!desc) { const el = document.getElementById('sb-br-result'); el.className = 'sandbox-result error'; el.textContent = 'Description requise'; setTimeout(() => { el.className = 'sandbox-result'; }, 3000); return; }
       sbSend('/api/admin/sandbox/bug-report', {
         page_url: document.getElementById('sb-br-url').value || null,
-        description: '[SANDBOX] ' + desc
+        description: desc
       }, 'sb-br-result');
     });
 
     document.getElementById('sb-qr-send').addEventListener('click', () => {
       const reason = (document.querySelector('input[name="sb-qr-reason"]:checked') || {}).value || null;
       sbSend('/api/admin/sandbox/question-report', {
-        question_text: '[SANDBOX] ' + (document.getElementById('sb-qr-text').value.trim() || ''),
+        question_text: document.getElementById('sb-qr-text').value.trim() || null,
         level: document.getElementById('sb-qr-level').value || null,
         theme: document.getElementById('sb-qr-theme').value.trim() || null,
         reason: reason
