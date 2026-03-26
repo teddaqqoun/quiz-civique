@@ -71,6 +71,19 @@
     .toggle-switch::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: #fff; border-radius: 50%; transition: transform 0.2s; }
     .toggle-switch.on::after { transform: translateX(16px); }
     .badge-sandbox { background: #FEF3C7; color: #92400E; }
+    .share-screen { text-align: center; padding: 1.5rem 0; }
+    .share-title { font-size: 1.125rem; font-weight: 600; color: #16A34A; margin-bottom: 1rem; }
+    .share-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 1rem; }
+    .share-btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.5rem 1rem; border-radius: 8px; color: #fff; font-size: 0.875rem; font-weight: 500; text-decoration: none; border: none; cursor: pointer; min-width: 110px; font-family: inherit; }
+    .share-whatsapp { background: #25D366; }
+    .share-facebook { background: #1877F2; }
+    .share-x { background: #000000; }
+    .share-reddit { background: #FF4500; }
+    .share-telegram { background: #0088CC; }
+    .share-copy { background: #6B7280; }
+    .share-btn:hover { opacity: 0.85; }
+    .share-close { display: inline-block; margin-top: 0.5rem; font-size: 0.875rem; color: #6B7280; text-decoration: none; cursor: pointer; background: none; border: none; font-family: inherit; }
+    .share-close:hover { text-decoration: underline; }
     tr.sandbox-row { opacity: 0.6; }
     tr.sandbox-row td:first-child { position: relative; padding-left: 1.5rem; }
     tr.sandbox-row td:first-child::before { content: 'S'; position: absolute; left: 0.25rem; top: 50%; transform: translateY(-50%); background: #FEF3C7; color: #92400E; font-size: 0.6rem; font-weight: 700; width: 14px; height: 14px; display: flex; align-items: center; justify-content: center; border-radius: 3px; }
@@ -269,46 +282,91 @@
 
     // Sandbox logic
     let sbStars = 0;
-    document.querySelectorAll('#sb-stars span').forEach(s => {
-      s.addEventListener('click', () => {
-        sbStars = parseInt(s.dataset.v);
-        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
-      });
-      s.addEventListener('mouseover', () => {
-        const v = parseInt(s.dataset.v);
-        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= v));
-      });
-      s.addEventListener('mouseout', () => {
-        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
-      });
-    });
 
-    async function sbSend(url, payload, resultId) {
+    async function sbSend(url, payload, resultId, autoClear) {
       const el = document.getElementById(resultId);
       try {
         const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
         const d = await r.json();
         el.className = 'sandbox-result ' + (d.ok ? 'success' : 'error');
         el.textContent = d.ok ? 'Envoye avec succes !' : 'Erreur : ' + (d.error || 'Inconnue');
+        if (autoClear !== false) setTimeout(() => { el.className = 'sandbox-result'; el.textContent = ''; }, 4000);
+        return d;
       } catch (e) {
         el.className = 'sandbox-result error';
         el.textContent = 'Erreur reseau : ' + e.message;
+        if (autoClear !== false) setTimeout(() => { el.className = 'sandbox-result'; el.textContent = ''; }, 4000);
+        return { ok: false };
       }
-      setTimeout(() => { el.className = 'sandbox-result'; el.textContent = ''; }, 4000);
     }
 
-    document.getElementById('sb-fb-send').addEventListener('click', () => {
+    function buildShareScreen() {
+      const shareMsg = 'Marre des sites payants pour preparer le test civique ? J\'ai trouve une alternative 100% gratuite avec quiz, simulations et flashcards. Faites-moi confiance : https://www.test-civique-gratuit.com';
+      const shareUrl = 'https://www.test-civique-gratuit.com';
+      const encoded = encodeURIComponent(shareMsg);
+      const encodedUrl = encodeURIComponent(shareUrl);
+      return '<div class="share-screen">' +
+        '<p class="share-title">Merci ! Partagez avec vos amis \uD83C\uDF89</p>' +
+        '<div class="share-buttons">' +
+          '<a class="share-btn share-whatsapp" href="https://wa.me/?text=' + encoded + '" target="_blank" rel="noopener">WhatsApp</a>' +
+          '<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl + '" target="_blank" rel="noopener">Facebook</a>' +
+          '<a class="share-btn share-x" href="https://x.com/intent/tweet?text=' + encoded + '" target="_blank" rel="noopener">X</a>' +
+          '<a class="share-btn share-reddit" href="https://www.reddit.com/submit?url=' + encodedUrl + '&title=' + encodeURIComponent('Test civique gratuit') + '" target="_blank" rel="noopener">Reddit</a>' +
+          '<a class="share-btn share-telegram" href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encoded + '" target="_blank" rel="noopener">Telegram</a>' +
+          '<button class="share-btn share-copy" id="sb-share-copy-btn">Copier le lien</button>' +
+        '</div>' +
+        '<button class="share-close" id="sb-share-close-btn">Fermer</button>' +
+      '</div>';
+    }
+
+    function bindStarInputs() {
+      sbStars = 0;
+      document.querySelectorAll('#sb-stars span').forEach(s => {
+        s.addEventListener('click', () => {
+          sbStars = parseInt(s.dataset.v);
+          document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
+        });
+        s.addEventListener('mouseover', () => {
+          const v = parseInt(s.dataset.v);
+          document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= v));
+        });
+        s.addEventListener('mouseout', () => {
+          document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
+        });
+      });
+    }
+
+    async function handleFeedbackSend() {
       const diff = (document.querySelector('input[name="sb-diff"]:checked') || {}).value || null;
       const rec = document.querySelector('input[name="sb-rec"]:checked');
-      sbSend('/api/admin/sandbox/feedback', {
+      const wouldRec = rec ? parseInt(rec.value) : null;
+      const result = await sbSend('/api/admin/sandbox/feedback', {
         stars: sbStars || 3,
         difficulty: diff,
-        would_recommend: rec ? parseInt(rec.value) : null,
+        would_recommend: wouldRec,
         comment: document.getElementById('sb-fb-comment').value.trim() || null,
         level: document.getElementById('sb-fb-level').value || null,
         mode: document.getElementById('sb-fb-mode').value || null
-      }, 'sb-fb-result');
-    });
+      }, 'sb-fb-result', wouldRec !== 1);
+
+      if (result.ok && wouldRec === 1) {
+        const card = document.getElementById('sb-fb-send').closest('.sandbox-card');
+        const originalHTML = card.innerHTML;
+        card.innerHTML = '<h3>Avis quiz</h3>' + buildShareScreen();
+        document.getElementById('sb-share-copy-btn').addEventListener('click', function () {
+          navigator.clipboard.writeText('https://www.test-civique-gratuit.com').then(() => {
+            this.textContent = 'Copie \u2713';
+          });
+        });
+        document.getElementById('sb-share-close-btn').addEventListener('click', function () {
+          card.innerHTML = originalHTML;
+          bindStarInputs();
+          document.getElementById('sb-fb-send').addEventListener('click', handleFeedbackSend);
+        });
+      }
+    }
+
+    document.getElementById('sb-fb-send').addEventListener('click', handleFeedbackSend);
 
     document.getElementById('sb-br-send').addEventListener('click', () => {
       const desc = document.getElementById('sb-br-desc').value.trim();
@@ -329,6 +387,7 @@
       }, 'sb-qr-result');
     });
 
+    bindStarInputs();
     loadAll();
   </script>
 </body>
