@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS quiz_feedback (
   comment TEXT,
   level TEXT,
   mode TEXT,
-  sandbox INTEGER DEFAULT 0
+  sandbox INTEGER DEFAULT 0,
+  shared_via TEXT
 );
 
 CREATE TABLE IF NOT EXISTS bug_reports (

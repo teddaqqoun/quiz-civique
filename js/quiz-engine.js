@@ -385,40 +385,58 @@ QuizEngine.prototype.showFeedbackPopup = function () {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
-        }).catch(function () {});
-        if (selectedRecommend === 1) {
-            var shareMsg = 'Marre des sites payants pour preparer le test civique ? J\'ai trouve une alternative 100% gratuite avec quiz, simulations et flashcards. Faites-moi confiance : https://www.test-civique-gratuit.com';
-            var shareUrl = 'https://www.test-civique-gratuit.com';
-            var encoded = encodeURIComponent(shareMsg);
-            var encodedUrl = encodeURIComponent(shareUrl);
-            overlay.querySelector('.feedback-modal').innerHTML =
-                '<div class="share-screen">' +
-                    '<p class="share-title">Merci ! Partagez avec vos amis 🎉</p>' +
-                    '<div class="share-buttons">' +
-                        '<a class="share-btn share-whatsapp" href="https://wa.me/?text=' + encoded + '" target="_blank" rel="noopener">WhatsApp</a>' +
-                        '<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl + '" target="_blank" rel="noopener">Facebook</a>' +
-                        '<a class="share-btn share-x" href="https://x.com/intent/tweet?text=' + encoded + '" target="_blank" rel="noopener">X</a>' +
-                        '<a class="share-btn share-reddit" href="https://www.reddit.com/submit?url=' + encodedUrl + '&title=' + encodeURIComponent('Test civique gratuit') + '" target="_blank" rel="noopener">Reddit</a>' +
-                        '<a class="share-btn share-telegram" href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encoded + '" target="_blank" rel="noopener">Telegram</a>' +
-                        '<button class="share-btn share-copy" id="share-copy-btn">Copier le lien</button>' +
-                    '</div>' +
-                    '<a class="share-close" href="#" id="share-close-link">Fermer</a>' +
-                '</div>';
-            document.getElementById('share-copy-btn').addEventListener('click', function () {
-                navigator.clipboard.writeText(shareUrl).then(function () {
-                    document.getElementById('share-copy-btn').textContent = 'Copié ✓';
+        }).then(function (r) { return r.json(); }).then(function (d) {
+            var feedbackId = d.id;
+            if (selectedRecommend === 1 && feedbackId) {
+                var shareMsg = 'Marre des sites payants pour preparer le test civique ? J\'ai trouve une alternative 100% gratuite avec quiz, simulations et flashcards. Faites-moi confiance : https://www.test-civique-gratuit.com';
+                var shareUrl = 'https://www.test-civique-gratuit.com';
+                var encoded = encodeURIComponent(shareMsg);
+                var encodedUrl = encodeURIComponent(shareUrl);
+                function trackShare(platform) {
+                    fetch('/api/feedback/' + feedbackId + '/share', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ platform: platform })
+                    }).catch(function () {});
+                }
+                overlay.querySelector('.feedback-modal').innerHTML =
+                    '<div class="share-screen">' +
+                        '<p class="share-title">Merci ! Partagez avec vos amis 🎉</p>' +
+                        '<div class="share-buttons">' +
+                            '<a class="share-btn share-whatsapp" href="https://wa.me/?text=' + encoded + '" target="_blank" rel="noopener">WhatsApp</a>' +
+                            '<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl + '" target="_blank" rel="noopener">Facebook</a>' +
+                            '<a class="share-btn share-x" href="https://x.com/intent/tweet?text=' + encoded + '" target="_blank" rel="noopener">X</a>' +
+                            '<a class="share-btn share-reddit" href="https://www.reddit.com/submit?url=' + encodedUrl + '&title=' + encodeURIComponent('Test civique gratuit') + '" target="_blank" rel="noopener">Reddit</a>' +
+                            '<a class="share-btn share-telegram" href="https://t.me/share/url?url=' + encodedUrl + '&text=' + encoded + '" target="_blank" rel="noopener">Telegram</a>' +
+                            '<button class="share-btn share-copy" id="share-copy-btn">Copier le lien</button>' +
+                        '</div>' +
+                        '<a class="share-close" href="#" id="share-close-link">Fermer</a>' +
+                    '</div>';
+                overlay.querySelectorAll('.share-btn').forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        var platform = (btn.className.match(/share-(whatsapp|facebook|x|reddit|telegram|copy)/) || [])[1];
+                        if (platform) trackShare(platform);
+                    });
                 });
-            });
-            document.getElementById('share-close-link').addEventListener('click', function (e) {
-                e.preventDefault();
-                closeOverlay();
-            });
-        } else {
+                document.getElementById('share-copy-btn').addEventListener('click', function () {
+                    navigator.clipboard.writeText(shareUrl).then(function () {
+                        document.getElementById('share-copy-btn').textContent = 'Copié ✓';
+                    });
+                });
+                document.getElementById('share-close-link').addEventListener('click', function (e) {
+                    e.preventDefault();
+                    closeOverlay();
+                });
+            } else {
+                overlay.querySelector('.feedback-modal').innerHTML =
+                    '<p class="feedback-thanks">Merci pour votre retour !</p>';
+                setTimeout(closeOverlay, 2000);
+            }
+        }).catch(function () {
             overlay.querySelector('.feedback-modal').innerHTML =
                 '<p class="feedback-thanks">Merci pour votre retour !</p>';
             setTimeout(closeOverlay, 2000);
-        }
-    });
+        });
 };
 
 QuizEngine.prototype.showQuestionReportModal = function (q) {

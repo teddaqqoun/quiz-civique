@@ -32,10 +32,11 @@ export default {
         try {
           const body = await request.json();
           if (url.pathname === '/api/admin/sandbox/feedback') {
-            await env.DB.prepare(
+            const info = await env.DB.prepare(
               'INSERT INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode, sandbox) VALUES (?, ?, ?, ?, ?, ?, 1)'
             ).bind(body.stars || null, body.difficulty || null, body.would_recommend != null ? (body.would_recommend ? 1 : 0) : null, body.comment || null, body.level || null, body.mode || null).run();
-            return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+            const id = info.meta?.last_row_id;
+            return new Response(JSON.stringify({ ok: true, id }), { headers: { 'Content-Type': 'application/json' } });
           }
           if (url.pathname === '/api/admin/sandbox/bug-report') {
             if (!body.description) return new Response(JSON.stringify({ ok: false, error: 'description required' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
@@ -51,6 +52,22 @@ export default {
         }
       }
 
+      // Share tracking (admin)
+      const adminShareMatch = url.pathname.match(/^\/api\/admin\/feedback\/(\d+)\/share$/);
+      if (adminShareMatch && request.method === 'POST') {
+        try {
+          const body = await request.json();
+          const allowed = ['whatsapp', 'facebook', 'x', 'reddit', 'telegram', 'copy'];
+          if (!allowed.includes(body.platform)) {
+            return new Response(JSON.stringify({ ok: false, error: 'invalid platform' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+          }
+          await env.DB.prepare('UPDATE quiz_feedback SET shared_via = ? WHERE id = ?').bind(body.platform, adminShareMatch[1]).run();
+          return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+        } catch (err) {
+          return new Response(JSON.stringify({ ok: false, error: err.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+        }
+      }
+
       return new Response('Not found', { status: 404 });
     }
 
@@ -60,7 +77,7 @@ export default {
         const body = await request.json();
 
         if (url.pathname === '/api/feedback') {
-          await env.DB.prepare(
+          const info = await env.DB.prepare(
             'INSERT INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode) VALUES (?, ?, ?, ?, ?, ?)'
           ).bind(
             body.stars || null,
@@ -70,7 +87,8 @@ export default {
             body.level || null,
             body.mode || null
           ).run();
-          return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+          const id = info.meta?.last_row_id;
+          return new Response(JSON.stringify({ ok: true, id }), { headers: { 'Content-Type': 'application/json' } });
         }
 
         if (url.pathname === '/api/bug-report') {
@@ -95,6 +113,16 @@ export default {
             body.theme || null,
             body.reason || null
           ).run();
+          return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+        }
+
+        const shareMatch = url.pathname.match(/^\/api\/feedback\/(\d+)\/share$/);
+        if (shareMatch) {
+          const allowed = ['whatsapp', 'facebook', 'x', 'reddit', 'telegram', 'copy'];
+          if (!allowed.includes(body.platform)) {
+            return new Response(JSON.stringify({ ok: false, error: 'invalid platform' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
+          }
+          await env.DB.prepare('UPDATE quiz_feedback SET shared_via = ? WHERE id = ?').bind(body.platform, shareMatch[1]).run();
           return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
         }
 
