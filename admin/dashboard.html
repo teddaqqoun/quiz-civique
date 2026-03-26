@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de bord Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: #F3F4F6; color: #1F2937; }
+    .header { background: #1E3A5F; color: #fff; padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .header h1 { font-size: 1.25rem; font-weight: 600; }
+    .header .badge { background: rgba(255,255,255,0.15); padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+    .stat-card { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    .stat-card .label { font-size: 0.75rem; color: #6B7280; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; }
+    .stat-card .value { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
+    .stat-card .sub { font-size: 0.8rem; color: #9CA3AF; margin-top: 0.25rem; }
+    .stat-card.blue .value { color: #1D4ED8; }
+    .stat-card.red .value { color: #EF4135; }
+    .stat-card.green .value { color: #16A34A; }
+    .stat-card.amber .value { color: #D97706; }
+    .tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+    .tab { padding: 0.5rem 1rem; border-radius: 8px; border: none; background: #fff; color: #6B7280; font-size: 0.875rem; font-weight: 500; cursor: pointer; font-family: inherit; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+    .tab.active { background: #1D4ED8; color: #fff; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .table-wrap { background: #fff; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); overflow: hidden; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    th { background: #F9FAFB; text-align: left; padding: 0.75rem 1rem; font-weight: 600; color: #374151; border-bottom: 1px solid #E5E7EB; }
+    td { padding: 0.75rem 1rem; border-bottom: 1px solid #F3F4F6; color: #4B5563; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #F9FAFB; }
+    .stars { color: #F59E0B; letter-spacing: 2px; }
+    .badge-pill { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.75rem; font-weight: 500; }
+    .badge-green { background: #DCFCE7; color: #16A34A; }
+    .badge-red { background: #FEE2E2; color: #DC2626; }
+    .badge-gray { background: #F3F4F6; color: #6B7280; }
+    .badge-blue { background: #DBEAFE; color: #1D4ED8; }
+    .badge-amber { background: #FEF3C7; color: #D97706; }
+    .empty { text-align: center; padding: 3rem; color: #9CA3AF; }
+    .refresh-btn { background: none; border: 1px solid rgba(255,255,255,0.3); color: #fff; padding: 0.4rem 0.75rem; border-radius: 8px; font-size: 0.8rem; cursor: pointer; font-family: inherit; }
+    .refresh-btn:hover { background: rgba(255,255,255,0.1); }
+    .loading { text-align: center; padding: 2rem; color: #9CA3AF; }
+    .sandbox-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.25rem; }
+    .sandbox-card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    .sandbox-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #1E3A5F; }
+    .sandbox-card label { display: block; font-size: 0.8rem; font-weight: 500; color: #374151; margin-bottom: 0.25rem; margin-top: 0.75rem; }
+    .sandbox-card label:first-of-type { margin-top: 0; }
+    .sandbox-card input, .sandbox-card textarea, .sandbox-card select { width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #D1D5DB; border-radius: 8px; font-size: 0.875rem; font-family: inherit; }
+    .sandbox-card textarea { resize: vertical; }
+    .sandbox-card input:focus, .sandbox-card textarea:focus, .sandbox-card select:focus { outline: none; border-color: #1D4ED8; box-shadow: 0 0 0 2px rgba(29,78,216,0.15); }
+    .sandbox-btn { margin-top: 1rem; padding: 0.6rem 1.25rem; background: #1D4ED8; color: #fff; border: none; border-radius: 8px; font-size: 0.875rem; font-weight: 500; cursor: pointer; font-family: inherit; }
+    .sandbox-btn:hover { background: #1E40AF; }
+    .sandbox-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .sandbox-result { margin-top: 0.75rem; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.8rem; display: none; }
+    .sandbox-result.success { display: block; background: #DCFCE7; color: #16A34A; }
+    .sandbox-result.error { display: block; background: #FEE2E2; color: #DC2626; }
+    .star-input { display: flex; gap: 0.25rem; cursor: pointer; }
+    .star-input span { font-size: 1.5rem; color: #D1D5DB; transition: color 0.15s; }
+    .star-input span.active { color: #F59E0B; }
+    .star-input span:hover, .star-input span:hover ~ span { color: #F59E0B; }
+    .radio-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.25rem; }
+    .radio-row label { display: flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: #4B5563; margin: 0; cursor: pointer; }
+    .sandbox-warning { background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; font-size: 0.8rem; color: #92400E; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Quiz Civique Admin</h1>
+    <div style="display:flex;gap:0.75rem;align-items:center;">
+      <span class="badge" id="last-updated"></span>
+      <button class="refresh-btn" onclick="loadAll()">Actualiser</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="stats" id="stats">
+      <div class="loading">Chargement...</div>
+    </div>
+    <div class="tabs">
+      <button class="tab active" data-tab="feedback">Avis</button>
+      <button class="tab" data-tab="bugs">Signalements bugs</button>
+      <button class="tab" data-tab="questions">Signalements questions</button>
+      <button class="tab" data-tab="sandbox">Sandbox</button>
+    </div>
+    <div class="panel active" id="panel-feedback"><div class="loading">Chargement...</div></div>
+    <div class="panel" id="panel-bugs"><div class="loading">Chargement...</div></div>
+    <div class="panel" id="panel-questions"><div class="loading">Chargement...</div></div>
+    <div class="panel" id="panel-sandbox">
+      <div class="sandbox-warning">Les soumissions sandbox sont envoyees dans la <strong>vraie base de donnees</strong> avec le prefixe [SANDBOX]. Utilisez ceci pour tester les formulaires.</div>
+      <div class="sandbox-grid">
+        <div class="sandbox-card">
+          <h3>Avis quiz</h3>
+          <label>Note</label>
+          <div class="star-input" id="sb-stars">
+            <span data-v="1">&#9733;</span><span data-v="2">&#9733;</span><span data-v="3">&#9733;</span><span data-v="4">&#9733;</span><span data-v="5">&#9733;</span>
+          </div>
+          <label>Difficulte</label>
+          <div class="radio-row">
+            <label><input type="radio" name="sb-diff" value="easy"> Trop facile</label>
+            <label><input type="radio" name="sb-diff" value="right"> Bien equilibre</label>
+            <label><input type="radio" name="sb-diff" value="hard"> Trop difficile</label>
+          </div>
+          <label>Recommanderiez-vous ?</label>
+          <div class="radio-row">
+            <label><input type="radio" name="sb-rec" value="1"> Oui</label>
+            <label><input type="radio" name="sb-rec" value="0"> Non</label>
+          </div>
+          <label>Niveau</label>
+          <select id="sb-fb-level"><option value="">--</option><option value="csp">CSP</option><option value="cr">CR</option><option value="nat">NAT</option></select>
+          <label>Mode</label>
+          <select id="sb-fb-mode"><option value="">--</option><option value="quiz">Quiz</option><option value="simulation">Simulation</option><option value="flashcard">Flashcard</option></select>
+          <label>Commentaire</label>
+          <textarea id="sb-fb-comment" rows="2" placeholder="Commentaire optionnel..."></textarea>
+          <button class="sandbox-btn" id="sb-fb-send">Envoyer l'avis</button>
+          <div class="sandbox-result" id="sb-fb-result"></div>
+        </div>
+        <div class="sandbox-card">
+          <h3>Signalement de bug</h3>
+          <label>URL de la page</label>
+          <input type="text" id="sb-br-url" placeholder="https://..." value="https://www.test-civique-gratuit.com/sandbox">
+          <label>Description *</label>
+          <textarea id="sb-br-desc" rows="3" placeholder="Decrivez le bug..."></textarea>
+          <button class="sandbox-btn" id="sb-br-send">Envoyer le signalement</button>
+          <div class="sandbox-result" id="sb-br-result"></div>
+        </div>
+        <div class="sandbox-card">
+          <h3>Signalement de question</h3>
+          <label>Texte de la question</label>
+          <textarea id="sb-qr-text" rows="2" placeholder="La question..."></textarea>
+          <label>Niveau</label>
+          <select id="sb-qr-level"><option value="">--</option><option value="csp">CSP</option><option value="cr">CR</option><option value="nat">NAT</option></select>
+          <label>Theme</label>
+          <input type="text" id="sb-qr-theme" placeholder="ex. Histoire">
+          <label>Raison</label>
+          <div class="radio-row">
+            <label><input type="radio" name="sb-qr-reason" value="La question est mal formulee"> Mal formulee</label>
+            <label><input type="radio" name="sb-qr-reason" value="La bonne reponse semble incorrecte"> Reponse incorrecte</label>
+            <label><input type="radio" name="sb-qr-reason" value="Question hors sujet"> Hors sujet</label>
+            <label><input type="radio" name="sb-qr-reason" value="Autre"> Autre</label>
+          </div>
+          <button class="sandbox-btn" id="sb-qr-send">Envoyer le signalement</button>
+          <div class="sandbox-result" id="sb-qr-result"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    function esc(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+    function fmtDate(d) { if (!d) return '-'; return new Date(d + 'Z').toLocaleDateString('fr-FR', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }); }
+    function starsHtml(n) { return '<span class="stars">' + '\u2605'.repeat(n) + '\u2606'.repeat(5 - n) + '</span>'; }
+
+    async function loadAll() {
+      try {
+        const [feedback, bugs, questions] = await Promise.all([
+          fetch('/api/admin/feedback').then(r => r.json()),
+          fetch('/api/admin/bug-reports').then(r => r.json()),
+          fetch('/api/admin/question-reports').then(r => r.json()),
+        ]);
+        renderStats(feedback.data, bugs.data, questions.data);
+        renderFeedback(feedback.data);
+        renderBugs(bugs.data);
+        renderQuestions(questions.data);
+        document.getElementById('last-updated').textContent = 'Mis \u00e0 jour : ' + new Date().toLocaleTimeString('fr-FR');
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function renderStats(feedback, bugs, questions) {
+      const avgStars = feedback.length ? (feedback.reduce((s, f) => s + f.stars, 0) / feedback.length).toFixed(1) : '-';
+      const recRate = feedback.filter(f => f.would_recommend !== null).length
+        ? Math.round(feedback.filter(f => f.would_recommend === 1).length / feedback.filter(f => f.would_recommend !== null).length * 100)
+        : '-';
+      document.getElementById('stats').innerHTML = `
+        <div class="stat-card blue"><div class="label">Total avis</div><div class="value">${feedback.length}</div></div>
+        <div class="stat-card amber"><div class="label">Note moyenne</div><div class="value">${avgStars}</div><div class="sub">/ 5</div></div>
+        <div class="stat-card green"><div class="label">Recommanderait</div><div class="value">${recRate}%</div></div>
+        <div class="stat-card red"><div class="label">Signalements bugs</div><div class="value">${bugs.length}</div></div>
+        <div class="stat-card amber"><div class="label">Signalements questions</div><div class="value">${questions.length}</div></div>
+      `;
+    }
+
+    function renderFeedback(data) {
+      if (!data.length) { document.getElementById('panel-feedback').innerHTML = '<div class="empty">Aucun avis pour le moment</div>'; return; }
+      document.getElementById('panel-feedback').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Note</th><th>Difficulte</th><th>Recommande</th><th>Niveau</th><th>Mode</th><th>Commentaire</th></tr></thead><tbody>'
+        + data.map(r => `<tr>
+          <td>${fmtDate(r.created_at)}</td>
+          <td>${starsHtml(r.stars)}</td>
+          <td><span class="badge-pill badge-gray">${esc(r.difficulty) || '-'}</span></td>
+          <td>${r.would_recommend === 1 ? '<span class="badge-pill badge-green">Oui</span>' : r.would_recommend === 0 ? '<span class="badge-pill badge-red">Non</span>' : '-'}</td>
+          <td><span class="badge-pill badge-blue">${esc(r.level) || '-'}</span></td>
+          <td>${esc(r.mode) || '-'}</td>
+          <td>${esc(r.comment) || '-'}</td>
+        </tr>`).join('')
+        + '</tbody></table></div>';
+    }
+
+    function renderBugs(data) {
+      if (!data.length) { document.getElementById('panel-bugs').innerHTML = '<div class="empty">Aucun signalement de bug</div>'; return; }
+      document.getElementById('panel-bugs').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Page</th><th>Description</th></tr></thead><tbody>'
+        + data.map(r => `<tr>
+          <td>${fmtDate(r.created_at)}</td>
+          <td>${esc(r.page_url) || '-'}</td>
+          <td>${esc(r.description)}</td>
+        </tr>`).join('')
+        + '</tbody></table></div>';
+    }
+
+    function renderQuestions(data) {
+      if (!data.length) { document.getElementById('panel-questions').innerHTML = '<div class="empty">Aucun signalement de question</div>'; return; }
+      document.getElementById('panel-questions').innerHTML = '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Niveau</th><th>Theme</th><th>Raison</th><th>Question</th></tr></thead><tbody>'
+        + data.map(r => `<tr>
+          <td>${fmtDate(r.created_at)}</td>
+          <td><span class="badge-pill badge-blue">${esc(r.level) || '-'}</span></td>
+          <td>${esc(r.theme) || '-'}</td>
+          <td><span class="badge-pill badge-amber">${esc(r.reason) || '-'}</span></td>
+          <td>${esc(r.question_text) || '-'}</td>
+        </tr>`).join('')
+        + '</tbody></table></div>';
+    }
+
+    // Sandbox logic
+    let sbStars = 0;
+    document.querySelectorAll('#sb-stars span').forEach(s => {
+      s.addEventListener('click', () => {
+        sbStars = parseInt(s.dataset.v);
+        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
+      });
+      s.addEventListener('mouseover', () => {
+        const v = parseInt(s.dataset.v);
+        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= v));
+      });
+      s.addEventListener('mouseout', () => {
+        document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
+      });
+    });
+
+    async function sbSend(url, payload, resultId) {
+      const el = document.getElementById(resultId);
+      try {
+        const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+        const d = await r.json();
+        el.className = 'sandbox-result ' + (d.ok ? 'success' : 'error');
+        el.textContent = d.ok ? 'Envoye avec succes !' : 'Erreur : ' + (d.error || 'Inconnue');
+      } catch (e) {
+        el.className = 'sandbox-result error';
+        el.textContent = 'Erreur reseau : ' + e.message;
+      }
+      setTimeout(() => { el.className = 'sandbox-result'; el.textContent = ''; }, 4000);
+    }
+
+    document.getElementById('sb-fb-send').addEventListener('click', () => {
+      const diff = (document.querySelector('input[name="sb-diff"]:checked') || {}).value || null;
+      const rec = document.querySelector('input[name="sb-rec"]:checked');
+      sbSend('/api/admin/sandbox/feedback', {
+        stars: sbStars || 3,
+        difficulty: diff,
+        would_recommend: rec ? parseInt(rec.value) : null,
+        comment: '[SANDBOX] ' + (document.getElementById('sb-fb-comment').value.trim() || ''),
+        level: document.getElementById('sb-fb-level').value || null,
+        mode: document.getElementById('sb-fb-mode').value || null
+      }, 'sb-fb-result');
+    });
+
+    document.getElementById('sb-br-send').addEventListener('click', () => {
+      const desc = document.getElementById('sb-br-desc').value.trim();
+      if (!desc) { const el = document.getElementById('sb-br-result'); el.className = 'sandbox-result error'; el.textContent = 'Description requise'; setTimeout(() => { el.className = 'sandbox-result'; }, 3000); return; }
+      sbSend('/api/admin/sandbox/bug-report', {
+        page_url: document.getElementById('sb-br-url').value || null,
+        description: '[SANDBOX] ' + desc
+      }, 'sb-br-result');
+    });
+
+    document.getElementById('sb-qr-send').addEventListener('click', () => {
+      const reason = (document.querySelector('input[name="sb-qr-reason"]:checked') || {}).value || null;
+      sbSend('/api/admin/sandbox/question-report', {
+        question_text: '[SANDBOX] ' + (document.getElementById('sb-qr-text').value.trim() || ''),
+        level: document.getElementById('sb-qr-level').value || null,
+        theme: document.getElementById('sb-qr-theme').value.trim() || null,
+        reason: reason
+      }, 'sb-qr-result');
+    });
+
+    loadAll();
+  </script>
+</body>
+</html>

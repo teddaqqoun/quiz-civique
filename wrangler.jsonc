@@ -1,14 +1,27 @@
 {
   "name": "quiz-civique",
+  "main": "_worker.js",
+  "workers_dev": true,
   "compatibility_date": "2026-02-14",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": true
   },
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "quiz-civique-feedback",
       "database_id": "02ebad4e-8f1e-475d-9595-6bbe0d2e0a70"
+    }
+  ],
+  "rules": [
+    { "type": "Text", "globs": ["admin/**/*.html"], "fallthrough": true }
+  ],
+  "routes": [
+    {
+      "pattern": "admin.test-civique-gratuit.com/*",
+      "zone_name": "test-civique-gratuit.com"
     }
   ],
   "observability": {
