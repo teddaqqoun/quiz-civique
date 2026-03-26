@@ -437,6 +437,7 @@ QuizEngine.prototype.showFeedbackPopup = function () {
                 '<p class="feedback-thanks">Merci pour votre retour !</p>';
             setTimeout(closeOverlay, 2000);
         });
+    });
 };
 
 QuizEngine.prototype.showQuestionReportModal = function (q) {
