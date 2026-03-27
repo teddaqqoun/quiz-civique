@@ -32,7 +32,7 @@
                     '</button>' +
                     '<nav class="nav-links" id="nav-links">' +
                         '<div class="nav-dropdown">' +
-                            '<a href="' + base + 'quiz/csp.html" class="nav-link' + (activePage === 'quiz' ? ' active' : '') + '">Quiz</a>' +
+                            '<a href="' + base + 'quiz/index.html" class="nav-link' + (activePage === 'quiz' ? ' active' : '') + '">Quiz</a>' +
                             '<div class="dropdown-menu">' +
                                 '<a href="' + base + 'quiz/csp.html">Quiz CSP</a>' +
                                 '<a href="' + base + 'quiz/cr.html">Quiz CR</a>' +
