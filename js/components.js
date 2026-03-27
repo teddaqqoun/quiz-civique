@@ -40,7 +40,7 @@
                             '</div>' +
                         '</div>' +
                         '<div class="nav-dropdown">' +
-                            '<a href="' + base + 'simulations/csp.html" class="nav-link' + (activePage === 'simulations' ? ' active' : '') + '">Simulations</a>' +
+                            '<a href="' + base + 'simulations/index.html" class="nav-link' + (activePage === 'simulations' ? ' active' : '') + '">Simulations</a>' +
                             '<div class="dropdown-menu">' +
                                 '<a href="' + base + 'simulations/csp.html">Simulation CSP</a>' +
                                 '<a href="' + base + 'simulations/cr.html">Simulation CR</a>' +
@@ -91,7 +91,7 @@
                     '</div>' +
                     '<div class="footer-col">' +
                         '<h4>Entraînement</h4>' +
-                        '<a href="' + base + 'simulations/csp.html">Simulations</a>' +
+                        '<a href="' + base + 'simulations/index.html">Simulations</a>' +
                         '<a href="' + base + 'flashcards/csp/principes-valeurs.html">Flashcards</a>' +
                         '<a href="' + base + 'guide/index.html">Guide de révision</a>' +
                     '</div>' +
