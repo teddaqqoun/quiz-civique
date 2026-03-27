@@ -48,7 +48,7 @@
                             '</div>' +
                         '</div>' +
                         '<div class="nav-dropdown">' +
-                            '<a href="' + base + 'flashcards/csp/principes-valeurs.html" class="nav-link' + (activePage === 'flashcards' ? ' active' : '') + '">Flashcards</a>' +
+                            '<a href="' + base + 'flashcards/index.html" class="nav-link' + (activePage === 'flashcards' ? ' active' : '') + '">Flashcards</a>' +
                             '<div class="dropdown-menu">' +
                                 '<a href="' + base + 'flashcards/csp/principes-valeurs.html">Flashcards CSP</a>' +
                                 '<a href="' + base + 'flashcards/cr/principes-valeurs.html">Flashcards CR</a>' +
@@ -92,7 +92,7 @@
                     '<div class="footer-col">' +
                         '<h4>Entraînement</h4>' +
                         '<a href="' + base + 'simulations/index.html">Simulations</a>' +
-                        '<a href="' + base + 'flashcards/csp/principes-valeurs.html">Flashcards</a>' +
+                        '<a href="' + base + 'flashcards/index.html">Flashcards</a>' +
                         '<a href="' + base + 'guide/index.html">Guide de révision</a>' +
                     '</div>' +
                     '<div class="footer-col">' +
