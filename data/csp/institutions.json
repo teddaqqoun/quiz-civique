@@ -4,9 +4,8 @@
       "id": 16,
       "theme": "Institutions de la République",
       "questions": [
-        "Qui est le chef de l'État en France ?",
-        "Qui dirige l'État français ?",
-        "Quelle est la plus haute fonction de l'État ?"
+        "Quelle est la plus haute fonction de l'État en France ?",
+        "Quel est le rôle supérieur dans le gouvernement français ?"
       ],
       "correctAnswer": "Le Président de la République",
       "wrongAnswers": [
@@ -384,7 +383,7 @@
       "questions": [
         "Qu'est-ce que la Constitution ?",
         "Comment définir la Constitution ?",
-        "Quel est le rôle de la Constitution ?"
+        "En quoi consiste la Constitution ?"
       ],
       "correctAnswer": "Le texte qui établit les principes fondamentaux de l'État",
       "wrongAnswers": [
@@ -527,16 +526,16 @@
       "questions": [
         "Qu'est-ce que la navette parlementaire ?",
         "Que désigne la navette parlementaire ?",
-        "En quoi consiste la navette parlementaire ?"
+        "En quoi consiste la navette parlementaire dans le processus législatif ?"
       ],
-      "correctAnswer": "Le cycle d'examen d'un texte entre l'Assemblée et le Sénat",
+      "correctAnswer": "Le cycle d'examen d'un texte entre l'Assemblée nationale et le Sénat",
       "wrongAnswers": [
-        "Le vote final d'un texte entre les députés et les sénateurs",
-        "Le transfert d'un texte entre le gouvernement et le président",
-        "Le contrôle d'un texte entre le Conseil constitutionnel et le Parlement",
-        "Le dialogue permanent entre les ministres et les parlementaires",
+        "Le vote final d'un texte par les deux chambres",
+        "Le transfert d'un texte entre le gouvernement et l'Assemblée nationale",
+        "Le contrôle d'un texte par le Conseil constitutionnel",
+        "Le dialogue permanent entre des ministres et parlementaires",
         "L'échange de pouvoirs entre l'Assemblée nationale et le gouvernement",
-        "La coordination des lois entre la France et l'Union européenne"
+        "La coordination des lois entre la France et d'autres pays européens"
       ]
     },
     {
@@ -670,17 +669,17 @@
       "theme": "Institutions de la République",
       "questions": [
         "Qui peut saisir le Conseil constitutionnel ?",
-        "Qui a le droit de saisir le Conseil constitutionnel ?",
-        "Quelle autorité peut saisir le Conseil constitutionnel ?"
+        "Quels sont les acteurs habilités à saisir le Conseil constitutionnel ?",
+        "Quelles autorités peuvent saisir le Conseil constitutionnel ?"
       ],
-      "correctAnswer": "Le Président, le PM, les présidents des assemblées, 60 députés ou sénateurs",
+      "correctAnswer": "Le Président de la République, le Premier ministre, les présidents des assemblées, 60 députés ou 60 sénateurs",
       "wrongAnswers": [
-        "Tout citoyen directement",
-        "Uniquement le Président",
-        "Uniquement les juges",
-        "Les maires",
-        "Les préfets",
-        "N'importe quel fonctionnaire"
+        "Le Président du Sénat, les juges constitutionnels, 50 députés, 50 sénateurs ou le Défenseur des droits",
+        "Tout citoyen français majeur, les associations reconnues, les syndicats représentatifs, les élus locaux ou les partis politiques",
+        "Le Premier ministre, le Conseil d'État, la Cour de cassation, 100 citoyens ou le Président de la République",
+        "Le Président de la République, les ministres, les préfets, 60 maires ou 60 conseillers régionaux",
+        "Le Président de la République, le Conseil constitutionnel lui-même, les magistrats, 60 avocats ou 60 juges",
+        "Le Premier ministre, le Conseil supérieur de la magistrature, les présidents de région, 60 députés européens ou 60 sénateurs"
       ]
     },
     {

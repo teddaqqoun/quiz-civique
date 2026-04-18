@@ -112,18 +112,17 @@
       "id": 97,
       "theme": "Vie en France et société",
       "questions": [
-        "Quels pays partagent une frontière avec la France ?",
-        "Avec quels pays la France a-t-elle des frontières terrestres ?",
-        "Quels pays sont voisins de la France ?"
+        "Quels pays partagent une frontière terrestre avec la France ?",
+        "Quels sont les pays limitrophes de la France ?"
       ],
       "correctAnswer": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
       "wrongAnswers": [
-        "Belgique, Pays-Bas, Allemagne, Suisse, Italie, Autriche, Espagne, Portugal",
-        "Belgique, Luxembourg, Allemagne, Suisse, Italie, Vatican, Espagne, Portugal",
-        "Royaume-Uni, Luxembourg, Allemagne, Autriche, Italie, Monaco, Espagne, Andorre",
-        "Belgique, Luxembourg, Pologne, Suisse, Italie, Monaco, Portugal, Andorre",
-        "Belgique, Luxembourg, Allemagne, Liechtenstein, Slovénie, Monaco, Espagne, Andorre",
-        "Irlande, Luxembourg, Danemark, Suisse, Italie, Saint-Marin, Espagne, Andorre"
+        "Belgique, Luxembourg, Allemagne, Suisse, Italie, Autriche, Espagne, Portugal",
+        "Belgique, Pays-Bas, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
+        "Belgique, Luxembourg, Allemagne, Suisse, Slovénie, Monaco, Espagne, Andorre",
+        "Royaume-Uni, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
+        "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Liechtenstein",
+        "Suède, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre"
       ]
     },
     {
@@ -148,9 +147,8 @@
       "id": 99,
       "theme": "Vie en France et société",
       "questions": [
-        "La Corse est :",
-        "Quel est le statut de la Corse ?",
-        "Comment la Corse est-elle rattachée à la France ?"
+        "Quel est le statut administratif de la Corse ?",
+        "La Corse fait partie de la France en tant que :"
       ],
       "correctAnswer": "Une collectivité territoriale française",
       "wrongAnswers": [
@@ -184,36 +182,36 @@
       "id": 101,
       "theme": "Vie en France et société",
       "questions": [
-        "La Martinique est située :",
-        "Où se trouve la Martinique ?",
-        "Dans quelle zone géographique est la Martinique ?"
+        "La Martinique est située dans quelle région ?",
+        "Où se situe la Martinique géographiquement ?",
+        "Dans quel ensemble géographique trouve-t-on la Martinique ?"
       ],
       "correctAnswer": "Dans les Caraïbes",
       "wrongAnswers": [
+        "Dans les Petites Antilles",
         "Dans l'océan Indien",
-        "Dans le Pacifique",
-        "En Méditerranée",
-        "En Afrique",
-        "En Amérique du Sud",
-        "En Asie"
+        "Dans le Pacifique Sud",
+        "En Méditerranée orientale",
+        "En Afrique centrale",
+        "Dans l'Amérique centrale"
       ]
     },
     {
       "id": 102,
       "theme": "Vie en France et société",
       "questions": [
-        "La Réunion est un département situé :",
-        "Où se trouve La Réunion ?",
-        "Dans quel océan est située La Réunion ?"
+        "Dans quel océan est située La Réunion ?",
+        "La Réunion se situe dans quel océan ?",
+        "Dans quel océan trouve-t-on l'île de La Réunion ?"
       ],
       "correctAnswer": "Dans l'océan Indien",
       "wrongAnswers": [
-        "Dans les Caraïbes",
-        "En Amérique du Sud",
-        "Dans le Pacifique",
-        "En Méditerranée",
-        "Dans l'Atlantique Nord",
-        "En Afrique continentale"
+        "Dans l'océan Pacifique",
+        "Dans l'océan Atlantique",
+        "Dans la mer des Caraïbes",
+        "Dans la mer Méditerranée",
+        "Dans la mer Rouge",
+        "Dans l'océan Arctique"
       ]
     },
     {
@@ -527,8 +525,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qui a découvert le polonium et le radium ?",
-        "À qui doit-on la découverte du radium ?",
-        "Quelle scientifique a découvert deux éléments radioactifs ?"
+        "Quel est le nom du scientifique ayant découvert deux éléments radioactifs ?",
+        "À quel scientifique doit-on la découverte du radium ?"
       ],
       "correctAnswer": "Marie Curie",
       "wrongAnswers": [
@@ -635,8 +633,7 @@
       "theme": "Vie en France et société",
       "questions": [
         "Quel est le sport le plus populaire en France ?",
-        "Quel sport est le plus pratiqué en France ?",
-        "Quel est le sport national français ?"
+        "Quel sport est le plus pratiqué en France ?"
       ],
       "correctAnswer": "Le football",
       "wrongAnswers": [
@@ -706,9 +703,8 @@
       "id": 161,
       "theme": "Vie en France et société",
       "questions": [
-        "Qu'est-ce que la CAF ?",
         "Que signifie l'acronyme CAF ?",
-        "Quel est le rôle de la CAF ?"
+        "À quoi correspond le sigle CAF ?"
       ],
       "correctAnswer": "Caisse d'Allocations Familiales",
       "wrongAnswers": [
@@ -743,8 +739,7 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que le RSA ?",
-        "Que désigne le RSA ?",
-        "Quel est le but du RSA ?"
+        "Que désigne le terme RSA ?"
       ],
       "correctAnswer": "Un dispositif d'aide financière",
       "wrongAnswers": [
@@ -797,8 +792,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Entre quels âges l'instruction est-elle obligatoire ?",
-        "Quelle est la durée de l'obligation scolaire ?",
-        "Pendant quelle tranche d'âge doit-on aller à l'école ?"
+        "Pendant quelle tranche d'âge doit-on aller à l'école ?",
+        "À partir de quel âge commence l'obligation scolaire et jusqu'à quel âge se termine-t-elle ?"
       ],
       "correctAnswer": "De 3 à 16 ans",
       "wrongAnswers": [
@@ -946,21 +941,20 @@
       ],
       "correctAnswer": "Des journées où les monuments sont ouverts gratuitement",
       "wrongAnswers": [
-        "Des journées où les musées sont fermés au public",
-        "Des journées où les commerces sont ouverts exceptionnellement",
-        "Des journées où les écoles organisent des sorties culturelles",
-        "Des journées où les mairies délivrent des documents gratuitement",
-        "Des journées où les châteaux sont réservés aux historiens",
-        "Des journées où les bibliothèques prêtent des livres gratuitement"
+        "Des journées où les musées sont ouverts gratuitement",
+        "Des journées où les parcs nationaux sont accessibles gratuitement",
+        "Des Journées de commémoration nationale",
+        "Des journées avec des visites guidées gratuites dans les villes",
+        "Des journées où les archives sont ouvertes gratuitement",
+        "Des journées où certaines institutions culturelles ouvrent leurs portes gratuitement"
       ]
     },
     {
       "id": 191,
       "theme": "Vie en France et société",
       "questions": [
-        "Quelle est la deuxième ville de France ?",
         "Quelle ville est la deuxième plus peuplée de France ?",
-        "Après Paris, quelle est la plus grande ville ?"
+        "Après Paris, quelle ville compte le plus grand nombre d'habitants ?"
       ],
       "correctAnswer": "Marseille",
       "wrongAnswers": [

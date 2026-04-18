@@ -60,7 +60,7 @@
       "questions": [
         "La scolarité est obligatoire jusqu'à quel âge ?",
         "Jusqu'à quel âge l'instruction est-elle obligatoire ?",
-        "À quel âge peut-on quitter l'école ?"
+        "Jusqu'à quel âge doit-on aller à l'école ?"
       ],
       "correctAnswer": "16 ans",
       "wrongAnswers": [
@@ -130,18 +130,17 @@
       "id": 47,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "La liberté d'expression permet-elle de faire quoi ?",
-        "Quels sont les droits liés à la liberté d'expression ?",
-        "Que peut-on faire grâce à la liberté d'expression ?"
+        "Qu'est-ce que la liberté d'expression autorise selon la loi ?",
+        "Quel droit est garanti par la liberté d'expression dans le cadre légal ?"
       ],
       "correctAnswer": "Exprimer des opinions dans le cadre de la loi",
       "wrongAnswers": [
-        "Dire tout ce qu'on veut sans limite",
-        "Insulter qui l'on veut",
-        "Diffuser de fausses informations",
-        "Inciter à la haine",
-        "Menacer autrui",
-        "Diffamer sans conséquence"
+        "Exprimer des opinions politiques sans censure",
+        "Critiquer des politiques sans répercussions",
+        "Protester pacifiquement dans des limites légales",
+        "Débattre sur des sujets controversés publiquement",
+        "Publier des articles d'opinion dans les médias",
+        "Participer à des manifestations autorisées"
       ]
     },
     {
@@ -185,17 +184,17 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la liberté de réunion ?",
-        "Quels sont les droits associés à la liberté de réunion ?",
-        "Que permet la liberté de réunion ?"
+        "Quel droit est exercé par la liberté de réunion ?",
+        "Que garantit la liberté de réunion ?"
       ],
-      "correctAnswer": "De se réunir pacifiquement",
+      "correctAnswer": "Le droit de se réunir pacifiquement",
       "wrongAnswers": [
-        "De manifester violemment",
-        "De s'exprimer anonymement",
-        "De militer clandestinement",
-        "De voter librement",
-        "De circuler librement",
-        "De s'associer durablement"
+        "Le droit de manifester violemment",
+        "Le droit de s'exprimer anonymement",
+        "Le droit de militer clandestinement",
+        "Le droit de voter librement",
+        "Le droit de circuler librement",
+        "Le droit de s'associer durablement"
       ]
     },
     {
@@ -346,27 +345,26 @@
       "id": 59,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Le service militaire obligatoire en France a été :",
-        "Quel est le statut actuel du service militaire ?",
-        "Quand le service militaire a-t-il pris fin ?"
+        "Quand le service militaire obligatoire a-t-il été suspendu en France ?",
+        "En quelle année le service militaire a-t-il été suspendu ?"
       ],
-      "correctAnswer": "Suspendu en 1997",
+      "correctAnswer": "En 1997",
       "wrongAnswers": [
-        "Maintenu jusqu'à aujourd'hui",
-        "Aboli en 1945",
-        "Rétabli en 2020",
-        "Supprimé en 2010",
-        "Transformé en 1980",
-        "Abandonné en 1968"
+        "En 2020",
+        "En 2010",
+        "En 1980",
+        "En 1968",
+        "En 1945",
+        "En 1975"
       ]
     },
     {
       "id": 60,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Que garantit le droit au logement en France ?",
-        "En quoi le droit au logement aide-t-il les citoyens ?",
-        "Quelles sont les mesures prévues par le droit au logement ?"
+        "Qu'est-ce que le droit au logement garantit en France ?",
+        "Quelle aide le droit au logement apporte-t-il aux citoyens pour accéder à un logement ?",
+        "Quelle est la garantie principale du droit au logement ?"
       ],
       "correctAnswer": "Un accès facilité à un logement décent",
       "wrongAnswers": [
@@ -436,9 +434,8 @@
       "id": 64,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Qu'est-ce que comprend la Sécurité sociale ?",
-        "Quel est le rôle de la Sécurité sociale ?",
-        "Comment peut-on définir la Sécurité sociale ?"
+        "Quel est le système de protection sociale en France ?",
+        "Comment définit-on le système de protection sociale en France ?"
       ],
       "correctAnswer": "Le système de protection sociale en France",
       "wrongAnswers": [
@@ -473,8 +470,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que le droit d'asile ?",
-        "Que signifie le droit d'asile ?",
-        "Quels sont les principes du droit d'asile ?"
+        "Que signifie demander le droit d'asile ?",
+        "En quoi consiste le droit d'asile ?"
       ],
       "correctAnswer": "Le droit de demander une protection contre des persécutions",
       "wrongAnswers": [
@@ -491,26 +488,24 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la liberté syndicale ?",
-        "Que permet la liberté syndicale ?",
         "En quoi consiste la liberté syndicale ?"
       ],
       "correctAnswer": "Le droit de créer ou d'adhérer librement à un syndicat",
       "wrongAnswers": [
-        "L'obligation d'adhérer à un syndicat",
-        "L'interdiction des syndicats",
-        "Le droit des patrons uniquement",
-        "L'obligation de créer un syndicat",
-        "Le syndicat unique obligatoire",
-        "Le contrôle des syndicats par l'État"
+        "Le droit de refuser d'adhérer à un syndicat",
+        "Le droit de ne pas être discriminé pour appartenance syndicale",
+        "Le droit de participer aux négociations collectives",
+        "Le droit de se retirer d'un syndicat librement",
+        "Le droit de bénéficier de la protection syndicale",
+        "Le droit de fonder un syndicat sans autorisation préalable"
       ]
     },
     {
       "id": 145,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "La liberté de la presse signifie :",
         "Qu'est-ce que la liberté de la presse ?",
-        "Quelle est la garantie de la liberté de la presse ?"
+        "Quel principe protège la capacité des médias à informer ?"
       ],
       "correctAnswer": "Les médias peuvent informer librement tant qu'ils respectent la loi",
       "wrongAnswers": [
@@ -546,16 +541,16 @@
       "questions": [
         "Quelles sont les conditions nécessaires pour voter en France ?",
         "Pour voter en France, quels critères doivent être remplis ?",
-        "Qui est éligible pour voter en France ?"
+        "Qui peut voter en France ?"
       ],
       "correctAnswer": "Avoir 18 ans et être de nationalité française",
       "wrongAnswers": [
         "Avoir 16 ans et être de nationalité française",
         "Avoir 21 ans et être de nationalité française",
-        "Avoir 18 ans et résider en France depuis 5 ans",
+        "Avoir 18 ans et être résident permanent en France",
         "Avoir 18 ans et être citoyen de l'Union européenne",
-        "Avoir 18 ans et payer ses impôts en France",
-        "Avoir 18 ans et être inscrit au service national"
+        "Avoir 18 ans et payer une taxe d'habitation en France",
+        "Avoir 18 ans et avoir un casier judiciaire vierge"
       ]
     },
     {
@@ -598,16 +593,16 @@
       "questions": [
         "Où doit-on s'inscrire pour voter ?",
         "Où s'inscrire sur les listes électorales ?",
-        "Comment s'inscrire pour voter ?"
+        "À quel endroit faut-il se rendre pour s'inscrire sur les listes électorales ?"
       ],
       "correctAnswer": "À la mairie de son domicile",
       "wrongAnswers": [
         "À la préfecture",
-        "Au tribunal",
-        "À l'Assemblée nationale",
         "À la sous-préfecture",
-        "Au commissariat",
-        "À la gendarmerie"
+        "Au comité de quartier",
+        "À l'ambassade de France",
+        "Au centre des impôts",
+        "À l'université"
       ]
     },
     {
@@ -650,17 +645,16 @@
       "id": 182,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "L'incitation à la haine raciale est :",
-        "Quel est le statut de l'incitation à la haine ?",
-        "L'incitation à la haine est-elle légale ?"
+        "Quel est le statut juridique de l'incitation à la haine raciale ?",
+        "Comment la loi considère-t-elle l'incitation à la haine raciale ?"
       ],
       "correctAnswer": "Un délit puni par la loi",
       "wrongAnswers": [
-        "Protégée par la liberté d'expression",
-        "Autorisée sur internet",
-        "Tolérée en privé",
-        "Légale dans certains cas",
-        "Sans conséquence juridique",
+        "Un acte protégé par la liberté d'expression",
+        "Une infraction autorisée sur internet",
+        "Une action tolérée en privé",
+        "Un comportement légal dans certains cas",
+        "Une manifestation sans conséquence juridique",
         "Une opinion comme une autre"
       ]
     },

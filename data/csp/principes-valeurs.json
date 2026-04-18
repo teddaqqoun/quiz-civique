@@ -148,9 +148,9 @@
       "id": 9,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Quel est le principe d'égalité en France ?",
-        "Que garantit le principe d'égalité ?",
-        "Comment s'exprime l'égalité républicaine ?"
+        "Qu'est-ce que le principe d'égalité signifie en France ?",
+        "Quelle garantie offre le principe d'égalité ?",
+        "En quoi consiste l'égalité républicaine ?"
       ],
       "correctAnswer": "Tous les citoyens sont égaux devant la loi",
       "wrongAnswers": [
@@ -344,17 +344,17 @@
       "theme": "Principes et valeurs de la République",
       "questions": [
         "Que représente le drapeau tricolore ?",
-        "Quel est le symbole du drapeau bleu-blanc-rouge ?",
-        "Quelle est la signification du drapeau tricolore en France ?"
+        "Quel est le symbole bleu-blanc-rouge en France ?",
+        "Quelle signification a le drapeau tricolore en République française ?"
       ],
-      "correctAnswer": "L'union de la royauté et de Paris",
+      "correctAnswer": "L'union de la royauté et de la ville de Paris",
       "wrongAnswers": [
-        "L'union de la noblesse et du clergé",
-        "L'union de l'Église et de l'État",
-        "L'union du peuple et de l'armée",
-        "L'union des régions et des colonies",
-        "L'union de la République et de la Révolution",
-        "L'union de la liberté et de l'égalité"
+        "L'union de la noblesse et du peuple",
+        "L'union de l'Église et de la République",
+        "L'union des provinces et de l'Empire",
+        "L'union des régions et des départements",
+        "L'union révolutionnaire et monarchiste",
+        "L'union symbolique des couleurs nationales"
       ]
     },
     {
@@ -415,18 +415,18 @@
       "id": 174,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Où les signes religieux visibles sont-ils interdits ?",
-        "Dans quels lieux les signes religieux sont-ils prohibés ?",
-        "Quels sont les lieux où les signes religieux sont défendus ?"
+        "Où les signes religieux sont-ils interdits à l'école ?",
+        "Dans quel type d'établissement les signes religieux sont-ils prohibés pour les élèves ?",
+        "Quels établissements interdisent les signes religieux visibles pour les élèves ?"
       ],
       "correctAnswer": "Dans les écoles publiques pour les élèves",
       "wrongAnswers": [
-        "Dans les entreprises privées pour les salariés",
-        "Dans les rues publiques pour les passants",
-        "Dans les transports en commun pour les voyageurs",
-        "Dans les universités publiques pour les étudiants",
-        "Dans les commerces ouverts pour les clients",
-        "Dans les lieux de culte pour les fidèles"
+        "Dans les entreprises privées pour les employés",
+        "Dans les transports publics pour les voyageurs",
+        "Dans les jardins publics pour le public",
+        "Dans les établissements scolaires privés pour les élèves",
+        "Dans les centres commerciaux pour les clients",
+        "Dans les administrations publiques pour les employés"
       ]
     },
     {

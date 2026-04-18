@@ -130,18 +130,18 @@
       "id": 73,
       "theme": "Histoire de France",
       "questions": [
-        "Quand la Seconde Guerre mondiale a-t-elle eu lieu ?",
+        "Entre quelles années la Seconde Guerre mondiale a-t-elle eu lieu ?",
         "Quelles sont les dates de la Seconde Guerre mondiale ?",
-        "À quelle période s'est déroulée la Seconde Guerre mondiale ?"
+        "À quelle période précise la Seconde Guerre mondiale s'est-elle déroulée ?"
       ],
       "correctAnswer": "1939-1945",
       "wrongAnswers": [
         "1914-1918",
         "1870-1871",
         "1954-1962",
-        "1935-1942",
-        "1940-1948",
-        "1936-1944"
+        "1937-1944",
+        "1940-1945",
+        "1938-1943"
       ]
     },
     {
@@ -222,16 +222,16 @@
       "questions": [
         "Quand les femmes ont-elles obtenu le droit de vote en France ?",
         "En quelle année le suffrage féminin a-t-il été accordé ?",
-        "Depuis quand les femmes peuvent-elles voter ?"
+        "Depuis quand les femmes peuvent-elles voter en France ?"
       ],
       "correctAnswer": "1944",
       "wrongAnswers": [
-        "1918",
-        "1936",
-        "1958",
-        "1945",
-        "1920",
-        "1968"
+        "1919",
+        "1946",
+        "1956",
+        "1943",
+        "1947",
+        "1970"
       ]
     },
     {
@@ -508,18 +508,18 @@
       "id": 154,
       "theme": "Histoire de France",
       "questions": [
-        "Qui était Napoléon Bonaparte ?",
-        "Quel titre portait Napoléon Bonaparte ?",
-        "Comment définir Napoléon Bonaparte ?"
+        "Quel était le titre de Napoléon Bonaparte ?",
+        "Qu'était Napoléon Bonaparte par fonction ?",
+        "Comment peut-on qualifier Napoléon Bonaparte au sein du gouvernement français ?"
       ],
       "correctAnswer": "Un empereur français",
       "wrongAnswers": [
-        "Un roi de France",
-        "Un président de la République",
-        "Un révolutionnaire uniquement",
-        "Un général étranger",
-        "Un philosophe",
-        "Un pape"
+        "Un roi français",
+        "Un président français",
+        "Un révolutionnaire français",
+        "Un général français",
+        "Un philosophe français",
+        "Un religieux français"
       ]
     },
     {
