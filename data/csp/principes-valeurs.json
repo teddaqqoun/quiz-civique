@@ -22,18 +22,18 @@
       "id": 2,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "À quoi correspond la date du 14 juillet ?",
-        "Que célèbre-t-on le 14 juillet en France ?",
-        "Quel événement historique est commémoré le 14 juillet ?"
+        "Quel événement est célébré le 14 juillet ?",
+        "Que commémore le 14 juillet en France ?",
+        "À quoi renvoie la date du 14 juillet ?"
       ],
       "correctAnswer": "La prise de la Bastille",
       "wrongAnswers": [
-        "La signature de la Constitution",
-        "La fin de la Première Guerre mondiale",
+        "La fête de la Fédération",
+        "La déclaration des Droits de l'Homme",
         "La proclamation de la République",
-        "La Révolution de 1848",
-        "L'abolition de la monarchie",
-        "La fin de la Seconde Guerre mondiale"
+        "La signature de la Constitution",
+        "La chute de Napoléon",
+        "La libération de Paris"
       ]
     },
     {
@@ -94,18 +94,18 @@
       "id": 6,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Que signifie le principe de laïcité ?",
+        "Que signifie le principe de la laïcité ?",
         "Qu'est-ce que la laïcité en France ?",
-        "Comment définir la laïcité ?"
+        "Comment expliquer la laïcité ?"
       ],
       "correctAnswer": "La séparation des Églises et de l'État",
       "wrongAnswers": [
-        "L'interdiction de toutes les religions",
-        "L'obligation d'être athée",
-        "La promotion d'une religion officielle",
-        "L'interdiction de prier",
-        "La suppression des fêtes religieuses",
-        "Le contrôle des religions par l'État"
+        "La séparation des pouvoirs et de la justice",
+        "La neutralité des citoyens et de l'État",
+        "La protection des religions et de leurs fidèles",
+        "La domination de l'État sur les Églises",
+        "L'union des cultes et des institutions publiques",
+        "L'interdiction des religions dans la société"
       ]
     },
     {
@@ -166,18 +166,18 @@
       "id": 10,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Que garantit la liberté de conscience ?",
         "Qu'est-ce que la liberté de conscience ?",
-        "En quoi consiste la liberté de conscience ?"
+        "Que signifie la liberté de conscience ?",
+        "Quel est le concept de liberté de conscience ?"
       ],
       "correctAnswer": "Le droit de croire ou de ne pas croire en une religion",
       "wrongAnswers": [
-        "Le droit de critiquer le gouvernement",
-        "Le droit de vote",
-        "Le droit au travail",
-        "Le droit de manifester",
-        "Le droit à l'éducation",
-        "Le droit de grève"
+        "Le droit de pratiquer ou de renoncer à un culte officiel",
+        "Le droit d'exprimer ou de cacher ses opinions politiques",
+        "Le droit de parler ou de se taire devant la justice",
+        "Le droit de voter ou de s'abstenir aux élections",
+        "Le droit d'adhérer ou de quitter un parti politique",
+        "Le droit de choisir ou de refuser une nationalité étrangère"
       ]
     },
     {
@@ -186,16 +186,16 @@
       "questions": [
         "Qu'est-ce que la fraternité ?",
         "Que signifie la fraternité dans la devise française ?",
-        "Comment définir la fraternité républicaine ?"
+        "Comment définir la fraternité au sein de la République ?"
       ],
-      "correctAnswer": "Un sentiment de solidarité entre les citoyens",
+      "correctAnswer": "Un sentiment de solidarité entre les membres de la société",
       "wrongAnswers": [
-        "Un lien de parenté",
-        "Une organisation religieuse",
-        "Un parti politique",
-        "Une association caritative",
-        "Un syndicat",
-        "Une obligation légale"
+        "Un principe d'égalité entre les citoyens de la nation",
+        "Un devoir d'obéissance entre les habitants du territoire",
+        "Un sentiment d'appartenance entre les membres d'une famille",
+        "Un lien de dépendance entre les générations d'une nation",
+        "Un rapport de hiérarchie entre les classes de la population",
+        "Un contrat de coopération entre les institutions de l'État"
       ]
     },
     {
@@ -220,18 +220,18 @@
       "id": 13,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Le coq gaulois est :",
-        "Que représente le coq gaulois ?",
-        "Quel est le statut du coq gaulois ?"
+        "Quelle est la signification du coq gaulois ?",
+        "Que symbolise le coq gaulois pour la France ?",
+        "Quel est le statut symbolique du coq gaulois ?"
       ],
       "correctAnswer": "Un emblème traditionnel de la France",
       "wrongAnswers": [
-        "Le symbole officiel de la France",
-        "L'animal national protégé",
-        "Le logo de l'équipe de football uniquement",
-        "Un symbole religieux",
-        "L'emblème de la royauté",
-        "Un symbole régional breton"
+        "Un symbole officiel de la France",
+        "Un animal protégé de la France",
+        "Un monument historique de la France",
+        "Un blason royal de la France",
+        "Un drapeau régional de la France",
+        "Un hymne patriotique de la France"
       ]
     },
     {
@@ -271,18 +271,18 @@
       "id": 129,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Qu'est-ce que la République ?",
-        "Comment définir une république ?",
-        "Que signifie vivre en République ?"
+        "Qu'est-ce qu'une république ?",
+        "Comment peut-on définir une république ?",
+        "Que signifie vivre dans une république ?"
       ],
-      "correctAnswer": "Un système où le pouvoir appartient au peuple",
+      "correctAnswer": "Un système où le pouvoir appartient aux citoyens",
       "wrongAnswers": [
-        "Un système où le pouvoir est héréditaire",
-        "Un système dirigé par un roi",
-        "Un système religieux",
-        "Un système militaire",
-        "Un système aristocratique",
-        "Un système tribal"
+        "Un système où le pouvoir appartient à un monarque héréditaire",
+        "Un système où le pouvoir est exercé par les chefs religieux",
+        "Un système où le pouvoir est confié à une élite militaire",
+        "Un système où le pouvoir est réservé aux plus fortunés",
+        "Un système où le pouvoir revient à un dictateur unique",
+        "Un système où le pouvoir est partagé entre plusieurs nations"
       ]
     },
     {
@@ -290,17 +290,17 @@
       "theme": "Principes et valeurs de la République",
       "questions": [
         "Que signifie 'indivisible' pour la République ?",
-        "Pourquoi la République est-elle indivisible ?",
-        "Qu'implique le caractère indivisible de la République ?"
+        "Que veut dire le caractère indivisible de la République ?",
+        "Comment se traduit l'indivisibilité de la République ?"
       ],
-      "correctAnswer": "La loi est la même pour tous sur tout le territoire",
+      "correctAnswer": "La loi est identique sur tout le territoire français",
       "wrongAnswers": [
-        "La France peut se diviser en plusieurs pays",
-        "Chaque région a ses propres lois",
-        "La France n'a pas de frontières",
-        "Les territoires sont autonomes",
-        "Les régions sont indépendantes",
-        "Chaque département vote ses lois"
+        "La loi est différente selon les régions françaises",
+        "La République est divisée en plusieurs États autonomes",
+        "La souveraineté est partagée avec les collectivités locales",
+        "La Constitution est adaptée à chaque département français",
+        "La justice est rendue différemment dans chaque commune",
+        "La nation est composée de peuples juridiquement distincts"
       ]
     },
     {
@@ -308,17 +308,17 @@
       "theme": "Principes et valeurs de la République",
       "questions": [
         "Que signifie le caractère 'social' de la République ?",
-        "Pourquoi la République est-elle sociale ?",
-        "En quoi la République française est-elle sociale ?"
+        "Pourquoi la République est-elle considérée comme sociale ?",
+        "En quoi le caractère social de la République française se manifeste-t-il ?"
       ],
-      "correctAnswer": "L'État assure la solidarité et la protection sociale",
+      "correctAnswer": "L'État garantit la solidarité et la protection sociale",
       "wrongAnswers": [
-        "Tout le monde a le même salaire",
-        "Les citoyens doivent être sociables",
-        "La France est un pays socialiste",
-        "L'État contrôle l'économie",
-        "Tout appartient à l'État",
-        "Il n'y a pas de propriété privée"
+        "L'État assure la croissance économique et la prospérité nationale",
+        "L'État contrôle la production industrielle et la distribution commerciale",
+        "L'État impose la redistribution totale des richesses privées",
+        "L'État organise la propriété collective des moyens de production",
+        "L'État finance uniquement les services publics régaliens essentiels",
+        "L'État réserve la protection sociale aux seuls travailleurs cotisants"
       ]
     },
     {
@@ -343,18 +343,18 @@
       "id": 170,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Le drapeau tricolore représente :",
-        "Que symbolise le drapeau tricolore ?",
-        "Quelle est l'origine du drapeau bleu-blanc-rouge ?"
+        "Que représente le drapeau tricolore ?",
+        "Quel est le symbole du drapeau bleu-blanc-rouge ?",
+        "Quelle est la signification du drapeau tricolore en France ?"
       ],
-      "correctAnswer": "L'union de la royauté (blanc) et de Paris (bleu et rouge)",
+      "correctAnswer": "L'union de la royauté et de Paris",
       "wrongAnswers": [
-        "Les trois pouvoirs",
-        "Les trois religions",
-        "Les trois régions de France",
-        "La terre, le ciel et le sang",
-        "Les trois états généraux",
-        "Les trois ordres"
+        "L'union de la noblesse et du clergé",
+        "L'union de l'Église et de l'État",
+        "L'union du peuple et de l'armée",
+        "L'union des régions et des colonies",
+        "L'union de la République et de la Révolution",
+        "L'union de la liberté et de l'égalité"
       ]
     },
     {
@@ -397,54 +397,54 @@
       "id": 173,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "La laïcité garantit :",
-        "Qu'assure la laïcité ?",
-        "Quel droit protège la laïcité ?"
+        "Que garantit la laïcité ?",
+        "Quel droit est protégé par la laïcité ?",
+        "Quel principe est fondamental dans la laïcité ?"
       ],
       "correctAnswer": "La liberté de croire ou de ne pas croire",
       "wrongAnswers": [
-        "L'interdiction de pratiquer une religion",
-        "Une religion d'État",
-        "L'obligation d'être athée",
-        "Le contrôle des religions",
-        "La suppression des cultes",
-        "L'interdiction de prier"
+        "La liberté de pratiquer ou d'imposer une religion",
+        "La liberté de choisir ou de changer de nationalité",
+        "La liberté d'exprimer ou de cacher ses opinions",
+        "La liberté de voter ou de se présenter aux élections",
+        "La liberté d'adhérer ou de créer un parti politique",
+        "La liberté de travailler ou de se reposer le dimanche"
       ]
     },
     {
       "id": 174,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Les signes religieux ostensibles sont interdits :",
-        "Où les signes religieux sont-ils interdits ?",
-        "Dans quel lieu les signes religieux sont-ils proscrits ?"
+        "Où les signes religieux visibles sont-ils interdits ?",
+        "Dans quels lieux les signes religieux sont-ils prohibés ?",
+        "Quels sont les lieux où les signes religieux sont défendus ?"
       ],
       "correctAnswer": "Dans les écoles publiques pour les élèves",
       "wrongAnswers": [
-        "Partout en France",
-        "Uniquement dans les églises",
-        "Dans tous les lieux de travail",
-        "Dans la rue",
-        "Chez soi",
-        "Dans les transports"
+        "Dans les entreprises privées pour les salariés",
+        "Dans les rues publiques pour les passants",
+        "Dans les transports en commun pour les voyageurs",
+        "Dans les universités publiques pour les étudiants",
+        "Dans les commerces ouverts pour les clients",
+        "Dans les lieux de culte pour les fidèles"
       ]
     },
     {
       "id": 192,
       "theme": "Principes et valeurs de la République",
       "questions": [
-        "Quel est l'article premier de la Constitution ?",
-        "Que dit l'article 1 de la Constitution ?",
-        "Comment commence la Constitution française ?"
+        "Quel est le contenu de l'article premier de la Constitution ?",
+        "Que stipule l'article 1 de la Constitution ?",
+        "Comment l'article premier définit-il la France ?"
       ],
       "correctAnswer": "La France est une République indivisible, laïque, démocratique et sociale",
       "wrongAnswers": [
-        "La France est une monarchie",
-        "La France est membre de l'Union européenne",
-        "Le français est la langue officielle",
-        "Le Président est le chef de l'État",
-        "Tous les citoyens sont égaux",
-        "La souveraineté appartient au peuple"
+        "La France est une République unie, chrétienne, monarchique et libérale",
+        "La France est une République fédérale, religieuse, autoritaire et libérale",
+        "La France est une République décentralisée, pluraliste, parlementaire et économique",
+        "La France est une République souveraine, traditionnelle, présidentielle et populaire",
+        "La France est une République divisible, neutre, représentative et conservatrice",
+        "La France est une République indépendante, spirituelle, monarchique et égalitaire"
       ]
     }
   ]

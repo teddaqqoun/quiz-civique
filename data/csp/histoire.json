@@ -40,18 +40,18 @@
       "id": 68,
       "theme": "Histoire de France",
       "questions": [
-        "Qui a rédigé le Code civil français ?",
-        "Sous qui le Code civil a-t-il été créé ?",
-        "À qui doit-on le Code civil ?"
+        "Qui est l'auteur du Code civil français ?",
+        "Qui a permis l'élaboration du Code civil ?",
+        "Quel personnage historique est associé à la création du Code civil ?"
       ],
       "correctAnswer": "Napoléon Bonaparte",
       "wrongAnswers": [
         "Louis XIV",
         "Charles de Gaulle",
-        "Jean Jaurès",
+        "Victor Hugo",
         "Louis XVI",
         "Robespierre",
-        "Victor Hugo"
+        "Jean Jaurès"
       ]
     },
     {
@@ -77,15 +77,15 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la IIIe République ?",
-        "À quelle période correspond la IIIe République ?",
-        "Quand a existé la IIIe République ?"
+        "Comment définir la IIIe République ?",
+        "À quoi correspond la IIIe République ?"
       ],
       "correctAnswer": "Le régime de 1870 à 1940",
       "wrongAnswers": [
         "Le régime de 1789 à 1799",
-        "Le régime actuel",
-        "Le régime de Napoléon",
-        "Le régime de 1848 à 1870",
+        "Le régime de 1848 à 1852",
+        "Le régime de 1852 à 1870",
+        "Le régime de 1875 à 1914",
         "Le régime de 1940 à 1944",
         "Le régime de 1946 à 1958"
       ]
@@ -184,18 +184,18 @@
       "id": 76,
       "theme": "Histoire de France",
       "questions": [
-        "Qu'était le régime de Vichy ?",
-        "Comment définir le régime de Vichy ?",
-        "Que représentait Vichy pendant la guerre ?"
+        "Qu'est-ce que le régime de Vichy ?",
+        "Comment caractériser le régime de Vichy ?",
+        "Quel était le rôle du régime de Vichy pendant la guerre ?"
       ],
-      "correctAnswer": "Le gouvernement collaborateur de 1940-1944",
+      "correctAnswer": "Le régime de collaboration entre 1940 et 1944",
       "wrongAnswers": [
-        "La résistance française",
-        "La IVe République",
-        "Le gouvernement provisoire",
-        "Un gouvernement d'exil",
-        "La France libre",
-        "Un régime républicain"
+        "Le régime de résistance entre 1940 et 1944",
+        "Le régime de transition entre 1939 et 1945",
+        "Le régime républicain entre 1940 et 1944",
+        "Le régime d'occupation entre 1939 et 1945",
+        "Le régime provisoire entre 1944 et 1946",
+        "Le régime parlementaire entre 1940 et 1944"
       ]
     },
     {
@@ -203,17 +203,17 @@
       "theme": "Histoire de France",
       "questions": [
         "Qui était Jean Moulin ?",
-        "Quel rôle a joué Jean Moulin ?",
-        "Pourquoi Jean Moulin est-il célèbre ?"
+        "Quel rôle a joué Jean Moulin dans la Résistance ?",
+        "Pourquoi Jean Moulin est-il une figure importante de l'histoire ?"
       ],
-      "correctAnswer": "Un héros de la Résistance",
+      "correctAnswer": "Un héros de la Résistance française",
       "wrongAnswers": [
-        "Un général allemand",
-        "Un président de la République",
-        "Un roi de France",
-        "Un collaborateur",
-        "Un ministre de Vichy",
-        "Un écrivain"
+        "Un général de l'armée française libre",
+        "Un président de la République française",
+        "Un ministre du gouvernement de Vichy",
+        "Un écrivain engagé de la France libre",
+        "Un collaborateur du régime allemand",
+        "Un soldat de la Première Guerre mondial"
       ]
     },
     {
@@ -274,9 +274,9 @@
       "id": 81,
       "theme": "Histoire de France",
       "questions": [
-        "Qui était le président lors de l'abolition de la peine de mort ?",
-        "Sous quel président la peine de mort a-t-elle été abolie ?",
-        "Qui présidait la France en 1981 lors de l'abolition ?"
+        "Quel président a aboli la peine de mort en France ?",
+        "Qui était à la présidence lors de l'abolition de la peine de mort ?",
+        "Sous quel président la peine de mort a-t-elle été officiellement supprimée ?"
       ],
       "correctAnswer": "François Mitterrand",
       "wrongAnswers": [
@@ -292,9 +292,9 @@
       "id": 82,
       "theme": "Histoire de France",
       "questions": [
-        "Qui était le garde des Sceaux qui a défendu l'abolition de la peine de mort ?",
-        "Quel ministre a porté l'abolition de la peine de mort ?",
-        "Qui a fait voter l'abolition de la peine capitale ?"
+        "Qui était le garde des Sceaux qui a soutenu la loi sur l'abolition de la peine de mort ?",
+        "Quel ministre a organisé le vote pour abolir la peine de mort ?",
+        "Qui a été à l'origine de l'abolition de la peine capitale ?"
       ],
       "correctAnswer": "Robert Badinter",
       "wrongAnswers": [
@@ -303,7 +303,7 @@
         "Michel Rocard",
         "Jack Lang",
         "Roland Dumas",
-        "Pierre Mauroy"
+        "François Mitterrand"
       ]
     },
     {
@@ -346,9 +346,9 @@
       "id": 85,
       "theme": "Histoire de France",
       "questions": [
-        "Quel traité a créé l'Union européenne ?",
-        "Comment s'appelle le traité fondateur de l'UE ?",
-        "Par quel traité l'Union européenne a-t-elle été instituée ?"
+        "Quel traité a établi l'Union européenne ?",
+        "Quel est le nom du traité fondamental de l'UE ?",
+        "Par quel traité a été créée l'Union européenne ?"
       ],
       "correctAnswer": "Le traité de Maastricht",
       "wrongAnswers": [
@@ -419,17 +419,17 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la décolonisation ?",
-        "Comment définir la décolonisation ?",
-        "Que signifie la décolonisation ?"
+        "Comment peut-on définir la décolonisation ?",
+        "Que signifie le terme décolonisation ?"
       ],
-      "correctAnswer": "Le processus d'indépendance des colonies",
+      "correctAnswer": "Le processus par lequel les colonies obtiennent leur indépendance",
       "wrongAnswers": [
-        "La conquête de nouveaux territoires",
-        "L'expansion de l'empire français",
-        "La colonisation de la Gaule",
-        "L'annexion de territoires",
-        "La création de protectorats",
-        "L'établissement de comptoirs"
+        "Le processus par lequel les pays européens conquièrent de nouveaux territoires",
+        "Le processus par lequel les colonies deviennent économiquement autonomes",
+        "Le processus par lequel les empires coloniaux se réorganisent militairement",
+        "Le processus par lequel les populations colonisées adoptent la culture européenne",
+        "Le processus par lequel les métropoles transfèrent leurs citoyens vers les colonies",
+        "Le processus par lequel les territoires ultramarins intègrent définitivement la métropole"
       ]
     },
     {
@@ -491,17 +491,17 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que l'Ancien Régime ?",
-        "À quelle période correspond l'Ancien Régime ?",
+        "Comment définir l'Ancien Régime ?",
         "Que désigne l'Ancien Régime ?"
       ],
-      "correctAnswer": "La période monarchique avant la Révolution",
+      "correctAnswer": "La période de la monarchie avant la Révolution",
       "wrongAnswers": [
-        "La période après 1789",
-        "La Ve République",
-        "Le régime de Vichy",
-        "L'Empire napoléonien",
-        "La IIIe République",
-        "La Restauration"
+        "La période de la République avant l'Empire",
+        "La période de l'Empire avant la Restauration",
+        "La période de la féodalité avant la monarchie",
+        "La période de la monarchie après la Révolution",
+        "La période de la Révolution avant la République",
+        "La période de la Terreur avant le Consulat"
       ]
     },
     {
@@ -548,14 +548,14 @@
         "Que fut l'Affaire Dreyfus ?",
         "Comment définir l'Affaire Dreyfus ?"
       ],
-      "correctAnswer": "Une affaire judiciaire antisémite",
+      "correctAnswer": "Un cas de discrimination judiciaire antisémite",
       "wrongAnswers": [
-        "Un scandale financier",
-        "Une guerre coloniale",
-        "Un assassinat politique",
-        "Un coup d'État",
-        "Une révolution",
-        "Un traité international"
+        "Un cas d'espionnage militaire avéré",
+        "Un cas de corruption politique républicaine",
+        "Un cas de trahison nationale prouvée",
+        "Un cas de discrimination religieuse catholique",
+        "Un cas de rébellion militaire organisée",
+        "Un cas de fraude électorale généralisée"
       ]
     },
     {
@@ -584,14 +584,14 @@
         "Que fut le Front populaire ?",
         "Comment définir le Front populaire ?"
       ],
-      "correctAnswer": "Une coalition de gauche au pouvoir",
+      "correctAnswer": "Une coalition de partis de gauche au pouvoir",
       "wrongAnswers": [
-        "Une guerre",
-        "Un mouvement fasciste",
-        "Une révolution",
-        "Un parti unique",
-        "Un gouvernement de droite",
-        "Une dictature"
+        "Une coalition de partis de droite au pouvoir",
+        "Une coalition de syndicats ouvriers en grève",
+        "Une coalition de mouvements royalistes au pouvoir",
+        "Une coalition de républicains modérés au pouvoir",
+        "Une coalition de nationalistes conservateurs au pouvoir",
+        "Une coalition de communistes révolutionnaires au pouvoir"
       ]
     },
     {
@@ -599,17 +599,17 @@
       "theme": "Histoire de France",
       "questions": [
         "Qui était Simone Veil ?",
-        "Pour quoi Simone Veil est-elle connue ?",
-        "Quel fut le rôle de Simone Veil ?"
+        "Comment décrire Simone Veil ?",
+        "Quelle figure politique était Simone Veil ?"
       ],
-      "correctAnswer": "Une ministre qui a fait voter la loi sur l'IVG",
+      "correctAnswer": "Une ministre ayant fait adopter la loi sur l'IVG",
       "wrongAnswers": [
-        "Une reine de France",
-        "Une actrice",
-        "Une scientifique",
-        "Une écrivaine",
-        "Une chanteuse",
-        "Une sportive"
+        "Une ministre ayant instauré le droit de vote des femmes",
+        "Une députée ayant proposé la suppression de la peine de mort",
+        "Une présidente ayant dirigé la Ve République française",
+        "Une résistante ayant organisé la Libération de Paris",
+        "Une syndicaliste ayant obtenu les congés payés",
+        "Une militante ayant fondé le mouvement féministe français"
       ]
     },
     {

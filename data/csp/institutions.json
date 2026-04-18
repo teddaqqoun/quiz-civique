@@ -62,14 +62,14 @@
         "Quelle est la fonction principale du Premier ministre ?",
         "Que fait principalement le Premier ministre ?"
       ],
-      "correctAnswer": "Diriger l'action du gouvernement",
+      "correctAnswer": "Assurer la direction de l'action gouvernementale",
       "wrongAnswers": [
-        "Représenter la France à l'étranger",
-        "Présider le Conseil constitutionnel",
-        "Commander les armées",
-        "Voter les lois",
-        "Nommer les juges",
-        "Dissoudre l'Assemblée"
+        "Assurer la représentation de la France à l'étranger",
+        "Promulguer les lois votées par le Parlement",
+        "Diriger les armées en tant que chef suprême",
+        "Nommer les membres du Conseil constitutionnel",
+        "Présider le Conseil supérieur de la magistrature",
+        "Dissoudre l'Assemblée nationale en cas de crise"
       ]
     },
     {
@@ -112,9 +112,9 @@
       "id": 22,
       "theme": "Institutions de la République",
       "questions": [
-        "Pour combien d'années les députés sont-ils élus ?",
-        "Quelle est la durée du mandat d'un député ?",
-        "Combien de temps dure le mandat législatif ?"
+        "Quelle est la durée du mandat d'un député à l'Assemblée nationale ?",
+        "Pour combien de temps les députés sont-ils élus en France ?",
+        "Dure combien d'années le mandat des députés ?"
       ],
       "correctAnswer": "5 ans",
       "wrongAnswers": [
@@ -123,23 +123,23 @@
         "7 ans",
         "3 ans",
         "9 ans",
-        "2 ans"
+        "1 an"
       ]
     },
     {
       "id": 23,
       "theme": "Institutions de la République",
       "questions": [
-        "Pour combien d'années les sénateurs sont-ils élus ?",
-        "Quelle est la durée du mandat d'un sénateur ?",
-        "Combien de temps dure le mandat sénatorial ?"
+        "Pour quelle durée les sénateurs sont-ils élus ?",
+        "Combien de temps dure le mandat des sénateurs ?",
+        "Quelle est la durée d'un mandat sénatorial ?"
       ],
       "correctAnswer": "6 ans",
       "wrongAnswers": [
         "4 ans",
         "5 ans",
-        "9 ans",
         "7 ans",
+        "8 ans",
         "3 ans",
         "À vie"
       ]
@@ -167,8 +167,8 @@
       "theme": "Institutions de la République",
       "questions": [
         "Où siège le Sénat ?",
-        "Dans quel palais se réunit le Sénat ?",
-        "Quel est le lieu de travail des sénateurs ?"
+        "Dans quel bâtiment se réunit le Sénat ?",
+        "Quel lieu abrite les sénateurs ?"
       ],
       "correctAnswer": "Au Palais du Luxembourg",
       "wrongAnswers": [
@@ -177,16 +177,16 @@
         "Au Palais de Justice",
         "À l'Hôtel Matignon",
         "Au Palais-Royal",
-        "Au Panthéon"
+        "Au Palais de l'Assemblée"
       ]
     },
     {
       "id": 26,
       "theme": "Institutions de la République",
       "questions": [
-        "Où réside le Président de la République ?",
-        "Quel est le palais présidentiel ?",
-        "Où habite officiellement le Président ?"
+        "Quelle est la résidence officielle du Président de la République ?",
+        "Où se trouve le palais présidentiel ?",
+        "Quel est le lieu de résidence du Président ?"
       ],
       "correctAnswer": "Au Palais de l'Élysée",
       "wrongAnswers": [
@@ -194,8 +194,8 @@
         "Au Palais Bourbon",
         "Au château de Versailles",
         "Au Palais du Luxembourg",
-        "Au Louvre",
-        "À l'Hôtel de Ville"
+        "À l'Hôtel de Ville",
+        "À la Préfecture de Paris"
       ]
     },
     {
@@ -224,14 +224,14 @@
         "Que fait le Conseil constitutionnel ?",
         "À quoi sert le Conseil constitutionnel ?"
       ],
-      "correctAnswer": "Vérifier la conformité des lois à la Constitution",
+      "correctAnswer": "Contrôler la conformité des lois à la Constitution",
       "wrongAnswers": [
-        "Voter les lois",
-        "Nommer le Premier ministre",
-        "Diriger l'armée",
-        "Juger les criminels",
-        "Gérer le budget de l'État",
-        "Représenter la France à l'étranger"
+        "Rédiger les lois votées par le Parlement",
+        "Juger les crimes commis par le président",
+        "Contrôler l'application des traités internationaux",
+        "Modifier la Constitution en cas de crise nationale",
+        "Nommer les membres du gouvernement français",
+        "Organiser les élections présidentielles françaises"
       ]
     },
     {
@@ -239,17 +239,17 @@
       "theme": "Institutions de la République",
       "questions": [
         "Qu'est-ce qu'une commune ?",
-        "Comment définir une commune ?",
+        "Comment peut-on définir une commune ?",
         "Que représente une commune en France ?"
       ],
-      "correctAnswer": "La plus petite division administrative française",
+      "correctAnswer": "La plus petite division administrative en France",
       "wrongAnswers": [
-        "Une région",
-        "Un département",
-        "Une province",
-        "Un canton",
-        "Un arrondissement",
-        "Une préfecture"
+        "La plus grande division administrative en France",
+        "La plus petite circonscription électorale en France",
+        "La plus ancienne institution politique en France",
+        "La plus importante collectivité territoriale en France",
+        "La plus petite région économique en France",
+        "La plus petite unité judiciaire en France"
       ]
     },
     {
@@ -347,17 +347,17 @@
       "theme": "Institutions de la République",
       "questions": [
         "Quelle est la plus haute juridiction de l'ordre judiciaire ?",
-        "Quel tribunal est au sommet de l'ordre judiciaire ?",
-        "Quelle cour est la plus élevée dans la justice judiciaire ?"
+        "Quel tribunal est le plus élevé dans l'ordre judiciaire ?",
+        "Quelle est la cour suprême de la justice judiciaire ?"
       ],
       "correctAnswer": "La Cour de cassation",
       "wrongAnswers": [
         "Le Conseil d'État",
         "Le Conseil constitutionnel",
         "Le tribunal administratif",
-        "La Cour des comptes",
         "La Cour d'appel",
-        "Le tribunal de grande instance"
+        "Le tribunal de grande instance",
+        "Le tribunal populaire"
       ]
     },
     {
@@ -386,14 +386,14 @@
         "Comment définir la Constitution ?",
         "Quel est le rôle de la Constitution ?"
       ],
-      "correctAnswer": "Le texte fondamental qui organise les pouvoirs de l'État",
+      "correctAnswer": "Le texte qui établit les principes fondamentaux de l'État",
       "wrongAnswers": [
-        "Un recueil de lois ordinaires",
-        "Le programme du gouvernement",
-        "Le règlement de l'Assemblée nationale",
-        "Un traité international",
-        "Le Code civil",
-        "Un décret présidentiel"
+        "Le texte qui regroupe les lois votées par le Parlement",
+        "Le texte qui définit les sanctions pénales de l'État",
+        "Le texte qui organise les relations entre les communes",
+        "Le texte qui encadre les traités internationaux signés",
+        "Le texte qui fixe les règles du droit du travail",
+        "Le texte qui énumère les droits des consommateurs"
       ]
     },
     {
@@ -440,14 +440,14 @@
         "Comment définir un référendum ?",
         "En quoi consiste un référendum ?"
       ],
-      "correctAnswer": "Une consultation directe du peuple sur une question",
+      "correctAnswer": "Une consultation directe des citoyens sur une question",
       "wrongAnswers": [
-        "Une élection présidentielle",
-        "Un vote au Parlement",
-        "Une décision du Conseil constitutionnel",
-        "Une pétition citoyenne",
-        "Un sondage d'opinion",
-        "Une élection législative"
+        "Une élection indirecte des représentants par les citoyens",
+        "Une décision unilatérale du président sur une réforme",
+        "Une enquête confidentielle des parlementaires sur un sujet",
+        "Une procédure exceptionnelle du gouvernement contre l'opposition",
+        "Une nomination collective des ministres par le Sénat",
+        "Une ratification automatique des lois par le Conseil d'État"
       ]
     },
     {
@@ -455,26 +455,25 @@
       "theme": "Institutions de la République",
       "questions": [
         "Qui peut proposer une loi en France ?",
-        "D'où viennent les projets de loi ?",
         "Qui a l'initiative des lois ?"
       ],
       "correctAnswer": "Le gouvernement et les parlementaires",
       "wrongAnswers": [
-        "Uniquement le Président",
-        "Uniquement les citoyens",
-        "Uniquement le Conseil constitutionnel",
-        "Uniquement les maires",
-        "Uniquement les préfets",
-        "Uniquement les juges"
+        "Le président et les ministres uniquement",
+        "Les citoyens et les associations reconnues",
+        "Le Conseil constitutionnel et les juges",
+        "Les maires et les conseillers régionaux",
+        "Le Premier ministre et les préfets",
+        "Les syndicats et les partis politiques"
       ]
     },
     {
       "id": 134,
       "theme": "Institutions de la République",
       "questions": [
-        "Comment appelle-t-on une loi proposée par le gouvernement ?",
-        "Quel nom donne-t-on à une loi d'origine gouvernementale ?",
-        "Comment nomme-t-on un texte de loi du gouvernement ?"
+        "Comment désigne-t-on une loi présentée par le gouvernement ?",
+        "Quel terme utilise-t-on pour une loi élaborée par le gouvernement ?",
+        "Comment qualifie-t-on un texte législatif proposé par le gouvernement ?"
       ],
       "correctAnswer": "Un projet de loi",
       "wrongAnswers": [
@@ -483,25 +482,25 @@
         "Un arrêté",
         "Une ordonnance",
         "Un règlement",
-        "Une circulaire"
+        "Une note administrative"
       ]
     },
     {
       "id": 135,
       "theme": "Institutions de la République",
       "questions": [
-        "Comment appelle-t-on une loi proposée par un parlementaire ?",
-        "Quel nom pour une loi d'initiative parlementaire ?",
-        "Comment nomme-t-on un texte de loi d'un député ou sénateur ?"
+        "Comment désigne-t-on une loi proposée par un parlementaire ?",
+        "Quel terme est utilisé pour une loi d'initiative parlementaire ?",
+        "Comment appelle-t-on un texte de loi présenté par un député ou un sénateur ?"
       ],
       "correctAnswer": "Une proposition de loi",
       "wrongAnswers": [
         "Un projet de loi",
-        "Un décret",
+        "Une directive",
         "Une ordonnance",
         "Un arrêté",
-        "Un règlement",
-        "Une directive"
+        "Un décret",
+        "Un règlement"
       ]
     },
     {
@@ -530,28 +529,28 @@
         "Que désigne la navette parlementaire ?",
         "En quoi consiste la navette parlementaire ?"
       ],
-      "correctAnswer": "Le va-et-vient d'un texte entre l'Assemblée et le Sénat",
+      "correctAnswer": "Le cycle d'examen d'un texte entre l'Assemblée et le Sénat",
       "wrongAnswers": [
-        "Un transport pour les députés",
-        "Une réunion secrète",
-        "Un vote électronique",
-        "Une commission d'enquête",
-        "Un groupe de travail",
-        "Une pause entre les séances"
+        "Le vote final d'un texte entre les députés et les sénateurs",
+        "Le transfert d'un texte entre le gouvernement et le président",
+        "Le contrôle d'un texte entre le Conseil constitutionnel et le Parlement",
+        "Le dialogue permanent entre les ministres et les parlementaires",
+        "L'échange de pouvoirs entre l'Assemblée nationale et le gouvernement",
+        "La coordination des lois entre la France et l'Union européenne"
       ]
     },
     {
       "id": 138,
       "theme": "Institutions de la République",
       "questions": [
-        "En cas de désaccord entre l'Assemblée et le Sénat, qui a le dernier mot ?",
-        "Quelle chambre l'emporte en cas de conflit parlementaire ?",
-        "Qui tranche entre l'Assemblée et le Sénat ?"
+        "En cas de désaccord entre l'Assemblée et le Sénat, qui décide finalement ?",
+        "Quelle chambre a le dernier mot en cas de conflit parlementaire ?",
+        "Qui a le pouvoir de trancher entre l'Assemblée et le Sénat ?"
       ],
       "correctAnswer": "L'Assemblée nationale",
       "wrongAnswers": [
         "Le Sénat",
-        "Le Président",
+        "Le Président de la République",
         "Le Conseil constitutionnel",
         "Le Premier ministre",
         "Le Conseil d'État",
@@ -564,16 +563,16 @@
       "questions": [
         "Qu'est-ce que le Conseil des ministres ?",
         "Que désigne le Conseil des ministres ?",
-        "Comment se tient le Conseil des ministres ?"
+        "En quoi consiste le Conseil des ministres ?"
       ],
-      "correctAnswer": "Une réunion du gouvernement présidée par le Président",
+      "correctAnswer": "C'est une réunion du gouvernement dirigée par le Président",
       "wrongAnswers": [
-        "Une réunion des députés",
-        "Une réunion des maires",
-        "Une réunion du Sénat",
-        "Une assemblée de juges",
-        "Une conférence de préfets",
-        "Un sommet européen"
+        "C'est une assemblée des députés dirigée par le Premier ministre",
+        "C'est une réunion des préfets dirigée par le ministre de l'Intérieur",
+        "C'est un conseil consultatif dirigé par le Conseil constitutionnel",
+        "C'est une séance parlementaire dirigée par le président du Sénat",
+        "C'est une conférence des maires dirigée par le président de région",
+        "C'est un comité d'experts dirigé par le secrétaire général de l'Élysée"
       ]
     },
     {
@@ -581,17 +580,17 @@
       "theme": "Institutions de la République",
       "questions": [
         "Comment les sénateurs sont-ils élus ?",
-        "Par qui les sénateurs sont-ils élus ?",
-        "Quel mode de scrutin pour les sénateurs ?"
+        "De quelle manière sont élus les sénateurs ?",
+        "Comment se déroule l'élection des sénateurs ?"
       ],
-      "correctAnswer": "Au suffrage universel indirect par les grands électeurs",
+      "correctAnswer": "Par le suffrage universel indirect, par les grands électeurs",
       "wrongAnswers": [
-        "Au suffrage universel direct",
-        "Par le Président de la République",
-        "Par l'Assemblée nationale",
-        "Par les conseils régionaux",
-        "Par les maires uniquement",
-        "Par référendum"
+        "Par le suffrage universel direct, par tous les citoyens",
+        "Par le suffrage censitaire, par les contribuables majeurs",
+        "Par le suffrage universel direct, par les électeurs inscrits",
+        "Par le suffrage indirect, par les députés de l'Assemblée",
+        "Par le vote proportionnel, par les partis politiques représentés",
+        "Par la désignation présidentielle, par le chef de l'État"
       ]
     },
     {
@@ -599,17 +598,17 @@
       "theme": "Institutions de la République",
       "questions": [
         "Comment les députés sont-ils élus ?",
-        "Par qui les députés sont-ils élus ?",
-        "Quel mode de scrutin pour les députés ?"
+        "De quelle manière sont élus les députés ?",
+        "Comment se déroule l'élection des députés ?"
       ],
-      "correctAnswer": "Au suffrage universel direct",
+      "correctAnswer": "Par le suffrage universel direct",
       "wrongAnswers": [
-        "Au suffrage universel indirect",
-        "Par le Président",
-        "Par le Sénat",
-        "Par les conseillers municipaux",
-        "Par les grands électeurs",
-        "Par les maires"
+        "Par le suffrage universel indirect",
+        "Par le suffrage censitaire limité",
+        "Par le vote proportionnel national",
+        "Par le scrutin majoritaire indirect",
+        "Par le vote parlementaire interne",
+        "Par le suffrage restreint qualifié"
       ]
     },
     {
@@ -690,34 +689,34 @@
       "questions": [
         "Qu'est-ce que la QPC ?",
         "Que signifie QPC ?",
-        "À quoi sert la QPC ?"
+        "Que veut dire l'acronyme QPC ?"
       ],
-      "correctAnswer": "La Question Prioritaire de Constitutionnalité",
+      "correctAnswer": "Question Prioritaire de Constitutionnalité",
       "wrongAnswers": [
-        "Un parti politique",
-        "Un impôt",
-        "Un ministère",
-        "Une loi",
-        "Un décret",
-        "Une commission"
+        "Question Permanente de Conformité",
+        "Question Parlementaire de Contrôle",
+        "Question Publique de Citoyenneté",
+        "Question Préliminaire de Conformité",
+        "Quorum Parlementaire de Censure",
+        "Questionnement Populaire Citoyen"
       ]
     },
     {
       "id": 179,
       "theme": "Institutions de la République",
       "questions": [
-        "Qui est le garant de l'indépendance de la justice ?",
-        "Qui garantit l'indépendance judiciaire ?",
-        "Quelle autorité protège l'indépendance de la justice ?"
+        "Qui garantit l'indépendance de la justice en France ?",
+        "Qui est responsable de l'indépendance judiciaire ?",
+        "Quelle entité veille à l'indépendance de la justice ?"
       ],
       "correctAnswer": "Le Président de la République",
       "wrongAnswers": [
         "Le Premier ministre",
+        "Le Conseil constitutionnel",
+        "Le Conseil supérieur de la magistrature",
         "Le ministre de la Justice",
-        "Le Conseil d'État",
-        "Le procureur général",
-        "Le bâtonnier",
-        "Le Parlement"
+        "L'Assemblée nationale",
+        "La Cour de cassation"
       ]
     }
   ]

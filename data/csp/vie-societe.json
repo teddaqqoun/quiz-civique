@@ -112,18 +112,18 @@
       "id": 97,
       "theme": "Vie en France et société",
       "questions": [
-        "Quels pays frontaliers la France partage-t-elle ?",
-        "Avec quels pays la France a-t-elle une frontière ?",
-        "Quels sont les voisins de la France ?"
+        "Quels pays partagent une frontière avec la France ?",
+        "Avec quels pays la France a-t-elle des frontières terrestres ?",
+        "Quels pays sont voisins de la France ?"
       ],
       "correctAnswer": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
       "wrongAnswers": [
-        "Uniquement l'Allemagne et l'Espagne",
-        "L'Angleterre et l'Allemagne",
-        "L'Italie et la Grèce",
-        "L'Espagne et le Portugal",
-        "La Belgique uniquement",
-        "L'Allemagne et les Pays-Bas"
+        "Belgique, Pays-Bas, Allemagne, Suisse, Italie, Autriche, Espagne, Portugal",
+        "Belgique, Luxembourg, Allemagne, Suisse, Italie, Vatican, Espagne, Portugal",
+        "Royaume-Uni, Luxembourg, Allemagne, Autriche, Italie, Monaco, Espagne, Andorre",
+        "Belgique, Luxembourg, Pologne, Suisse, Italie, Monaco, Portugal, Andorre",
+        "Belgique, Luxembourg, Allemagne, Liechtenstein, Slovénie, Monaco, Espagne, Andorre",
+        "Irlande, Luxembourg, Danemark, Suisse, Italie, Saint-Marin, Espagne, Andorre"
       ]
     },
     {
@@ -131,17 +131,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce qu'un DOM-TOM ?",
-        "Que signifie DOM-TOM ?",
-        "À quoi correspond un DOM-TOM ?"
+        "Que signifie l'acronyme DOM-TOM ?",
+        "À quoi se réfère le terme DOM-TOM ?"
       ],
-      "correctAnswer": "Les territoires français d'outre-mer",
+      "correctAnswer": "Les départements et territoires d'outre-mer français",
       "wrongAnswers": [
-        "Un type de logement",
-        "Un parti politique",
-        "Une institution européenne",
-        "Une région métropolitaine",
-        "Un département de Paris",
-        "Une zone économique"
+        "Les districts et métropoles d'outre-Atlantique français",
+        "Les régions et provinces d'outre-mer européens",
+        "Les dominions et territoires d'outre-mer britanniques",
+        "Les colonies et protectorats d'outre-mer anciens",
+        "Les domaines et propriétés d'outre-mer coloniaux",
+        "Les districts et municipalités d'outre-mer associés"
       ]
     },
     {
@@ -166,18 +166,18 @@
       "id": 100,
       "theme": "Vie en France et société",
       "questions": [
-        "La Guadeloupe est :",
-        "Quel est le statut de la Guadeloupe ?",
-        "Comment définir la Guadeloupe ?"
+        "Quel est le statut administratif de la Guadeloupe ?",
+        "Comment qualifier la Guadeloupe ?",
+        "Quel type de collectivité est la Guadeloupe ?"
       ],
       "correctAnswer": "Un département d'outre-mer",
       "wrongAnswers": [
-        "Une région d'Afrique",
-        "Un pays indépendant",
-        "Une ville de France métropolitaine",
-        "Un territoire britannique",
-        "Une île italienne",
-        "Un État associé"
+        "Un territoire d'outre-mer",
+        "Un pays d'outre-mer autonome",
+        "Une collectivité d'outre-mer",
+        "Une région métropolitaine française",
+        "Un protectorat français indépendant",
+        "Un État associé à la France"
       ]
     },
     {
@@ -328,17 +328,17 @@
       "id": 109,
       "theme": "Vie en France et société",
       "questions": [
+        "Quel événement célèbre-t-on le 1er mai ?",
         "Que célèbre-t-on le 1er mai ?",
-        "Quel événement fête-t-on le 1er mai ?",
-        "Pourquoi le 1er mai est-il férié ?"
+        "Quelle fête commémore le 1er mai ?"
       ],
       "correctAnswer": "La fête du travail",
       "wrongAnswers": [
         "La fête nationale",
-        "L'Armistice",
-        "La victoire de 1945",
-        "La Toussaint",
-        "L'Ascension",
+        "La commémoration de 1945",
+        "La célébration de l'Armistice",
+        "La fête de l'Indépendance",
+        "La fête de la Révolution",
         "La fête de la musique"
       ]
     },
@@ -382,18 +382,18 @@
       "id": 112,
       "theme": "Vie en France et société",
       "questions": [
-        "Quel monument est le symbole de Paris ?",
-        "Quel édifice représente Paris dans le monde ?",
-        "Quel monument emblématique symbolise Paris ?"
+        "Quel monument est considéré comme le symbole de Paris ?",
+        "Quel édifice est souvent perçu comme représentant Paris dans le monde ?",
+        "Quel monument célèbre est le symbole de Paris ?"
       ],
       "correctAnswer": "La tour Eiffel",
       "wrongAnswers": [
         "L'Arc de Triomphe",
-        "Notre-Dame de Paris",
+        "La cathédrale Notre-Dame",
         "Le Louvre",
         "Le Sacré-Cœur",
-        "La Bastille",
-        "Le Panthéon"
+        "Le Panthéon",
+        "La basilique Saint-Denis"
       ]
     },
     {
@@ -472,18 +472,18 @@
       "id": 117,
       "theme": "Vie en France et société",
       "questions": [
-        "Qui est Molière ?",
-        "Que représente Molière dans la culture française ?",
-        "Pour quoi Molière est-il célèbre ?"
+        "Qui était Molière ?",
+        "Comment décrire Molière ?",
+        "Quelle figure culturelle était Molière ?"
       ],
-      "correctAnswer": "Un dramaturge du XVIIe siècle",
+      "correctAnswer": "Un dramaturge",
       "wrongAnswers": [
-        "Un peintre",
-        "Un musicien",
-        "Un roi de France",
-        "Un scientifique",
         "Un philosophe",
-        "Un architecte"
+        "Un romancier",
+        "Un poète",
+        "Un peintre",
+        "Un compositeur",
+        "Un historien"
       ]
     },
     {
@@ -508,9 +508,9 @@
       "id": 119,
       "theme": "Vie en France et société",
       "questions": [
-        "Qui a découvert la radioactivité ?",
-        "À qui doit-on la découverte de la radioactivité ?",
-        "Quel scientifique a découvert la radioactivité en 1896 ?"
+        "Qui est le découvreur de la radioactivité ?",
+        "Quelle personnalité a mis en évidence la radioactivité ?",
+        "Quel savant a identifié la radioactivité en 1896 ?"
       ],
       "correctAnswer": "Henri Becquerel",
       "wrongAnswers": [
@@ -562,18 +562,18 @@
       "id": 121,
       "theme": "Vie en France et société",
       "questions": [
-        "La France est membre fondateur de quelle organisation ?",
-        "De quelle organisation la France est-elle un membre fondateur ?",
-        "Quelle institution la France a-t-elle contribué à créer ?"
+        "Quelle organisation la France a-t-elle contribué à fonder ?",
+        "De quelle organisation la France est-elle l'un des membres fondateurs ?",
+        "La France est associée à quelle institution fondatrice ?"
       ],
       "correctAnswer": "L'Union européenne",
       "wrongAnswers": [
-        "L'ONU uniquement",
-        "L'OTAN uniquement",
-        "L'OCDE uniquement",
-        "L'OMS uniquement",
-        "Le FMI uniquement",
-        "L'UNESCO uniquement"
+        "L'Organisation des Nations unies",
+        "L'OTAN",
+        "Le Commonwealth des Nations",
+        "La Ligue arabe",
+        "L'Organisation mondiale du commerce",
+        "Le Conseil de l'Europe"
       ]
     },
     {
@@ -618,16 +618,16 @@
       "questions": [
         "Qu'est-ce que l'espace Schengen ?",
         "À quoi correspond l'espace Schengen ?",
-        "Que permet l'espace Schengen ?"
+        "Comment définir l'espace Schengen ?"
       ],
-      "correctAnswer": "Un espace de libre circulation des personnes",
+      "correctAnswer": "Une zone de libre circulation des personnes",
       "wrongAnswers": [
-        "Une zone monétaire",
-        "Une alliance militaire",
-        "Un accord commercial",
-        "Une zone fiscale commune",
-        "Un espace de défense",
-        "Une union douanière uniquement"
+        "Une zone de libre échange des marchandises",
+        "Une zone de coopération militaire des États",
+        "Une zone d'union monétaire des pays européens",
+        "Une zone de contrôle renforcé des frontières",
+        "Une zone d'harmonisation fiscale des entreprises",
+        "Une zone de protection douanière des produits"
       ]
     },
     {
@@ -707,17 +707,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que la CAF ?",
-        "Que signifie CAF ?",
-        "À quoi sert la CAF ?"
+        "Que signifie l'acronyme CAF ?",
+        "Quel est le rôle de la CAF ?"
       ],
-      "correctAnswer": "La Caisse d'Allocations Familiales",
+      "correctAnswer": "Caisse d'Allocations Familiales",
       "wrongAnswers": [
-        "Un tribunal",
-        "Un syndicat",
-        "Une banque",
-        "Un hôpital",
-        "Une école",
-        "Une mairie"
+        "Caisse d'Assurance Financière",
+        "Centre d'Aide aux Familles",
+        "Conseil d'Administration Fiscale",
+        "Commission d'Accompagnement Familial",
+        "Caisse d'Accueil des Familles",
+        "Comité d'Allocations Françaises"
       ]
     },
     {
@@ -725,17 +725,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que Pôle emploi ?",
-        "À quoi sert Pôle emploi ?",
-        "Que fait Pôle emploi ?"
+        "Comment définir Pôle emploi ?",
+        "À quoi correspond Pôle emploi ?"
       ],
-      "correctAnswer": "Le service public de l'emploi",
+      "correctAnswer": "Un service public chargé de l'emploi",
       "wrongAnswers": [
-        "Une entreprise privée",
-        "Un syndicat",
-        "Une école",
-        "Une agence immobilière",
-        "Une banque",
-        "Un cabinet de recrutement privé"
+        "Un service privé spécialisé dans le recrutement",
+        "Un service public dédié à la formation professionnelle",
+        "Un service associatif réservé aux jeunes diplômés",
+        "Un service ministériel chargé du travail",
+        "Un service international responsable de l'immigration",
+        "Un service syndical consacré à la défense des salariés"
       ]
     },
     {
@@ -743,17 +743,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que le RSA ?",
-        "Que signifie RSA ?",
-        "À qui s'adresse le RSA ?"
+        "Que désigne le RSA ?",
+        "Quel est le but du RSA ?"
       ],
-      "correctAnswer": "Le Revenu de Solidarité Active",
+      "correctAnswer": "Un dispositif d'aide financière",
       "wrongAnswers": [
-        "Un impôt",
-        "Une retraite",
-        "Un salaire",
-        "Une prime",
-        "Un crédit",
-        "Une assurance"
+        "Un système d'assurance chômage",
+        "Un programme de retraite complémentaire",
+        "Un régime de cotisation obligatoire",
+        "Un fonds d'investissement public",
+        "Un crédit de remboursement fiscal",
+        "Un contrat de travail aidé"
       ]
     },
     {
@@ -761,17 +761,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que la CMU (CSS) ?",
-        "À quoi sert la CSS (ancienne CMU) ?",
-        "Que couvre la CSS ?"
+        "Comment définir la CSS (ex-CMU) ?",
+        "À quoi correspond la CSS ?"
       ],
-      "correctAnswer": "Une couverture maladie pour les personnes à faibles revenus",
+      "correctAnswer": "Une couverture santé pour les personnes modestes",
       "wrongAnswers": [
-        "Une assurance voiture",
-        "Un diplôme",
-        "Un contrat de travail",
-        "Une carte de transport",
-        "Un permis de conduire",
-        "Une carte bancaire"
+        "Une aide financière pour les personnes âgées",
+        "Une assurance chômage pour les travailleurs précaires",
+        "Une mutuelle obligatoire pour les salariés cotisants",
+        "Une pension mensuelle pour les familles monoparentales",
+        "Une allocation logement pour les locataires modestes",
+        "Une couverture retraite pour les travailleurs indépendants"
       ]
     },
     {
@@ -780,25 +780,25 @@
       "questions": [
         "Qu'est-ce que le baccalauréat ?",
         "À quoi correspond le baccalauréat ?",
-        "Que sanctionne le baccalauréat ?"
+        "Comment définir le baccalauréat ?"
       ],
       "correctAnswer": "Le diplôme de fin d'études secondaires",
       "wrongAnswers": [
-        "Un diplôme de fin d'études primaires",
-        "Un diplôme universitaire",
-        "Un certificat professionnel",
-        "Un diplôme de collège",
-        "Un master",
-        "Un doctorat"
+        "Le diplôme de fin d'études primaires",
+        "Le diplôme de fin d'études supérieures",
+        "Le diplôme d'entrée dans l'enseignement supérieur",
+        "Le certificat de scolarité obligatoire",
+        "Le concours d'admission à l'université",
+        "Le brevet de formation professionnelle"
       ]
     },
     {
       "id": 166,
       "theme": "Vie en France et société",
       "questions": [
-        "À quel âge l'instruction est-elle obligatoire ?",
-        "Quelle est la période d'instruction obligatoire ?",
-        "De quel âge à quel âge l'école est-elle obligatoire ?"
+        "Entre quels âges l'instruction est-elle obligatoire ?",
+        "Quelle est la durée de l'obligation scolaire ?",
+        "Pendant quelle tranche d'âge doit-on aller à l'école ?"
       ],
       "correctAnswer": "De 3 à 16 ans",
       "wrongAnswers": [
@@ -834,16 +834,16 @@
       "questions": [
         "Qu'est-ce que le collège en France ?",
         "À qui s'adresse le collège ?",
-        "Quelle tranche d'âge concerne le collège ?"
+        "Comment définir le collège ?"
       ],
-      "correctAnswer": "L'établissement pour les élèves de 11 à 15 ans",
+      "correctAnswer": "L'établissement pour les élèves âgés de 11 à 15 ans",
       "wrongAnswers": [
-        "L'école primaire",
-        "L'université",
-        "L'école maternelle",
-        "Le lycée",
-        "L'école professionnelle",
-        "La grande école"
+        "L'établissement pour les élèves âgés de 6 à 11 ans",
+        "L'établissement pour les élèves âgés de 15 à 18 ans",
+        "L'établissement pour les élèves âgés de 3 à 6 ans",
+        "L'établissement pour les élèves âgés de 10 à 14 ans",
+        "L'établissement pour les élèves âgés de 12 à 16 ans",
+        "L'établissement pour les élèves âgés de 11 à 18 ans"
       ]
     },
     {
@@ -851,26 +851,26 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que le lycée ?",
-        "À quoi prépare le lycée ?",
-        "Comment définir le lycée ?"
+        "Comment définir le lycée ?",
+        "À quoi correspond le lycée ?"
       ],
-      "correctAnswer": "L'établissement qui prépare au baccalauréat",
+      "correctAnswer": "Un établissement qui prépare au baccalauréat",
       "wrongAnswers": [
-        "L'école primaire",
-        "L'école maternelle",
-        "Le collège",
-        "L'université",
-        "L'école professionnelle",
-        "Le centre d'apprentissage"
+        "Un établissement qui prépare au brevet des collèges",
+        "Un établissement qui prépare aux études doctorales",
+        "Un établissement qui accueille les enfants en primaire",
+        "Un établissement qui forme aux métiers manuels uniquement",
+        "Un établissement qui délivre les diplômes universitaires",
+        "Un établissement qui enseigne la formation continue"
       ]
     },
     {
       "id": 211,
       "theme": "Vie en France et société",
       "questions": [
-        "Quel diplôme obtient-on après le lycée ?",
-        "Quel examen passe-t-on à la fin du lycée ?",
-        "Quel diplôme sanctionne la fin des études secondaires ?"
+        "Quel diplôme est délivré à la fin du lycée ?",
+        "Quel diplôme valide la fin des études secondaires en France ?",
+        "Quel est le nom de l'examen final du lycée ?"
       ],
       "correctAnswer": "Le baccalauréat",
       "wrongAnswers": [
@@ -941,17 +941,17 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que les Journées du Patrimoine ?",
-        "Que permettent les Journées du Patrimoine ?",
-        "À quoi servent les Journées du Patrimoine ?"
+        "Que sont les Journées du Patrimoine ?",
+        "À quoi correspondent les Journées du Patrimoine ?"
       ],
-      "correctAnswer": "Des journées où les monuments ouvrent gratuitement",
+      "correctAnswer": "Des journées où les monuments sont ouverts gratuitement",
       "wrongAnswers": [
-        "Des jours fériés",
-        "Des jours de soldes",
-        "Des journées sportives",
-        "Des jours de congés",
-        "Des fêtes religieuses",
-        "Des vacances scolaires"
+        "Des journées où les musées sont fermés au public",
+        "Des journées où les commerces sont ouverts exceptionnellement",
+        "Des journées où les écoles organisent des sorties culturelles",
+        "Des journées où les mairies délivrent des documents gratuitement",
+        "Des journées où les châteaux sont réservés aux historiens",
+        "Des journées où les bibliothèques prêtent des livres gratuitement"
       ]
     },
     {
