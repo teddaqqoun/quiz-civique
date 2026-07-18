@@ -136,7 +136,28 @@
         el.innerHTML = html;
     }
 
+    function createFeedbackTrackingId(prefix) {
+        if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+            return prefix + ':' + window.crypto.randomUUID();
+        }
+        return prefix + ':' + Date.now().toString(36) + ':' + Math.random().toString(36).slice(2);
+    }
+
+    function getFeedbackSessionId() {
+        var storageKey = 'quiz_feedback_session_id';
+        try {
+            var existing = window.sessionStorage.getItem(storageKey);
+            if (existing) return existing;
+            var created = createFeedbackTrackingId('session');
+            window.sessionStorage.setItem(storageKey, created);
+            return created;
+        } catch (error) {
+            return createFeedbackTrackingId('session');
+        }
+    }
+
     function renderFeedbackButton() {
+        var sessionId = getFeedbackSessionId();
         var btn = document.createElement('button');
         btn.className = 'floating-feedback-btn';
         btn.setAttribute('aria-label', 'Feedback / Bug');
@@ -167,6 +188,8 @@
                 '</div>';
 
             document.body.appendChild(overlay);
+            var submissionId = createFeedbackTrackingId('bug-report');
+            var submitBtn = overlay.querySelector('#br-submit');
 
             function closeOverlay() { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }
             overlay.querySelector('.feedback-modal-close').addEventListener('click', closeOverlay);
@@ -175,25 +198,43 @@
                 if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
             });
 
-            document.getElementById('br-submit').addEventListener('click', function () {
+            submitBtn.addEventListener('click', function () {
+                if (submitBtn.dataset.submitting === 'true') return;
                 var desc = (document.getElementById('br-description') || {}).value;
                 var errEl = document.getElementById('br-error');
                 if (!desc || !desc.trim()) {
                     if (errEl) errEl.style.display = '';
                     return;
                 }
+                submitBtn.dataset.submitting = 'true';
+                submitBtn.disabled = true;
+                if (errEl) errEl.style.display = 'none';
                 var payload = {
                     page_url: window.location.href,
-                    description: desc.trim()
+                    description: desc.trim(),
+                    session_id: sessionId,
+                    submission_id: submissionId
                 };
                 fetch('/api/bug-report', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
-                }).catch(function () {});
-                overlay.querySelector('.feedback-modal').innerHTML =
-                    '<p class="feedback-thanks">Merci, votre retour a été enregistré !</p>';
-                setTimeout(closeOverlay, 2000);
+                }).then(function (response) {
+                    if (!response.ok) throw new Error('Enregistrement impossible');
+                    return response.json();
+                }).then(function (data) {
+                    if (!data.ok) throw new Error(data.error || 'Enregistrement impossible');
+                    overlay.querySelector('.feedback-modal').innerHTML =
+                        '<p class="feedback-thanks">Merci, votre retour a été enregistré !</p>';
+                    setTimeout(closeOverlay, 2000);
+                }).catch(function () {
+                    submitBtn.dataset.submitting = 'false';
+                    submitBtn.disabled = false;
+                    if (errEl) {
+                        errEl.textContent = 'L’envoi a échoué. Vous pouvez réessayer.';
+                        errEl.style.display = '';
+                    }
+                });
             });
         });
     }

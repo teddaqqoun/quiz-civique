@@ -7,6 +7,26 @@ function escapeHtml(str) {
     return div.innerHTML;
 }
 
+function createFeedbackTrackingId(prefix) {
+    if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+        return prefix + ':' + window.crypto.randomUUID();
+    }
+    return prefix + ':' + Date.now().toString(36) + ':' + Math.random().toString(36).slice(2);
+}
+
+function getFeedbackSessionId() {
+    var storageKey = 'quiz_feedback_session_id';
+    try {
+        var existing = window.sessionStorage.getItem(storageKey);
+        if (existing) return existing;
+        var created = createFeedbackTrackingId('session');
+        window.sessionStorage.setItem(storageKey, created);
+        return created;
+    } catch (error) {
+        return createFeedbackTrackingId('session');
+    }
+}
+
 function QuizEngine(options) {
     this.level = options.level;
     this.themes = options.themes || null; // array of theme slugs, null = all
@@ -27,6 +47,8 @@ function QuizEngine(options) {
     this.timeRemaining = this.timeMinutes * 60;
     this.quizStarted = false;
     this.container = null;
+    this.sessionId = getFeedbackSessionId();
+    this.quizId = null;
 }
 
 QuizEngine.prototype.init = function () {
@@ -73,6 +95,7 @@ QuizEngine.prototype.renderStartScreen = function () {
 
 QuizEngine.prototype.startQuiz = function () {
     var self = this;
+    this.quizId = createFeedbackTrackingId('quiz');
     var allThemes = SiteConfig.themes.map(function (t) { return t.slug; });
     var themesToLoad = this.themes || allThemes;
 
@@ -168,6 +191,7 @@ QuizEngine.prototype.displayQuestion = function () {
     reportBtn.id = 'qe-report-btn';
     reportBtn.className = 'question-report-btn';
     reportBtn.textContent = '\u26a0 Signaler cette question';
+    reportBtn.hidden = true;
     reportBtn.addEventListener('click', function () { self.showQuestionReportModal(q); });
     options.parentNode.insertBefore(reportBtn, options.nextSibling);
 
@@ -196,6 +220,8 @@ QuizEngine.prototype.selectOption = function (selectedBtn) {
             if (idx === correctIndex) btn.classList.add('correct');
             else if (idx === selectedIndex && selectedIndex !== correctIndex) btn.classList.add('incorrect');
         });
+        var reportBtn = document.getElementById('qe-report-btn');
+        if (reportBtn) reportBtn.hidden = false;
     } else {
         selectedBtn.classList.add('selected');
     }
@@ -253,6 +279,7 @@ QuizEngine.prototype.displayResults = function (score) {
                       '<span class="correct-answer">Bonne réponse : ' + letters[q.correctAnswer] + '. ' + escapeHtml(q.options[q.correctAnswer]) + '</span>'
                 ) +
             '</div>' +
+            '<button class="question-report-btn answer-report-btn" data-question-index="' + i + '">\u26a0 Signaler cette question</button>' +
         '</div>';
     }).join('');
 
@@ -283,6 +310,12 @@ QuizEngine.prototype.displayResults = function (score) {
     var self = this;
     document.getElementById('qe-restart').addEventListener('click', function () {
         self.renderStartScreen();
+    });
+    this.container.querySelectorAll('.answer-report-btn').forEach(function (button) {
+        button.addEventListener('click', function () {
+            var questionIndex = parseInt(button.dataset.questionIndex, 10);
+            self.showQuestionReportModal(self.preparedQuestions[questionIndex]);
+        });
     });
 
     if (passed) {
@@ -331,13 +364,16 @@ QuizEngine.prototype.showFeedbackPopup = function () {
                 '<label for="fb-comment">Commentaire (optionnel)</label>' +
                 '<textarea id="fb-comment" rows="3" placeholder="Votre message..."></textarea>' +
             '</div>' +
-            '<button class="primary-btn feedback-submit-btn" id="fb-submit">Envoyer</button>' +
+            '<p id="fb-error" class="feedback-error" style="display:none;"></p>' +
+            '<button class="primary-btn feedback-submit-btn" id="fb-submit" disabled>Envoyer</button>' +
         '</div>';
 
     document.body.appendChild(overlay);
 
     var selectedStars = 0;
     var selectedRecommend = null;
+    var feedbackSubmissionId = createFeedbackTrackingId('feedback');
+    var feedbackSubmitBtn = overlay.querySelector('#fb-submit');
 
     var starEls = overlay.querySelectorAll('#fb-stars span');
     starEls.forEach(function (star) {
@@ -351,6 +387,8 @@ QuizEngine.prototype.showFeedbackPopup = function () {
         star.addEventListener('click', function () {
             selectedStars = parseInt(star.dataset.val);
             starEls.forEach(function (s) { s.classList.toggle('selected', parseInt(s.dataset.val) <= selectedStars); });
+            feedbackSubmitBtn.disabled = false;
+            overlay.querySelector('#fb-error').style.display = 'none';
         });
     });
 
@@ -369,23 +407,40 @@ QuizEngine.prototype.showFeedbackPopup = function () {
         if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
     });
 
-    document.getElementById('fb-submit').addEventListener('click', function () {
+    feedbackSubmitBtn.addEventListener('click', function () {
+        if (feedbackSubmitBtn.dataset.submitting === 'true') return;
+        var errorEl = overlay.querySelector('#fb-error');
+        if (!selectedStars) {
+            errorEl.textContent = 'Choisissez une note avant d’envoyer.';
+            errorEl.style.display = '';
+            return;
+        }
+        feedbackSubmitBtn.dataset.submitting = 'true';
+        feedbackSubmitBtn.disabled = true;
         var difficulty = (overlay.querySelector('input[name="fb-diff"]:checked') || {}).value || null;
         var comment = document.getElementById('fb-comment').value.trim();
         var payload = {
-            stars: selectedStars || 3,
+            stars: selectedStars,
             difficulty: difficulty,
             would_recommend: selectedRecommend,
             comment: comment || null,
             level: self.level,
-            mode: self.mode
+            mode: self.mode,
+            question_id: null,
+            quiz_id: self.quizId,
+            session_id: self.sessionId,
+            submission_id: feedbackSubmissionId
         };
-        localStorage.setItem('feedback_last_shown', String(Date.now()));
         fetch('/api/feedback', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
-        }).then(function (r) { return r.json(); }).then(function (d) {
+        }).then(function (r) {
+            if (!r.ok) throw new Error('Enregistrement impossible');
+            return r.json();
+        }).then(function (d) {
+            if (!d.ok) throw new Error(d.error || 'Enregistrement impossible');
+            localStorage.setItem('feedback_last_shown', String(Date.now()));
             var feedbackId = d.id;
             if (selectedRecommend === 1 && feedbackId) {
                 var shareMsg = 'Marre des sites payants pour preparer le test civique ? J\'ai trouve une alternative 100% gratuite avec quiz, simulations et flashcards. Faites-moi confiance : https://www.test-civique-gratuit.com';
@@ -433,9 +488,10 @@ QuizEngine.prototype.showFeedbackPopup = function () {
                 setTimeout(closeOverlay, 2000);
             }
         }).catch(function () {
-            overlay.querySelector('.feedback-modal').innerHTML =
-                '<p class="feedback-thanks">Merci pour votre retour !</p>';
-            setTimeout(closeOverlay, 2000);
+            feedbackSubmitBtn.dataset.submitting = 'false';
+            feedbackSubmitBtn.disabled = false;
+            errorEl.textContent = 'L’envoi a échoué. Vous pouvez réessayer.';
+            errorEl.style.display = '';
         });
     });
 };
@@ -451,25 +507,24 @@ QuizEngine.prototype.showQuestionReportModal = function (q) {
             '<div class="feedback-section">' +
                 '<label>Raison</label>' +
                 '<div class="feedback-radio-group">' +
-                    '<label><input type="radio" name="qr-reason" value="La question est mal formulée"> La question est mal formulée</label>' +
-                    '<label><input type="radio" name="qr-reason" value="La bonne réponse semble incorrecte"> La bonne réponse semble incorrecte</label>' +
-                    '<label><input type="radio" name="qr-reason" value="Question hors sujet"> Question hors sujet</label>' +
-                    '<label><input type="radio" name="qr-reason" value="Autre"> Autre</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Réponse incorrecte"> Réponse incorrecte</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Formulation"> Formulation</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Contenu obsolète"> Contenu obsolète</label>' +
+                    '<label><input type="radio" name="qr-reason" value="Hors programme"> Hors programme</label>' +
                 '</div>' +
             '</div>' +
-            '<div class="feedback-section" id="qr-other-section" style="display:none;">' +
-                '<label for="qr-other-text">Précisez</label>' +
-                '<textarea id="qr-other-text" rows="2" placeholder="Décrivez le problème..."></textarea>' +
-            '</div>' +
-            '<button class="primary-btn feedback-submit-btn" id="qr-submit">Envoyer</button>' +
+            '<p id="qr-error" class="feedback-error" style="display:none;"></p>' +
+            '<button class="primary-btn feedback-submit-btn" id="qr-submit" disabled>Envoyer</button>' +
         '</div>';
 
     document.body.appendChild(overlay);
 
+    var reportSubmissionId = createFeedbackTrackingId('question-report');
+    var reportSubmitBtn = overlay.querySelector('#qr-submit');
     overlay.querySelectorAll('input[name="qr-reason"]').forEach(function (radio) {
         radio.addEventListener('change', function () {
-            var otherSection = document.getElementById('qr-other-section');
-            if (otherSection) otherSection.style.display = radio.value === 'Autre' ? '' : 'none';
+            reportSubmitBtn.disabled = false;
+            overlay.querySelector('#qr-error').style.display = 'none';
         });
     });
 
@@ -480,27 +535,46 @@ QuizEngine.prototype.showQuestionReportModal = function (q) {
         if (e.key === 'Escape') { closeOverlay(); document.removeEventListener('keydown', escHandler); }
     });
 
-    document.getElementById('qr-submit').addEventListener('click', function () {
+    reportSubmitBtn.addEventListener('click', function () {
+        if (reportSubmitBtn.dataset.submitting === 'true') return;
         var selected = overlay.querySelector('input[name="qr-reason"]:checked');
         var reason = selected ? selected.value : null;
-        if (reason === 'Autre') {
-            var otherText = (document.getElementById('qr-other-text') || {}).value;
-            if (otherText && otherText.trim()) reason = otherText.trim();
+        var errorEl = overlay.querySelector('#qr-error');
+        if (!reason) {
+            errorEl.textContent = 'Choisissez un motif avant d’envoyer.';
+            errorEl.style.display = '';
+            return;
         }
+        reportSubmitBtn.dataset.submitting = 'true';
+        reportSubmitBtn.disabled = true;
         var payload = {
             question_text: q.question,
+            question_id: q.id,
+            quiz_id: self.quizId,
+            session_id: self.sessionId,
             level: self.level || null,
             theme: q.theme || null,
-            reason: reason
+            reason: reason,
+            submission_id: reportSubmissionId
         };
         fetch('/api/question-report', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
-        }).catch(function () {});
-        overlay.querySelector('.feedback-modal').innerHTML =
-            '<p class="feedback-thanks">Merci, nous examinerons cette question.</p>';
-        setTimeout(closeOverlay, 2000);
+        }).then(function (response) {
+            if (!response.ok) throw new Error('Enregistrement impossible');
+            return response.json();
+        }).then(function (data) {
+            if (!data.ok) throw new Error(data.error || 'Enregistrement impossible');
+            overlay.querySelector('.feedback-modal').innerHTML =
+                '<p class="feedback-thanks">Merci, nous examinerons cette question.</p>';
+            setTimeout(closeOverlay, 2000);
+        }).catch(function () {
+            reportSubmitBtn.dataset.submitting = 'false';
+            reportSubmitBtn.disabled = false;
+            errorEl.textContent = 'L’envoi a échoué. Vous pouvez réessayer.';
+            errorEl.style.display = '';
+        });
     });
 };
 
