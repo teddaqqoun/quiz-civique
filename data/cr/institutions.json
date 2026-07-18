@@ -24,11 +24,11 @@
       "id": 340,
       "theme": "Système institutionnel et politique",
       "questions": [
-        "Le président de la République peut-il être poursuivi pendant son mandat ?",
+        "Le président de la République a commis un crime. Quelle proposition est correcte ?",
         "Quand un président peut-il être poursuivi pour une infraction personnelle ?",
         "L'immunité pénale du président continue-t-elle après son mandat ?"
       ],
-      "correctAnswers": ["Les poursuites peuvent reprendre après la fin de son mandat"],
+      "correctAnswers": ["Les poursuites sont suspendues pendant son mandat"],
       "wrongAnswers": [
         "Les poursuites sont définitivement annulées dès son élection",
         "La Haute Cour le juge pénalement pendant son mandat",

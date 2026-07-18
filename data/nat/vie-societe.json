@@ -382,18 +382,18 @@
       "id": 741,
       "theme": "Vie en société en France",
       "questions": [
-        "Quel jour férié est normalement chômé pour les salariés ?",
-        "Quel jour férié ne peut généralement pas être travaillé ?",
-        "Pour la plupart des salariés, quel jour férié doit être chômé ?"
+        "Quel motif d'absence est accepté par l'école ?",
+        "Quelle absence scolaire peut être justifiée ?",
+        "Dans quel cas l'absence d'un élève est-elle admise ?"
       ],
-      "correctAnswers": ["Le 1er mai"],
+      "correctAnswers": ["La maladie de l'enfant signalée à l'établissement"],
       "wrongAnswers": [
-        "Le 1er janvier",
-        "Le 8 mai",
-        "Le 14 juillet",
-        "Le 15 août",
-        "Le 11 novembre",
-        "Le 25 décembre"
+        "Un départ en vacances avant la date prévue",
+        "Une journée à la maison sans raison donnée",
+        "Un rendez-vous de loisir pendant les cours",
+        "Le refus de participer à une matière obligatoire",
+        "Une activité familiale sans caractère exceptionnel",
+        "Le souhait de ne pas passer une évaluation"
       ]
     },
     {
@@ -850,36 +850,36 @@
       "id": 767,
       "theme": "Vie en société en France",
       "questions": [
-        "Comment réduire le risque d'infection sexuellement transmissible ?",
-        "Quelle mesure aide à prévenir les infections sexuellement transmissibles ?",
-        "Quel comportement protège contre le VIH et les autres IST ?"
+        "Le stationnement sur une place réservée aux personnes handicapées :",
+        "Peut-on stationner sans autorisation sur une place réservée au handicap ?",
+        "Quelle règle s'applique aux places réservées aux personnes handicapées ?"
       ],
-      "correctAnswers": ["Utiliser un préservatif et se faire dépister"],
+      "correctAnswers": ["Il est interdit sans la carte de stationnement adaptée"],
       "wrongAnswers": [
-        "Prendre des antibiotiques sans avis médical",
-        "Attendre les symptômes avant toute précaution",
-        "Se fier seulement à l'apparence d'une personne",
-        "Éviter uniquement les lieux très fréquentés",
-        "Remplacer le dépistage par une vaccination générale",
-        "Partager le matériel utilisé pour une injection"
+        "Il est autorisé pour une durée inférieure à dix minutes",
+        "Il est permis lorsque les autres places sont occupées",
+        "Il est libre le soir et pendant les jours fériés",
+        "Il est autorisé avec les feux de détresse allumés",
+        "Il est réservé uniquement aux véhicules de secours",
+        "Il est possible après avoir prévenu la mairie"
       ]
     },
     {
       "id": 768,
       "theme": "Vie en société en France",
       "questions": [
-        "Que garantit la laïcité dans les services publics ?",
-        "Quelle règle de laïcité s'applique aux agents publics ?",
-        "Comment la laïcité s'applique-t-elle dans une administration ?"
+        "Qui a le droit de se syndiquer ?",
+        "Qui peut adhérer à un syndicat professionnel ?",
+        "Le droit syndical est ouvert à qui ?"
       ],
-      "correctAnswers": ["La neutralité des agents et l'égalité de traitement des usagers"],
+      "correctAnswers": ["Tous les travailleurs"],
       "wrongAnswers": [
-        "La priorité donnée aux usagers partageant la religion de l'agent",
-        "L'interdiction de toute conviction personnelle chez les usagers",
-        "Le choix d'une religion officielle par chaque administration",
-        "L'obligation pour les usagers de cacher toute conviction",
-        "La fermeture des services pendant toutes les fêtes religieuses",
-        "La possibilité pour un agent de favoriser une conviction"
+        "Uniquement les chefs d'entreprise",
+        "Uniquement les salariés du secteur public",
+        "Uniquement les personnes élues",
+        "Seulement les salariés de plus de 30 ans",
+        "Seulement les personnes de nationalité française",
+        "Uniquement les salariés en contrat à durée indéterminée"
       ]
     },
     {

@@ -436,18 +436,18 @@
       "id": 64,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Quel organisme est au cœur de la protection sociale en France ?",
-        "Quel organisme prend notamment en charge les dépenses de santé ?",
-        "À quel organisme est rattachée l'Assurance maladie ?"
+        "Quel droit permet à une personne de se défendre devant la justice ?",
+        "Quel droit garantit l'aide d'un professionnel devant la justice ?",
+        "Quel droit permet d'être conseillé et défendu lors d'un procès ?"
       ],
-      "correctAnswer": "La Sécurité sociale française",
+      "correctAnswer": "Le droit d'être assisté par un avocat",
       "wrongAnswers": [
-        "La Caisse des dépôts française",
-        "Le service public France Travail",
-        "La Banque de France",
-        "Le Conseil départemental",
-        "La direction générale des impôts",
-        "Le ministère de l'Intérieur"
+        "Le droit de choisir directement son juge",
+        "Le droit de refuser toute décision judiciaire",
+        "Le droit de modifier soi-même la procédure",
+        "Le droit d'annuler seul une condamnation",
+        "Le droit de remplacer le procureur du procès",
+        "Le droit de rendre soi-même le jugement"
       ]
     },
     {

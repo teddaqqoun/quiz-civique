@@ -104,21 +104,21 @@
       "id": 394,
       "theme": "Vivre dans la société française",
       "questions": [
-        "À quel âge peut-on passer le permis de conduire ?",
+        "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
         "Quelle condition d'âge faut-il remplir pour le permis de conduire ?",
         "Quel est l'âge minimum pour obtenir le permis B ?"
       ],
-      "correctAnswers": ["17 ans"],
+      "correctAnswers": ["Avoir au moins 17 ans"],
       "wrongAnswers": [
-        "21 ans",
-        "16 ans",
-        "20 ans",
-        "19 ans",
-        "18 ans",
-        "15 ans avec autorisation parentale",
-        "18 ans et un an de résidence en France",
-        "14 ans avec accompagnateur",
-        "22 ans"
+        "Avoir au moins 21 ans",
+        "Avoir au moins 16 ans",
+        "Avoir au moins 20 ans",
+        "Avoir au moins 19 ans",
+        "Avoir au moins 18 ans",
+        "Avoir 15 ans avec une autorisation parentale",
+        "Avoir 18 ans et résider en France depuis un an",
+        "Avoir 14 ans et être accompagné",
+        "Avoir au moins 22 ans"
       ]
     },
     {

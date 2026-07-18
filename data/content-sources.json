@@ -21,11 +21,22 @@
     "nat": {
       "label": "Naturalisation",
       "frenchLevel": "B2",
-      "officialQuestions": "https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/questions-de-connaissance-pour-lexamen-civique-nationalite-francaise.html"
+      "officialQuestions": "https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/questions-de-connaissance-pour-lexamen-civique-nationalite-francaise.html",
+      "officialQuestionPdf": "https://www.immigration.interieur.gouv.fr/sites/dgef/files/medias/documents/2026-01/examen-civique-naturalisation-questions-de-connaissance-20251212.pdf"
     }
   },
   "officialRequirements": {
     "languageLevels": "https://www.immigration.interieur.gouv.fr/devenir-francais/procedures-dacces-a-nationalite-francaise",
-    "examScope": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620"
+    "examScope": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620",
+    "examFormat": "https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000052129775"
+  },
+  "officialFormat": {
+    "questionCount": 40,
+    "knowledgeQuestions": 28,
+    "scenarioQuestions": 12,
+    "optionsPerQuestion": 4,
+    "correctOptionsPerQuestion": 1,
+    "durationMinutes": 45,
+    "passScore": 32
   }
 }

@@ -724,18 +724,18 @@
       "id": 595,
       "theme": "Institutions françaises",
       "questions": [
-        "Lequel de ces territoires est un département français d'outre-mer ?",
-        "Quelle île des Antilles est un département français ?",
-        "Quel territoire ultramarin appartient à la France ?"
+        "Où est le siège de la Banque centrale européenne ?",
+        "Dans quelle ville siège la Banque centrale européenne ?",
+        "Quelle ville accueille la Banque centrale européenne ?"
       ],
-      "correctAnswers": ["La Guadeloupe"],
+      "correctAnswers": ["Francfort"],
       "wrongAnswers": [
-        "La Barbade",
-        "La Jamaïque",
-        "La Dominique",
-        "Sainte-Lucie",
-        "Trinité-et-Tobago",
-        "Antigua-et-Barbuda"
+        "Bruxelles",
+        "Strasbourg",
+        "Luxembourg",
+        "Paris",
+        "Amsterdam",
+        "Vienne"
       ]
     },
     {

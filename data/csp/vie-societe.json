@@ -346,36 +346,36 @@
       "id": 110,
       "theme": "Vie en France et société",
       "questions": [
-        "Pourquoi faut-il trier ses déchets ?",
-        "À quoi sert le tri des déchets ?",
-        "Quel est l'objectif du tri sélectif ?"
+        "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+        "Quelle démarche reste obligatoire avant de conduire sa voiture ?",
+        "Que faut-il faire avant d'utiliser sa voiture après avoir obtenu le permis ?"
       ],
-      "correctAnswer": "Permettre le recyclage et protéger l'environnement",
+      "correctAnswer": "Assurer la voiture",
       "wrongAnswers": [
-        "Réduire uniquement le coût des poubelles",
-        "Éviter le passage des services municipaux",
-        "Supprimer tous les déchets sans traitement",
-        "Remplacer les collectes par des dépôts sauvages",
-        "Réserver le recyclage aux seules entreprises",
-        "Mélanger les emballages avec les déchets dangereux"
+        "Déclarer la voiture à la mairie",
+        "Demander l'accord de la préfecture",
+        "Faire valider le permis par la police",
+        "Obtenir une autorisation de France Travail",
+        "Faire enregistrer la voiture au tribunal",
+        "Prévenir la Caisse d'allocations familiales"
       ]
     },
     {
       "id": 111,
       "theme": "Vie en France et société",
       "questions": [
-        "Où faut-il déclarer la naissance d'un enfant ?",
-        "Auprès de quelle administration déclare-t-on une naissance ?",
-        "Quelle mairie enregistre la naissance d'un enfant ?"
+        "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+        "Dans quel délai une naissance doit-elle être déclarée ?",
+        "Quand les parents doivent-ils déclarer la naissance de leur enfant ?"
       ],
-      "correctAnswer": "À la mairie du lieu de naissance",
+      "correctAnswer": "Dans les 5 jours suivant la naissance",
       "wrongAnswers": [
-        "À la préfecture du département",
-        "À la mairie du domicile des parents",
-        "Au commissariat du quartier",
-        "À la Caisse d'allocations familiales",
-        "Au tribunal judiciaire",
-        "À la caisse d'Assurance maladie"
+        "Dans le mois suivant la naissance",
+        "Dans les 15 jours suivant la naissance",
+        "Avant la fin de la première année",
+        "Uniquement lors de l'inscription à l'école",
+        "Au moment de la première consultation médicale",
+        "Lors de la demande de carte d'identité"
       ]
     },
     {
@@ -634,18 +634,18 @@
       "id": 125,
       "theme": "Vie en France et société",
       "questions": [
-        "Quel diplôme les élèves passent-ils à la fin du collège ?",
-        "Comment s'appelle le diplôme préparé en classe de troisième ?",
-        "Quel diplôme marque la fin des études au collège ?"
+        "Quel est l'objectif des vaccinations obligatoires ?",
+        "Pourquoi certaines vaccinations sont-elles obligatoires ?",
+        "À quoi servent les vaccinations obligatoires ?"
       ],
-      "correctAnswer": "Le diplôme national du brevet",
+      "correctAnswer": "Prévenir des maladies graves et protéger la population",
       "wrongAnswers": [
-        "Le certificat d'aptitude professionnelle",
-        "Le baccalauréat général",
-        "Le brevet de technicien supérieur",
-        "Le diplôme universitaire de technologie",
-        "Le certificat de formation générale",
-        "Le baccalauréat professionnel"
+        "Remplacer toutes les consultations chez le médecin",
+        "Éviter uniquement les maladies sans gravité",
+        "Garantir qu'une personne ne sera jamais malade",
+        "Supprimer le besoin de suivre les règles d'hygiène",
+        "Soigner une maladie déjà déclarée sans médicament",
+        "Réserver la prévention aux seuls professionnels de santé"
       ]
     },
     {
@@ -922,18 +922,18 @@
       "id": 189,
       "theme": "Vie en France et société",
       "questions": [
-        "Que doit faire une victime de violences ?",
-        "À qui une victime de violences peut-elle demander de l'aide ?",
-        "Quelle démarche est adaptée après des violences ?"
+        "Une femme peut-elle créer son entreprise ?",
+        "Les femmes ont-elles le droit de créer une entreprise ?",
+        "Une femme peut-elle devenir cheffe d'entreprise en France ?"
       ],
-      "correctAnswer": "Contacter la police, la gendarmerie ou une association d'aide",
+      "correctAnswer": "Oui, dans les mêmes conditions qu'un homme",
       "wrongAnswers": [
-        "Attendre que les violences cessent sans en parler",
-        "Répondre aux violences de la même manière",
-        "Publier uniquement un message sur les réseaux sociaux",
-        "Quitter son domicile sans prévenir personne",
-        "Demander seulement l'accord de l'auteur des violences",
-        "Renoncer à consulter un professionnel de santé"
+        "Non, seules les entreprises familiales sont autorisées",
+        "Non, sauf avec l'accord d'un employeur",
+        "Oui, mais uniquement avec un associé masculin",
+        "Oui, mais seulement dans certains secteurs",
+        "Non, la création d'entreprise est réservée aux hommes",
+        "Oui, après une autorisation spéciale de la préfecture"
       ]
     },
     {

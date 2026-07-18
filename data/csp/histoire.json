@@ -634,18 +634,18 @@
       "id": 193,
       "theme": "Histoire, géographie et culture",
       "questions": [
-        "Quel monument historique se trouve sur une île en Normandie ?",
-        "Quel monument normand est entouré par la mer à marée haute ?",
-        "Quel site célèbre peut-on visiter dans la baie du Mont-Saint-Michel ?"
+        "Quel écrivain est français ?",
+        "Lequel de ces écrivains appartient à la littérature française ?",
+        "Quel auteur est une figure de la littérature française ?"
       ],
-      "correctAnswer": "Le Mont-Saint-Michel",
+      "correctAnswer": "Victor Hugo",
       "wrongAnswers": [
-        "Le château de Chambord",
-        "Le palais des Papes",
-        "La cité de Carcassonne",
-        "Le château de Versailles",
-        "Le pont du Gard",
-        "L'Arc de Triomphe"
+        "William Shakespeare",
+        "Miguel de Cervantes",
+        "Franz Kafka",
+        "James Joyce",
+        "Léon Tolstoï",
+        "Mark Twain"
       ]
     },
     {

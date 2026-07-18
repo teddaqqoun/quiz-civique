@@ -53,7 +53,6 @@ QuizEngine.prototype.renderStartScreen = function () {
             '<div class="rules-box">' +
                 '<h2>' + (isSimulation ? 'Simulation d\'examen' : 'Quiz') + ' — ' + levelInfo.label + '</h2>' +
                 '<p style="margin-bottom:12px;color:#666;">Thèmes : ' + themesLabel + '</p>' +
-                '<p style="margin-bottom:12px;color:#666;">Difficulté : ' + levelInfo.difficultyLabel + '</p>' +
                 '<ul>' +
                     '<li><strong>' + (this.questionCount || SiteConfig.exam.questionCount) + ' questions</strong> à choix multiples</li>' +
                     (this.timed ? '<li><strong>' + this.timeMinutes + ' minutes</strong> maximum</li>' : '') +
@@ -90,9 +89,10 @@ QuizEngine.prototype.startQuiz = function () {
             if (data.questions) allQuestions = allQuestions.concat(data.questions);
         });
 
+        var shuffled = self.shuffleArray(allQuestions);
         var count = self.questionCount || SiteConfig.exam.questionCount;
-        if (count > allQuestions.length) count = allQuestions.length;
-        self.questions = self.selectQuestionsByDifficulty(allQuestions, count);
+        if (count > shuffled.length) count = shuffled.length;
+        self.questions = shuffled.slice(0, count);
         self.preparedQuestions = self.questions.map(function (q) { return self.prepareQuestion(q); });
         self.currentQuestionIndex = 0;
         self.userAnswers = new Array(self.preparedQuestions.length).fill(null);
@@ -577,58 +577,6 @@ QuizEngine.prototype.selectBalancedWrongAnswers = function (correctAnswer, wrong
     return this.shuffleArray(ranked.slice(0, poolSize))
         .slice(0, count)
         .map(function (item) { return item.answer; });
-};
-
-QuizEngine.prototype.estimateQuestionDifficulty = function (questionData) {
-    var correctAnswers = questionData.correctAnswers || [questionData.correctAnswer];
-    var question = questionData.questions[0] || '';
-    var answer = correctAnswers[0] || '';
-    var score = 0;
-
-    score += Math.min(this.optionWordCount(question) / 12, 2);
-    score += Math.min(this.optionWordCount(answer) / 10, 2);
-    if (/\b(1[0-9]{3}|20[0-9]{2})\b|en quelle année|depuis quand|à quelle date/i.test(question)) score += 1;
-    if (/\b(constitutionnalité|juridiction|souveraineté|décentralisation|parlementaire|administratif|assimilation)\b/i.test(question + ' ' + answer)) score += 1;
-    if (/^(oui|non)\b/i.test(answer)) score -= 0.5;
-
-    return score;
-};
-
-QuizEngine.prototype.selectQuestionsByDifficulty = function (questions, count) {
-    if (count >= questions.length) return this.shuffleArray(questions);
-
-    var self = this;
-    var sorted = questions.slice().sort(function (a, b) {
-        return self.estimateQuestionDifficulty(a) - self.estimateQuestionDifficulty(b);
-    });
-    var third = Math.ceil(sorted.length / 3);
-    var groups = {
-        easy: sorted.slice(0, third),
-        medium: sorted.slice(third, third * 2),
-        hard: sorted.slice(third * 2)
-    };
-    var levelInfo = SiteConfig.levels[this.level];
-    var mix = levelInfo.difficultyMix;
-    var targets = {
-        easy: Math.floor(count * mix.easy),
-        medium: Math.floor(count * mix.medium)
-    };
-    targets.hard = count - targets.easy - targets.medium;
-
-    var selected = [];
-    ['easy', 'medium', 'hard'].forEach(function (difficulty) {
-        selected = selected.concat(self.shuffleArray(groups[difficulty]).slice(0, targets[difficulty]));
-    });
-
-    if (selected.length < count) {
-        var selectedSet = new Set(selected);
-        var remaining = this.shuffleArray(questions.filter(function (question) {
-            return !selectedSet.has(question);
-        }));
-        selected = selected.concat(remaining.slice(0, count - selected.length));
-    }
-
-    return this.shuffleArray(selected);
 };
 
 QuizEngine.prototype.prepareQuestion = function (questionData) {
