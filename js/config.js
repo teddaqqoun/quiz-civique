@@ -18,7 +18,7 @@ const SiteConfig = {
             label: 'CSP',
             fullLabel: 'Carte de Séjour Pluriannuelle',
             description: 'Préparez l\'examen civique pour la Carte de Séjour Pluriannuelle',
-            questionCount: 192
+            questionCount: 195
         },
         cr: {
             slug: 'cr',
@@ -32,7 +32,7 @@ const SiteConfig = {
             label: 'Naturalisation',
             fullLabel: 'Naturalisation Française',
             description: 'Préparez l\'examen civique pour la Naturalisation Française',
-            questionCount: 280
+            questionCount: 275
         }
     },
 

@@ -293,8 +293,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que le livret de famille ?",
-        "À quoi sert le livret de famille en France ?",
-        "Quand un livret de famille est-il délivré ?"
+        "Quel document recense les actes d'état civil d'une famille ?",
+        "Quel document est délivré lors du mariage ou de la naissance du premier enfant ?"
       ],
       "correctAnswers": ["Un document officiel délivré lors du mariage ou de la naissance du premier enfant, qui recense les actes d'état civil de la famille"],
       "wrongAnswers": [
@@ -312,7 +312,7 @@
       "questions": [
         "Où déclare-t-on une naissance en France ?",
         "Auprès de qui doit-on déclarer la naissance d'un enfant ?",
-        "Dans quel délai faut-il déclarer une naissance ?"
+        "Où et dans quel délai faut-il déclarer une naissance ?"
       ],
       "correctAnswers": ["À la mairie du lieu de naissance, dans les 5 jours suivant l'accouchement"],
       "wrongAnswers": [
@@ -365,8 +365,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que la Sécurité sociale en France ?",
-        "Quand la Sécurité sociale a-t-elle été créée ?",
-        "Que couvre la Sécurité sociale ?"
+        "Quelle proposition décrit correctement la Sécurité sociale ?",
+        "Quel système créé en 1945 couvre notamment la maladie, la maternité et la vieillesse ?"
       ],
       "correctAnswers": ["Un système de protection sociale créé en 1945, couvrant la maladie, la maternité, les accidents du travail, la vieillesse et la famille"],
       "wrongAnswers": [
@@ -455,10 +455,10 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que le permis de conduire en France ?",
-        "À quel âge peut-on passer le permis de conduire ?",
-        "Comment obtient-on le permis de conduire en France ?"
+        "Quelle proposition décrit correctement le permis de conduire ?",
+        "Quel document est obtenu après un examen théorique et un examen pratique ?"
       ],
-      "correctAnswers": ["Un document officiel autorisant la conduite, obtenu après un examen théorique (code) et pratique, accessible dès 17 ans pour la conduite accompagnée"],
+      "correctAnswers": ["Un document officiel autorisant la conduite, obtenu après un examen théorique (code) et pratique, accessible dès 17 ans pour le permis B"],
       "wrongAnswers": [
         "Un document que l'on peut acheter sans examen",
         "Un permis délivré uniquement à partir de 21 ans",
@@ -472,9 +472,9 @@
       "id": 746,
       "theme": "Vie en société en France",
       "questions": [
-        "Qu'est-ce que la laïcité à l'hôpital public ?",
-        "Comment la laïcité s'applique-t-elle dans les services publics de santé ?",
-        "Un patient peut-il exiger un médecin d'un sexe particulier à l'hôpital public ?"
+        "Quelle proposition respecte la laïcité à l'hôpital public ?",
+        "Quelle règle s'applique au personnel et aux patients d'un hôpital public ?",
+        "Quelle proposition décrit correctement la neutralité religieuse à l'hôpital public ?"
       ],
       "correctAnswers": ["Le personnel hospitalier est neutre en matière religieuse, et les patients ne peuvent pas refuser un soignant en raison de son sexe pour des motifs religieux"],
       "wrongAnswers": [
@@ -599,8 +599,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qui a construit la tour Eiffel et en quelle année ?",
-        "Pour quel événement la tour Eiffel a-t-elle été construite ?",
-        "Quand la tour Eiffel a-t-elle été inaugurée ?"
+        "Quel ingénieur a construit la tour Eiffel pour l'Exposition universelle de 1889 ?",
+        "Qui a construit la tour Eiffel pour l'Exposition universelle de 1889 ?"
       ],
       "correctAnswers": ["Gustave Eiffel, pour l'Exposition universelle de 1889 à Paris"],
       "wrongAnswers": [
@@ -636,7 +636,7 @@
       "questions": [
         "La gastronomie française a-t-elle un statut particulier ?",
         "La cuisine française est-elle reconnue internationalement ?",
-        "Quel honneur international la gastronomie française a-t-elle reçu ?"
+        "Le repas gastronomique des Français est-il inscrit au patrimoine culturel immatériel de l'UNESCO ?"
       ],
       "correctAnswers": ["Oui, le repas gastronomique des Français est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2010"],
       "wrongAnswers": [
@@ -653,8 +653,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que la francophonie ?",
-        "Que représente l'Organisation internationale de la Francophonie ?",
-        "Combien de personnes parlent français dans le monde ?"
+        "Quelle proposition définit correctement la francophonie ?",
+        "Que désigne l'ensemble des pays et communautés partageant la langue française ?"
       ],
       "correctAnswers": ["L'ensemble des pays et communautés partageant la langue française, regroupant plus de 300 millions de francophones dans le monde"],
       "wrongAnswers": [
@@ -780,7 +780,7 @@
       "questions": [
         "Que signifie le sceau de la République « Liberté, Égalité, Fraternité » sur les bâtiments publics ?",
         "Pourquoi la devise de la République est-elle inscrite sur les bâtiments publics ?",
-        "Où peut-on voir la devise de la République ?"
+        "Que rappelle la devise inscrite sur les bâtiments publics ?"
       ],
       "correctAnswers": ["Elle rappelle les valeurs fondamentales de la République et le fait que le bâtiment est au service de tous les citoyens"],
       "wrongAnswers": [
@@ -832,9 +832,9 @@
       "id": 766,
       "theme": "Vie en société en France",
       "questions": [
-        "Comment fonctionne le tri des déchets en France ?",
-        "Le tri sélectif est-il obligatoire en France ?",
-        "Pourquoi doit-on trier ses déchets en France ?"
+        "Quelle proposition décrit correctement le tri des déchets en France ?",
+        "Quelle règle s'applique au tri sélectif en France ?",
+        "Comment les déchets doivent-ils être triés en France ?"
       ],
       "correctAnswers": ["Le tri sélectif est obligatoire : les déchets doivent être séparés (verre, emballages, papier, déchets organiques) pour permettre le recyclage"],
       "wrongAnswers": [
@@ -886,9 +886,9 @@
       "id": 769,
       "theme": "Vie en société en France",
       "questions": [
-        "Qu'est-ce que le service public de la justice en France ?",
-        "Comment fonctionne la justice en France ?",
-        "La justice est-elle gratuite en France ?"
+        "Quelle proposition décrit correctement le service public de la justice ?",
+        "Quelle règle s'applique à l'accès à la justice en France ?",
+        "Comment le service public de la justice est-il organisé en France ?"
       ],
       "correctAnswers": ["La justice est un service public gratuit (hors frais d'avocat) accessible à tous, rendue au nom du peuple français"],
       "wrongAnswers": [
@@ -923,8 +923,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que l'AME (Aide médicale de l'État) ?",
-        "Qui peut bénéficier de l'Aide médicale de l'État ?",
-        "Comment les étrangers en situation irrégulière accèdent-ils aux soins ?"
+        "Quelle proposition décrit correctement l'Aide médicale de l'État ?",
+        "Quelle couverture maladie peut bénéficier à certains étrangers en situation irrégulière ?"
       ],
       "correctAnswers": ["Une couverture maladie gratuite pour les étrangers en situation irrégulière résidant en France depuis plus de 3 mois et ayant de faibles ressources"],
       "wrongAnswers": [
@@ -959,8 +959,8 @@
       "theme": "Vie en société en France",
       "questions": [
         "Qu'est-ce que le recensement de la population en France ?",
-        "Pourquoi le recensement est-il organisé en France ?",
-        "Est-il obligatoire de répondre au recensement ?"
+        "Quelle proposition décrit correctement le recensement de la population ?",
+        "Quelle enquête obligatoire de l'INSEE permet d'adapter les services publics ?"
       ],
       "correctAnswers": ["Une enquête obligatoire organisée par l'INSEE pour compter la population et connaître ses caractéristiques, servant à adapter les services publics"],
       "wrongAnswers": [
@@ -980,7 +980,7 @@
         "Quels éléments démontrent l'intégration d'un candidat à la naturalisation ?",
         "Sur quels critères l'intégration est-elle évaluée lors d'une demande de naturalisation ?"
       ],
-      "correctAnswers": ["Par la maîtrise de la langue française (B1), la connaissance des valeurs républicaines, l'insertion professionnelle, la scolarisation des enfants et la participation à la vie locale"],
+      "correctAnswers": ["Par la maîtrise de la langue française (B2), la connaissance des valeurs républicaines, l'insertion professionnelle, la scolarisation des enfants et la participation à la vie locale"],
       "wrongAnswers": [
         "Uniquement par la durée de résidence en France",
         "Uniquement par la possession d'un bien immobilier",

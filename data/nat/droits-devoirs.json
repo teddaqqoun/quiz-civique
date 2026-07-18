@@ -42,7 +42,7 @@
       "questions": [
         "Le vote est-il obligatoire en France ?",
         "Est-on obligé de voter en France ?",
-        "Que dit la loi française sur l'obligation de voter ?"
+        "La loi française oblige-t-elle les citoyens à voter ?"
       ],
       "correctAnswers": ["Non, le vote n'est pas obligatoire mais c'est un devoir civique"],
       "wrongAnswers": [
@@ -60,7 +60,7 @@
       "questions": [
         "Tout citoyen français est-il tenu de payer des impôts ?",
         "L'impôt est-il un devoir en France ?",
-        "Quel est le devoir fiscal du citoyen français ?"
+        "Un citoyen français doit-il contribuer aux dépenses publiques selon ses capacités ?"
       ],
       "correctAnswers": ["Oui, chaque citoyen doit contribuer aux dépenses publiques selon ses capacités"],
       "wrongAnswers": [
@@ -202,9 +202,9 @@
       "id": 621,
       "theme": "Droits et devoirs du citoyen",
       "questions": [
-        "Tout citoyen français a-t-il le droit à un avocat ?",
-        "Qu'est-ce que le droit à la défense ?",
-        "Que garantit le droit à un avocat en France ?"
+        "Toute personne a-t-elle le droit d'être assistée par un avocat ?",
+        "Une personne aux ressources insuffisantes peut-elle bénéficier gratuitement d'un avocat ?",
+        "Le droit à la défense permet-il d'être assisté par un avocat ?"
       ],
       "correctAnswers": ["Oui, toute personne a le droit d'être assistée par un avocat, y compris gratuitement en cas de ressources insuffisantes (aide juridictionnelle)"],
       "wrongAnswers": [
@@ -257,8 +257,8 @@
       "theme": "Droits et devoirs du citoyen",
       "questions": [
         "La France a-t-elle aboli la peine de mort ?",
-        "Depuis quand la peine de mort est-elle abolie en France ?",
-        "Quel est le statut de la peine de mort en France ?"
+        "La peine de mort a-t-elle été abolie en France en 1981 ?",
+        "La peine de mort est-elle encore autorisée en France ?"
       ],
       "correctAnswers": ["Oui, la peine de mort a été abolie en 1981"],
       "wrongAnswers": [
@@ -689,8 +689,8 @@
       "theme": "Droits et devoirs du citoyen",
       "questions": [
         "Les violences conjugales sont-elles sanctionnées en France ?",
-        "Que dit la loi française sur les violences au sein du couple ?",
-        "Quel est le statut juridique des violences conjugales ?"
+        "Les violences au sein du couple sont-elles punies par la loi ?",
+        "La loi prévoit-elle des circonstances aggravantes pour les violences conjugales ?"
       ],
       "correctAnswers": ["Oui, les violences conjugales sont un délit sévèrement puni par la loi, avec des circonstances aggravantes liées au lien conjugal"],
       "wrongAnswers": [
@@ -905,7 +905,7 @@
       "theme": "Droits et devoirs du citoyen",
       "questions": [
         "Les châtiments corporels sur les enfants sont-ils autorisés en France ?",
-        "Que dit la loi française sur les violences éducatives ordinaires ?",
+        "Les violences éducatives ordinaires sont-elles interdites par la loi française ?",
         "Les parents ont-ils le droit de frapper leurs enfants en France ?"
       ],
       "correctAnswers": ["Non, la loi interdit les violences éducatives ordinaires (gifles, fessées) depuis 2019"],
@@ -978,7 +978,7 @@
       "questions": [
         "Un étranger en situation irrégulière a-t-il des droits en France ?",
         "Les droits fondamentaux s'appliquent-ils aux sans-papiers ?",
-        "Quels droits un étranger sans titre de séjour possède-t-il en France ?"
+        "Un étranger sans titre de séjour bénéficie-t-il de droits fondamentaux en France ?"
       ],
       "correctAnswers": ["Oui, il bénéficie des droits fondamentaux : dignité, accès aux soins urgents, scolarisation des enfants et droit à un avocat"],
       "wrongAnswers": [

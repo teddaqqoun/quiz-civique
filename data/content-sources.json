@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-07-18",
+  "officialThemes": [
+    "Principes et valeurs de la République française",
+    "Système institutionnel et politique",
+    "Droits et devoirs",
+    "Histoire, géographie et culture",
+    "Vivre dans la société française"
+  ],
+  "levels": {
+    "csp": {
+      "label": "Carte de séjour pluriannuelle",
+      "frenchLevel": "A2",
+      "officialQuestions": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-csp/"
+    },
+    "cr": {
+      "label": "Carte de résident",
+      "frenchLevel": "B1",
+      "officialQuestions": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/"
+    },
+    "nat": {
+      "label": "Naturalisation",
+      "frenchLevel": "B2",
+      "officialQuestions": "https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/questions-de-connaissance-pour-lexamen-civique-nationalite-francaise.html"
+    }
+  },
+  "officialRequirements": {
+    "languageLevels": "https://www.immigration.interieur.gouv.fr/devenir-francais/procedures-dacces-a-nationalite-francaise",
+    "examScope": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620"
+  }
+}
