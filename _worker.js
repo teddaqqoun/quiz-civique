@@ -1,6 +1,38 @@
 import DASHBOARD_HTML from './admin/dashboard.html';
+import {
+  FeedbackValidationError,
+  insertIdempotently,
+  jsonResponse,
+  optionalQuestionId,
+  requireQuestionId,
+  requireStars,
+  requireSubmissionId,
+  requireTrackingId
+} from './feedback-api.mjs';
 
 const ADMIN_HOST = 'admin.test-civique-gratuit.com';
+const QUESTION_REPORT_REASONS = [
+  'Réponse incorrecte',
+  'Formulation',
+  'Contenu obsolète',
+  'Hors programme'
+];
+
+function nullableText(value) {
+  return typeof value === 'string' && value.trim() ? value.trim() : null;
+}
+
+function requireQuestionReportReason(value) {
+  if (!QUESTION_REPORT_REASONS.includes(value)) {
+    throw new FeedbackValidationError('invalid reason');
+  }
+  return value;
+}
+
+function feedbackErrorResponse(error) {
+  const status = error instanceof FeedbackValidationError ? 400 : 500;
+  return jsonResponse({ ok: false, error: error.message }, status);
+}
 
 export default {
   async fetch(request, env) {
@@ -32,23 +64,58 @@ export default {
         try {
           const body = await request.json();
           if (url.pathname === '/api/admin/sandbox/feedback') {
-            const info = await env.DB.prepare(
-              'INSERT INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode, sandbox) VALUES (?, ?, ?, ?, ?, ?, 1)'
-            ).bind(body.stars || null, body.difficulty || null, body.would_recommend != null ? (body.would_recommend ? 1 : 0) : null, body.comment || null, body.level || null, body.mode || null).run();
-            const id = info.meta?.last_row_id;
-            return new Response(JSON.stringify({ ok: true, id }), { headers: { 'Content-Type': 'application/json' } });
+            const result = await insertIdempotently(env.DB, {
+              table: 'quiz_feedback',
+              sql: 'INSERT OR IGNORE INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode, question_id, quiz_id, session_id, sandbox, idempotency_key) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)',
+              values: [
+                requireStars(body.stars),
+                nullableText(body.difficulty),
+                body.would_recommend != null ? (body.would_recommend ? 1 : 0) : null,
+                nullableText(body.comment),
+                nullableText(body.level),
+                nullableText(body.mode),
+                optionalQuestionId(body.question_id),
+                requireTrackingId(body, 'quiz_id'),
+                requireTrackingId(body, 'session_id')
+              ],
+              idempotencyKey: requireSubmissionId(body)
+            });
+            return jsonResponse({ ok: true, ...result });
           }
           if (url.pathname === '/api/admin/sandbox/bug-report') {
-            if (!body.description) return new Response(JSON.stringify({ ok: false, error: 'description required' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
-            await env.DB.prepare('INSERT INTO bug_reports (page_url, description, sandbox) VALUES (?, ?, 1)').bind(body.page_url || null, body.description).run();
-            return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+            const description = nullableText(body.description);
+            if (!description) throw new FeedbackValidationError('description required');
+            const result = await insertIdempotently(env.DB, {
+              table: 'bug_reports',
+              sql: 'INSERT OR IGNORE INTO bug_reports (page_url, description, session_id, sandbox, idempotency_key) VALUES (?, ?, ?, 1, ?)',
+              values: [
+                nullableText(body.page_url),
+                description,
+                requireTrackingId(body, 'session_id')
+              ],
+              idempotencyKey: requireSubmissionId(body)
+            });
+            return jsonResponse({ ok: true, ...result });
           }
           if (url.pathname === '/api/admin/sandbox/question-report') {
-            await env.DB.prepare('INSERT INTO question_reports (question_text, level, theme, reason, sandbox) VALUES (?, ?, ?, ?, 1)').bind(body.question_text || null, body.level || null, body.theme || null, body.reason || null).run();
-            return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+            const result = await insertIdempotently(env.DB, {
+              table: 'question_reports',
+              sql: 'INSERT OR IGNORE INTO question_reports (question_text, question_id, quiz_id, session_id, level, theme, reason, sandbox, idempotency_key) VALUES (?, ?, ?, ?, ?, ?, ?, 1, ?)',
+              values: [
+                nullableText(body.question_text),
+                requireQuestionId(body.question_id),
+                requireTrackingId(body, 'quiz_id'),
+                requireTrackingId(body, 'session_id'),
+                nullableText(body.level),
+                nullableText(body.theme),
+                requireQuestionReportReason(body.reason)
+              ],
+              idempotencyKey: requireSubmissionId(body)
+            });
+            return jsonResponse({ ok: true, ...result });
           }
         } catch (err) {
-          return new Response(JSON.stringify({ ok: false, error: err.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+          return feedbackErrorResponse(err);
         }
       }
 
@@ -77,43 +144,57 @@ export default {
         const body = await request.json();
 
         if (url.pathname === '/api/feedback') {
-          const info = await env.DB.prepare(
-            'INSERT INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode) VALUES (?, ?, ?, ?, ?, ?)'
-          ).bind(
-            body.stars || null,
-            body.difficulty || null,
-            body.would_recommend != null ? (body.would_recommend ? 1 : 0) : null,
-            body.comment || null,
-            body.level || null,
-            body.mode || null
-          ).run();
-          const id = info.meta?.last_row_id;
-          return new Response(JSON.stringify({ ok: true, id }), { headers: { 'Content-Type': 'application/json' } });
+          const result = await insertIdempotently(env.DB, {
+            table: 'quiz_feedback',
+            sql: 'INSERT OR IGNORE INTO quiz_feedback (stars, difficulty, would_recommend, comment, level, mode, question_id, quiz_id, session_id, idempotency_key) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            values: [
+              requireStars(body.stars),
+              nullableText(body.difficulty),
+              body.would_recommend != null ? (body.would_recommend ? 1 : 0) : null,
+              nullableText(body.comment),
+              nullableText(body.level),
+              nullableText(body.mode),
+              optionalQuestionId(body.question_id),
+              requireTrackingId(body, 'quiz_id'),
+              requireTrackingId(body, 'session_id')
+            ],
+            idempotencyKey: requireSubmissionId(body)
+          });
+          return jsonResponse({ ok: true, ...result });
         }
 
         if (url.pathname === '/api/bug-report') {
-          if (!body.description) {
-            return new Response(JSON.stringify({ ok: false, error: 'description required' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
-          }
-          await env.DB.prepare(
-            'INSERT INTO bug_reports (page_url, description) VALUES (?, ?)'
-          ).bind(
-            body.page_url || null,
-            body.description
-          ).run();
-          return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+          const description = nullableText(body.description);
+          if (!description) throw new FeedbackValidationError('description required');
+          const result = await insertIdempotently(env.DB, {
+            table: 'bug_reports',
+            sql: 'INSERT OR IGNORE INTO bug_reports (page_url, description, session_id, idempotency_key) VALUES (?, ?, ?, ?)',
+            values: [
+              nullableText(body.page_url),
+              description,
+              requireTrackingId(body, 'session_id')
+            ],
+            idempotencyKey: requireSubmissionId(body)
+          });
+          return jsonResponse({ ok: true, ...result });
         }
 
         if (url.pathname === '/api/question-report') {
-          await env.DB.prepare(
-            'INSERT INTO question_reports (question_text, level, theme, reason) VALUES (?, ?, ?, ?)'
-          ).bind(
-            body.question_text || null,
-            body.level || null,
-            body.theme || null,
-            body.reason || null
-          ).run();
-          return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json' } });
+          const result = await insertIdempotently(env.DB, {
+            table: 'question_reports',
+            sql: 'INSERT OR IGNORE INTO question_reports (question_text, question_id, quiz_id, session_id, level, theme, reason, idempotency_key) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+            values: [
+              nullableText(body.question_text),
+              requireQuestionId(body.question_id),
+              requireTrackingId(body, 'quiz_id'),
+              requireTrackingId(body, 'session_id'),
+              nullableText(body.level),
+              nullableText(body.theme),
+              requireQuestionReportReason(body.reason)
+            ],
+            idempotencyKey: requireSubmissionId(body)
+          });
+          return jsonResponse({ ok: true, ...result });
         }
 
         const shareMatch = url.pathname.match(/^\/api\/feedback\/(\d+)\/share$/);
@@ -128,7 +209,7 @@ export default {
 
         return new Response(JSON.stringify({ ok: false, error: 'Not found' }), { status: 404, headers: { 'Content-Type': 'application/json' } });
       } catch (err) {
-        return new Response(JSON.stringify({ ok: false, error: err.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+        return feedbackErrorResponse(err);
       }
     }
 

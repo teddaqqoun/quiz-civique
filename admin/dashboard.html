@@ -145,7 +145,7 @@
           <select id="sb-fb-mode"><option value="">--</option><option value="quiz">Quiz</option><option value="simulation">Simulation</option><option value="flashcard">Flashcard</option></select>
           <label>Commentaire</label>
           <textarea id="sb-fb-comment" rows="2" placeholder="Commentaire optionnel..."></textarea>
-          <button class="sandbox-btn" id="sb-fb-send">Envoyer l'avis</button>
+          <button class="sandbox-btn" id="sb-fb-send" disabled>Envoyer l'avis</button>
           <div class="sandbox-result" id="sb-fb-result"></div>
         </div>
         <div class="sandbox-card">
@@ -159,6 +159,8 @@
         </div>
         <div class="sandbox-card">
           <h3>Signalement de question</h3>
+          <label>Identifiant de la question *</label>
+          <input type="number" id="sb-qr-id" min="1" placeholder="ex. 340">
           <label>Texte de la question</label>
           <textarea id="sb-qr-text" rows="2" placeholder="La question..."></textarea>
           <label>Niveau</label>
@@ -167,10 +169,10 @@
           <input type="text" id="sb-qr-theme" placeholder="ex. Histoire">
           <label>Raison</label>
           <div class="radio-row">
-            <label><input type="radio" name="sb-qr-reason" value="La question est mal formulee"> Mal formulee</label>
-            <label><input type="radio" name="sb-qr-reason" value="La bonne reponse semble incorrecte"> Reponse incorrecte</label>
-            <label><input type="radio" name="sb-qr-reason" value="Question hors sujet"> Hors sujet</label>
-            <label><input type="radio" name="sb-qr-reason" value="Autre"> Autre</label>
+            <label><input type="radio" name="sb-qr-reason" value="Réponse incorrecte"> Reponse incorrecte</label>
+            <label><input type="radio" name="sb-qr-reason" value="Formulation"> Formulation</label>
+            <label><input type="radio" name="sb-qr-reason" value="Contenu obsolète"> Contenu obsolete</label>
+            <label><input type="radio" name="sb-qr-reason" value="Hors programme"> Hors programme</label>
           </div>
           <button class="sandbox-btn" id="sb-qr-send">Envoyer le signalement</button>
           <div class="sandbox-result" id="sb-qr-result"></div>
@@ -236,9 +238,9 @@
       URL.revokeObjectURL(url);
     }
     const EXPORT_COLUMNS = {
-      feedback: ['id', 'created_at', 'stars', 'difficulty', 'would_recommend', 'comment', 'level', 'mode', 'sandbox', 'shared_via'],
-      bugs: ['id', 'created_at', 'page_url', 'description', 'sandbox'],
-      questions: ['id', 'created_at', 'question_text', 'level', 'theme', 'reason', 'sandbox']
+      feedback: ['id', 'created_at', 'stars', 'difficulty', 'would_recommend', 'comment', 'question_id', 'quiz_id', 'session_id', 'level', 'mode', 'sandbox', 'shared_via'],
+      bugs: ['id', 'created_at', 'page_url', 'description', 'session_id', 'sandbox'],
+      questions: ['id', 'created_at', 'question_id', 'quiz_id', 'session_id', 'question_text', 'level', 'theme', 'reason', 'sandbox']
     };
     function exportCSV(type) {
       const rows = filterData(allData[type] || []);
@@ -306,9 +308,12 @@
 
     function renderQuestions(data) {
       if (!data.length) { document.getElementById('panel-questions').innerHTML = '<div class="empty">Aucun signalement de question</div>'; return; }
-      document.getElementById('panel-questions').innerHTML = '<div class="panel-toolbar"><button class="export-btn" onclick="exportCSV(\'questions\')">Exporter CSV</button></div><div class="table-wrap"><table><thead><tr><th>Date</th><th>Niveau</th><th>Theme</th><th>Raison</th><th>Question</th></tr></thead><tbody>'
+      document.getElementById('panel-questions').innerHTML = '<div class="panel-toolbar"><button class="export-btn" onclick="exportCSV(\'questions\')">Exporter CSV</button></div><div class="table-wrap"><table><thead><tr><th>Date</th><th>ID question</th><th>Quiz</th><th>Session</th><th>Niveau</th><th>Theme</th><th>Raison</th><th>Question</th></tr></thead><tbody>'
         + data.map(r => `<tr class="${r.sandbox ? 'sandbox-row' : ''}">
           <td>${fmtDate(r.created_at)}</td>
+          <td>${esc(r.question_id) || '-'}</td>
+          <td>${esc(r.quiz_id) || '-'}</td>
+          <td>${esc(r.session_id) || '-'}</td>
           <td><span class="badge-pill badge-blue">${esc(r.level) || '-'}</span></td>
           <td>${esc(r.theme) || '-'}</td>
           <td><span class="badge-pill badge-amber">${esc(r.reason) || '-'}</span></td>
@@ -319,6 +324,11 @@
 
     // Sandbox logic
     let sbStars = 0;
+    const sandboxSessionId = 'session:' + crypto.randomUUID();
+
+    function trackingId(prefix) {
+      return prefix + ':' + crypto.randomUUID();
+    }
 
     async function sbSend(url, payload, resultId, autoClear) {
       const el = document.getElementById(resultId);
@@ -358,9 +368,12 @@
 
     function bindStarInputs() {
       sbStars = 0;
+      const sendButton = document.getElementById('sb-fb-send');
+      if (sendButton) sendButton.disabled = true;
       document.querySelectorAll('#sb-stars span').forEach(s => {
         s.addEventListener('click', () => {
           sbStars = parseInt(s.dataset.v);
+          if (sendButton) sendButton.disabled = false;
           document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
         });
         s.addEventListener('mouseover', () => {
@@ -374,17 +387,30 @@
     }
 
     async function handleFeedbackSend() {
+      const sendButton = document.getElementById('sb-fb-send');
+      if (!sbStars || sendButton.dataset.submitting === 'true') return;
+      sendButton.dataset.submitting = 'true';
+      sendButton.disabled = true;
       const diff = (document.querySelector('input[name="sb-diff"]:checked') || {}).value || null;
       const rec = document.querySelector('input[name="sb-rec"]:checked');
       const wouldRec = rec ? parseInt(rec.value) : null;
       const result = await sbSend('/api/admin/sandbox/feedback', {
-        stars: sbStars || 3,
+        stars: sbStars,
         difficulty: diff,
         would_recommend: wouldRec,
         comment: document.getElementById('sb-fb-comment').value.trim() || null,
         level: document.getElementById('sb-fb-level').value || null,
-        mode: document.getElementById('sb-fb-mode').value || null
+        mode: document.getElementById('sb-fb-mode').value || null,
+        question_id: null,
+        quiz_id: trackingId('sandbox-quiz'),
+        session_id: sandboxSessionId,
+        submission_id: trackingId('sandbox-feedback')
       }, 'sb-fb-result', wouldRec !== 1);
+
+      if (!result.ok) {
+        sendButton.dataset.submitting = 'false';
+        sendButton.disabled = false;
+      }
 
       if (result.ok && wouldRec === 1 && result.id) {
         const feedbackId = result.id;
@@ -418,23 +444,45 @@
 
     document.getElementById('sb-fb-send').addEventListener('click', handleFeedbackSend);
 
-    document.getElementById('sb-br-send').addEventListener('click', () => {
+    document.getElementById('sb-br-send').addEventListener('click', async function () {
+      if (this.dataset.submitting === 'true') return;
       const desc = document.getElementById('sb-br-desc').value.trim();
       if (!desc) { const el = document.getElementById('sb-br-result'); el.className = 'sandbox-result error'; el.textContent = 'Description requise'; setTimeout(() => { el.className = 'sandbox-result'; }, 3000); return; }
-      sbSend('/api/admin/sandbox/bug-report', {
+      this.dataset.submitting = 'true';
+      this.disabled = true;
+      const result = await sbSend('/api/admin/sandbox/bug-report', {
         page_url: document.getElementById('sb-br-url').value || null,
-        description: desc
+        description: desc,
+        session_id: sandboxSessionId,
+        submission_id: trackingId('sandbox-bug')
       }, 'sb-br-result');
+      if (!result.ok) {
+        this.dataset.submitting = 'false';
+        this.disabled = false;
+      }
     });
 
-    document.getElementById('sb-qr-send').addEventListener('click', () => {
+    document.getElementById('sb-qr-send').addEventListener('click', async function () {
+      if (this.dataset.submitting === 'true') return;
       const reason = (document.querySelector('input[name="sb-qr-reason"]:checked') || {}).value || null;
-      sbSend('/api/admin/sandbox/question-report', {
+      const questionId = parseInt(document.getElementById('sb-qr-id').value, 10);
+      if (!questionId || !reason) return;
+      this.dataset.submitting = 'true';
+      this.disabled = true;
+      const result = await sbSend('/api/admin/sandbox/question-report', {
         question_text: document.getElementById('sb-qr-text').value.trim() || null,
+        question_id: questionId,
+        quiz_id: trackingId('sandbox-quiz'),
+        session_id: sandboxSessionId,
         level: document.getElementById('sb-qr-level').value || null,
         theme: document.getElementById('sb-qr-theme').value.trim() || null,
-        reason: reason
+        reason: reason,
+        submission_id: trackingId('sandbox-question')
       }, 'sb-qr-result');
+      if (!result.ok) {
+        this.dataset.submitting = 'false';
+        this.disabled = false;
+      }
     });
 
     bindStarInputs();

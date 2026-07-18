@@ -4,8 +4,9 @@
   "main": "_worker.js",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "test": "node scripts/validate-content.mjs && node scripts/test-quiz-engine.mjs"
+    "migrate": "wrangler d1 migrations apply quiz-civique-feedback --remote",
+    "deploy": "npm run migrate && wrangler deploy",
+    "test": "node scripts/validate-content.mjs && node scripts/test-quiz-engine.mjs && node scripts/test-feedback.mjs"
   },
   "keywords": [],
   "author": "",
