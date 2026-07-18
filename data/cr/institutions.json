@@ -149,7 +149,7 @@
         "Le président peut-il prolonger son mandat sans élection ?",
         "Un président sortant peut-il rester au pouvoir sans nouvelle élection ?"
       ],
-      "correctAnswers": ["Non, il doit se soumettre à une nouvelle élection"],
+      "correctAnswers": ["Non, son mandat prend fin ; il ne peut rester au pouvoir que s'il est réélu, dans la limite de deux mandats consécutifs"],
       "wrongAnswers": [
         "Oui, s'il déclare l'état d'urgence",
         "Oui, avec l'accord du Parlement",

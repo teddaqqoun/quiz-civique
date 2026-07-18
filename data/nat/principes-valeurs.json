@@ -422,11 +422,11 @@
         "Quel niveau de langue française faut-il atteindre pour obtenir la nationalité par naturalisation ?",
         "À quel niveau du CECRL faut-il maîtriser le français pour être naturalisé ?"
       ],
-      "correctAnswers": ["Le niveau B1 oral et écrit"],
+      "correctAnswers": ["Le niveau B2 oral et écrit"],
       "wrongAnswers": [
         "Le niveau A1 oral uniquement",
         "Le niveau A2 oral et écrit",
-        "Le niveau B2 oral et écrit",
+        "Le niveau B1 oral et écrit",
         "Le niveau C1 oral et écrit",
         "Le niveau A2 oral uniquement",
         "Aucun niveau n'est requis"
@@ -779,8 +779,8 @@
       "theme": "Principes et valeurs de la République",
       "questions": [
         "Le mariage forcé est-il autorisé en France ?",
-        "Que dit la loi française sur le mariage forcé ?",
-        "Quel est le statut juridique du mariage forcé en France ?"
+        "Le mariage forcé est-il interdit par la loi française ?",
+        "Le mariage forcé constitue-t-il un délit en France ?"
       ],
       "correctAnswers": ["Non, le mariage forcé est interdit et constitue un délit"],
       "wrongAnswers": [

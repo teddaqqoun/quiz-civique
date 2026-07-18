@@ -131,8 +131,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que le Code civil (Code Napoléon) ?",
-        "Quand le Code civil a-t-il été créé ?",
-        "En quoi le Code civil est-il important ?"
+        "Quels domaines le Code civil régit-il ?",
+        "Quel recueil de lois régit notamment la famille, la propriété et les contrats ?"
       ],
       "correctAnswers": ["Un recueil de lois régissant les relations entre les personnes (famille, propriété, contrats), promulgué en 1804 sous Napoléon"],
       "wrongAnswers": [
@@ -275,8 +275,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la bataille de Verdun ?",
-        "Pourquoi la bataille de Verdun est-elle célèbre ?",
-        "Quand a eu lieu la bataille de Verdun ?"
+        "Quelle proposition décrit correctement la bataille de Verdun ?",
+        "Quel événement de 1916 est devenu un symbole de la résistance française ?"
       ],
       "correctAnswers": ["Une des batailles les plus meurtrières de la Première Guerre mondiale, en 1916, devenue le symbole de la résistance française"],
       "wrongAnswers": [
@@ -419,8 +419,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la IVe République ?",
-        "Quand la IVe République a-t-elle existé ?",
-        "Pourquoi la IVe République a-t-elle pris fin ?"
+        "Quelle proposition décrit correctement la IVe République ?",
+        "Quel régime français a existé de 1946 à 1958 ?"
       ],
       "correctAnswers": ["Le régime républicain de 1946 à 1958, marqué par l'instabilité gouvernementale et la décolonisation"],
       "wrongAnswers": [
@@ -527,8 +527,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la Commune de Paris ?",
-        "Quand la Commune de Paris a-t-elle eu lieu ?",
-        "Que s'est-il passé lors de la Commune de Paris ?"
+        "Quelle proposition décrit correctement la Commune de Paris ?",
+        "Quel gouvernement révolutionnaire a dirigé Paris au printemps 1871 ?"
       ],
       "correctAnswers": ["Un gouvernement révolutionnaire qui a dirigé Paris du 18 mars au 28 mai 1871, écrasé dans le sang par le gouvernement de Versailles"],
       "wrongAnswers": [
@@ -545,8 +545,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que l'affaire Dreyfus ?",
-        "Pourquoi l'affaire Dreyfus est-elle importante dans l'histoire de France ?",
-        "Quand l'affaire Dreyfus a-t-elle eu lieu ?"
+        "Quelle proposition décrit correctement l'affaire Dreyfus ?",
+        "Quelle erreur judiciaire antisémite a divisé la France entre 1894 et 1906 ?"
       ],
       "correctAnswers": ["Une erreur judiciaire antisémite (1894-1906) contre le capitaine Dreyfus, qui a divisé la France et renforcé les valeurs de justice et de droits de l'homme"],
       "wrongAnswers": [
@@ -599,8 +599,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que le Front populaire ?",
-        "Quand le Front populaire a-t-il gouverné ?",
-        "Quelles avancées sociales le Front populaire a-t-il réalisées ?"
+        "Quelle proposition décrit correctement le Front populaire ?",
+        "Quelle coalition a instauré les congés payés et la semaine de 40 heures en 1936 ?"
       ],
       "correctAnswers": ["Une coalition de gauche qui a gouverné en 1936-1937 sous Léon Blum, instaurant les congés payés, la semaine de 40 heures et les conventions collectives"],
       "wrongAnswers": [
@@ -653,8 +653,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la décolonisation française ?",
-        "Quand la France a-t-elle perdu ses colonies ?",
-        "Comment la décolonisation s'est-elle déroulée en France ?"
+        "Quelle proposition décrit correctement la décolonisation française ?",
+        "Quel processus a conduit les colonies françaises à l'indépendance ?"
       ],
       "correctAnswers": ["Le processus d'indépendance des colonies françaises, principalement dans les années 1950-1960 (Indochine 1954, Afrique, Algérie 1962)"],
       "wrongAnswers": [
@@ -743,7 +743,7 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que le traité de Rome ?",
-        "Quand le traité de Rome a-t-il été signé ?",
+        "Quelle proposition décrit correctement le traité de Rome ?",
         "Qu'a créé le traité de Rome ?"
       ],
       "correctAnswers": ["Le traité signé en 1957 par 6 pays européens (dont la France) créant la Communauté économique européenne (CEE), ancêtre de l'Union européenne"],
@@ -761,7 +761,7 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que le traité de Maastricht ?",
-        "Quand le traité de Maastricht a-t-il été signé ?",
+        "Quelle proposition décrit correctement le traité de Maastricht ?",
         "Qu'a créé le traité de Maastricht ?"
       ],
       "correctAnswers": ["Le traité signé en 1992 qui a créé l'Union européenne et prévu la monnaie unique (l'euro)"],
@@ -833,7 +833,7 @@
       "theme": "Histoire de France",
       "questions": [
         "La France a-t-elle participé à la déportation des Juifs pendant la Seconde Guerre mondiale ?",
-        "Quel rôle la France a-t-elle joué dans la déportation des Juifs ?",
+        "Le régime de Vichy a-t-il participé à la déportation des Juifs ?",
         "Le régime de Vichy a-t-il collaboré à la déportation des Juifs ?"
       ],
       "correctAnswers": ["Oui, le régime de Vichy a participé à la déportation des Juifs, ce que la France a officiellement reconnu en 1995 par Jacques Chirac"],
@@ -851,8 +851,8 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que la rafle du Vel d'Hiv ?",
-        "Quand la rafle du Vélodrome d'Hiver a-t-elle eu lieu ?",
-        "Que s'est-il passé lors de la rafle du Vel d'Hiv ?"
+        "Quelle proposition décrit correctement la rafle du Vélodrome d'Hiver ?",
+        "Quelle arrestation massive a été menée à Paris les 16 et 17 juillet 1942 ?"
       ],
       "correctAnswers": ["L'arrestation massive de plus de 13 000 Juifs à Paris les 16 et 17 juillet 1942 par la police française, sur ordre du régime de Vichy"],
       "wrongAnswers": [
@@ -870,7 +870,7 @@
       "questions": [
         "Qu'est-ce que le traité de l'Élysée ?",
         "Quel traité a scellé la réconciliation franco-allemande ?",
-        "Quand le traité de l'Élysée a-t-il été signé ?"
+        "Quel traité d'amitié franco-allemand a été signé en 1963 ?"
       ],
       "correctAnswers": ["Le traité d'amitié franco-allemand signé en 1963 par de Gaulle et Adenauer, scellant la réconciliation entre les deux pays"],
       "wrongAnswers": [
@@ -977,7 +977,7 @@
       "theme": "Histoire de France",
       "questions": [
         "Qu'est-ce que le Code de la nationalité française ?",
-        "Quand le droit de la nationalité a-t-il été codifié en France ?",
+        "Quelle proposition définit correctement le droit de la nationalité française ?",
         "Quel texte régit l'acquisition de la nationalité française ?"
       ],
       "correctAnswers": ["L'ensemble des règles régissant l'attribution et l'acquisition de la nationalité française, aujourd'hui intégré au Code civil (articles 17 à 33-2)"],
