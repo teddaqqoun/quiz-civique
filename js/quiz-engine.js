@@ -336,13 +336,14 @@ QuizEngine.prototype.showFeedbackPopup = function () {
             '<button class="feedback-modal-close" aria-label="Fermer">&times;</button>' +
             '<h3>Votre avis nous intéresse !</h3>' +
             '<div class="feedback-section">' +
-                '<label>Satisfaction globale</label>' +
-                '<div class="star-rating" id="fb-stars">' +
-                    '<span data-val="1">&#9733;</span>' +
-                    '<span data-val="2">&#9733;</span>' +
-                    '<span data-val="3">&#9733;</span>' +
-                    '<span data-val="4">&#9733;</span>' +
-                    '<span data-val="5">&#9733;</span>' +
+                '<label>Quelle note donneriez-vous à l’application ?</label>' +
+                '<p class="feedback-scale-hint">1 = Très mauvaise · 5 = Très bonne</p>' +
+                '<div class="star-rating" id="fb-stars" role="group" aria-label="Note de 1 à 5">' +
+                    '<span data-val="1" role="button" tabindex="0" aria-label="1 sur 5">&#9733;</span>' +
+                    '<span data-val="2" role="button" tabindex="0" aria-label="2 sur 5">&#9733;</span>' +
+                    '<span data-val="3" role="button" tabindex="0" aria-label="3 sur 5">&#9733;</span>' +
+                    '<span data-val="4" role="button" tabindex="0" aria-label="4 sur 5">&#9733;</span>' +
+                    '<span data-val="5" role="button" tabindex="0" aria-label="5 sur 5">&#9733;</span>' +
                 '</div>' +
             '</div>' +
             '<div class="feedback-section">' +
@@ -384,11 +385,18 @@ QuizEngine.prototype.showFeedbackPopup = function () {
         star.addEventListener('mouseout', function () {
             starEls.forEach(function (s) { s.classList.remove('hovered'); });
         });
-        star.addEventListener('click', function () {
+        function selectStar() {
             selectedStars = parseInt(star.dataset.val);
             starEls.forEach(function (s) { s.classList.toggle('selected', parseInt(s.dataset.val) <= selectedStars); });
             feedbackSubmitBtn.disabled = false;
             overlay.querySelector('#fb-error').style.display = 'none';
+        }
+        star.addEventListener('click', selectStar);
+        star.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                selectStar();
+            }
         });
     });
 

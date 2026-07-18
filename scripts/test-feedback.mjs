@@ -71,6 +71,11 @@ assert.equal(db.rows.size, 1);
 
 const quizSource = fs.readFileSync(path.join(root, 'js/quiz-engine.js'), 'utf8');
 assert(!quizSource.includes('selectedStars || 3'), 'la note 3 ne doit pas être envoyée par défaut');
+assert(
+  quizSource.includes('Quelle note donneriez-vous à l’application ?') &&
+    quizSource.includes('1 = Très mauvaise · 5 = Très bonne'),
+  'l’échelle de notation doit être expliquée clairement'
+);
 for (const reason of ['Réponse incorrecte', 'Formulation', 'Contenu obsolète', 'Hors programme']) {
   assert(quizSource.includes(`value="${reason}"`), `motif manquant : ${reason}`);
 }
