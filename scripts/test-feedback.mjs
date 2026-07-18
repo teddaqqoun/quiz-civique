@@ -92,6 +92,13 @@ assert(componentSource.includes("submitBtn.dataset.submitting = 'true'"));
 assert(componentSource.includes('submission_id: submissionId'));
 assert(componentSource.includes('session_id: sessionId'));
 
+const dashboardSource = fs.readFileSync(path.join(root, 'admin/dashboard.html'), 'utf8');
+assert(
+  dashboardSource.includes('Quelle note donneriez-vous à l’application ?') &&
+    dashboardSource.includes('1 = Très mauvaise · 5 = Très bonne'),
+  'la sandbox doit afficher la même échelle de notation'
+);
+
 const migration = fs.readFileSync(
   path.join(root, 'migrations/0001_feedback_idempotency.sql'),
   'utf8'

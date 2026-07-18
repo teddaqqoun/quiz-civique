@@ -57,10 +57,12 @@
     .sandbox-result { margin-top: 0.75rem; padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.8rem; display: none; }
     .sandbox-result.success { display: block; background: #DCFCE7; color: #16A34A; }
     .sandbox-result.error { display: block; background: #FEE2E2; color: #DC2626; }
+    .sandbox-hint { margin: 0.15rem 0 0.35rem; color: #6B7280; font-size: 0.75rem; }
     .star-input { display: flex; gap: 0.25rem; cursor: pointer; }
     .star-input span { font-size: 1.5rem; color: #D1D5DB; transition: color 0.15s; }
     .star-input span.active { color: #F59E0B; }
     .star-input span:hover, .star-input span:hover ~ span { color: #F59E0B; }
+    .star-input span:focus-visible { outline: 2px solid #1D4ED8; outline-offset: 2px; border-radius: 4px; }
     .radio-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.25rem; }
     .radio-row label { display: flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: #4B5563; margin: 0; cursor: pointer; }
     .sandbox-warning { background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.25rem; font-size: 0.8rem; color: #92400E; }
@@ -124,9 +126,10 @@
       <div class="sandbox-grid">
         <div class="sandbox-card">
           <h3>Avis quiz</h3>
-          <label>Note</label>
-          <div class="star-input" id="sb-stars">
-            <span data-v="1">&#9733;</span><span data-v="2">&#9733;</span><span data-v="3">&#9733;</span><span data-v="4">&#9733;</span><span data-v="5">&#9733;</span>
+          <label>Quelle note donneriez-vous à l’application ?</label>
+          <p class="sandbox-hint">1 = Très mauvaise · 5 = Très bonne</p>
+          <div class="star-input" id="sb-stars" role="group" aria-label="Note de 1 à 5">
+            <span data-v="1" role="button" tabindex="0" aria-label="1 sur 5">&#9733;</span><span data-v="2" role="button" tabindex="0" aria-label="2 sur 5">&#9733;</span><span data-v="3" role="button" tabindex="0" aria-label="3 sur 5">&#9733;</span><span data-v="4" role="button" tabindex="0" aria-label="4 sur 5">&#9733;</span><span data-v="5" role="button" tabindex="0" aria-label="5 sur 5">&#9733;</span>
           </div>
           <label>Difficulte</label>
           <div class="radio-row">
@@ -371,10 +374,17 @@
       const sendButton = document.getElementById('sb-fb-send');
       if (sendButton) sendButton.disabled = true;
       document.querySelectorAll('#sb-stars span').forEach(s => {
-        s.addEventListener('click', () => {
+        const selectStar = () => {
           sbStars = parseInt(s.dataset.v);
           if (sendButton) sendButton.disabled = false;
           document.querySelectorAll('#sb-stars span').forEach(x => x.classList.toggle('active', parseInt(x.dataset.v) <= sbStars));
+        };
+        s.addEventListener('click', selectStar);
+        s.addEventListener('keydown', event => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            selectStar();
+          }
         });
         s.addEventListener('mouseover', () => {
           const v = parseInt(s.dataset.v);
