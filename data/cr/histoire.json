@@ -107,7 +107,7 @@
         "Quelle est l'importance de l'enseignement de la Shoah ?",
         "Pour quelle raison enseigne-t-on la Shoah aux élèves ?"
       ],
-      "correctAnswers": ["Pour le devoir de mémoire et éviter que cela ne se reproduise"],
+      "correctAnswers": ["Pour transmettre la mémoire et prévenir le racisme"],
       "wrongAnswers": [
         "Pour comprendre la culture allemande",
         "Pour apprendre l'histoire militaire européenne",
@@ -167,7 +167,7 @@
         "Quelle organisation a lancé la construction européenne ?",
         "Comment s'appelle le premier traité européen de 1951 ?"
       ],
-      "correctAnswers": ["La CECA (Communauté Européenne du Charbon et de l'Acier)"],
+      "correctAnswers": ["La CECA"],
       "wrongAnswers": [
         "La CEE (Communauté Économique Européenne)",
         "L'OTAN (Organisation du Traité de l'Atlantique Nord)",
@@ -267,7 +267,7 @@
         "Quelle institution mondiale est née en 1945 ?",
         "Comment s'appelle l'organisation internationale fondée après la Seconde Guerre mondiale ?"
       ],
-      "correctAnswers": ["L'ONU (Organisation des Nations Unies)"],
+      "correctAnswers": ["L'ONU"],
       "wrongAnswers": [
         "L'OTAN",
         "L'UNESCO",
@@ -344,7 +344,8 @@
       "theme": "Histoire géographie et culture",
       "questions": [
         "Où a eu lieu le débarquement du 6 juin 1944 ?",
-        "Où les Alliés ont-ils débarqué le 6 juin 1944 ?"
+        "Où les Alliés ont-ils débarqué le 6 juin 1944 ?",
+        "Dans quelle région française s'est déroulé le débarquement de 1944 ?"
       ],
       "correctAnswers": ["En Normandie"],
       "wrongAnswers": [
@@ -386,7 +387,7 @@
         "Que commémore-t-on le 8 mai ?",
         "Quelle victoire célèbre-t-on le 8 mai ?"
       ],
-      "correctAnswers": ["La victoire de 1945 (fin de la Seconde Guerre mondiale)"],
+      "correctAnswers": ["La victoire des Alliés en 1945"],
       "wrongAnswers": [
         "La victoire de 1918 (fin de la Première Guerre mondiale)",
         "Le débarquement en Normandie",
@@ -485,7 +486,7 @@
         "Que désigne l'expression « France d'outre-mer » ?",
         "Quels sont les territoires d'outre-mer français ?"
       ],
-      "correctAnswers": ["Les territoires français situés hors de l'Europe (Guadeloupe, Martinique, Réunion, Guyane, Mayotte, etc.)"],
+      "correctAnswers": ["Les territoires français situés hors d'Europe"],
       "wrongAnswers": [
         "Les anciennes colonies françaises en Afrique",
         "Les pays francophones hors de France",
@@ -965,7 +966,7 @@
         "Quel événement festif est propre à la France ?",
         "Quelle fête typiquement française connaissez-vous ?"
       ],
-      "correctAnswers": ["Le 14 juillet (Fête nationale)", "La Fête de la musique (21 juin)"],
+      "correctAnswers": ["Le 14 juillet", "La Fête de la musique"],
       "wrongAnswers": [
         "Thanksgiving",
         "La Saint-Patrick",

@@ -5,7 +5,8 @@
       "theme": "Vivre dans la société française",
       "questions": [
         "Quel mariage est reconnu par l'État ?",
-        "Quel type de mariage a une valeur légale en France ?"
+        "Quel type de mariage a une valeur légale en France ?",
+        "Quelle cérémonie rend un mariage juridiquement valable ?"
       ],
       "correctAnswers": ["Le mariage civil (célébré à la mairie)"],
       "wrongAnswers": [
@@ -104,7 +105,8 @@
       "theme": "Vivre dans la société française",
       "questions": [
         "À quel âge peut-on passer le permis de conduire ?",
-        "Quelle condition d'âge faut-il remplir pour le permis de conduire ?"
+        "Quelle condition d'âge faut-il remplir pour le permis de conduire ?",
+        "Quel est l'âge minimum pour obtenir le permis B ?"
       ],
       "correctAnswers": ["17 ans"],
       "wrongAnswers": [
@@ -227,7 +229,7 @@
         "Comment appelle-t-on la protection des informations médicales ?",
         "Que garantit le secret médical ?"
       ],
-      "correctAnswers": ["Le secret médical (les informations de santé ne peuvent pas être divulguées sans accord)"],
+      "correctAnswers": ["Le secret médical"],
       "wrongAnswers": [
         "Le droit à l'anonymat (aucune identité n'est enregistrée)",
         "La protection des données administratives uniquement",
@@ -263,7 +265,9 @@
       "id": 402,
       "theme": "Vivre dans la société française",
       "questions": [
-        "Qui peut demander un congé parental d'éducation ?"
+        "Qui peut demander un congé parental d'éducation ?",
+        "Le congé parental d'éducation est ouvert à quel parent ?",
+        "Quels parents peuvent bénéficier d'un congé parental d'éducation ?"
       ],
       "correctAnswers": ["Le père ou la mère"],
       "wrongAnswers": [

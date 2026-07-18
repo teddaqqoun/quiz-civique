@@ -18,21 +18,27 @@ const SiteConfig = {
             label: 'CSP',
             fullLabel: 'Carte de Séjour Pluriannuelle',
             description: 'Préparez l\'examen civique pour la Carte de Séjour Pluriannuelle',
-            questionCount: 195
+            questionCount: 195,
+            difficultyLabel: 'Accessible',
+            difficultyMix: { easy: 0.60, medium: 0.35, hard: 0.05 }
         },
         cr: {
             slug: 'cr',
             label: 'CR',
             fullLabel: 'Carte de Résident',
             description: 'Préparez l\'examen civique pour la Carte de Résident',
-            questionCount: 209
+            questionCount: 209,
+            difficultyLabel: 'Intermédiaire',
+            difficultyMix: { easy: 0.30, medium: 0.50, hard: 0.20 }
         },
         nat: {
             slug: 'nat',
             label: 'Naturalisation',
             fullLabel: 'Naturalisation Française',
             description: 'Préparez l\'examen civique pour la Naturalisation Française',
-            questionCount: 275
+            questionCount: 275,
+            difficultyLabel: 'Approfondi',
+            difficultyMix: { easy: 0.15, medium: 0.40, hard: 0.45 }
         }
     },
 

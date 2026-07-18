@@ -13,6 +13,7 @@ const expectedFiles = [
 ];
 const errors = [];
 const ids = new Map();
+const maxBalancedLengthRatio = { csp: 3, cr: 3, nat: 3.5 };
 
 function fail(file, id, message) {
   errors.push(`${file}${id == null ? '' : ` #${id}`}: ${message}`);
@@ -64,9 +65,9 @@ for (const level of levels) {
         ids.set(id, relative);
       }
 
-      if (!Array.isArray(question.questions) || question.questions.length === 0 ||
+      if (!Array.isArray(question.questions) || question.questions.length < 3 ||
           question.questions.some((value) => typeof value !== 'string' || !value.trim())) {
-        fail(relative, id, 'au moins une formulation non vide est requise');
+        fail(relative, id, 'au moins trois formulations non vides sont requises');
         continue;
       }
 
@@ -99,6 +100,22 @@ for (const level of levels) {
       }
       if (level === 'nat' && correct.some((value) => /\bniveau B1\b/i.test(value))) {
         fail(relative, id, 'la naturalisation exige le niveau B2 depuis le 1er janvier 2026');
+      }
+
+      const correctLength = correct[0].trim().split(/\s+/).length;
+      const closestDistractorLengths = wrong
+        .map((value) => value.trim().split(/\s+/).length)
+        .sort((a, b) => Math.abs(a - correctLength) - Math.abs(b - correctLength))
+        .slice(0, 3);
+      const worstBalancedRatio = Math.max(...closestDistractorLengths.map((length) =>
+        Math.max(correctLength, length) / Math.max(1, Math.min(correctLength, length))
+      ));
+      if (worstBalancedRatio > maxBalancedLengthRatio[level]) {
+        fail(relative, id, `aucun groupe de trois distracteurs n’a une longueur crédible (ratio ${worstBalancedRatio.toFixed(1)})`);
+      }
+
+      if (level === 'csp' && question.questions.some((value) => /\bNoël\b|système métrique/i.test(value))) {
+        fail(relative, id, 'ce détail a été retiré du parcours CSP car il est trop spécifique');
       }
     }
   }

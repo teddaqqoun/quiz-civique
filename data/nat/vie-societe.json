@@ -116,7 +116,7 @@
         "À quoi sert le baccalauréat en France ?",
         "Quel diplôme sanctionne la fin des études secondaires ?"
       ],
-      "correctAnswers": ["Le diplôme national qui sanctionne la fin des études secondaires et donne accès à l'enseignement supérieur"],
+      "correctAnswers": ["Le diplôme de fin d'études secondaires donnant accès au supérieur"],
       "wrongAnswers": [
         "Un diplôme universitaire obtenu après 3 ans d'études",
         "Un certificat de fin d'études primaires",
@@ -134,7 +134,7 @@
         "Qu'est-ce que la Sécurité sociale ?",
         "Comment les soins médicaux sont-ils pris en charge en France ?"
       ],
-      "correctAnswers": ["La Sécurité sociale rembourse une grande partie des frais médicaux, complétée éventuellement par une mutuelle"],
+      "correctAnswers": ["La Sécurité sociale rembourse une partie des frais médicaux"],
       "wrongAnswers": [
         "Les soins sont entièrement gratuits pour tous",
         "Chaque citoyen doit souscrire une assurance privée obligatoire",
@@ -152,7 +152,7 @@
         "Que permet la Complémentaire santé solidaire ?",
         "Comment les personnes à faibles revenus accèdent-elles aux soins en France ?"
       ],
-      "correctAnswers": ["Une couverture maladie complémentaire gratuite ou à faible coût pour les personnes à faibles revenus"],
+      "correctAnswers": ["Une complémentaire santé destinée aux personnes à faibles revenus"],
       "wrongAnswers": [
         "Une assurance santé réservée aux fonctionnaires",
         "Une mutuelle obligatoire pour les entreprises",
@@ -170,7 +170,7 @@
         "Quel organisme aide les demandeurs d'emploi en France ?",
         "À quoi sert France Travail ?"
       ],
-      "correctAnswers": ["L'organisme public chargé de l'accompagnement des demandeurs d'emploi et de l'indemnisation du chômage"],
+      "correctAnswers": ["Le service public qui accompagne les demandeurs d'emploi"],
       "wrongAnswers": [
         "Un bureau de recrutement privé",
         "Un ministère chargé de l'économie",
@@ -188,7 +188,7 @@
         "Quel est le rôle de la Caisse d'allocations familiales ?",
         "Quelles prestations la CAF verse-t-elle ?"
       ],
-      "correctAnswers": ["L'organisme qui verse les prestations familiales et sociales (allocations familiales, APL, RSA, prime d'activité, etc.)"],
+      "correctAnswers": ["L'organisme qui verse les prestations familiales et sociales"],
       "wrongAnswers": [
         "Un organisme qui gère les impôts",
         "Une banque publique pour les familles",
@@ -224,7 +224,7 @@
         "Quel est le rôle de la mairie dans la vie quotidienne ?",
         "Pour quelles démarches se rend-on à la mairie ?"
       ],
-      "correctAnswers": ["Le siège de l'administration communale où l'on effectue les démarches d'état civil (naissance, mariage, décès), l'inscription sur les listes électorales, etc."],
+      "correctAnswers": ["L'administration communale chargée des services de proximité"],
       "wrongAnswers": [
         "Le bureau du préfet dans chaque commune",
         "Un centre commercial géré par la commune",
@@ -260,7 +260,7 @@
         "Quel est le nombre minimal de jours de congés payés par an ?",
         "De combien de semaines de vacances un salarié bénéficie-t-il ?"
       ],
-      "correctAnswers": ["5 semaines (25 jours ouvrés) de congés payés par an"],
+      "correctAnswers": ["5 semaines par an"],
       "wrongAnswers": [
         "2 semaines par an",
         "3 semaines par an",
@@ -278,7 +278,7 @@
         "Que signifie le SMIC en France ?",
         "À quoi correspond le SMIC ?"
       ],
-      "correctAnswers": ["Le Salaire Minimum Interprofessionnel de Croissance, soit le salaire horaire minimum légal en France"],
+      "correctAnswers": ["Le salaire minimum légal en France"],
       "wrongAnswers": [
         "Le Système Minimum d'Indemnisation du Chômage",
         "Le Service Minimum Interprofessionnel de la Commune",
@@ -296,7 +296,7 @@
         "Quel document recense les actes d'état civil d'une famille ?",
         "Quel document est délivré lors du mariage ou de la naissance du premier enfant ?"
       ],
-      "correctAnswers": ["Un document officiel délivré lors du mariage ou de la naissance du premier enfant, qui recense les actes d'état civil de la famille"],
+      "correctAnswers": ["Le document d'état civil remis lors d'un mariage ou d'une naissance"],
       "wrongAnswers": [
         "Un carnet de santé pour les enfants",
         "Un document bancaire pour ouvrir un compte familial",
@@ -314,7 +314,7 @@
         "Auprès de qui doit-on déclarer la naissance d'un enfant ?",
         "Où et dans quel délai faut-il déclarer une naissance ?"
       ],
-      "correctAnswers": ["À la mairie du lieu de naissance, dans les 5 jours suivant l'accouchement"],
+      "correctAnswers": ["À la mairie du lieu de naissance, sous cinq jours"],
       "wrongAnswers": [
         "À l'hôpital directement, qui s'occupe de tout",
         "À la préfecture dans les 30 jours",
@@ -368,7 +368,7 @@
         "Quelle proposition décrit correctement la Sécurité sociale ?",
         "Quel système créé en 1945 couvre notamment la maladie, la maternité et la vieillesse ?"
       ],
-      "correctAnswers": ["Un système de protection sociale créé en 1945, couvrant la maladie, la maternité, les accidents du travail, la vieillesse et la famille"],
+      "correctAnswers": ["Le système public de protection contre les principaux risques sociaux"],
       "wrongAnswers": [
         "Une assurance privée obligatoire créée en 1958",
         "Un service de police pour la sécurité des citoyens",
@@ -382,18 +382,18 @@
       "id": 741,
       "theme": "Vie en société en France",
       "questions": [
-        "Quels sont les principaux jours fériés en France ?",
-        "Citez des jours fériés français.",
-        "Quels jours fériés commémorent des événements historiques en France ?"
+        "Quel jour férié est normalement chômé pour les salariés ?",
+        "Quel jour férié ne peut généralement pas être travaillé ?",
+        "Pour la plupart des salariés, quel jour férié doit être chômé ?"
       ],
-      "correctAnswers": ["Le 1er janvier, le lundi de Pâques, le 1er mai, le 8 mai, l'Ascension, le 14 juillet, le 15 août, le 1er novembre, le 11 novembre, le 25 décembre"],
+      "correctAnswers": ["Le 1er mai"],
       "wrongAnswers": [
-        "Le 1er janvier, le 14 février, le 1er mai et le 25 décembre uniquement",
-        "Le 1er janvier, le 8 mars, le 14 juillet et le 25 décembre",
-        "Uniquement le 14 juillet et le 25 décembre",
-        "Le 1er janvier, le 1er mai, le 14 juillet et le 11 novembre uniquement",
-        "Le 6 janvier, le 14 juillet, le 15 août et le 31 décembre",
-        "Le 1er mai, le 8 mai, le 14 juillet et le 2 novembre"
+        "Le 1er janvier",
+        "Le 8 mai",
+        "Le 14 juillet",
+        "Le 15 août",
+        "Le 11 novembre",
+        "Le 25 décembre"
       ]
     },
     {
@@ -440,7 +440,7 @@
         "À quoi sert le Revenu de solidarité active ?",
         "Qui peut bénéficier du RSA ?"
       ],
-      "correctAnswers": ["Un revenu minimum garanti par l'État pour les personnes sans ressources ou à faibles revenus, sous certaines conditions"],
+      "correctAnswers": ["Un revenu minimum versé sous conditions de ressources"],
       "wrongAnswers": [
         "Un salaire versé par les entreprises aux stagiaires",
         "Un revenu réservé aux retraités à faibles revenus",
@@ -458,7 +458,7 @@
         "Quelle proposition décrit correctement le permis de conduire ?",
         "Quel document est obtenu après un examen théorique et un examen pratique ?"
       ],
-      "correctAnswers": ["Un document officiel autorisant la conduite, obtenu après un examen théorique (code) et pratique, accessible dès 17 ans pour le permis B"],
+      "correctAnswers": ["Un document obtenu après des épreuves théorique et pratique"],
       "wrongAnswers": [
         "Un document que l'on peut acheter sans examen",
         "Un permis délivré uniquement à partir de 21 ans",
@@ -476,7 +476,7 @@
         "Quelle règle s'applique au personnel et aux patients d'un hôpital public ?",
         "Quelle proposition décrit correctement la neutralité religieuse à l'hôpital public ?"
       ],
-      "correctAnswers": ["Le personnel hospitalier est neutre en matière religieuse, et les patients ne peuvent pas refuser un soignant en raison de son sexe pour des motifs religieux"],
+      "correctAnswers": ["La neutralité du personnel et l'égalité de traitement des patients"],
       "wrongAnswers": [
         "Les patients peuvent toujours choisir le sexe de leur médecin",
         "Les signes religieux sont autorisés pour le personnel hospitalier",
@@ -494,7 +494,7 @@
         "À quoi sert l'Académie française ?",
         "Qu'est-ce que l'Académie française ?"
       ],
-      "correctAnswers": ["Une institution chargée de veiller sur la langue française, de définir son usage et de rédiger le Dictionnaire"],
+      "correctAnswers": ["Veiller sur la langue française et rédiger son dictionnaire"],
       "wrongAnswers": [
         "Un organisme de recherche scientifique",
         "Un tribunal pour les litiges linguistiques",
@@ -512,7 +512,7 @@
         "Comment la France protège-t-elle son patrimoine culturel ?",
         "Citez des éléments du patrimoine culturel français."
       ],
-      "correctAnswers": ["L'ensemble des monuments, œuvres d'art, traditions et savoir-faire hérités de l'histoire (châteaux, cathédrales, musées, gastronomie, etc.)"],
+      "correctAnswers": ["Les monuments, traditions et savoir-faire hérités de l'histoire"],
       "wrongAnswers": [
         "Uniquement les châteaux de la Loire",
         "Les biens immobiliers appartenant à l'État",
@@ -530,7 +530,7 @@
         "Quand ont lieu les Journées européennes du patrimoine ?",
         "À quoi servent les Journées du Patrimoine ?"
       ],
-      "correctAnswers": ["Un événement annuel en septembre où les monuments et institutions ouvrent gratuitement leurs portes au public"],
+      "correctAnswers": ["L'ouverture annuelle de monuments habituellement fermés au public"],
       "wrongAnswers": [
         "Un festival de musique organisé en juillet",
         "Un événement sportif national en mai",
@@ -566,7 +566,7 @@
         "Pourquoi Victor Hugo est-il célèbre ?",
         "Quel écrivain français du XIXe siècle a marqué la littérature et la politique ?"
       ],
-      "correctAnswers": ["Un écrivain majeur du XIXe siècle, auteur des Misérables et de Notre-Dame de Paris, engagé pour la démocratie et contre la peine de mort"],
+      "correctAnswers": ["Un écrivain, auteur des Misérables et de Notre-Dame de Paris"],
       "wrongAnswers": [
         "Un scientifique qui a découvert la radioactivité",
         "Un philosophe des Lumières du XVIIIe siècle",
@@ -584,7 +584,7 @@
         "Pourquoi les Curie sont-ils célèbres ?",
         "Quelle découverte a rendu Marie Curie célèbre ?"
       ],
-      "correctAnswers": ["Des physiciens qui ont découvert la radioactivité et le radium, Marie Curie étant la première femme à recevoir le prix Nobel"],
+      "correctAnswers": ["Deux scientifiques associés aux recherches sur la radioactivité"],
       "wrongAnswers": [
         "Des inventeurs de l'avion au début du XXe siècle",
         "Des astronomes qui ont découvert une nouvelle planète",
@@ -602,7 +602,7 @@
         "Quel ingénieur a construit la tour Eiffel pour l'Exposition universelle de 1889 ?",
         "Qui a construit la tour Eiffel pour l'Exposition universelle de 1889 ?"
       ],
-      "correctAnswers": ["Gustave Eiffel, pour l'Exposition universelle de 1889 à Paris"],
+      "correctAnswers": ["Gustave Eiffel"],
       "wrongAnswers": [
         "Napoléon Bonaparte en 1804",
         "Baron Haussmann en 1870",
@@ -638,7 +638,7 @@
         "La cuisine française est-elle reconnue internationalement ?",
         "Le repas gastronomique des Français est-il inscrit au patrimoine culturel immatériel de l'UNESCO ?"
       ],
-      "correctAnswers": ["Oui, le repas gastronomique des Français est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2010"],
+      "correctAnswers": ["Oui, il est inscrit au patrimoine culturel immatériel de l'UNESCO"],
       "wrongAnswers": [
         "Non, la gastronomie n'a aucune reconnaissance officielle",
         "Oui, elle est protégée par un brevet européen",
@@ -656,7 +656,7 @@
         "Quelle proposition définit correctement la francophonie ?",
         "Que désigne l'ensemble des pays et communautés partageant la langue française ?"
       ],
-      "correctAnswers": ["L'ensemble des pays et communautés partageant la langue française, regroupant plus de 300 millions de francophones dans le monde"],
+      "correctAnswers": ["Les pays et communautés partageant la langue française"],
       "wrongAnswers": [
         "Un mouvement politique pour l'indépendance des anciennes colonies",
         "Un programme de cours de français réservé aux étrangers",
@@ -674,7 +674,7 @@
         "La France est-elle un membre important de l'UE ?",
         "Quel rôle la France joue-t-elle dans l'Union européenne ?"
       ],
-      "correctAnswers": ["La France est un des six membres fondateurs de l'UE, le plus grand pays par sa superficie, et un acteur majeur des politiques européennes"],
+      "correctAnswers": ["Un pays fondateur et un acteur majeur de l'Union européenne"],
       "wrongAnswers": [
         "La France est un membre récent de l'UE, adhérant en 1995",
         "La France est le plus petit pays de l'UE",
@@ -692,7 +692,7 @@
         "Quel est le rôle de la préfecture ?",
         "Pour quelles démarches se rend-on à la préfecture ?"
       ],
-      "correctAnswers": ["Le siège de l'administration de l'État dans le département, où l'on effectue des démarches comme les titres de séjour, les permis de conduire et les cartes grises"],
+      "correctAnswers": ["Le siège départemental de l'administration de l'État"],
       "wrongAnswers": [
         "Le siège du conseil départemental",
         "Un tribunal pour les litiges administratifs",
@@ -710,7 +710,7 @@
         "Quels événements sont enregistrés à l'état civil ?",
         "Où sont enregistrés les actes d'état civil ?"
       ],
-      "correctAnswers": ["Le service de la mairie qui enregistre les naissances, mariages, PACS et décès, et délivre les actes correspondants"],
+      "correctAnswers": ["Le service municipal qui enregistre les naissances, mariages et décès"],
       "wrongAnswers": [
         "Un registre tenu par les églises et les mosquées",
         "Un fichier national géré par le ministère de l'Intérieur",
@@ -728,7 +728,7 @@
         "Pourquoi le code de la route est-il important ?",
         "Quelles sont les règles de base du code de la route ?"
       ],
-      "correctAnswers": ["L'ensemble des règles régissant la circulation routière (limitation de vitesse, priorités, alcool au volant, port de la ceinture, etc.)"],
+      "correctAnswers": ["Les règles applicables à tous les usagers de la route"],
       "wrongAnswers": [
         "Un guide touristique pour les automobilistes",
         "Un permis spécial pour conduire sur les autoroutes",
@@ -746,7 +746,7 @@
         "Comment fonctionne l'enseignement supérieur en France ?",
         "Quels diplômes délivre l'université en France ?"
       ],
-      "correctAnswers": ["Un système organisé en trois cycles : Licence (bac+3), Master (bac+5) et Doctorat (bac+8), appelé système LMD"],
+      "correctAnswers": ["Trois cycles : licence, master et doctorat"],
       "wrongAnswers": [
         "Un système à deux niveaux : certificat et diplôme",
         "Un système uniquement basé sur les grandes écoles",
@@ -764,7 +764,7 @@
         "Que signifie le principe de mixité dans la société française ?",
         "Comment la mixité se traduit-elle dans la vie quotidienne en France ?"
       ],
-      "correctAnswers": ["Le principe selon lequel hommes et femmes partagent les mêmes espaces (école, travail, transports) et ont les mêmes droits"],
+      "correctAnswers": ["Le partage des mêmes espaces et des mêmes droits"],
       "wrongAnswers": [
         "L'obligation de mélanger les classes sociales dans les quartiers",
         "Le regroupement obligatoire des personnes de même origine",
@@ -782,7 +782,7 @@
         "Pourquoi la devise de la République est-elle inscrite sur les bâtiments publics ?",
         "Que rappelle la devise inscrite sur les bâtiments publics ?"
       ],
-      "correctAnswers": ["Elle rappelle les valeurs fondamentales de la République et le fait que le bâtiment est au service de tous les citoyens"],
+      "correctAnswers": ["Elle rappelle les valeurs républicaines et l'accueil de tous"],
       "wrongAnswers": [
         "Elle indique que le bâtiment appartient au président de la République",
         "Elle signifie que le bâtiment est un lieu religieux républicain",
@@ -800,7 +800,7 @@
         "Comment qualifier l'organisation administrative de la France ?",
         "La France est-elle un État unitaire décentralisé ?"
       ],
-      "correctAnswers": ["La France est un État unitaire décentralisé : le pouvoir central coexiste avec des collectivités territoriales dotées de compétences propres"],
+      "correctAnswers": ["Un État unitaire décentralisé"],
       "wrongAnswers": [
         "La France est un État fédéral comme l'Allemagne",
         "La France est un État entièrement centralisé sans autonomie locale",
@@ -836,7 +836,7 @@
         "Quelle règle s'applique au tri sélectif en France ?",
         "Comment les déchets doivent-ils être triés en France ?"
       ],
-      "correctAnswers": ["Le tri sélectif est obligatoire : les déchets doivent être séparés (verre, emballages, papier, déchets organiques) pour permettre le recyclage"],
+      "correctAnswers": ["Les déchets doivent être séparés pour permettre leur recyclage"],
       "wrongAnswers": [
         "Le tri des déchets est facultatif en France",
         "Seuls les professionnels doivent trier leurs déchets",
@@ -850,36 +850,36 @@
       "id": 767,
       "theme": "Vie en société en France",
       "questions": [
-        "Qu'est-ce que le 1er décembre en matière de société ?",
-        "Quel événement est commémoré le 1er décembre en France ?",
-        "Quelle journée mondiale est célébrée le 1er décembre ?"
+        "Comment réduire le risque d'infection sexuellement transmissible ?",
+        "Quelle mesure aide à prévenir les infections sexuellement transmissibles ?",
+        "Quel comportement protège contre le VIH et les autres IST ?"
       ],
-      "correctAnswers": ["La Journée mondiale de lutte contre le sida, occasion de sensibilisation en France"],
+      "correctAnswers": ["Utiliser un préservatif et se faire dépister"],
       "wrongAnswers": [
-        "La journée de la laïcité",
-        "La fête nationale française",
-        "La journée des droits de l'homme",
-        "La journée de la femme",
-        "La journée du patrimoine",
-        "La journée de la langue française"
+        "Prendre des antibiotiques sans avis médical",
+        "Attendre les symptômes avant toute précaution",
+        "Se fier seulement à l'apparence d'une personne",
+        "Éviter uniquement les lieux très fréquentés",
+        "Remplacer le dépistage par une vaccination générale",
+        "Partager le matériel utilisé pour une injection"
       ]
     },
     {
       "id": 768,
       "theme": "Vie en société en France",
       "questions": [
-        "Qu'est-ce que le 9 décembre en France ?",
-        "Que commémore-t-on le 9 décembre ?",
-        "Quelle journée est célébrée le 9 décembre en lien avec les valeurs républicaines ?"
+        "Que garantit la laïcité dans les services publics ?",
+        "Quelle règle de laïcité s'applique aux agents publics ?",
+        "Comment la laïcité s'applique-t-elle dans une administration ?"
       ],
-      "correctAnswers": ["La journée de la laïcité, commémorant l'anniversaire de la loi de 1905 de séparation des Églises et de l'État"],
+      "correctAnswers": ["La neutralité des agents et l'égalité de traitement des usagers"],
       "wrongAnswers": [
-        "L'anniversaire de la Déclaration des droits de l'homme",
-        "La fête de la Constitution",
-        "L'anniversaire de l'abolition de l'esclavage",
-        "La journée de la fraternité",
-        "L'anniversaire du droit de vote des femmes",
-        "La journée nationale de la solidarité"
+        "La priorité donnée aux usagers partageant la religion de l'agent",
+        "L'interdiction de toute conviction personnelle chez les usagers",
+        "Le choix d'une religion officielle par chaque administration",
+        "L'obligation pour les usagers de cacher toute conviction",
+        "La fermeture des services pendant toutes les fêtes religieuses",
+        "La possibilité pour un agent de favoriser une conviction"
       ]
     },
     {
@@ -890,7 +890,7 @@
         "Quelle règle s'applique à l'accès à la justice en France ?",
         "Comment le service public de la justice est-il organisé en France ?"
       ],
-      "correctAnswers": ["La justice est un service public gratuit (hors frais d'avocat) accessible à tous, rendue au nom du peuple français"],
+      "correctAnswers": ["Un service public accessible à tous et rendu au nom du peuple"],
       "wrongAnswers": [
         "La justice est payante pour tous les citoyens",
         "La justice est gratuite uniquement pour les fonctionnaires",
@@ -908,7 +908,7 @@
         "Quels conseils pour l'intégration d'un nouveau Français ?",
         "Que recommande-t-on aux personnes naturalisées pour s'intégrer ?"
       ],
-      "correctAnswers": ["Maîtriser la langue française, connaître ses droits et devoirs, participer à la vie locale (associations, élections) et respecter les valeurs républicaines"],
+      "correctAnswers": ["Parler français et participer à la vie locale"],
       "wrongAnswers": [
         "Se limiter à fréquenter sa communauté d'origine",
         "Abandonner totalement sa culture d'origine",
@@ -926,7 +926,7 @@
         "Quelle proposition décrit correctement l'Aide médicale de l'État ?",
         "Quelle couverture maladie peut bénéficier à certains étrangers en situation irrégulière ?"
       ],
-      "correctAnswers": ["Une couverture maladie gratuite pour les étrangers en situation irrégulière résidant en France depuis plus de 3 mois et ayant de faibles ressources"],
+      "correctAnswers": ["Une couverture santé destinée à certains étrangers en situation irrégulière"],
       "wrongAnswers": [
         "Une aide financière pour les médecins étrangers",
         "Une assurance maladie pour les touristes étrangers",
@@ -944,7 +944,7 @@
         "Pourquoi les associations sont-elles importantes dans la société française ?",
         "Comment les associations contribuent-elles à la vie sociale ?"
       ],
-      "correctAnswers": ["Les associations jouent un rôle essentiel dans la vie sociale, culturelle et sportive, et permettent aux citoyens de s'engager dans la vie collective"],
+      "correctAnswers": ["Permettre aux citoyens d'agir ensemble dans la vie locale"],
       "wrongAnswers": [
         "Les associations sont des entreprises à but lucratif",
         "Les associations remplacent les services publics",
@@ -962,7 +962,7 @@
         "Quelle proposition décrit correctement le recensement de la population ?",
         "Quelle enquête obligatoire de l'INSEE permet d'adapter les services publics ?"
       ],
-      "correctAnswers": ["Une enquête obligatoire organisée par l'INSEE pour compter la population et connaître ses caractéristiques, servant à adapter les services publics"],
+      "correctAnswers": ["Une enquête de l'INSEE pour connaître la population"],
       "wrongAnswers": [
         "Un contrôle d'identité organisé par la police",
         "Un sondage facultatif réalisé par les mairies",
@@ -980,7 +980,7 @@
         "Quels éléments démontrent l'intégration d'un candidat à la naturalisation ?",
         "Sur quels critères l'intégration est-elle évaluée lors d'une demande de naturalisation ?"
       ],
-      "correctAnswers": ["Par la maîtrise de la langue française (B2), la connaissance des valeurs républicaines, l'insertion professionnelle, la scolarisation des enfants et la participation à la vie locale"],
+      "correctAnswers": ["La maîtrise du français, l'insertion et le respect des valeurs"],
       "wrongAnswers": [
         "Uniquement par la durée de résidence en France",
         "Uniquement par la possession d'un bien immobilier",

@@ -26,7 +26,7 @@
         "Qu'a-t-on proclamé le 26 août 1789 ?",
         "Quel texte fondamental date du 26 août 1789 ?"
       ],
-      "correctAnswer": "La Déclaration des Droits de l'Homme et du Citoyen",
+      "correctAnswer": "La Déclaration de 1789",
       "wrongAnswers": [
         "La Constitution",
         "Le Code civil",
@@ -632,20 +632,20 @@
     },
     {
       "id": 193,
-      "theme": "Histoire de France",
+      "theme": "Histoire, géographie et culture",
       "questions": [
-        "Quand la France a-t-elle adopté le système métrique ?",
-        "De quelle année date le système métrique en France ?",
-        "En quelle année le système métrique a-t-il été instauré ?"
+        "Quel monument historique se trouve sur une île en Normandie ?",
+        "Quel monument normand est entouré par la mer à marée haute ?",
+        "Quel site célèbre peut-on visiter dans la baie du Mont-Saint-Michel ?"
       ],
-      "correctAnswer": "1795",
+      "correctAnswer": "Le Mont-Saint-Michel",
       "wrongAnswers": [
-        "1789",
-        "1848",
-        "1900",
-        "1804",
-        "1870",
-        "1750"
+        "Le château de Chambord",
+        "Le palais des Papes",
+        "La cité de Carcassonne",
+        "Le château de Versailles",
+        "Le pont du Gard",
+        "L'Arc de Triomphe"
       ]
     },
     {

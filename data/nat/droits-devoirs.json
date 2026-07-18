@@ -80,7 +80,7 @@
         "En quoi consiste la JDC ?",
         "Que doivent faire les jeunes Français lors de la Journée Défense et Citoyenneté ?"
       ],
-      "correctAnswers": ["Une journée obligatoire pour tous les jeunes Français de 16 à 25 ans, consacrée à l'information sur la défense et les droits civiques"],
+      "correctAnswers": ["Une journée d'information sur la défense et les droits civiques"],
       "wrongAnswers": [
         "Un service militaire obligatoire de 6 mois",
         "Un stage de formation professionnelle pour les jeunes",
@@ -116,7 +116,7 @@
         "Un étranger hors UE résidant en France a-t-il le droit de vote ?",
         "Les ressortissants non européens participent-ils aux élections françaises ?"
       ],
-      "correctAnswers": ["Non, le droit de vote est réservé aux citoyens français (et aux citoyens européens pour les élections municipales et européennes)"],
+      "correctAnswers": ["Non, sauf pour certains citoyens européens aux élections locales"],
       "wrongAnswers": [
         "Oui, ils peuvent voter à toutes les élections après 5 ans de résidence",
         "Oui, ils peuvent voter aux élections municipales uniquement",
@@ -134,7 +134,7 @@
         "En quoi consiste la protection de la vie privée en France ?",
         "Comment la loi française protège-t-elle la vie privée ?"
       ],
-      "correctAnswers": ["Le droit de chaque personne à ce que sa vie personnelle, familiale et son domicile soient protégés contre les intrusions"],
+      "correctAnswers": ["La protection de la vie personnelle contre les intrusions"],
       "wrongAnswers": [
         "Le droit de cacher ses revenus au fisc",
         "Le droit de refuser tout contrôle d'identité",
@@ -170,7 +170,7 @@
         "Comment la France garantit-elle le droit à l'éducation ?",
         "En quoi consiste le droit à l'instruction en France ?"
       ],
-      "correctAnswers": ["L'instruction est obligatoire pour tous les enfants de 3 à 16 ans et l'enseignement public est gratuit et laïc"],
+      "correctAnswers": ["L'instruction obligatoire de 3 à 16 ans et l'école publique gratuite"],
       "wrongAnswers": [
         "L'éducation est obligatoire de 6 à 18 ans uniquement dans les écoles publiques",
         "L'enseignement est gratuit uniquement dans les écoles primaires",
@@ -188,7 +188,7 @@
         "En quoi consiste le principe de présomption d'innocence ?",
         "Que garantit la présomption d'innocence en droit français ?"
       ],
-      "correctAnswers": ["Toute personne est considérée comme innocente tant que sa culpabilité n'a pas été établie par un tribunal"],
+      "correctAnswers": ["Toute personne reste innocente jusqu'à sa condamnation"],
       "wrongAnswers": [
         "Toute personne arrêtée est considérée comme coupable",
         "La police décide si une personne est coupable ou innocente",
@@ -206,7 +206,7 @@
         "Une personne aux ressources insuffisantes peut-elle bénéficier gratuitement d'un avocat ?",
         "Le droit à la défense permet-il d'être assisté par un avocat ?"
       ],
-      "correctAnswers": ["Oui, toute personne a le droit d'être assistée par un avocat, y compris gratuitement en cas de ressources insuffisantes (aide juridictionnelle)"],
+      "correctAnswers": ["Oui, avec l'aide juridictionnelle selon les ressources"],
       "wrongAnswers": [
         "Non, seuls les citoyens aisés peuvent avoir un avocat",
         "Oui, mais uniquement pour les crimes graves",
@@ -242,7 +242,7 @@
         "En quoi consiste l'aide juridictionnelle en France ?",
         "Qui peut bénéficier de l'aide juridictionnelle ?"
       ],
-      "correctAnswers": ["Une prise en charge par l'État des frais de justice pour les personnes ayant des revenus insuffisants"],
+      "correctAnswers": ["La prise en charge de frais de justice selon les ressources"],
       "wrongAnswers": [
         "Une aide financière pour les avocats en début de carrière",
         "Une assistance réservée aux victimes d'accidents du travail",
@@ -278,7 +278,7 @@
         "Quel homme politique est à l'origine de l'abolition de la peine de mort ?",
         "Quel garde des Sceaux a défendu l'abolition de la peine de mort en 1981 ?"
       ],
-      "correctAnswers": ["Robert Badinter, garde des Sceaux sous la présidence de François Mitterrand"],
+      "correctAnswers": ["Robert Badinter"],
       "wrongAnswers": [
         "Charles de Gaulle en 1958",
         "Jacques Chirac en 1995",
@@ -296,7 +296,7 @@
         "Comment fonctionne le droit du sol en France ?",
         "En quoi consiste le principe du droit du sol pour la nationalité française ?"
       ],
-      "correctAnswers": ["Un enfant né en France de parents étrangers peut obtenir la nationalité française, notamment à sa majorité s'il réside en France depuis l'âge de 11 ans"],
+      "correctAnswers": ["L'accès possible à la nationalité pour un enfant né en France"],
       "wrongAnswers": [
         "Tout enfant né en France est automatiquement français à la naissance",
         "Le droit du sol n'existe pas en France",
@@ -314,7 +314,7 @@
         "Comment fonctionne le droit du sang pour la nationalité française ?",
         "En quoi consiste le principe du droit du sang ?"
       ],
-      "correctAnswers": ["Un enfant dont au moins un parent est français est français dès la naissance, quel que soit son lieu de naissance"],
+      "correctAnswers": ["L'enfant d'au moins un parent français est français dès sa naissance"],
       "wrongAnswers": [
         "Un enfant est français uniquement si ses deux parents sont français",
         "Le droit du sang s'applique uniquement aux enfants nés en France",
@@ -332,7 +332,7 @@
         "Comment peut-on devenir français ?",
         "Par quels moyens peut-on obtenir la nationalité française ?"
       ],
-      "correctAnswers": ["Par naissance (droit du sang, droit du sol), par mariage, par naturalisation, ou par déclaration"],
+      "correctAnswers": ["La naissance, le mariage, la naturalisation et la déclaration"],
       "wrongAnswers": [
         "Uniquement par naissance en France",
         "Uniquement par mariage avec un Français",
@@ -350,7 +350,7 @@
         "Quelle est la durée minimale de résidence pour une demande de naturalisation ?",
         "Après combien d'années de séjour en France peut-on demander la naturalisation ?"
       ],
-      "correctAnswers": ["5 ans de résidence habituelle et régulière en France"],
+      "correctAnswers": ["5 ans"],
       "wrongAnswers": [
         "3 ans de résidence",
         "10 ans de résidence",
@@ -368,7 +368,7 @@
         "Quand la condition de 5 ans de résidence est-elle assouplie pour la naturalisation ?",
         "Pour qui la durée de résidence est-elle réduite à 2 ans pour la naturalisation ?"
       ],
-      "correctAnswers": ["Pour les personnes ayant accompli deux ans d'études supérieures en France ou ayant rendu des services exceptionnels à la France"],
+      "correctAnswers": ["Après deux années d'études supérieures ou des services exceptionnels"],
       "wrongAnswers": [
         "Pour les personnes de plus de 60 ans",
         "Pour les personnes ayant un CDI en France",
@@ -386,7 +386,7 @@
         "Quelle est la durée de mariage requise pour demander la nationalité par mariage ?",
         "Combien de temps faut-il être marié à un Français pour demander la nationalité ?"
       ],
-      "correctAnswers": ["4 ans de mariage (5 ans si le couple ne justifie pas d'une communauté de vie affective et matérielle en France)"],
+      "correctAnswers": ["4 ans de mariage"],
       "wrongAnswers": [
         "1 an de mariage",
         "2 ans de mariage",
@@ -404,7 +404,7 @@
         "Les antécédents judiciaires empêchent-ils la naturalisation ?",
         "Quel est l'impact du casier judiciaire sur une demande de naturalisation ?"
       ],
-      "correctAnswers": ["Les condamnations pénales peuvent constituer un motif de refus de la naturalisation, l'administration examine la bonne moralité du candidat"],
+      "correctAnswers": ["Les condamnations sont examinées et peuvent motiver un refus"],
       "wrongAnswers": [
         "Non, le casier judiciaire n'est jamais vérifié",
         "Oui, mais uniquement les crimes, pas les délits",
@@ -422,7 +422,7 @@
         "En quoi consiste l'entretien individuel lors d'une demande de naturalisation ?",
         "Que vérifie l'entretien de naturalisation ?"
       ],
-      "correctAnswers": ["Un entretien en préfecture qui évalue le niveau de langue française, la connaissance des valeurs républicaines et l'intégration du candidat"],
+      "correctAnswers": ["Un entretien qui vérifie l'assimilation du candidat"],
       "wrongAnswers": [
         "Un examen écrit sur l'histoire de France",
         "Un test de compétences professionnelles",
@@ -440,7 +440,7 @@
         "Peut-on avoir la double nationalité en France ?",
         "La France oblige-t-elle à renoncer à sa nationalité d'origine lors de la naturalisation ?"
       ],
-      "correctAnswers": ["Non, la France autorise la double nationalité et ne demande pas de renoncer à sa nationalité d'origine"],
+      "correctAnswers": ["Non, la France autorise la double nationalité"],
       "wrongAnswers": [
         "Oui, il faut obligatoirement renoncer à sa nationalité d'origine",
         "Oui, sauf pour les ressortissants de l'Union européenne",
@@ -458,7 +458,7 @@
         "Dans quels cas peut-on perdre la nationalité française ?",
         "Quand la nationalité française peut-elle être retirée ?"
       ],
-      "correctAnswers": ["Le retrait de la nationalité française à une personne l'ayant acquise, en cas d'actes de terrorisme ou d'atteinte aux intérêts fondamentaux de la Nation"],
+      "correctAnswers": ["Le retrait exceptionnel d'une nationalité française acquise"],
       "wrongAnswers": [
         "Le retrait automatique de la nationalité après 10 ans à l'étranger",
         "La perte de nationalité pour non-paiement d'impôts",
@@ -476,7 +476,7 @@
         "En quoi consiste l'obligation de défense nationale ?",
         "Que prévoit le devoir de défense pour les citoyens français ?"
       ],
-      "correctAnswers": ["L'obligation pour tout citoyen de participer à la défense de la nation, matérialisée par la Journée Défense et Citoyenneté"],
+      "correctAnswers": ["Participer à la défense nationale et à la JDC"],
       "wrongAnswers": [
         "L'obligation de servir dans l'armée pendant 2 ans",
         "Le devoir de posséder une arme pour défendre le territoire",
@@ -494,7 +494,7 @@
         "Comment la France garantit-elle le droit au logement ?",
         "En quoi consiste le droit au logement opposable (DALO) ?"
       ],
-      "correctAnswers": ["Le droit pour toute personne de disposer d'un logement décent, garanti par la loi DALO de 2007"],
+      "correctAnswers": ["Le droit d'accéder à un logement décent"],
       "wrongAnswers": [
         "Le droit d'occuper gratuitement un logement social",
         "L'obligation pour l'État de fournir un logement à tout citoyen",
@@ -530,7 +530,7 @@
         "Pourquoi le respect des lois est-il un devoir fondamental ?",
         "En quoi consiste l'obligation de respecter les lois en France ?"
       ],
-      "correctAnswers": ["Tout citoyen et toute personne résidant en France doit respecter les lois de la République, même si elle n'est pas d'accord avec elles"],
+      "correctAnswers": ["Toute personne résidant en France doit respecter les lois"],
       "wrongAnswers": [
         "Les citoyens ne doivent respecter que les lois qu'ils approuvent",
         "Le respect des lois est un choix personnel, pas une obligation",
@@ -548,7 +548,7 @@
         "Comment la France garantit-elle la protection sociale ?",
         "En quoi consiste le système de protection sociale français ?"
       ],
-      "correctAnswers": ["La garantie pour tous d'une couverture maladie, retraite, chômage et prestations familiales financée par les cotisations sociales"],
+      "correctAnswers": ["Une protection contre les principaux risques sociaux"],
       "wrongAnswers": [
         "Une assurance privée obligatoire pour chaque citoyen",
         "Un système de protection réservé aux salariés du secteur public",
@@ -566,7 +566,7 @@
         "Peut-on refuser d'être juré aux assises ?",
         "Que doit faire un citoyen convoqué comme juré ?"
       ],
-      "correctAnswers": ["Tout citoyen inscrit sur les listes électorales peut être convoqué comme juré aux assises et ne peut refuser que pour des motifs légitimes"],
+      "correctAnswers": ["L'obligation de siéger comme juré lorsqu'on est convoqué"],
       "wrongAnswers": [
         "Seuls les avocats et les magistrats peuvent être jurés",
         "On peut toujours refuser d'être juré sans conséquence",
@@ -602,7 +602,7 @@
         "L'accès à la présidence est-il réservé aux Français de naissance ?",
         "Un citoyen naturalisé a-t-il le droit de se présenter à l'élection présidentielle ?"
       ],
-      "correctAnswers": ["Oui, tout citoyen français, qu'il soit Français de naissance ou naturalisé, peut se présenter à l'élection présidentielle"],
+      "correctAnswers": ["Oui, un citoyen naturalisé a les mêmes droits politiques"],
       "wrongAnswers": [
         "Non, seuls les Français de naissance peuvent être président",
         "Oui, mais seulement après 10 ans de naturalisation",
@@ -620,7 +620,7 @@
         "Quelle démarche faut-il faire pour pouvoir voter ?",
         "Où doit-on s'inscrire pour exercer son droit de vote ?"
       ],
-      "correctAnswers": ["En s'inscrivant à la mairie de son domicile ou en ligne sur le site service-public.fr"],
+      "correctAnswers": ["À la mairie ou en ligne sur service-public.fr"],
       "wrongAnswers": [
         "L'inscription est automatique pour tous les Français",
         "Il faut s'inscrire à la préfecture de son département",
@@ -638,7 +638,7 @@
         "En quoi consiste le Pacte civil de solidarité ?",
         "Comment définir le PACS en droit français ?"
       ],
-      "correctAnswers": ["Un contrat entre deux personnes majeures, de sexe différent ou de même sexe, pour organiser leur vie commune"],
+      "correctAnswers": ["Un contrat entre deux adultes organisant leur vie commune"],
       "wrongAnswers": [
         "Un mariage simplifié réservé aux couples hétérosexuels",
         "Un contrat de cohabitation obligatoire après 2 ans de vie commune",
@@ -656,7 +656,7 @@
         "En quelle année le mariage homosexuel a-t-il été légalisé en France ?",
         "Quand la France a-t-elle ouvert le mariage aux couples de même sexe ?"
       ],
-      "correctAnswers": ["Depuis 2013 (loi du 17 mai 2013)"],
+      "correctAnswers": ["Depuis 2013"],
       "wrongAnswers": [
         "Depuis 2000",
         "Depuis 2005",
@@ -674,7 +674,7 @@
         "Comment la loi française définit-elle l'autorité parentale ?",
         "En quoi consiste l'autorité parentale ?"
       ],
-      "correctAnswers": ["L'ensemble des droits et devoirs des parents envers leurs enfants mineurs pour assurer leur éducation, sécurité et bien-être"],
+      "correctAnswers": ["Les droits et devoirs des parents envers leurs enfants mineurs"],
       "wrongAnswers": [
         "Le droit pour les parents de punir physiquement leurs enfants",
         "L'autorité exclusive du père sur les enfants",
@@ -692,7 +692,7 @@
         "Les violences au sein du couple sont-elles punies par la loi ?",
         "La loi prévoit-elle des circonstances aggravantes pour les violences conjugales ?"
       ],
-      "correctAnswers": ["Oui, les violences conjugales sont un délit sévèrement puni par la loi, avec des circonstances aggravantes liées au lien conjugal"],
+      "correctAnswers": ["Oui, elles sont punies par la loi"],
       "wrongAnswers": [
         "Non, les conflits conjugaux relèvent de la vie privée",
         "Oui, mais uniquement les violences physiques",
@@ -710,7 +710,7 @@
         "À quoi sert la carte nationale d'identité ?",
         "La carte d'identité est-elle obligatoire en France ?"
       ],
-      "correctAnswers": ["Un document officiel d'identité, gratuit, non obligatoire mais très utile pour les démarches administratives et les déplacements en Europe"],
+      "correctAnswers": ["Un document officiel permettant de justifier son identité"],
       "wrongAnswers": [
         "Un document obligatoire que tout Français doit posséder",
         "Un document payant délivré uniquement aux majeurs",
@@ -728,7 +728,7 @@
         "Quels impôts un résident en France est-il susceptible de payer ?",
         "Citez des exemples d'impôts et taxes en France."
       ],
-      "correctAnswers": ["L'impôt sur le revenu, la TVA (taxe sur la valeur ajoutée), la taxe foncière et les cotisations sociales"],
+      "correctAnswers": ["L'impôt sur le revenu, la TVA et la taxe foncière"],
       "wrongAnswers": [
         "Uniquement l'impôt sur le revenu",
         "Uniquement la TVA",
@@ -746,7 +746,7 @@
         "La manifestation est-elle un droit en France ?",
         "Comment s'exerce le droit de manifester ?"
       ],
-      "correctAnswers": ["Le droit de participer à des manifestations publiques, à condition de les déclarer préalablement en préfecture"],
+      "correctAnswers": ["Le droit de manifester dans le respect des règles"],
       "wrongAnswers": [
         "Le droit de bloquer les routes sans autorisation",
         "Le droit de manifester uniquement dans les parcs publics",
@@ -764,7 +764,7 @@
         "En quoi consiste le droit au secret des correspondances ?",
         "Comment le secret de la correspondance est-il protégé en France ?"
       ],
-      "correctAnswers": ["L'interdiction d'ouvrir, de lire ou d'intercepter le courrier ou les communications d'autrui sans autorisation judiciaire"],
+      "correctAnswers": ["L'interdiction d'intercepter les communications d'autrui sans autorisation"],
       "wrongAnswers": [
         "L'obligation de crypter toutes ses communications",
         "Le droit de ne pas recevoir de courrier publicitaire",
@@ -782,7 +782,7 @@
         "L'inscription des enfants à l'école est-elle obligatoire ?",
         "Que dit la loi sur l'obligation scolaire des enfants ?"
       ],
-      "correctAnswers": ["Les parents ont l'obligation de faire instruire leurs enfants de 3 à 16 ans, à l'école ou par l'instruction en famille"],
+      "correctAnswers": ["Faire instruire leurs enfants de 3 à 16 ans"],
       "wrongAnswers": [
         "L'instruction est obligatoire uniquement de 6 à 12 ans",
         "Seule l'école publique satisfait l'obligation d'instruction",
@@ -800,7 +800,7 @@
         "Quel recours existe en cas de refus de naturalisation ?",
         "Que faire si une demande de naturalisation est refusée ?"
       ],
-      "correctAnswers": ["Le demandeur peut exercer un recours gracieux auprès du ministre de l'Intérieur puis un recours contentieux devant le tribunal administratif de Nantes"],
+      "correctAnswers": ["Un recours devant le tribunal administratif de Nantes"],
       "wrongAnswers": [
         "Il n'existe aucun recours possible",
         "Il faut saisir le Conseil constitutionnel",
@@ -818,7 +818,7 @@
         "En quoi consiste le devoir d'assistance à personne en danger ?",
         "Que risque-t-on en France si on ne porte pas secours à une personne en danger ?"
       ],
-      "correctAnswers": ["Toute personne témoin d'un danger a l'obligation de porter assistance ou d'alerter les secours, sous peine de poursuites pénales"],
+      "correctAnswers": ["Aider la personne en danger ou alerter les secours"],
       "wrongAnswers": [
         "Il n'y a aucune obligation de porter secours en France",
         "Seuls les médecins et pompiers ont l'obligation de porter secours",
@@ -836,7 +836,7 @@
         "Comment le droit à l'image protège-t-il les citoyens ?",
         "En quoi consiste la protection du droit à l'image ?"
       ],
-      "correctAnswers": ["Le droit de chaque personne à s'opposer à la diffusion de son image sans son consentement"],
+      "correctAnswers": ["Le droit de refuser la diffusion de son image"],
       "wrongAnswers": [
         "Le droit de photographier toute personne dans l'espace public",
         "L'interdiction de prendre des photos dans les lieux publics",
@@ -854,7 +854,7 @@
         "En quoi consiste le service civique en France ?",
         "À quoi sert le service civique pour les jeunes ?"
       ],
-      "correctAnswers": ["Un engagement volontaire de 6 à 12 mois pour les jeunes de 16 à 25 ans, au service de l'intérêt général"],
+      "correctAnswers": ["Un engagement volontaire au service de l'intérêt général"],
       "wrongAnswers": [
         "Un service militaire obligatoire de 10 mois",
         "Un travail rémunéré dans une entreprise privée",
@@ -872,7 +872,7 @@
         "Comment peut-on justifier de sa nationalité française ?",
         "Quel est le document officiel attestant de la nationalité française ?"
       ],
-      "correctAnswers": ["Le certificat de nationalité française (CNF), délivré par le tribunal judiciaire"],
+      "correctAnswers": ["Le certificat de nationalité française"],
       "wrongAnswers": [
         "La carte nationale d'identité suffit toujours",
         "Le passeport français uniquement",
@@ -890,7 +890,7 @@
         "Comment les données personnelles sont-elles protégées en France ?",
         "Quelle institution protège les données personnelles ?"
       ],
-      "correctAnswers": ["Un droit fondamental encadré par la CNIL (Commission nationale de l'informatique et des libertés) et le RGPD"],
+      "correctAnswers": ["Un droit encadré par la CNIL et le RGPD"],
       "wrongAnswers": [
         "Un service payant proposé par les entreprises",
         "Une protection réservée aux fonctionnaires",
@@ -926,7 +926,7 @@
         "Quelle est la durée de validité d'une carte de résident ?",
         "À quoi donne droit la carte de résident ?"
       ],
-      "correctAnswers": ["Un titre de séjour de 10 ans renouvelable qui permet de résider et de travailler librement en France"],
+      "correctAnswers": ["Un titre de séjour renouvelable valable 10 ans"],
       "wrongAnswers": [
         "Un titre de séjour de 1 an renouvelable",
         "Un titre de séjour de 5 ans non renouvelable",
@@ -962,7 +962,7 @@
         "Que reçoit le nouveau citoyen lors de la cérémonie d'accueil dans la citoyenneté ?",
         "Quels documents officiels sont donnés au nouveau Français lors de la cérémonie ?"
       ],
-      "correctAnswers": ["Le décret de naturalisation, un livret du citoyen et un exemplaire de la Charte des droits et devoirs du citoyen français"],
+      "correctAnswers": ["Le décret, la Charte et le livret du citoyen"],
       "wrongAnswers": [
         "Uniquement la carte nationale d'identité",
         "Le passeport français et une carte de vote",
@@ -980,7 +980,7 @@
         "Les droits fondamentaux s'appliquent-ils aux sans-papiers ?",
         "Un étranger sans titre de séjour bénéficie-t-il de droits fondamentaux en France ?"
       ],
-      "correctAnswers": ["Oui, il bénéficie des droits fondamentaux : dignité, accès aux soins urgents, scolarisation des enfants et droit à un avocat"],
+      "correctAnswers": ["Oui, il conserve ses droits fondamentaux"],
       "wrongAnswers": [
         "Non, il n'a strictement aucun droit en France",
         "Oui, il a les mêmes droits qu'un citoyen français",

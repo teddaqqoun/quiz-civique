@@ -113,7 +113,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Quels pays partagent une frontière terrestre avec la France ?",
-        "Quels sont les pays limitrophes de la France ?"
+        "Quels sont les pays limitrophes de la France ?",
+        "Quels États ont une frontière commune avec la France métropolitaine ?"
       ],
       "correctAnswer": "Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre",
       "wrongAnswers": [
@@ -148,7 +149,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Quel est le statut administratif de la Corse ?",
-        "La Corse fait partie de la France en tant que :"
+        "La Corse fait partie de la France en tant que :",
+        "Comment la Corse est-elle organisée administrativement ?"
       ],
       "correctAnswer": "Une collectivité territoriale française",
       "wrongAnswers": [
@@ -344,36 +346,36 @@
       "id": 110,
       "theme": "Vie en France et société",
       "questions": [
-        "Que commémore le 1er novembre ?",
-        "Quelle fête tombe le 1er novembre ?",
-        "Qu'est-ce que le 1er novembre ?"
+        "Pourquoi faut-il trier ses déchets ?",
+        "À quoi sert le tri des déchets ?",
+        "Quel est l'objectif du tri sélectif ?"
       ],
-      "correctAnswer": "La Toussaint",
+      "correctAnswer": "Permettre le recyclage et protéger l'environnement",
       "wrongAnswers": [
-        "La fête du travail",
-        "L'Armistice",
-        "Noël",
-        "La fête nationale",
-        "Pâques",
-        "L'Ascension"
+        "Réduire uniquement le coût des poubelles",
+        "Éviter le passage des services municipaux",
+        "Supprimer tous les déchets sans traitement",
+        "Remplacer les collectes par des dépôts sauvages",
+        "Réserver le recyclage aux seules entreprises",
+        "Mélanger les emballages avec les déchets dangereux"
       ]
     },
     {
       "id": 111,
       "theme": "Vie en France et société",
       "questions": [
-        "Quand célèbre-t-on Noël en France ?",
-        "Quelle est la date de Noël ?",
-        "Quel jour fête-t-on Noël ?"
+        "Où faut-il déclarer la naissance d'un enfant ?",
+        "Auprès de quelle administration déclare-t-on une naissance ?",
+        "Quelle mairie enregistre la naissance d'un enfant ?"
       ],
-      "correctAnswer": "Le 25 décembre",
+      "correctAnswer": "À la mairie du lieu de naissance",
       "wrongAnswers": [
-        "Le 24 décembre",
-        "Le 31 décembre",
-        "Le 1er janvier",
-        "Le 6 janvier",
-        "Le 26 décembre",
-        "Le 15 décembre"
+        "À la préfecture du département",
+        "À la mairie du domicile des parents",
+        "Au commissariat du quartier",
+        "À la Caisse d'allocations familiales",
+        "Au tribunal judiciaire",
+        "À la caisse d'Assurance maladie"
       ]
     },
     {
@@ -632,17 +634,18 @@
       "id": 125,
       "theme": "Vie en France et société",
       "questions": [
-        "Quel est le sport le plus populaire en France ?",
-        "Quel sport est le plus pratiqué en France ?"
+        "Quel diplôme les élèves passent-ils à la fin du collège ?",
+        "Comment s'appelle le diplôme préparé en classe de troisième ?",
+        "Quel diplôme marque la fin des études au collège ?"
       ],
-      "correctAnswer": "Le football",
+      "correctAnswer": "Le diplôme national du brevet",
       "wrongAnswers": [
-        "Le rugby",
-        "Le tennis",
-        "Le cyclisme",
-        "Le basketball",
-        "Le handball",
-        "La natation"
+        "Le certificat d'aptitude professionnelle",
+        "Le baccalauréat général",
+        "Le brevet de technicien supérieur",
+        "Le diplôme universitaire de technologie",
+        "Le certificat de formation générale",
+        "Le baccalauréat professionnel"
       ]
     },
     {
@@ -704,7 +707,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Que signifie l'acronyme CAF ?",
-        "À quoi correspond le sigle CAF ?"
+        "À quoi correspond le sigle CAF ?",
+        "Quel est le nom complet de la CAF ?"
       ],
       "correctAnswer": "Caisse d'Allocations Familiales",
       "wrongAnswers": [
@@ -739,7 +743,8 @@
       "theme": "Vie en France et société",
       "questions": [
         "Qu'est-ce que le RSA ?",
-        "Que désigne le terme RSA ?"
+        "Que désigne le terme RSA ?",
+        "À quel type d'aide correspond le RSA ?"
       ],
       "correctAnswer": "Un dispositif d'aide financière",
       "wrongAnswers": [
@@ -885,7 +890,7 @@
         "Que signifie PACS ?",
         "À quoi sert le PACS ?"
       ],
-      "correctAnswer": "Un contrat d'union civile entre deux personnes",
+      "correctAnswer": "Un pacte civil de solidarité",
       "wrongAnswers": [
         "Un contrat de travail",
         "Un type de logement",
@@ -917,18 +922,18 @@
       "id": 189,
       "theme": "Vie en France et société",
       "questions": [
-        "Quelle fête célèbre-t-on le 21 juin ?",
-        "Qu'est-ce que le 21 juin en France ?",
-        "Que fête-t-on le 21 juin ?"
+        "Que doit faire une victime de violences ?",
+        "À qui une victime de violences peut-elle demander de l'aide ?",
+        "Quelle démarche est adaptée après des violences ?"
       ],
-      "correctAnswer": "La Fête de la musique",
+      "correctAnswer": "Contacter la police, la gendarmerie ou une association d'aide",
       "wrongAnswers": [
-        "La fête nationale",
-        "Noël",
-        "La fête du travail",
-        "La Saint-Jean",
-        "Pâques",
-        "La Toussaint"
+        "Attendre que les violences cessent sans en parler",
+        "Répondre aux violences de la même manière",
+        "Publier uniquement un message sur les réseaux sociaux",
+        "Quitter son domicile sans prévenir personne",
+        "Demander seulement l'accord de l'auteur des violences",
+        "Renoncer à consulter un professionnel de santé"
       ]
     },
     {
@@ -953,17 +958,18 @@
       "id": 191,
       "theme": "Vie en France et société",
       "questions": [
-        "Quelle ville est la deuxième plus peuplée de France ?",
-        "Après Paris, quelle ville compte le plus grand nombre d'habitants ?"
+        "À quoi sert la carte Vitale ?",
+        "Quel est le rôle de la carte Vitale ?",
+        "Pourquoi présente-t-on la carte Vitale à un professionnel de santé ?"
       ],
-      "correctAnswer": "Marseille",
+      "correctAnswer": "Transmettre les informations nécessaires au remboursement des soins",
       "wrongAnswers": [
-        "Lyon",
-        "Toulouse",
-        "Nice",
-        "Bordeaux",
-        "Lille",
-        "Nantes"
+        "Payer automatiquement toutes les dépenses médicales",
+        "Remplacer une ordonnance délivrée par un médecin",
+        "Garantir une consultation gratuite dans tous les cas",
+        "Servir de pièce d'identité pour toutes les démarches",
+        "Choisir directement son médecin traitant",
+        "Donner accès au dossier médical de tous les patients"
       ]
     }
   ]

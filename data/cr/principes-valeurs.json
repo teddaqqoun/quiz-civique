@@ -168,7 +168,7 @@
       "Que dit la loi française sur la liberté religieuse ?",
       "Est-on libre de pratiquer la religion de son choix en France ?"
     ],
-    "correctAnswers": ["Chacun est libre de pratiquer la religion de son choix ou de ne pas en avoir"],
+    "correctAnswers": ["Chacun peut pratiquer une religion ou n'en avoir aucune"],
     "wrongAnswers": [
       "L'État recommande officiellement une religion aux citoyens",
       "La pratique religieuse est interdite dans les lieux publics",
@@ -263,9 +263,10 @@
   {
     "id": 312,
     "theme": "Principes et valeurs de la République",
-    "questions": [
-      "Peut-on brûler publiquement un drapeau français ?",
-      "Est-il légal de brûler le drapeau tricolore ?"
+      "questions": [
+        "Peut-on brûler publiquement un drapeau français ?",
+        "Est-il légal de brûler le drapeau tricolore ?",
+        "Brûler publiquement le drapeau français est-il autorisé ?"
     ],
     "correctAnswers": ["Non, c'est un délit puni par la loi"],
     "wrongAnswers": [
@@ -647,7 +648,7 @@
       "Un usager peut-il porter des signes religieux dans une mairie ?",
       "Les citoyens doivent-ils être neutres religieusement dans les services publics ?"
     ],
-    "correctAnswers": ["Porter des signes religieux (les usagers ne sont pas soumis à la neutralité)"],
+    "correctAnswers": ["Porter des signes religieux, comme tout usager"],
     "wrongAnswers": [
       "Retirer tout signe religieux visible",
       "Cacher ses convictions religieuses",
