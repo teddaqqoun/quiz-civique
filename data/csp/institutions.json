@@ -4,8 +4,9 @@
       "id": 16,
       "theme": "Institutions de la République",
       "questions": [
-        "Quelle est la plus haute fonction de l'État en France ?",
-        "Quel est le rôle supérieur dans le gouvernement français ?"
+        "Qui est le chef de l'État en France ?",
+        "Quelle fonction exerce le président de la République ?",
+        "Qui représente l'État au plus haut niveau ?"
       ],
       "correctAnswer": "Le Président de la République",
       "wrongAnswers": [
@@ -454,7 +455,8 @@
       "theme": "Institutions de la République",
       "questions": [
         "Qui peut proposer une loi en France ?",
-        "Qui a l'initiative des lois ?"
+        "Qui a l'initiative des lois ?",
+        "Quelles autorités peuvent présenter un texte de loi ?"
       ],
       "correctAnswer": "Le gouvernement et les parlementaires",
       "wrongAnswers": [

@@ -545,12 +545,46 @@ QuizEngine.prototype.shuffleArray = function (array) {
     return shuffled;
 };
 
+QuizEngine.prototype.optionWordCount = function (text) {
+    var normalized = String(text || '').trim();
+    return normalized ? normalized.split(/\s+/).length : 0;
+};
+
+QuizEngine.prototype.optionDetailScore = function (text) {
+    var value = String(text || '');
+    var punctuation = (value.match(/[(),;:]/g) || []).length;
+    var numbers = (value.match(/\b\d+\b/g) || []).length;
+    return punctuation + numbers;
+};
+
+QuizEngine.prototype.selectBalancedWrongAnswers = function (correctAnswer, wrongAnswers, count) {
+    var self = this;
+    var correctWords = this.optionWordCount(correctAnswer);
+    var correctDetails = this.optionDetailScore(correctAnswer);
+    var ranked = wrongAnswers.map(function (answer) {
+        var words = self.optionWordCount(answer);
+        var details = self.optionDetailScore(answer);
+        var lengthGap = Math.abs(words - correctWords) / Math.max(words, correctWords, 1);
+        var detailGap = Math.abs(details - correctDetails) * 0.08;
+        return { answer: answer, score: lengthGap + detailGap };
+    }).sort(function (a, b) {
+        return a.score - b.score;
+    });
+
+    // Keep a small pool of similarly structured distractors so wording still
+    // varies between attempts without making answer length a clue.
+    var poolSize = Math.min(ranked.length, Math.max(count, 5));
+    return this.shuffleArray(ranked.slice(0, poolSize))
+        .slice(0, count)
+        .map(function (item) { return item.answer; });
+};
+
 QuizEngine.prototype.prepareQuestion = function (questionData) {
     var questionVariants = questionData.questions;
     var selectedQuestion = questionVariants[Math.floor(Math.random() * questionVariants.length)];
     var correctAnswersArray = questionData.correctAnswers || [questionData.correctAnswer];
     var selectedCorrectAnswer = correctAnswersArray[Math.floor(Math.random() * correctAnswersArray.length)];
-    var shuffledWrongAnswers = this.shuffleArray(questionData.wrongAnswers).slice(0, 3);
+    var shuffledWrongAnswers = this.selectBalancedWrongAnswers(selectedCorrectAnswer, questionData.wrongAnswers, 3);
     var allOptions = [selectedCorrectAnswer].concat(shuffledWrongAnswers);
     var shuffledOptions = this.shuffleArray(allOptions);
     var correctAnswerIndex = shuffledOptions.indexOf(selectedCorrectAnswer);

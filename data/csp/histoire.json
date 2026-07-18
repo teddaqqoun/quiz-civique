@@ -26,7 +26,7 @@
         "Qu'a-t-on proclamé le 26 août 1789 ?",
         "Quel texte fondamental date du 26 août 1789 ?"
       ],
-      "correctAnswer": "La Déclaration des Droits de l'Homme et du Citoyen",
+      "correctAnswer": "La Déclaration de 1789",
       "wrongAnswers": [
         "La Constitution",
         "Le Code civil",
@@ -632,20 +632,20 @@
     },
     {
       "id": 193,
-      "theme": "Histoire de France",
+      "theme": "Histoire, géographie et culture",
       "questions": [
-        "Quand la France a-t-elle adopté le système métrique ?",
-        "De quelle année date le système métrique en France ?",
-        "En quelle année le système métrique a-t-il été instauré ?"
+        "Quel écrivain est français ?",
+        "Lequel de ces écrivains appartient à la littérature française ?",
+        "Quel auteur est une figure de la littérature française ?"
       ],
-      "correctAnswer": "1795",
+      "correctAnswer": "Victor Hugo",
       "wrongAnswers": [
-        "1789",
-        "1848",
-        "1900",
-        "1804",
-        "1870",
-        "1750"
+        "William Shakespeare",
+        "Miguel de Cervantes",
+        "Franz Kafka",
+        "James Joyce",
+        "Léon Tolstoï",
+        "Mark Twain"
       ]
     },
     {

@@ -26,7 +26,7 @@
         "Que commémore la fête nationale du 14 juillet ?",
         "Quel est l'événement célébré le jour de la fête nationale ?"
       ],
-      "correctAnswers": ["Il commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790), symboles de la liberté et de l'unité nationale"],
+      "correctAnswers": ["La prise de la Bastille et la Fête de la Fédération"],
       "wrongAnswers": [
         "Il commémore la fin de la Seconde Guerre mondiale",
         "Il commémore la naissance de Napoléon Bonaparte",
@@ -62,7 +62,7 @@
         "Que s'est-il passé en France en 1789 ?",
         "Comment définir la Révolution française ?"
       ],
-      "correctAnswers": ["Un mouvement politique et social qui a renversé la monarchie absolue et établi les principes de liberté, égalité et souveraineté du peuple"],
+      "correctAnswers": ["La fin de la monarchie absolue et l'affirmation de nouveaux droits"],
       "wrongAnswers": [
         "Une guerre entre la France et l'Angleterre",
         "Un changement de dynastie royale",
@@ -116,7 +116,7 @@
         "Quel rôle Napoléon a-t-il joué dans l'histoire de France ?",
         "Que retient-on de Napoléon Bonaparte ?"
       ],
-      "correctAnswers": ["Un général devenu empereur des Français (1804-1814/1815), qui a modernisé la France en créant le Code civil et en réorganisant l'administration"],
+      "correctAnswers": ["Un général devenu empereur et associé au Code civil"],
       "wrongAnswers": [
         "Un roi de France qui a régné au XVIIe siècle",
         "Un révolutionnaire qui a pris la Bastille en 1789",
@@ -134,7 +134,7 @@
         "Quels domaines le Code civil régit-il ?",
         "Quel recueil de lois régit notamment la famille, la propriété et les contrats ?"
       ],
-      "correctAnswers": ["Un recueil de lois régissant les relations entre les personnes (famille, propriété, contrats), promulgué en 1804 sous Napoléon"],
+      "correctAnswers": ["Un recueil de règles de droit civil promulgué en 1804"],
       "wrongAnswers": [
         "Un code militaire pour les soldats de l'armée napoléonienne",
         "Un texte religieux adopté sous l'Ancien Régime",
@@ -152,7 +152,7 @@
         "Quand la Deuxième République a-t-elle été proclamée ?",
         "Quel événement important s'est produit sous la IIe République ?"
       ],
-      "correctAnswers": ["La République proclamée en 1848, qui a instauré le suffrage universel masculin et aboli l'esclavage dans les colonies"],
+      "correctAnswers": ["La République de 1848 qui abolit l'esclavage"],
       "wrongAnswers": [
         "La République proclamée en 1792 après la chute de la monarchie",
         "La République instaurée en 1870 après la défaite de Sedan",
@@ -188,7 +188,7 @@
         "Quand la Troisième République a-t-elle été instaurée ?",
         "Quelle République a été la plus longue de l'histoire de France ?"
       ],
-      "correctAnswers": ["La République proclamée en 1870 après la défaite de Sedan, qui a duré jusqu'en 1940 (la plus longue République française)"],
+      "correctAnswers": ["La République française de 1870 à 1940"],
       "wrongAnswers": [
         "La République instaurée en 1848 après la révolution",
         "La République créée par Napoléon III en 1852",
@@ -206,7 +206,7 @@
         "Quels progrès républicains ont marqué la IIIe République ?",
         "Citez des lois importantes votées sous la IIIe République."
       ],
-      "correctAnswers": ["Les lois sur l'école gratuite, laïque et obligatoire (1881-1882), la liberté de la presse (1881), la liberté syndicale (1884), la liberté d'association (1901) et la séparation des Églises et de l'État (1905)"],
+      "correctAnswers": ["Les lois scolaires, les libertés publiques et la loi de 1905"],
       "wrongAnswers": [
         "L'abolition de l'esclavage et le suffrage universel masculin",
         "Le Code civil et la création de la Banque de France",
@@ -224,7 +224,7 @@
         "Quel homme politique est à l'origine des lois scolaires ?",
         "Qui a instauré l'école de la République ?"
       ],
-      "correctAnswers": ["Jules Ferry, par les lois de 1881 et 1882"],
+      "correctAnswers": ["Jules Ferry"],
       "wrongAnswers": [
         "Victor Hugo en 1870",
         "Émile Zola en 1898",
@@ -260,7 +260,7 @@
         "Pourquoi le 11 novembre est-il un jour férié en France ?",
         "Quel événement historique est lié au 11 novembre ?"
       ],
-      "correctAnswers": ["L'armistice du 11 novembre 1918, qui a mis fin à la Première Guerre mondiale"],
+      "correctAnswers": ["L'armistice du 11 novembre 1918"],
       "wrongAnswers": [
         "La fin de la Seconde Guerre mondiale",
         "La proclamation de la Ve République",
@@ -278,7 +278,7 @@
         "Quelle proposition décrit correctement la bataille de Verdun ?",
         "Quel événement de 1916 est devenu un symbole de la résistance française ?"
       ],
-      "correctAnswers": ["Une des batailles les plus meurtrières de la Première Guerre mondiale, en 1916, devenue le symbole de la résistance française"],
+      "correctAnswers": ["Une grande bataille de 1916 pendant la Première Guerre mondiale"],
       "wrongAnswers": [
         "La dernière bataille de la Seconde Guerre mondiale",
         "La bataille qui a mis fin à la guerre de Cent Ans",
@@ -350,7 +350,7 @@
         "Que s'est-il passé le 18 juin 1940 ?",
         "Pourquoi l'appel du 18 juin est-il important dans l'histoire de France ?"
       ],
-      "correctAnswers": ["L'appel lancé par le général de Gaulle depuis Londres à la radio BBC, appelant les Français à résister à l'occupation allemande"],
+      "correctAnswers": ["L'appel du général de Gaulle à poursuivre le combat"],
       "wrongAnswers": [
         "L'armistice signé entre la France et l'Allemagne",
         "La libération de Paris par les Alliés",
@@ -368,7 +368,7 @@
         "Quel rôle Jean Moulin a-t-il joué dans la Résistance ?",
         "Pourquoi Jean Moulin est-il une figure emblématique de la Résistance ?"
       ],
-      "correctAnswers": ["Un préfet devenu le chef du Conseil national de la Résistance, arrêté et mort sous la torture en 1943"],
+      "correctAnswers": ["Le président du Conseil national de la Résistance"],
       "wrongAnswers": [
         "Un général qui a libéré Paris en 1944",
         "Le fondateur de la France libre à Londres",
@@ -404,7 +404,7 @@
         "Pourquoi le 8 mai est-il un jour férié en France ?",
         "Quel événement est célébré le 8 mai ?"
       ],
-      "correctAnswers": ["La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe, le 8 mai 1945"],
+      "correctAnswers": ["La victoire des Alliés en Europe le 8 mai 1945"],
       "wrongAnswers": [
         "La fin de la Première Guerre mondiale",
         "La prise de la Bastille",
@@ -458,7 +458,7 @@
         "Qui est à l'origine de la Constitution de 1958 ?",
         "Quel homme politique a créé la Ve République ?"
       ],
-      "correctAnswers": ["Le général Charles de Gaulle"],
+      "correctAnswers": ["Charles de Gaulle"],
       "wrongAnswers": [
         "Georges Pompidou",
         "François Mitterrand",
@@ -476,7 +476,7 @@
         "Qu'est-ce que le siècle des Lumières ?",
         "Quels philosophes sont associés aux Lumières ?"
       ],
-      "correctAnswers": ["Un mouvement intellectuel du XVIIIe siècle promouvant la raison, la liberté et le progrès, porté par Voltaire, Rousseau, Montesquieu et Diderot"],
+      "correctAnswers": ["Un mouvement fondé sur la raison"],
       "wrongAnswers": [
         "Un mouvement artistique du XIXe siècle",
         "Un mouvement religieux du XVIe siècle",
@@ -494,7 +494,7 @@
         "Quel rôle Voltaire a-t-il joué dans l'histoire des idées ?",
         "Pourquoi Voltaire est-il important dans l'histoire de France ?"
       ],
-      "correctAnswers": ["Un philosophe des Lumières du XVIIIe siècle, défenseur de la liberté d'expression et de la tolérance religieuse"],
+      "correctAnswers": ["Un philosophe des Lumières défenseur de la tolérance"],
       "wrongAnswers": [
         "Un roi de France du XVIIe siècle",
         "Un général de la Révolution française",
@@ -512,7 +512,7 @@
         "Quelle idée majeure Rousseau a-t-il défendue ?",
         "Pourquoi Rousseau est-il important pour la pensée politique ?"
       ],
-      "correctAnswers": ["Un philosophe des Lumières qui a développé la théorie du contrat social et de la souveraineté du peuple"],
+      "correctAnswers": ["Un philosophe des Lumières, auteur du Contrat social"],
       "wrongAnswers": [
         "Un monarque éclairé du XVIIIe siècle",
         "Un scientifique qui a découvert l'électricité",
@@ -530,7 +530,7 @@
         "Quelle proposition décrit correctement la Commune de Paris ?",
         "Quel gouvernement révolutionnaire a dirigé Paris au printemps 1871 ?"
       ],
-      "correctAnswers": ["Un gouvernement révolutionnaire qui a dirigé Paris du 18 mars au 28 mai 1871, écrasé dans le sang par le gouvernement de Versailles"],
+      "correctAnswers": ["Un gouvernement révolutionnaire parisien de 1871"],
       "wrongAnswers": [
         "La mairie de Paris fondée au Moyen Âge",
         "Un mouvement de résistance pendant la Seconde Guerre mondiale",
@@ -548,7 +548,7 @@
         "Quelle proposition décrit correctement l'affaire Dreyfus ?",
         "Quelle erreur judiciaire antisémite a divisé la France entre 1894 et 1906 ?"
       ],
-      "correctAnswers": ["Une erreur judiciaire antisémite (1894-1906) contre le capitaine Dreyfus, qui a divisé la France et renforcé les valeurs de justice et de droits de l'homme"],
+      "correctAnswers": ["Une erreur judiciaire antisémite visant le capitaine Dreyfus"],
       "wrongAnswers": [
         "Un scandale financier sous la IVe République",
         "Un complot politique contre le général de Gaulle",
@@ -602,7 +602,7 @@
         "Quelle proposition décrit correctement le Front populaire ?",
         "Quelle coalition a instauré les congés payés et la semaine de 40 heures en 1936 ?"
       ],
-      "correctAnswers": ["Une coalition de gauche qui a gouverné en 1936-1937 sous Léon Blum, instaurant les congés payés, la semaine de 40 heures et les conventions collectives"],
+      "correctAnswers": ["La coalition de Léon Blum à l'origine des congés payés"],
       "wrongAnswers": [
         "Un mouvement de résistance pendant la Seconde Guerre mondiale",
         "Un parti politique fondé par Charles de Gaulle",
@@ -620,7 +620,7 @@
         "En quoi consistait la Résistance française ?",
         "Qui participait à la Résistance en France ?"
       ],
-      "correctAnswers": ["L'ensemble des mouvements et réseaux clandestins qui ont lutté contre l'occupation allemande et le régime de Vichy"],
+      "correctAnswers": ["Les réseaux clandestins opposés à l'Occupation et au régime de Vichy"],
       "wrongAnswers": [
         "L'armée officielle française pendant la guerre",
         "Un parti politique créé après la Libération",
@@ -638,7 +638,7 @@
         "Qu'a apporté le préambule de 1946 aux droits des Français ?",
         "Quels droits sociaux ont été consacrés en 1946 ?"
       ],
-      "correctAnswers": ["Le droit de vote des femmes (confirmé), le droit au travail, à la protection sociale, à l'éducation et le droit syndical"],
+      "correctAnswers": ["Les droits au travail, à la protection sociale et à l'éducation"],
       "wrongAnswers": [
         "Uniquement le droit de vote pour tous",
         "Le droit de propriété et le droit commercial",
@@ -656,7 +656,7 @@
         "Quelle proposition décrit correctement la décolonisation française ?",
         "Quel processus a conduit les colonies françaises à l'indépendance ?"
       ],
-      "correctAnswers": ["Le processus d'indépendance des colonies françaises, principalement dans les années 1950-1960 (Indochine 1954, Afrique, Algérie 1962)"],
+      "correctAnswers": ["Le processus d'indépendance des colonies françaises"],
       "wrongAnswers": [
         "La conquête de nouveaux territoires au XIXe siècle",
         "Le transfert des colonies aux Nations Unies",
@@ -692,7 +692,7 @@
         "Qu'est-ce que les événements de Mai 68 ?",
         "Pourquoi mai 1968 est-il un moment marquant de l'histoire de France ?"
       ],
-      "correctAnswers": ["Un mouvement de contestation étudiante et sociale qui a entraîné une grève générale et de profondes transformations de la société française"],
+      "correctAnswers": ["Un mouvement étudiant et social suivi d'une grève générale"],
       "wrongAnswers": [
         "L'élection de Charles de Gaulle comme président",
         "La fin de la guerre d'Algérie",
@@ -710,7 +710,7 @@
         "Depuis quand le président de la République est-il élu directement par les citoyens ?",
         "Qui a décidé que le président serait élu au suffrage universel direct ?"
       ],
-      "correctAnswers": ["Charles de Gaulle, par le référendum de 1962"],
+      "correctAnswers": ["Charles de Gaulle en 1962"],
       "wrongAnswers": [
         "François Mitterrand en 1981",
         "Georges Pompidou en 1969",
@@ -728,7 +728,7 @@
         "En quelle année le mandat présidentiel est-il passé de 7 à 5 ans ?",
         "Quel référendum a instauré le quinquennat ?"
       ],
-      "correctAnswers": ["En 2000, par référendum sous la présidence de Jacques Chirac"],
+      "correctAnswers": ["En 2000, par référendum"],
       "wrongAnswers": [
         "En 1995 sous Jacques Chirac",
         "En 2007 sous Nicolas Sarkozy",
@@ -746,7 +746,7 @@
         "Quelle proposition décrit correctement le traité de Rome ?",
         "Qu'a créé le traité de Rome ?"
       ],
-      "correctAnswers": ["Le traité signé en 1957 par 6 pays européens (dont la France) créant la Communauté économique européenne (CEE), ancêtre de l'Union européenne"],
+      "correctAnswers": ["Le traité qui crée la Communauté économique européenne en 1957"],
       "wrongAnswers": [
         "Le traité mettant fin à la Seconde Guerre mondiale",
         "Le traité créant l'Organisation des Nations Unies",
@@ -782,7 +782,7 @@
         "En quoi consiste l'accord de Schengen ?",
         "Que permet l'espace Schengen aux citoyens européens ?"
       ],
-      "correctAnswers": ["Un espace de libre circulation des personnes entre 27 pays européens, sans contrôle aux frontières intérieures"],
+      "correctAnswers": ["Un espace européen sans contrôle aux frontières intérieures"],
       "wrongAnswers": [
         "Un marché commun de produits agricoles",
         "Une alliance militaire entre pays européens",
@@ -800,7 +800,7 @@
         "Pourquoi Simone Veil est-elle une figure importante de l'histoire de France ?",
         "Pour quelle loi Simone Veil est-elle surtout connue ?"
       ],
-      "correctAnswers": ["Une femme politique, rescapée de la Shoah, qui a fait adopter la loi légalisant l'IVG en 1975 et a été présidente du Parlement européen"],
+      "correctAnswers": ["Une femme politique qui a porté la loi sur l'IVG"],
       "wrongAnswers": [
         "La première femme présidente de la République française",
         "La fondatrice du mouvement féministe en France",
@@ -818,7 +818,7 @@
         "Que désigne le terme Shoah ?",
         "À quoi fait référence la Shoah dans l'histoire ?"
       ],
-      "correctAnswers": ["Le génocide de six millions de Juifs par les nazis pendant la Seconde Guerre mondiale"],
+      "correctAnswers": ["Le génocide des Juifs par les nazis"],
       "wrongAnswers": [
         "Une guerre entre Israël et ses voisins",
         "Un mouvement de résistance juif",
@@ -836,7 +836,7 @@
         "Le régime de Vichy a-t-il participé à la déportation des Juifs ?",
         "Le régime de Vichy a-t-il collaboré à la déportation des Juifs ?"
       ],
-      "correctAnswers": ["Oui, le régime de Vichy a participé à la déportation des Juifs, ce que la France a officiellement reconnu en 1995 par Jacques Chirac"],
+      "correctAnswers": ["Oui, le régime de Vichy a participé aux déportations"],
       "wrongAnswers": [
         "Non, la France n'a joué aucun rôle dans la déportation",
         "Oui, mais seuls les soldats allemands en France ont agi",
@@ -854,7 +854,7 @@
         "Quelle proposition décrit correctement la rafle du Vélodrome d'Hiver ?",
         "Quelle arrestation massive a été menée à Paris les 16 et 17 juillet 1942 ?"
       ],
-      "correctAnswers": ["L'arrestation massive de plus de 13 000 Juifs à Paris les 16 et 17 juillet 1942 par la police française, sur ordre du régime de Vichy"],
+      "correctAnswers": ["L'arrestation de plus de 13 000 Juifs à Paris en juillet 1942"],
       "wrongAnswers": [
         "Un rassemblement sportif organisé pendant l'Occupation",
         "Une manifestation de résistants contre l'occupant",
@@ -872,7 +872,7 @@
         "Quel traité a scellé la réconciliation franco-allemande ?",
         "Quel traité d'amitié franco-allemand a été signé en 1963 ?"
       ],
-      "correctAnswers": ["Le traité d'amitié franco-allemand signé en 1963 par de Gaulle et Adenauer, scellant la réconciliation entre les deux pays"],
+      "correctAnswers": ["Le traité d'amitié franco-allemand signé en 1963"],
       "wrongAnswers": [
         "Le traité de paix mettant fin à la Seconde Guerre mondiale",
         "Le traité fondateur de l'Union européenne",
@@ -890,7 +890,7 @@
         "Qui était Charlemagne ?",
         "Pourquoi Charlemagne est-il important dans l'histoire ?"
       ],
-      "correctAnswers": ["Le roi des Francs couronné empereur d'Occident en 800, qui a unifié une grande partie de l'Europe et développé l'éducation"],
+      "correctAnswers": ["Le roi des Francs couronné empereur en 800"],
       "wrongAnswers": [
         "Le premier président de la République française",
         "Un général de la Révolution française",
@@ -908,7 +908,7 @@
         "Pourquoi Henri IV est-il important dans l'histoire de France ?",
         "Quel roi a signé l'Édit de Nantes ?"
       ],
-      "correctAnswers": ["Le roi de France (1589-1610) qui a mis fin aux guerres de religion en signant l'Édit de Nantes en 1598, accordant la liberté de culte aux protestants"],
+      "correctAnswers": ["Le roi qui a signé l'Édit de Nantes en 1598"],
       "wrongAnswers": [
         "Le roi qui a construit le château de Versailles",
         "Le dernier roi de France guillotiné en 1793",
@@ -926,7 +926,7 @@
         "Pourquoi Louis XIV est-il surnommé le Roi-Soleil ?",
         "Qu'a fait Louis XIV pour la France ?"
       ],
-      "correctAnswers": ["Le roi de France (1643-1715), surnommé le Roi-Soleil, qui a instauré la monarchie absolue et construit le château de Versailles"],
+      "correctAnswers": ["Le Roi-Soleil, associé à la monarchie absolue et à Versailles"],
       "wrongAnswers": [
         "Le roi qui a été guillotiné pendant la Révolution",
         "Le roi qui a signé l'Édit de Nantes",
@@ -944,7 +944,7 @@
         "À quoi sert le Panthéon ?",
         "Qui est honoré au Panthéon ?"
       ],
-      "correctAnswers": ["Un monument où reposent les grands personnages de l'histoire de France, en hommage à leur contribution à la Nation"],
+      "correctAnswers": ["Un monument qui honore de grandes figures françaises"],
       "wrongAnswers": [
         "La résidence officielle du président de la République",
         "Le siège du Parlement français",
@@ -962,7 +962,7 @@
         "En quelle année l'euro a-t-il remplacé le franc ?",
         "Depuis quand les Français utilisent-ils l'euro ?"
       ],
-      "correctAnswers": ["Le 1er janvier 2002 pour les pièces et billets (1999 pour la monnaie scripturale)"],
+      "correctAnswers": ["Le 1er janvier 2002"],
       "wrongAnswers": [
         "Le 1er janvier 1999",
         "Le 1er janvier 2000",
@@ -980,7 +980,7 @@
         "Quelle proposition définit correctement le droit de la nationalité française ?",
         "Quel texte régit l'acquisition de la nationalité française ?"
       ],
-      "correctAnswers": ["L'ensemble des règles régissant l'attribution et l'acquisition de la nationalité française, aujourd'hui intégré au Code civil (articles 17 à 33-2)"],
+      "correctAnswers": ["Les règles du Code civil sur l'attribution de la nationalité"],
       "wrongAnswers": [
         "Un document signé par le candidat à la naturalisation",
         "Un examen obligatoire pour les étrangers",

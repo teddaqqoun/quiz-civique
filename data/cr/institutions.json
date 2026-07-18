@@ -25,20 +25,19 @@
       "theme": "Système institutionnel et politique",
       "questions": [
         "Le président de la République a commis un crime. Quelle proposition est correcte ?",
-        "Que se passe-t-il si le président commet un crime ?",
-        "Comment le président peut-il être jugé pour un crime ?"
+        "Quand un président peut-il être poursuivi pour une infraction personnelle ?",
+        "L'immunité pénale du président continue-t-elle après son mandat ?"
       ],
-      "correctAnswers": ["Il peut être jugé par la Haute Cour"],
+      "correctAnswers": ["Les poursuites sont suspendues pendant son mandat"],
       "wrongAnswers": [
-        "Il peut être jugé par le Conseil constitutionnel",
-        "Il peut être jugé par la Cour de cassation",
-        "Il peut être jugé par le Conseil d'État",
-        "Il peut être jugé par la Cour de justice de la République",
-        "Il peut être jugé par le Sénat seul",
-        "Il peut être jugé par l'Assemblée nationale",
-        "Il bénéficie d'une immunité totale et permanente",
-        "Il peut être jugé par un tribunal correctionnel ordinaire",
-        "Il peut être jugé par la Cour européenne des droits de l'homme"
+        "Les poursuites sont définitivement annulées dès son élection",
+        "La Haute Cour le juge pénalement pendant son mandat",
+        "Le Conseil constitutionnel le juge pendant son mandat",
+        "Le Parlement le condamne directement pendant son mandat",
+        "La Cour de justice de la République le juge immédiatement",
+        "Son immunité pénale reste valable toute sa vie",
+        "Le Sénat décide seul de sa condamnation pénale",
+        "Le Gouvernement choisit la juridiction qui le jugera"
       ]
     },
     {
@@ -149,7 +148,7 @@
         "Le président peut-il prolonger son mandat sans élection ?",
         "Un président sortant peut-il rester au pouvoir sans nouvelle élection ?"
       ],
-      "correctAnswers": ["Non, son mandat prend fin ; il ne peut rester au pouvoir que s'il est réélu, dans la limite de deux mandats consécutifs"],
+      "correctAnswers": ["Non, son mandat prend fin"],
       "wrongAnswers": [
         "Oui, s'il déclare l'état d'urgence",
         "Oui, avec l'accord du Parlement",
@@ -690,7 +689,7 @@
         "Quelles sont les compétences des communes ?",
         "De quoi s'occupent les communes ?"
       ],
-      "correctAnswers": ["Les services de proximité (état civil, écoles, urbanisme)"],
+      "correctAnswers": ["Les services publics locaux"],
       "wrongAnswers": [
         "La gestion des hôpitaux",
         "La défense nationale",
@@ -910,7 +909,7 @@
         "Quel pays européen n'est pas dans l'UE ?",
         "Quel pays voisin de la France n'appartient pas à l'UE ?"
       ],
-      "correctAnswers": ["La Suisse (ou le Royaume-Uni, la Norvège)"],
+      "correctAnswers": ["La Suisse"],
       "wrongAnswers": [
         "La Belgique",
         "L'Allemagne",
@@ -990,7 +989,7 @@
         "Quels pays ont fondé la construction européenne ?",
         "Quel est l'un des six pays fondateurs de l'UE ?"
       ],
-      "correctAnswers": ["La France (avec l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg)"],
+      "correctAnswers": ["La France"],
       "wrongAnswers": [
         "Le Royaume-Uni",
         "L'Espagne",

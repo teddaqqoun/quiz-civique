@@ -131,7 +131,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la liberté d'expression autorise selon la loi ?",
-        "Quel droit est garanti par la liberté d'expression dans le cadre légal ?"
+        "Quel droit est garanti par la liberté d'expression dans le cadre légal ?",
+        "Que peut-on faire au titre de la liberté d'expression ?"
       ],
       "correctAnswer": "Exprimer des opinions dans le cadre de la loi",
       "wrongAnswers": [
@@ -169,7 +170,7 @@
         "De quelle manière le droit de grève est-il reconnu en France ?",
         "Le droit de grève en France peut être défini comme :"
       ],
-      "correctAnswer": "Un droit reconnu par la Constitution",
+      "correctAnswer": "Un droit constitutionnel",
       "wrongAnswers": [
         "Un droit législatif",
         "Un droit européen",
@@ -345,17 +346,18 @@
       "id": 59,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Quand le service militaire obligatoire a-t-il été suspendu en France ?",
-        "En quelle année le service militaire a-t-il été suspendu ?"
+        "Quel est le rôle principal de la police ?",
+        "À quoi sert la police en France ?",
+        "Quelle mission appartient à la police ?"
       ],
-      "correctAnswer": "En 1997",
+      "correctAnswer": "Protéger les personnes et faire respecter la loi",
       "wrongAnswers": [
-        "En 2020",
-        "En 2010",
-        "En 1980",
-        "En 1968",
-        "En 1945",
-        "En 1975"
+        "Rédiger les lois et contrôler le gouvernement",
+        "Juger les infractions et prononcer les peines",
+        "Délivrer les passeports et les titres de séjour",
+        "Organiser les élections et compter les suffrages",
+        "Fixer les impôts et gérer le budget national",
+        "Défendre les salariés devant leur employeur"
       ]
     },
     {
@@ -434,17 +436,18 @@
       "id": 64,
       "theme": "Droits et devoirs des citoyens",
       "questions": [
-        "Quel est le système de protection sociale en France ?",
-        "Comment définit-on le système de protection sociale en France ?"
+        "Quel droit permet à une personne de se défendre devant la justice ?",
+        "Quel droit garantit l'aide d'un professionnel devant la justice ?",
+        "Quel droit permet d'être conseillé et défendu lors d'un procès ?"
       ],
-      "correctAnswer": "Le système de protection sociale en France",
+      "correctAnswer": "Le droit d'être assisté par un avocat",
       "wrongAnswers": [
-        "Le système d'assurance privée français",
-        "Le régime de retraite complémentaire français",
-        "Le service public de l'emploi français",
-        "Le dispositif d'aide sociale municipal",
-        "Le système de mutuelle obligatoire européen",
-        "Le programme d'assistance humanitaire national"
+        "Le droit de choisir directement son juge",
+        "Le droit de refuser toute décision judiciaire",
+        "Le droit de modifier soi-même la procédure",
+        "Le droit d'annuler seul une condamnation",
+        "Le droit de remplacer le procureur du procès",
+        "Le droit de rendre soi-même le jugement"
       ]
     },
     {
@@ -488,7 +491,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la liberté syndicale ?",
-        "En quoi consiste la liberté syndicale ?"
+        "En quoi consiste la liberté syndicale ?",
+        "Que permet la liberté syndicale ?"
       ],
       "correctAnswer": "Le droit de créer ou d'adhérer librement à un syndicat",
       "wrongAnswers": [
@@ -505,7 +509,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la liberté de la presse ?",
-        "Quel principe protège la capacité des médias à informer ?"
+        "Quel principe protège la capacité des médias à informer ?",
+        "Que permet la liberté de la presse aux médias ?"
       ],
       "correctAnswer": "Les médias peuvent informer librement tant qu'ils respectent la loi",
       "wrongAnswers": [
@@ -558,7 +563,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Les citoyens européens peuvent-ils voter aux élections en France ?",
-        "Un citoyen européen a-t-il le droit de vote en France ?"
+        "Un citoyen européen a-t-il le droit de vote en France ?",
+        "Un citoyen de l'Union européenne peut-il participer à certaines élections françaises ?"
       ],
       "correctAnswer": "Oui, pour les élections municipales et européennes",
       "wrongAnswers": [
@@ -575,7 +581,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Qu'est-ce que la carte électorale ?",
-        "À quoi correspond la carte électorale ?"
+        "À quoi correspond la carte électorale ?",
+        "Que prouve une carte électorale ?"
       ],
       "correctAnswer": "Un document prouvant l'inscription sur les listes électorales",
       "wrongAnswers": [
@@ -646,7 +653,8 @@
       "theme": "Droits et devoirs des citoyens",
       "questions": [
         "Quel est le statut juridique de l'incitation à la haine raciale ?",
-        "Comment la loi considère-t-elle l'incitation à la haine raciale ?"
+        "Comment la loi considère-t-elle l'incitation à la haine raciale ?",
+        "L'incitation à la haine raciale constitue quel type d'infraction ?"
       ],
       "correctAnswer": "Un délit puni par la loi",
       "wrongAnswers": [

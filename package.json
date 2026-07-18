@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node scripts/validate-content.mjs"
+    "test": "node scripts/validate-content.mjs && node scripts/test-quiz-engine.mjs"
   },
   "keywords": [],
   "author": "",

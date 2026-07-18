@@ -44,7 +44,7 @@
         "Par quel mode de scrutin le président français est-il élu ?",
         "Qui élit le président de la République française ?"
       ],
-      "correctAnswers": ["Au suffrage universel direct, au scrutin uninominal majoritaire à deux tours"],
+      "correctAnswers": ["Au suffrage universel direct à deux tours"],
       "wrongAnswers": [
         "Par les membres du Parlement",
         "Par un collège de grands électeurs",
@@ -98,7 +98,7 @@
         "Quelle est la fonction principale du Premier ministre ?",
         "Que fait le Premier ministre en France ?"
       ],
-      "correctAnswers": ["Il dirige l'action du gouvernement et assure l'exécution des lois"],
+      "correctAnswers": ["Il dirige l'action du Gouvernement"],
       "wrongAnswers": [
         "Il préside le Conseil des ministres",
         "Il commande les armées françaises",
@@ -278,7 +278,7 @@
         "À quoi sert le Conseil constitutionnel ?",
         "Quelle est la mission du Conseil constitutionnel ?"
       ],
-      "correctAnswers": ["Vérifier la conformité des lois à la Constitution et veiller à la régularité des élections"],
+      "correctAnswers": ["Contrôler les lois"],
       "wrongAnswers": [
         "Rédiger la Constitution",
         "Juger les crimes et délits",
@@ -296,7 +296,7 @@
         "Quel est le nombre de membres du Conseil constitutionnel ?",
         "De combien de personnes le Conseil constitutionnel est-il composé ?"
       ],
-      "correctAnswers": ["9 membres nommés, plus les anciens présidents de la République qui en sont membres de droit"],
+      "correctAnswers": ["9 membres nommés"],
       "wrongAnswers": [
         "12 membres élus par le Parlement",
         "7 membres nommés par le président",
@@ -314,7 +314,7 @@
         "À quoi sert le Conseil d'État en France ?",
         "Quelle est la fonction principale du Conseil d'État ?"
       ],
-      "correctAnswers": ["Conseiller le gouvernement sur les projets de loi et juger les litiges entre les citoyens et l'administration"],
+      "correctAnswers": ["Conseiller le gouvernement et juger les litiges administratifs"],
       "wrongAnswers": [
         "Voter les lois au Parlement",
         "Nommer les préfets de département",
@@ -332,7 +332,7 @@
         "Quel est le rôle de la Cour de cassation ?",
         "Quelle est la plus haute juridiction de l'ordre judiciaire ?"
       ],
-      "correctAnswers": ["La plus haute juridiction de l'ordre judiciaire, qui vérifie la bonne application du droit par les tribunaux"],
+      "correctAnswers": ["La plus haute juridiction de l'ordre judiciaire"],
       "wrongAnswers": [
         "La juridiction qui juge les crimes les plus graves",
         "Le tribunal qui juge les litiges entre l'État et les citoyens",
@@ -350,7 +350,7 @@
         "Quel est le niveau le plus petit de collectivité territoriale ?",
         "Comment définir la commune dans l'organisation territoriale française ?"
       ],
-      "correctAnswers": ["La plus petite collectivité territoriale, administrée par un maire et un conseil municipal"],
+      "correctAnswers": ["Une collectivité administrée par un maire et un conseil municipal"],
       "wrongAnswers": [
         "Une division administrative gérée par un préfet",
         "Un territoire administré par un sous-préfet",
@@ -422,7 +422,7 @@
         "Quel est le nombre total de départements français ?",
         "La France est divisée en combien de départements ?"
       ],
-      "correctAnswers": ["101 départements (96 en métropole et 5 en outre-mer)"],
+      "correctAnswers": ["101 départements"],
       "wrongAnswers": [
         "95 départements",
         "110 départements",
@@ -494,7 +494,7 @@
         "Comment définir un référendum en France ?",
         "En quoi consiste un référendum ?"
       ],
-      "correctAnswers": ["Un vote par lequel les citoyens se prononcent directement sur un projet de loi ou une question"],
+      "correctAnswers": ["Un vote direct des citoyens sur un texte ou une question"],
       "wrongAnswers": [
         "Un vote réservé aux élus du Parlement",
         "Une consultation organisée par les maires",
@@ -548,7 +548,7 @@
         "Quel est le rôle du CESE ?",
         "À quoi sert le Conseil économique, social et environnemental ?"
       ],
-      "correctAnswers": ["Une assemblée consultative qui conseille le gouvernement et le Parlement sur les questions économiques, sociales et environnementales"],
+      "correctAnswers": ["Une assemblée consultative sur les questions économiques, sociales et environnementales"],
       "wrongAnswers": [
         "Un tribunal qui juge les litiges économiques",
         "Un ministère chargé de l'économie",
@@ -674,7 +674,7 @@
         "Quelles sont les fonctions principales du maire ?",
         "Que fait le maire dans sa commune ?"
       ],
-      "correctAnswers": ["Il est à la fois agent de l'État (état civil, élections) et chef de l'exécutif communal (gestion de la commune)"],
+      "correctAnswers": ["Agent de l'État et chef de l'exécutif communal"],
       "wrongAnswers": [
         "Il est uniquement responsable de la police municipale",
         "Il est uniquement chargé de célébrer les mariages",
@@ -692,7 +692,7 @@
         "Que permet le 49.3 au Premier ministre ?",
         "En quoi consiste le recours à l'article 49.3 ?"
       ],
-      "correctAnswers": ["Il permet au Premier ministre d'engager la responsabilité du gouvernement pour faire adopter un texte sans vote, sauf motion de censure"],
+      "correctAnswers": ["Engager la responsabilité du gouvernement sur un texte"],
       "wrongAnswers": [
         "Il permet au président de dissoudre l'Assemblée nationale",
         "Il permet au Sénat de bloquer une loi de l'Assemblée",
@@ -710,7 +710,7 @@
         "Quel est le rôle du CSM ?",
         "À quoi sert le Conseil supérieur de la magistrature ?"
       ],
-      "correctAnswers": ["L'organe qui garantit l'indépendance de la justice et intervient dans la nomination et la discipline des magistrats"],
+      "correctAnswers": ["L'organe garant de l'indépendance de la justice"],
       "wrongAnswers": [
         "L'organe qui dirige tous les tribunaux de France",
         "Le tribunal qui juge les magistrats corrompus",
@@ -724,18 +724,18 @@
       "id": 595,
       "theme": "Institutions françaises",
       "questions": [
-        "Quels sont les territoires français d'outre-mer ?",
-        "Quels sont les DROM-COM de la France ?",
-        "Citez des exemples de territoires ultramarins français."
+        "Où est le siège de la Banque centrale européenne ?",
+        "Dans quelle ville siège la Banque centrale européenne ?",
+        "Quelle ville accueille la Banque centrale européenne ?"
       ],
-      "correctAnswers": ["La Guadeloupe, la Martinique, la Guyane, La Réunion, Mayotte, et les collectivités d'outre-mer comme la Nouvelle-Calédonie et la Polynésie française"],
+      "correctAnswers": ["Francfort"],
       "wrongAnswers": [
-        "Uniquement la Corse et Monaco",
-        "Uniquement les Antilles et Madagascar",
-        "L'Algérie, le Maroc et la Tunisie",
-        "Uniquement la Guyane et le Québec",
-        "Saint-Pierre-et-Miquelon et Haïti",
-        "Madagascar, le Sénégal et le Vietnam"
+        "Bruxelles",
+        "Strasbourg",
+        "Luxembourg",
+        "Paris",
+        "Amsterdam",
+        "Vienne"
       ]
     },
     {
@@ -746,7 +746,7 @@
         "Quel est le rôle de la Haute Cour dans les institutions françaises ?",
         "Dans quel cas la Haute Cour se réunit-elle ?"
       ],
-      "correctAnswers": ["La juridiction composée de parlementaires qui peut destituer le président de la République en cas de manquement grave"],
+      "correctAnswers": ["L'institution parlementaire qui peut destituer le président"],
       "wrongAnswers": [
         "La juridiction qui juge les crimes de guerre",
         "Le tribunal qui juge les ministres pour leurs actes",
@@ -764,7 +764,7 @@
         "Quelle juridiction juge les ministres ?",
         "Quel tribunal est compétent pour juger les actes des ministres commis dans l'exercice de leurs fonctions ?"
       ],
-      "correctAnswers": ["La juridiction compétente pour juger les ministres pour les actes commis dans l'exercice de leurs fonctions"],
+      "correctAnswers": ["La juridiction qui juge les ministres pour leurs actes officiels"],
       "wrongAnswers": [
         "La juridiction qui juge le président de la République",
         "Le tribunal de grande instance de Paris",
@@ -782,7 +782,7 @@
         "Que fait le Conseil constitutionnel pendant les élections présidentielles ?",
         "Quelle est la mission électorale du Conseil constitutionnel ?"
       ],
-      "correctAnswers": ["Il veille à la régularité des élections présidentielles et des référendums et proclame les résultats"],
+      "correctAnswers": ["Il contrôle l'élection présidentielle et les référendums"],
       "wrongAnswers": [
         "Il organise le scrutin dans les bureaux de vote",
         "Il choisit les candidats autorisés à se présenter",
@@ -836,7 +836,7 @@
         "Quel est le rôle de l'Office français de l'immigration et de l'intégration ?",
         "Que fait l'OFII pour les étrangers en France ?"
       ],
-      "correctAnswers": ["L'organisme chargé de l'accueil et de l'intégration des étrangers en France, notamment la gestion du contrat d'intégration républicaine"],
+      "correctAnswers": ["L'organisme chargé de l'accueil et de l'intégration des étrangers"],
       "wrongAnswers": [
         "L'organisme qui délivre les visas d'entrée en France",
         "L'organisme qui juge les demandes d'asile",
@@ -854,7 +854,7 @@
         "Comment la préfecture intervient-elle dans les demandes de nationalité ?",
         "Quelle est la compétence de la préfecture en matière de naturalisation ?"
       ],
-      "correctAnswers": ["La préfecture reçoit les dossiers de demande de naturalisation, mène l'enquête et transmet le dossier au ministère de l'Intérieur"],
+      "correctAnswers": ["Recevoir et instruire les demandes de naturalisation"],
       "wrongAnswers": [
         "La préfecture décide seule d'accorder ou de refuser la naturalisation",
         "La préfecture organise l'examen de langue française",
@@ -890,7 +890,7 @@
         "En quoi consiste le droit de pétition des citoyens ?",
         "Comment les citoyens peuvent-ils exercer leur droit de pétition ?"
       ],
-      "correctAnswers": ["Le droit pour les citoyens d'adresser une demande écrite aux autorités publiques ou au Parlement"],
+      "correctAnswers": ["Le droit d'adresser une demande écrite aux pouvoirs publics"],
       "wrongAnswers": [
         "Le droit de voter lors des référendums",
         "Le droit de manifester dans la rue",
@@ -908,7 +908,7 @@
         "Devant quel tribunal conteste-t-on un refus de naturalisation ?",
         "Quelle juridiction juge les litiges relatifs à la nationalité française ?"
       ],
-      "correctAnswers": ["Le tribunal judiciaire (ex-tribunal de grande instance) pour les questions de nationalité, et le tribunal administratif pour les refus de naturalisation"],
+      "correctAnswers": ["Le tribunal judiciaire pour les questions de nationalité"],
       "wrongAnswers": [
         "Le Conseil constitutionnel uniquement",
         "La Cour de cassation en première instance",
@@ -944,7 +944,7 @@
         "La France est membre permanent du Conseil de sécurité de quelle organisation ?",
         "À quelle organisation internationale la France siège-t-elle en tant que membre permanent ?"
       ],
-      "correctAnswers": ["L'Organisation des Nations Unies (ONU)"],
+      "correctAnswers": ["L'ONU"],
       "wrongAnswers": [
         "L'Union européenne",
         "L'OTAN",
@@ -962,7 +962,7 @@
         "Quelle est la procédure de révision de la Constitution ?",
         "Par quels moyens peut-on modifier la Constitution ?"
       ],
-      "correctAnswers": ["Par référendum ou par le Congrès (Assemblée nationale + Sénat réunis) à la majorité des 3/5"],
+      "correctAnswers": ["Par référendum ou par un vote du Congrès aux trois cinquièmes"],
       "wrongAnswers": [
         "Par un simple vote de l'Assemblée nationale",
         "Par un décret du président de la République",

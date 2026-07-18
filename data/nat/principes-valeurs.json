@@ -44,7 +44,7 @@
         "En quoi consiste la laïcité dans la République française ?",
         "Comment définir le principe de laïcité ?"
       ],
-      "correctAnswers": ["La séparation des Églises et de l'État et la neutralité de l'État envers les religions"],
+      "correctAnswers": ["La séparation des religions et de l'État"],
       "wrongAnswers": [
         "L'interdiction de toutes les religions sur le territoire français",
         "L'obligation pour tous les citoyens d'être athées",
@@ -98,7 +98,7 @@
         "En quoi consiste l'égalité devant la loi en France ?",
         "Que signifie l'égalité de tous les citoyens devant la loi ?"
       ],
-      "correctAnswers": ["Tous les citoyens sont traités de la même façon par la loi, sans distinction d'origine, de race ou de religion"],
+      "correctAnswers": ["La loi traite tous les citoyens de la même façon"],
       "wrongAnswers": [
         "Tous les citoyens doivent avoir le même salaire",
         "Tous les citoyens doivent payer le même montant d'impôts",
@@ -134,7 +134,7 @@
         "D'où provient la souveraineté dans la République française ?",
         "À qui appartient la souveraineté nationale en France ?"
       ],
-      "correctAnswers": ["La souveraineté appartient au peuple qui l'exerce par ses représentants et par le référendum"],
+      "correctAnswers": ["Le pouvoir du peuple exercé directement ou par ses représentants"],
       "wrongAnswers": [
         "La souveraineté appartient au président de la République",
         "La souveraineté appartient au gouvernement",
@@ -188,7 +188,7 @@
         "Sur quel principe repose la démocratie en France ?",
         "Qu'est-ce qui caractérise fondamentalement la démocratie française ?"
       ],
-      "correctAnswers": ["Le gouvernement du peuple, par le peuple et pour le peuple"],
+      "correctAnswers": ["Le gouvernement par le peuple"],
       "wrongAnswers": [
         "Le gouvernement par une élite éclairée",
         "Le gouvernement par les plus riches",
@@ -350,7 +350,7 @@
         "En quoi consiste le droit d'asile dans la République ?",
         "Que permet le droit d'asile ?"
       ],
-      "correctAnswers": ["La protection accordée à toute personne persécutée dans son pays en raison de son action en faveur de la liberté"],
+      "correctAnswers": ["La protection accordée à une personne persécutée"],
       "wrongAnswers": [
         "Le droit pour tout étranger de s'installer librement en France",
         "L'obtention automatique de la nationalité française",
@@ -440,7 +440,7 @@
         "Quel document doit signer le candidat à la naturalisation ?",
         "Que contient la Charte des droits et devoirs du citoyen français ?"
       ],
-      "correctAnswers": ["Un document que le candidat à la naturalisation doit signer, rappelant les principes, valeurs et symboles de la République"],
+      "correctAnswers": ["Un document rappelant les droits, devoirs et valeurs républicaines"],
       "wrongAnswers": [
         "Un examen écrit obligatoire sur l'histoire de France",
         "Un contrat de travail spécifique pour les nouveaux citoyens",
@@ -494,7 +494,7 @@
         "Quel dispositif accompagne l'intégration des étrangers en France ?",
         "En quoi consiste le contrat d'intégration républicaine ?"
       ],
-      "correctAnswers": ["Un contrat signé par les étrangers primo-arrivants qui comprend des formations civique et linguistique"],
+      "correctAnswers": ["Un contrat comprenant des formations civique et linguistique"],
       "wrongAnswers": [
         "Un contrat de travail obligatoire dans une entreprise française",
         "Un engagement militaire de deux ans",
@@ -512,7 +512,7 @@
         "En quoi consiste la liberté de la presse ?",
         "Quel droit protège les médias en France ?"
       ],
-      "correctAnswers": ["Le droit pour les médias de publier des informations librement, dans le respect de la loi"],
+      "correctAnswers": ["Le droit des médias d'informer librement"],
       "wrongAnswers": [
         "Le droit de publier n'importe quelle information sans restriction",
         "L'obligation pour l'État de financer tous les journaux",
@@ -566,7 +566,7 @@
         "Quelle est la mission principale du Défenseur des droits ?",
         "À quoi sert l'institution du Défenseur des droits ?"
       ],
-      "correctAnswers": ["Défendre les droits et libertés des citoyens face à l'administration et lutter contre les discriminations"],
+      "correctAnswers": ["Défendre les droits"],
       "wrongAnswers": [
         "Juger les litiges entre particuliers",
         "Rédiger les lois au Parlement",
@@ -656,7 +656,7 @@
         "En quoi consiste le principe de précaution ?",
         "Comment la Charte de l'environnement définit-elle le principe de précaution ?"
       ],
-      "correctAnswers": ["L'obligation pour les autorités publiques de prévenir les risques environnementaux même en l'absence de certitude scientifique"],
+      "correctAnswers": ["Prévenir un risque environnemental malgré l'incertitude scientifique"],
       "wrongAnswers": [
         "L'interdiction de toute activité industrielle polluante",
         "L'obligation pour les citoyens de recycler tous leurs déchets",
@@ -692,7 +692,7 @@
         "Quels textes composent le bloc de constitutionnalité en France ?",
         "De quoi est constitué le bloc de constitutionnalité ?"
       ],
-      "correctAnswers": ["L'ensemble des textes à valeur constitutionnelle : la Constitution de 1958, la DDHC de 1789, le préambule de 1946 et la Charte de l'environnement de 2004"],
+      "correctAnswers": ["L'ensemble des textes et principes de valeur constitutionnelle"],
       "wrongAnswers": [
         "Uniquement la Constitution de 1958",
         "La Constitution et le Code civil",
@@ -710,7 +710,7 @@
         "Quels droits sont affirmés dans le préambule de 1946 ?",
         "Quels principes fondamentaux le préambule de 1946 reconnaît-il ?"
       ],
-      "correctAnswers": ["Les droits économiques et sociaux : droit au travail, à la protection sociale, à l'éducation, droit syndical et droit de grève"],
+      "correctAnswers": ["Des droits économiques et sociaux"],
       "wrongAnswers": [
         "Uniquement le droit de propriété",
         "Uniquement les libertés individuelles",
@@ -800,7 +800,7 @@
         "Que doit démontrer un candidat à la naturalisation concernant les valeurs républicaines ?",
         "Pourquoi l'adhésion aux valeurs de la République est-elle vérifiée lors de la naturalisation ?"
       ],
-      "correctAnswers": ["Le candidat doit montrer qu'il connaît et adhère aux principes et valeurs de la République comme la laïcité, l'égalité et la démocratie"],
+      "correctAnswers": ["Connaître et respecter les principes et valeurs de la République"],
       "wrongAnswers": [
         "Le candidat doit adhérer à un parti politique républicain",
         "Le candidat doit renoncer à toute pratique religieuse",
@@ -818,7 +818,7 @@
         "Comment la tolérance s'inscrit-elle dans les valeurs républicaines ?",
         "En quoi la tolérance est-elle une valeur de la République française ?"
       ],
-      "correctAnswers": ["Le respect des opinions, croyances et modes de vie d'autrui dans le cadre de la loi"],
+      "correctAnswers": ["Respecter les opinions et les modes de vie d'autrui"],
       "wrongAnswers": [
         "L'acceptation de toutes les pratiques, même illégales",
         "L'interdiction de critiquer les opinions des autres",
@@ -890,7 +890,7 @@
         "Comment la méritocratie s'applique-t-elle en France ?",
         "En quoi consiste le principe de méritocratie dans la République ?"
       ],
-      "correctAnswers": ["L'accès aux emplois et aux fonctions publiques selon les capacités et le mérite de chacun, sans distinction de naissance"],
+      "correctAnswers": ["L'accès aux fonctions publiques selon les capacités et le mérite"],
       "wrongAnswers": [
         "L'accès aux emplois publics réservé aux diplômés des grandes écoles",
         "L'obligation de transmettre son métier à ses enfants",
@@ -908,7 +908,7 @@
         "Pourquoi la Constitution française ne reconnaît-elle aucune race ?",
         "Comment comprendre l'affirmation que la République ne distingue aucune race ?"
       ],
-      "correctAnswers": ["La loi s'applique à tous sans distinction d'origine, de couleur de peau ou d'appartenance ethnique"],
+      "correctAnswers": ["La loi s'applique à tous sans distinction d'origine"],
       "wrongAnswers": [
         "Les statistiques ethniques sont obligatoires en France",
         "Les citoyens doivent déclarer leur origine ethnique",
@@ -926,7 +926,7 @@
         "Comment l'école contribue-t-elle aux valeurs de la République ?",
         "En quoi l'école est-elle un pilier des valeurs républicaines ?"
       ],
-      "correctAnswers": ["L'école transmet les savoirs et forme les futurs citoyens en enseignant la laïcité, l'égalité, la tolérance et l'esprit critique"],
+      "correctAnswers": ["Transmettre les savoirs et les valeurs républicaines"],
       "wrongAnswers": [
         "L'école enseigne uniquement les matières scientifiques",
         "L'école forme les élèves à un métier précis dès le primaire",
@@ -944,7 +944,7 @@
         "La France a-t-elle une conception communautariste de la société ?",
         "Comment la France conçoit-elle l'unité dans la diversité ?"
       ],
-      "correctAnswers": ["La France privilégie le modèle d'intégration républicain où chaque citoyen est un individu égal, au-delà de ses appartenances communautaires"],
+      "correctAnswers": ["Un modèle où chaque citoyen est égal au-delà de ses appartenances"],
       "wrongAnswers": [
         "La France reconnaît officiellement les communautés ethniques et religieuses",
         "La France attribue des droits spécifiques à chaque communauté",
@@ -962,7 +962,7 @@
         "Pourquoi le vote est-il secret dans les élections françaises ?",
         "En quoi consiste le secret du vote ?"
       ],
-      "correctAnswers": ["Le vote est confidentiel : personne ne peut connaître le choix d'un électeur, grâce à l'isoloir et l'enveloppe"],
+      "correctAnswers": ["Le choix de l'électeur reste confidentiel"],
       "wrongAnswers": [
         "Le vote est enregistré avec le nom de l'électeur",
         "Le vote est public et affiché dans la mairie",
@@ -980,7 +980,7 @@
         "Quel est le but de la cérémonie de naturalisation ?",
         "Que célèbre la cérémonie d'accueil dans la citoyenneté française ?"
       ],
-      "correctAnswers": ["Elle marque solennellement l'entrée du nouveau citoyen dans la communauté nationale et l'adhésion aux valeurs de la République"],
+      "correctAnswers": ["Elle marque l'entrée du nouveau citoyen dans la communauté nationale"],
       "wrongAnswers": [
         "Elle est facultative et purement administrative",
         "Elle a lieu uniquement pour les personnes mariées à un Français",

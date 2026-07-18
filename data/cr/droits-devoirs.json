@@ -206,7 +206,7 @@
         "Qu'est-ce que la Charte de l'environnement garantit ?",
         "Quels droits et devoirs la Charte de l'environnement établit-elle ?"
       ],
-      "correctAnswers": ["Le droit de vivre dans un environnement sain et le devoir de le protéger"],
+      "correctAnswers": ["Le droit à un environnement sain et le devoir de le protéger"],
       "wrongAnswers": [
         "L'interdiction totale de la pollution industrielle",
         "Le droit à un logement écologique pour tous",
@@ -228,7 +228,7 @@
         "Comment définit-on la dignité humaine ?",
         "Qu'est-ce que le principe de dignité humaine ?"
       ],
-      "correctAnswers": ["Le respect dû à toute personne humaine en raison de sa seule humanité"],
+      "correctAnswers": ["Le respect dû à toute personne"],
       "wrongAnswers": [
         "Le droit de vivre dans le confort matériel",
         "Le respect accordé selon le statut social de chacun",
@@ -536,7 +536,7 @@
         "Dans quels cas la liberté d'expression peut-elle être restreinte ?",
         "Quelles sont les limites à la liberté d'expression ?"
       ],
-      "correctAnswers": ["Pour protéger la dignité des personnes (interdiction de la diffamation, de l'injure)"],
+      "correctAnswers": ["Pour protéger la dignité et les droits d'autrui"],
       "wrongAnswers": [
         "Pour éviter de critiquer le gouvernement",
         "Pour empêcher les opinions minoritaires",
@@ -580,7 +580,7 @@
         "Quelle démarche doit entreprendre une personne victime de violence ?",
         "Comment réagir si on est victime de violences ?"
       ],
-      "correctAnswers": ["Porter plainte auprès de la police ou de la gendarmerie"],
+      "correctAnswers": ["Signaler les faits à la police ou à la gendarmerie"],
       "wrongAnswers": [
         "Régler le problème soi-même directement",
         "Attendre que la situation s'améliore",
@@ -624,7 +624,7 @@
         "À quoi sert la police ?",
         "Quelle est la mission principale de la police ?"
       ],
-      "correctAnswers": ["Assurer la sécurité des personnes et des biens et maintenir l'ordre public"],
+      "correctAnswers": ["Protéger les personnes, les biens et l'ordre public"],
       "wrongAnswers": [
         "Juger et condamner les criminels",
         "Rédiger les lois de la République",
